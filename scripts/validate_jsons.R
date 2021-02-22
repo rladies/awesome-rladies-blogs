@@ -5,19 +5,32 @@ files <- list.files(
   full.names = TRUE
 )
 
-k <- sapply(
-  X = files, 
-  FUN = jsonvalidate::json_validate,
-  schema = here::here("scripts/.entry_schema.json")
+catch_error <- function(x){
+  tryCatch(
+    jsonvalidate::json_validate(
+      x,
+      error = TRUE,
+      schema = here::here("scripts/.entry_schema.json")
+    ),
+    error = function(e) e
+  )
+}
+
+k <- sapply(files, catch_error)
+k <- k[!sapply(k, is.null)]
+names(k) <- basename(names(k))
+k <- sapply(1:length(k), 
+            function(x) 
+              sprintf("%s: %s", 
+                      names(k)[x], 
+                      k[[x]]$message
+              )
 )
 
-names(k) <- basename(names(k))
-
-if(any(!k)){
-  wrong <- paste(names(k)[!k], collaspse="\n")
+if(length(k) > 0){
   stop(
     "Some jsons are not formatted correctly\n",
-    wrong,
+    paste(k, collapse = "\n"),
     call. = FALSE
   )
 }
