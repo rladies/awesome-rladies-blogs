@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Validate other schema
+      - name: Validate json
         uses: snapcart/json-schema-validator@v1.0.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           json_schema: .entry_schema.schema
-          json_path_pattern: blogs/*.json$
+          json_path_pattern: blogs/
