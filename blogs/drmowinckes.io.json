@@ -1,0 +1,15 @@
+{
+  "name": "Dr. Mowinckels",
+  "url": "https://drmowinckels.io",
+  "photo_url": "https://rladies.org/wp-content/uploads/connections-images/athanasia-mo-mowinckel/Athanasia.Mowinckel.2_square.png",
+  "description": "Personal website and blog about R and neuromaging in R.",
+  "authors": [
+    {
+      "name": "Athanasia Mo  Mowinckel",
+      "social_media": [{
+        "twitter": "DrMowinckels",
+        "github": "Athanasiamo"
+      }]
+    }
+  ]
+}

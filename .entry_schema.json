@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "authors": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "social_media": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "twitter": {
+                      "type": "string"
+                    },
+                    "github": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "twitter",
+                    "github"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "name",
+            "social_media"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "name",
+    "url",
+    "photo_url",
+    "description",
+    "authors"
+  ]
+}
