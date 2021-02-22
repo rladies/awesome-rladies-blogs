@@ -1,0 +1,16 @@
+{
+  "name": "Maëlle Salmon",
+  "url": "https://masalmon.eu/",
+  "photo_url": "https://masalmon.eu/img/barbie_office.jpg",
+  "description": "R(esearch) Software Engineer & Blogger based in Nancy, France",
+  "authors": [
+    {
+      "name": "Maëlle Salmon",
+      "social_media": [{
+        "twitter": "ma_salmon",
+        "github": "maelle",
+        "orcid": "0000-0002-2815-0399"
+      }]
+    }
+  ]
+}
