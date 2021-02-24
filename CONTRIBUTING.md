@@ -16,15 +16,14 @@ Start by opening an existing entry and copy its content. This will give you a cl
 
 In GitHub choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
 
-![]()
+![Create a new file](images/contrib_newfile.png)
 
 #### File name
 
-The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.\
+The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.
 
 #### File content
 
-\
 Paste the content from the existing entry into the file, and edit the content.
 
 There are several adaptations to an entry you can make that are not highlighted in every entry.
@@ -79,12 +78,15 @@ The `social_media` section supports many different key-value pairs. We will ask 
 
 ### Commit and PR the file
 
-At the bottom of the page on GitHub, add a commit message is the box. Choose to create a branch of your changes, and press `Propose changes`. \
-You will immediately be sent to the 'Pull requests' page, to create a PR to the master branch. \
-Click the `Create pull request` button.\
-Once this is done, a new page will open and some automated checks of your submitted entries start. \
-From the right-hand side-panel, click on "reviewers" and ask for @Athanasiamo as a reviewer.\
-\
-If anything needs fixing you will be notified and given instructions on how to do that.\
-\
+At the bottom of the page on GitHub, add a commit message is the box. Choose to create a branch of your changes, and press `Propose changes`. 
+
+![Propose changes](images/contrib_patch.png)
+
+You will immediately be sent to the 'Pull requests' page, to create a PR to the master branch. 
+Click the `Create pull request` button.
+Once this is done, a new page will open and some automated checks of your submitted entries start. 
+From the right-hand side-panel, click on "reviewers" and ask for @Athanasiamo as a reviewer.
+
+If anything needs fixing you will be notified and given instructions on how to do that.
+
 Once all checks pass and the entries have been reviewed, they will be merged to the master branch.
