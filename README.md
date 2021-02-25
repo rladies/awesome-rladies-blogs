@@ -3,9 +3,8 @@
 Curated list of awesome blogs by R-Ladies, inspired by this [Tweet](https://twitter.com/WeAreRLadies/status/1362021673239785473).  
 
 - [Piping Hot Data](https://www.pipinghotdata.com) by [Shannon Pileggi](https://twitter.com/PipingHotData)
-- TO DO
 
-
+To contribute to the list, please see the [contributing](CONTRIBUTE.md) instructions
 
 ## License
 
