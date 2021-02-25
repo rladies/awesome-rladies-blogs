@@ -1,0 +1,15 @@
+{
+  "name": "Piping Hot Data",
+  "url": "https://www.pipinghotdata.com",
+  "photo_url": "https://www.pipinghotdata.com/cirprofile.png",
+  "description": "",
+  "authors": [
+    {
+      "name": "Shannon Pileggi",
+      "social_media": [{
+        "twitter": "PipingHotData",
+        "website": "https://twitter.com/PipingHotData",
+        "linedin": "shannon-m-pileggi/"}]
+    }
+  ]
+}
