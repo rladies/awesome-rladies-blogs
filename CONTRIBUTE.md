@@ -59,7 +59,7 @@ Adding several authors means duplicating the content between the curlies `{}` in
 
 ##### Icons
 
-The `social_media` section supports many different key-value pairs. We will ask any entry to restrict an author to no more than three social media icons.
+The `social_media` section supports many different key-value pairs. For rendering on the website, only the three first social media items for each author will be rendered.
 
 ``` {.json}
 "twitter": "username"
