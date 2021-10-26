@@ -1,0 +1,17 @@
+{
+  "title": "Meeting People Where They R",
+  "type": "blog",
+  "url": "https://silvia.rbind.io/",
+  "photo_url": "https://silvia.rbind.io/about/sidebar/avatar.png",
+  "description": "",
+  "authors": [
+    {
+      "name": "Silvia Canelón",
+      "social_media": [{
+        "twitter": "spcanelon",
+        "github": "spcanelon",
+	"linedin": "spcanelon/"
+      }]
+    }
+  ]
+}
