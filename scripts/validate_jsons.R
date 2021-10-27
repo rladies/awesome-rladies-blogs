@@ -1,38 +1,20 @@
+validate_jsons <- function(files, schema){
+  validate <- jsonvalidate::json_validator(
+    schema)
+  k <- sapply(files, validate, 
+              verbose = TRUE, 
+              error = TRUE, 
+              greedy = TRUE)
+}
 
-files <- list.files(
-  path = here::here("blogs/"), 
-  pattern = "json", 
-  full.names = TRUE
+
+#  Validate blog json
+validate_jsons(
+  list.files(
+    path = here::here("blogs"), 
+    full.names = TRUE
+  ),
+  here::here("scripts/.entry_schema.json")
 )
 
-catch_error <- function(x){
-  tryCatch(
-    jsonvalidate::json_validate(
-      x,
-      error = TRUE,
-      schema = here::here("scripts/.entry_schema.json")
-    ),
-    error = function(e) e
-  )
-}
-
-k <- sapply(files, catch_error)
-k <- k[!sapply(k, is.null)]
-
-if(length(k) > 0){
-  names(k) <- basename(names(k))
-  k <- sapply(1:length(k), 
-              function(x) 
-                sprintf("%s: %s", 
-                        names(k)[x], 
-                        k[[x]]$message
-                )
-  )
-  
-  stop(
-    "Some jsons are not formatted correctly\n",
-    paste(k, collapse = "\n"),
-    call. = FALSE
-  )
-}
 

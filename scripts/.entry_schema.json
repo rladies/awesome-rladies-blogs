@@ -2,50 +2,42 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "title": {
-      "type": "string"
-    },
-    "subtitle": {
-      "type": "string"
-    },
-    "url": {
-      "type": "string"
-    },
-    "photo_url": {
-      "type": "string"
-    },
-    "description": {
-      "type": "string"
-    },
+    "title": {"type": "string"},
+    "url": {"type": "string"},
+    "photo_url": {"type": "string"},
+    "description": {"type": "string"},
     "authors": {
       "type": "array",
       "items": [
         {
           "type": "object",
           "properties": {
-            "name": {
-              "type": "string"
-            },
+            "name": {"type": "string"},
             "social_media": {
               "type": "array",
               "items": [
                 {
                   "type": "object",
                   "properties": {
-                    "twitter": {
-                      "type": "string"
-                    },
-                    "github": {
-                      "type": "string"
-                    }
+                    "twitter": {"type": "string"},
+                    "linkedin": {"type": "string"},
+                    "facebook": {"type": "string"},
+                    "github": {"type": "string"},
+                    "instagram": {"type": "string"},
+                    "youtube": {"type": "string"},
+                    "tiktok": {"type": "string"},
+                    "periscope": {"type": "string"},
+                    "researchgate": {"type": "string"},
+                    "website": {"type": "string"},
+                    "orcid": {"type": "string"},
+                    "meetup": {"type": "string"}
                   }
                 }
               ]
             }
           },
           "required": [
-            "name",
-            "social_media"
+            "name"
           ]
         }
       ]
