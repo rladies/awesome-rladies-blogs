@@ -4,7 +4,7 @@ This repository collects R-Ladies blogs, this is inclusive of those who identify
 
 # Contributing
 
-All the blogs are listed in the [blogs](blogs/) folder, where each blog is in its own json-file. These files are used to render a table on the upcoming revamped R-Ladies website. Follow the below instructions to add to the list. If you have any trouble, please create an issue for us to help.
+All the blogs are listed in the [blogs](blogs/) folder, where each blog is in its own json-file. These files are used to render a table on the upcoming revamped R-Ladies website. Follow the below instructions to add yourself to the list. If you have any trouble, please create an issue for us to help.
 
 ## Adding a new entry
 
