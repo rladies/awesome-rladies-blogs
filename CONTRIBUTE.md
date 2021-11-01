@@ -76,6 +76,10 @@ The `social_media` section supports many different key-value pairs. For renderin
 "meetup": "end-url"
 ```
 
+##### Language
+The language field should be populated with the [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) of the site content.
+Please be thorough when entering this information.
+
 ### Commit and PR the file
 
 At the bottom of the page on GitHub, add a commit message is the box. Choose to create a branch of your changes, and press `Propose changes`. 
