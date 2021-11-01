@@ -6,6 +6,7 @@
     "url": {"type": "string"},
     "photo_url": {"type": "string"},
     "description": {"type": "string"},
+    "language": {"type": "string"},
     "authors": {
       "type": "array",
       "items": [
@@ -47,6 +48,7 @@
     "title",
     "url",
     "photo_url",
-    "authors"
+    "authors",
+    "language"
   ]
 }
