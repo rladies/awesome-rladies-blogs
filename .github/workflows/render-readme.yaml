@@ -27,11 +27,11 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          install.packages(c("jsonlite", "rmarkdown", "here"), repos = "https://cloud.r-project.org/")
+          install.packages(c("jsonlite", "knitr", "here"), repos = "https://cloud.r-project.org/")
         shell: Rscript {0}
         
       - name: Render readme files
-        run: rmarkdown::render("README.Rmd", output_format = "github_document")
+        run: knitr::knit("README.Rmd")
         shell: Rscript {0}
 
       - name: Commit results
