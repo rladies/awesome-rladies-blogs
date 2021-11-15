@@ -8,7 +8,11 @@ All the blogs are listed in the [blogs](blogs/) folder, where each blog is in it
 
 ## Adding a new entry
 
-Depending on how you are most comfortable working, there are several ways of adding new entries. Here we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
+Depending on how you are most comfortable working, there are several ways of adding new entries. 
+
+If you are not familiar with JSON you can [open an issue](https://github.com/rladies/awesome-rladies-blogs/issues/new/choose) with your blog info, which uses a GitHub Form, and we'd create the JSON for you!
+
+Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
 
 ### Copy content from an existing entry
 
