@@ -21,14 +21,11 @@ jobs:
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
-      
-      - name: Install R dependencies
-        env:
-          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install packages
         run: |
-          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
-          pak::local_install_deps()
-        shell: Rscript {0}
+          R -e 'install.packages("jsonvalidate")'
+          R -e 'install.packages("here")'
 
       - name: Validate jsons
         run: |

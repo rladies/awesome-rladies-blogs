@@ -29,8 +29,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
-          pak::local_install_deps()
+          install.packages(c("jsonlite", "rmarkdown", "here"), repos = "https://cloud.r-project.org/")
         shell: Rscript {0}
         
       - name: Render readme files
