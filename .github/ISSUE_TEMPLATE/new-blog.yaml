@@ -1,0 +1,76 @@
+name: New Blog
+description: Submit an R-Ladies Blog
+title: "[New Blog]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to submit a new R-Ladies blog and congrats if it is yours! :tada:
+  - type: input
+    id: title
+    attributes:
+      label: Blog Name
+      description: Name of the blog
+      placeholder: ex. Awesome R Blog
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Blog URL
+      description: URL to the blog
+      placeholder: ex. https://rladies.org/blog
+    validations:
+      required: true
+  - type: input
+    id: pic
+    attributes:
+      label: Picture URL
+      description: URL to a picture illustrating the blog
+      placeholder: ex. https://rladies.org/wp-content/uploads/2016/12/R-LadiesGlobal.png
+    validations:
+      required: false
+  - type: input
+    id: author1name
+    attributes:
+      label: Author Name
+      description: Name of an author
+      placeholder: ex. Firstname Lastname
+    validations:
+      required: true
+  - type: input
+    id: author1twitter
+    attributes:
+      label: Author Twitter Username
+      description: Username on Twitter without the Twitter URL
+      placeholder: ex. username
+    validations:
+      required: false
+  - type: input
+    id: author1github
+    attributes:
+      label: Author GitHub Username
+      description: Username on GitHub without the GitHub URL
+      placeholder: ex. username
+    validations:
+      required: false
+  - type: input
+    id: author1orcid
+    attributes:
+      label: Author ORCID ID
+      description: ID on ORCID without the ORCID URL
+      placeholder: ex. 1234-1234-1234
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        If the blog has several authors please update the issue after opening it, adding info for other authors.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](http://rladies.org/code-of-conduct/)
+      options:
+        - label: I agree to follow R-Ladies' Code of Conduct
+          required: true
