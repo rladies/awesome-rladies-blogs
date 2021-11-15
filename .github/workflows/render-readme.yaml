@@ -33,12 +33,12 @@ jobs:
         shell: Rscript {0}
         
       - name: Render readme files
-        run: rmarkdown::render("README.Rmd")
+        run: rmarkdown::render("README.Rmd", output_format = "github_document")
         shell: Rscript {0}
 
       - name: Commit results
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git commit README.md -m 'Re-build Rmarkdown files' || echo "No changes to commit"
+          git commit README.md -m 'Re-knit readme files' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
