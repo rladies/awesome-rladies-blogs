@@ -3,7 +3,7 @@
   "type": "blog",
   "url": "https://shelkariuki.netlify.app/blogspage/",
   "photo_url": "https://shelkariuki.netlify.app/author/avatar_hubc1f6cfd80a3e5aa5176d464d1c32c28_52181_270x270_fill_q90_lanczos_center.jpeg",
-  "description": "Senior Data Analyst based in Nairobi, Kenya",
+  "description": "Data Analytics Consultant based in Nairobi, Kenya",
   "language": "en",
   "authors": [
     {
