@@ -26,7 +26,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          install.packages(c("pak"), repos = "https://cloud.r-project.org/")
+          install.packages("pak", repos = "https://r-lib.github.io/p/pak/dev/")
           pak::local_install_deps()
         shell: Rscript {0}
 
