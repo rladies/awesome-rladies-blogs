@@ -4,6 +4,7 @@
 # Awesome R-Ladies’ Blogs [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 Curated list of awesome blogs by R-Ladies, inspired by this
@@ -16,10 +17,10 @@ instructions
 
 Created by accessing the json files in [blog/](blog/)
 
--   [Dr. Mowinckels](https://drmowinckels.io) by Athanasia Mo Mowinckel
--   [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
--   [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
--   [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
+  - [Dr. Mowinckels](https://drmowinckels.io) by Athanasia Mo Mowinckel
+  - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
+  - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+  - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
     Canelón
 
 ## License
