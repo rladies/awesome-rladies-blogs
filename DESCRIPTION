@@ -4,6 +4,7 @@ Version: 0.0.0.9000
 Description: List of blogs by R-Ladies
 Depends:
   jsonlite,
+  jsonvalidate,
   here,
   rmarkdown,
   pak
