@@ -20,13 +20,11 @@ Start by opening an existing entry and copy its content. This will give you a cl
 
 ### Approach 2: Create a new file
 
-In GitHub choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
+In GitHub, navigate to the [blogs/](blogs/) folder, and choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
 
 ![Create a new file](images/contrib_newfile.png)
 
-You can then paste the below content in and start adapting:
-
-You may also copy the below to start:
+You can then copy and paste the below content in and start adapting:
 
 ```json
 {
