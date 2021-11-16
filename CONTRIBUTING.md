@@ -91,7 +91,7 @@ For rendering on the website, only the three first social media items for each a
 
 ```json
 "twitter": "username"
-"github": ""username
+"github": "username"
 "instagram": "username"
 "youtube": "username/end-url"
 "tiktok": "username"
