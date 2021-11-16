@@ -14,27 +14,19 @@ If you are not familiar with JSON you can [open an issue](https://github.com/rla
 
 Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
 
-### Copy content from an existing entry
+### Approach 1: Copy content from an existing entry
 
 Start by opening an existing entry and copy its content. This will give you a clear starting point for the new entry. 
 
-### Create a new file
+### Approach 2: Create a new file
 
 In GitHub choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
 
 ![Create a new file](images/contrib_newfile.png)
 
-#### File name
+You can then paste the below content in and start adapting:
 
-The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.
-
-#### File content
-
-Paste the content from the existing entry into the file, and edit the content.
-
-There are several adaptations to an entry you can make that are not highlighted in every entry.
-
-You may copy the below to start:
+You may also copy the below to start:
 
 ```json
 {
@@ -56,6 +48,14 @@ You may copy the below to start:
   ]
 }
 ```
+
+#### File name
+
+The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.
+
+#### File content
+
+There are several adaptations to an entry you can make that are not highlighted in every entry.
 
 ##### Authors
 
@@ -88,7 +88,8 @@ Adding several authors means duplicating the content between the curlies `{}` in
 
 ##### Icons
 
-The `social_media` section supports many different key-value pairs. For rendering on the website, only the three first social media items for each author will be rendered.
+The `social_media` section supports many different key-value pairs. 
+For rendering on the website, only the three first social media items for each author will be rendered.
 
 ``` {.json}
 "twitter": "username"
@@ -111,7 +112,7 @@ Please be thorough when entering this information.
 
 ### Commit and PR the file
 
-At the bottom of the page on GitHub, add a commit message is the box. Choose to create a branch of your changes, and press `Propose changes`. 
+At the bottom of the page on GitHub, add a commit message in the box. Choose to create a branch of your changes, and press `Propose changes`. 
 
 ![Propose changes](images/contrib_patch.png)
 
