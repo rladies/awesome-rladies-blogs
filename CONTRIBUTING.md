@@ -2,11 +2,21 @@
 
 This repository collects R-Ladies blogs, this is inclusive of those who identify as a minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, & agender). We'd love to have contributions to this list! If you identify with R-Ladies and have a blog, please add yourself.
 
-# Contributing
+# Contributing checklist
+
+ - [ ] The entry is added to [blogs](blogs/)
+ - [ ] The entry filename ends with `.json`
+ - [ ] The json contains at minimum: 
+     - [ ] title (blog title)
+     - [ ] type ("blog")
+     - [ ] url (blog url)
+     - [ ] photo_url (logo or profile)
+     - [ ] languange (one of [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp))
+     - [ ] authors (list of authors)
+
+# Contributing details
 
 All the blogs are listed in the [blogs](blogs/) folder, where each blog is in its own json-file. These files are used to render a table on the upcoming revamped R-Ladies website. Follow the below instructions to add to the list. If you have any trouble, please create an issue for us to help.
-
-## Adding a new entry
 
 Depending on how you are most comfortable working, there are several ways of adding new entries. 
 
@@ -14,7 +24,7 @@ If you are not familiar with JSON you can [open an issue](https://github.com/rla
 
 Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
 
-### Copy json format 
+## Copy json format 
 
 Copy the below template so you can paste it into a new file later.
 
@@ -39,25 +49,25 @@ Copy the below template so you can paste it into a new file later.
 }
 ```
 
-### Create a new file
+## Create a new file
 
 In GitHub, navigate to the [blogs/](blogs/) folder, and choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
 
 ![Create a new file](images/contrib_newfile.png)
 
 
-#### File name
+### File name
 
 The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.
 
-#### File content
+### File content
 
 There are several adaptations to an entry you can make that are not highlighted in every entry.
 If you copied the json template from above, remove all mentions of `\\required` or `\\optional`, these are just for making it clear which information you _must_ provide and which are optional.
 Any optional field you don't want to add, you may delete entirely.
 For instance, if you don't have a subtitle or tagline for your blog, remove the entire line of `"subtite": "subtitle or tagline"` rather than leaving it empty with `"subtite": ""`
 
-##### Authors
+#### Authors
 
 The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.
 
@@ -85,7 +95,7 @@ Adding several authors means duplicating the content between the curlies `{}` in
 ]
 ```
 
-##### Icons
+#### Icons
 
 The `social_media` section supports many different key-value pairs. 
 For rendering on the website, only the three first social media items for each author will be rendered.
@@ -105,11 +115,11 @@ For rendering on the website, only the three first social media items for each a
 "meetup": "end-url"
 ```
 
-##### Language
+#### Language
 The language field should be populated with the [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) of the site content.
 Please be thorough when entering this information.
 
-### Commit and PR the file
+## Commit and PR the file
 
 At the bottom of the page on GitHub, add a commit message in the box. Choose to create a branch of your changes, and press `Propose changes`. 
 
