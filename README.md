@@ -17,6 +17,7 @@ To contribute to the list, please see the
 
 Created by accessing the json files in [blogs/](blogs/)
 
+  - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
   - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
     Navarro
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
