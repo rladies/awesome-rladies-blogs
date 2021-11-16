@@ -1,0 +1,23 @@
+{
+  "title": "Beatriz Milz's blog",
+  "type": "blog",
+  "url": "https://beatrizmilz.com/",
+  "photo_url": "https://beatrizmilz.com/about/sidebar/avatar.jpeg",
+  "description": "Blog in Brazilian Portuguese, in which I share what I have been learning related to R and Data science.",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "Beatriz Milz",
+      "social_media": [{
+        "twitter": "BeaMilz",
+        "github": "beatrizmilz",
+        "orcid": "0000-0002-3064-4486",
+        "linkedin": "beatrizmilz",
+        "instagram": "beatrizmilz",
+        "youtube": "UCJ3RjWuqWNfKiAthnNgcv-w",
+        "orcid": "0000-0001-7648-6578",
+        "website": "https://beatrizmilz.com/"
+      }]
+    }
+  ]
+}
