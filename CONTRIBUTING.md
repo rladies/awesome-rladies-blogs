@@ -14,17 +14,9 @@ If you are not familiar with JSON you can [open an issue](https://github.com/rla
 
 Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
 
-### Approach 1: Copy content from an existing entry
+### Copy json format 
 
-Start by opening an existing entry and copy its content. This will give you a clear starting point for the new entry. 
-
-### Approach 2: Create a new file
-
-In GitHub, navigate to the [blogs/](blogs/) folder, and choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
-
-![Create a new file](images/contrib_newfile.png)
-
-You can then copy and paste the below content in and start adapting:
+Copy the below template so you can paste it into a new file later.
 
 ```json
 {
@@ -46,6 +38,13 @@ You can then copy and paste the below content in and start adapting:
   ]
 }
 ```
+
+### Create a new file
+
+In GitHub, navigate to the [blogs/](blogs/) folder, and choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
+
+![Create a new file](images/contrib_newfile.png)
+
 
 #### File name
 
