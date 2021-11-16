@@ -23,8 +23,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Dr. Mowinckels](https://drmowinckels.io) by Athanasia Mo Mowinckel
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
-  - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/blogspage/) by
-    Shel Kariuki
+  - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
+    Kariuki
   - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
     Canelón
 
