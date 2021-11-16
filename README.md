@@ -23,6 +23,7 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
   - [Dr. Mowinckels](https://drmowinckels.io) by Athanasia Mo Mowinckel
   - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
+  - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
   - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
