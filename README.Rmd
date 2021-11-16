@@ -22,7 +22,7 @@ To contribute to the list, please see the [contributing](CONTRIBUTING.md) instru
 
 ## List of blogs
 
-Created by accessing the json files in [blog/](blog/)
+Created by accessing the json files in [blogs/](blogs/)
 
 ```{r, echo = FALSE, results='asis'}
 json_list <- list.files(here::here("blogs"), "json$", full.names = TRUE)
