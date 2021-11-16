@@ -16,7 +16,7 @@ Now we will focus on adding new entries directly through GitHub, but you could a
 
 ### Copy content from an existing entry
 
-Start by opening an existing entry and copy its content. This will give you a clear starting point for the new entry.
+Start by opening an existing entry and copy its content. This will give you a clear starting point for the new entry. 
 
 ### Create a new file
 
@@ -33,6 +33,29 @@ The name of the file should be the site url (without `www` or `http(s)://` . Thi
 Paste the content from the existing entry into the file, and edit the content.
 
 There are several adaptations to an entry you can make that are not highlighted in every entry.
+
+You may copy the below to start:
+
+```json
+{
+  "title": "Your title (required)",
+  "subtitle": "subtitle or tagline (optional)",
+  "type": "blog (required)",
+  "url": "https://your_blog.com (required)",
+  "photo_url": "https://your_blog.com/your_photo.png (required)",
+  "description": "Short description of what you blog about",
+  "language": "en (required)",
+  "authors": [
+    {
+      "name": "Your Name",
+      "social_media": [{
+        "twitter": "twitter-handle",
+        "github": "github-handle"
+      }]
+    }
+  ]
+}
+```
 
 ##### Authors
 
