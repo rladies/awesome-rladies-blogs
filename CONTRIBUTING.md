@@ -61,7 +61,7 @@ The entry may have several authors. This is for blogs where maybe there are seve
 
 Adding several authors means duplicating the content between the curlies `{}` in the author section, and adding a comma between each one.
 
-``` {.json}
+```json
 "authors": [
   {
     "name": "Athanasia Mo  Mowinckel",
@@ -89,7 +89,7 @@ Adding several authors means duplicating the content between the curlies `{}` in
 The `social_media` section supports many different key-value pairs. 
 For rendering on the website, only the three first social media items for each author will be rendered.
 
-``` {.json}
+```json
 "twitter": "username"
 "github": ""username
 "instagram": "username"
