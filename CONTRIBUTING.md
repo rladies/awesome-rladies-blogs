@@ -11,7 +11,7 @@ This repository collects R-Ladies blogs, this is inclusive of those who identify
      - [ ] type ("blog")
      - [ ] url (blog url)
      - [ ] photo_url (logo or profile)
-     - [ ] languange (one of [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp))
+     - [ ] language (one of [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp))
      - [ ] authors (list of authors)
 
 # Contributing details
