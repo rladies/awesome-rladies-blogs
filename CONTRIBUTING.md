@@ -21,7 +21,7 @@ Copy the below template so you can paste it into a new file later.
 ```json
 {
   "title": "Your title", //required
-  "subtitle": "subtitle or tagline (optional)", //optional
+  "subtitle": "subtitle or tagline", //optional
   "type": "blog", //required
   "url": "https://your_blog.com", //required
   "photo_url": "https://your_blog.com/your_photo.png", //required
@@ -53,6 +53,9 @@ The name of the file should be the site url (without `www` or `http(s)://` . Thi
 #### File content
 
 There are several adaptations to an entry you can make that are not highlighted in every entry.
+If you copied the json template from above, remove all mentions of `\\required` or `\\optional`, these are just for making it clear which information you _must_ provide and which are optional.
+Any optional field you don't want to add, you may delete entirely.
+For instance, if you don't have a subtitle or tagline for your blog, remove the entire line of `"subtite": "subtitle or tagline"` rather than leaving it empty with `"subtite": ""`
 
 ##### Authors
 
