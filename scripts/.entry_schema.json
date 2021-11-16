@@ -4,6 +4,7 @@
   "properties": {
     "title": {"type": "string"},
     "url": {"type": "string"},
+    "type": {"type": "string"},
     "photo_url": {"type": "string"},
     "description": {"type": "string"},
     "language": {"type": "string"},
@@ -47,6 +48,7 @@
   "required": [
     "title",
     "url",
+    "type",
     "photo_url",
     "authors",
     "language"
