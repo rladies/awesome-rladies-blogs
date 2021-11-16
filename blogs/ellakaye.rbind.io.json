@@ -1,8 +1,8 @@
 {
   "title": "Ella Kaye's blog",
+  "type": "blog",
   "url": "https://ellakaye.rbind.io",
   "photo_url": "https://ellakaye.rbind.io/images/ella_profile.jpeg",
-  "description": "",
   "language": "en",
   "authors": [
     {
