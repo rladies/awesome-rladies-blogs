@@ -1,0 +1,22 @@
+{
+  "title": "Notes from a data witch",
+  "type": "blog",
+  "url": "https://blog.djnavarro.net/",
+  "photo_url": "https://djnavarro.net/img/danielle-navarro_hexes_square.jpg",
+  "description": "Data science and generative art",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Danielle Navarro",
+      "social_media": [{
+        "twitter": "djnavarro",
+        "github": "djnavarro",
+        "linkedin": "djnavarro",
+        "instagram": "daniellenavarro77",
+        "youtube": "daniellenavarro77",
+        "orcid": "0000-0001-7648-6578",
+        "website": "https://djnavarro.net"
+      }]
+    }
+  ]
+}
