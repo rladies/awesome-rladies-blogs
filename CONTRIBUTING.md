@@ -78,8 +78,7 @@ Adding several authors means duplicating the content between the curlies `{}` in
     }]
   },
   {
-    "name": "Guest bloggers",
-    "social_media": [{}]
+    "name": "Guest bloggers"
   }
 ]
 ```
