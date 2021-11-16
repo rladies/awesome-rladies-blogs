@@ -4,7 +4,7 @@ This repository collects R-Ladies blogs, this is inclusive of those who identify
 
 # Contributing checklist
 
- - [ ] The entry is added to [blogs](blogs/)
+ - [ ] The entry is added to [blogs/](blogs/) folder
  - [ ] The entry filename ends with `.json`
  - [ ] The json contains at minimum: 
      - [ ] title (blog title)
