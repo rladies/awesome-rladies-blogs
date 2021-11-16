@@ -95,7 +95,7 @@ At the bottom of the page on GitHub, add a commit message is the box. Choose to 
 You will immediately be sent to the 'Pull requests' page, to create a PR to the master branch. 
 Click the `Create pull request` button.
 Once this is done, a new page will open and some automated checks of your submitted entries start. 
-From the right-hand side-panel, click on "reviewers" and ask for @Athanasiamo as a reviewer.
+In the comment section, make sure to @Athanasiamo so she can take a look.
 
 If anything needs fixing you will be notified and given instructions on how to do that.
 
