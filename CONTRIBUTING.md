@@ -30,16 +30,16 @@ You may also copy the below to start:
 
 ```json
 {
-  "title": "Your title (required)",
-  "subtitle": "subtitle or tagline (optional)",
-  "type": "blog (required)",
-  "url": "https://your_blog.com (required)",
-  "photo_url": "https://your_blog.com/your_photo.png (required)",
-  "description": "Short description of what you blog about",
-  "language": "en (required)",
-  "authors": [
+  "title": "Your title", //required
+  "subtitle": "subtitle or tagline (optional)", //optional
+  "type": "blog", //required
+  "url": "https://your_blog.com", //required
+  "photo_url": "https://your_blog.com/your_photo.png", //required
+  "description": "Short description of what you blog about", //optional
+  "language": "en (required)", //required
+  "authors": [ //required
     {
-      "name": "Your Name",
+      "name": "Your Name", //required
       "social_media": [{
         "twitter": "twitter-handle",
         "github": "github-handle"
