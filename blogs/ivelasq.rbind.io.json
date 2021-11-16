@@ -1,0 +1,21 @@
+{
+  "title": "%>% Dreams",
+  "type": "blog",
+  "url": "https://ivelasq.rbind.io/",
+  "photo_url": "https://ivelasq.rbind.io/images/avatar.jpg",
+  "description": "Isabella Velásquez Personal Site on R and Analytics",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Isabella Velásquez",
+      "social_media": [{
+        "twitter": "ivelasq3",
+        "github": "ivelasq",
+        "linkedin": "ivelasq",
+        "orcid": "0000-0002-7180-4095",
+        "instagram": "ivelasq",
+        "website": "https://ivelasq.rbind.io/"
+      }]
+    }
+  ]
+}
