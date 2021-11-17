@@ -21,6 +21,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
     Navarro
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
+  - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
+    Darya Vanichkina
   - [Dr. Mowinckels](https://drmowinckels.io) by Athanasia Mo Mowinckel
   - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
