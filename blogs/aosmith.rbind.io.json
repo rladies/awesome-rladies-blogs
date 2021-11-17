@@ -1,0 +1,18 @@
+{
+  "title": "Very Statisticious", 
+  "type": "blog", 
+  "url": "https://aosmith.rbind.io", 
+  "photo_url": "https://aosmith.rbind.io/img/main/ao_ppg2.jpg", 
+  "language": "en",
+  "authors": [ 
+    {
+      "name": "Ariel Muldoon", 
+      "social_media": [{
+         "twitter": "aosmith16",
+         "github": "aosmith16",
+         "website": "ariel.rbind.io",
+         "linkedin": "arielmuldoon"
+      }]
+    }
+  ]
+}
