@@ -1,0 +1,18 @@
+{
+  "title": "Sarah Gillespie's blog",
+  "subtitle": "United States student majoring in (1) statistical and data sciences and (2) quantitative economics",
+  "type": "blog",
+  "url": "https://sarahgillespie.github.io/SG/",
+  "photo_url": "https://github.com/SarahGillespie/SG/blob/main/docs/img_about_harbor_photo.jpg",
+  "description": "Strategies to reduce machine learning bias through planning, data curation, and specific algorithm techniques.",
+  "language": "en (required)",
+  "authors": [
+    {
+      "name": "Sarah Gillespie",
+      "social_media": [{
+        "twitter": "SarahG4567",
+        "github": "SarahGillespie"
+      }]
+    }
+  ]
+}
