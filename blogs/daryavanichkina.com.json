@@ -1,0 +1,20 @@
+{
+  "title": "Darya Vanichkina's blog",
+  "type": "blog",
+  "url": "https://daryavanichkina.com/posts/",
+  "photo_url": "https://daryavanichkina.com/images/daryaVhead1.jpg",
+  "description": "Darya Vanichkina's blog",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Darya Vanichkina",
+      "social_media": [{
+        "twitter": "dvanichkina",
+        "github": "dvanic",
+        "linkedin": "daryavanichkina",
+        "orcid": "0000-0002-0406-164X",
+        "website": "https://daryavanichkina.com"
+      }]
+    }
+  ]
+}
