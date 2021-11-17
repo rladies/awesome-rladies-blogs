@@ -1,12 +1,10 @@
 on:
   push:
-    branches:
-      - main
-      - master
+    paths:
+    - 'blogs/**'
   pull_request:
-    branches:
-      - main
-      - master
+    paths:
+    - 'blogs/**'
 
 name: Validate jsons
 
@@ -17,7 +15,22 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2    
+        with:
+          fetch-depth: 0
+          
+      - name: Get changed files
+        id: getfile
+        run: |
+          echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}| xargs)"
+      
+      - name: Cleanup json template comments
+        run: |
+          for f in ${{ steps.getfile.outputs.files }}
+          do
+            echo Cleaning up $f 
+            sed -e s.//required..g $f
+          done
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
@@ -26,7 +39,15 @@ jobs:
         run: |
           R -e 'install.packages("jsonvalidate")'
           R -e 'install.packages("here")'
-
+      
       - name: Validate jsons
         run: |
           Rscript 'scripts/validate_jsons.R'
+          
+      - name: Commit cleaned jsons
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit blogs/ -m 'Commit cleaned jsons' || echo "No changes to commit"
+          git push origin || echo "Nothin to push
+          "
