@@ -43,6 +43,11 @@ Remove all mentions of `\\required`, these are just for making it clear which in
 Any optional field you don't want to add, you may delete entirely.
 For instance, if you don't have a subtitle or tagline for your blog, remove the entire line of `"subtite": "subtitle or tagline"` rather than leaving it empty with `"subtite": ""`
 
+#### Photo
+
+The photo url you provide will be displayed as your blogs thumbnail. 
+This may be a picture of you, or if you have a logo for your blog/website, it may be best to use this in stead.
+
 #### Authors
 
 The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.
