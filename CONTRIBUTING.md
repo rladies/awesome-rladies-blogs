@@ -125,11 +125,11 @@ At the bottom of the page on GitHub, add a commit message in the box. Choose to 
 
 ![Propose changes](images/contrib_patch.png)
 
-You will immediately be sent to the 'Pull requests' page, to create a PR to the master branch. 
+You will immediately be sent to the 'Pull requests' page, to create a PR to the main branch. 
 Click the `Create pull request` button.
 Once this is done, a new page will open and some automated checks of your submitted entries start. 
 In the comment section, make sure to @Athanasiamo so she can take a look.
 
 If anything needs fixing you will be notified and given instructions on how to do that.
 
-Once all checks pass and the entries have been reviewed, they will be merged to the master branch.
+Once all checks pass and the entries have been reviewed, they will be merged to the main branch.
