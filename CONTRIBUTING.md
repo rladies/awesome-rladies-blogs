@@ -24,36 +24,10 @@ If you are not familiar with JSON you can [open an issue](https://github.com/rla
 
 Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
 
-## Copy json format 
-
-Copy the below template so you can paste it into a new file later.
-
-```json
-{
-  "title": "Your title", //required
-  "subtitle": "subtitle or tagline", //optional
-  "type": "blog", //required
-  "url": "https://your_blog.com", //required
-  "photo_url": "https://your_blog.com/your_photo.png", //required
-  "description": "Short description of what you blog about", //optional
-  "language": "en (required)", //required
-  "authors": [ //required
-    {
-      "name": "Your Name", //required
-      "social_media": [{
-        "twitter": "twitter-handle",
-        "github": "github-handle"
-      }]
-    }
-  ]
-}
-```
 
 ## Create a new file
 
-In GitHub, navigate to the [blogs/](blogs/) folder, and choose to create a new file (you could also prepare the file in your own text editor and upload if you like).
-
-![Create a new file](images/contrib_newfile.png)
+Create a new file in the [blogs/](blogs/) folder by [using this link](https://github.com/rladies/awesome-rladies-blogs/new/main/blogs?value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20%2F%2Foptional%0A%20%20%22type%22%3A%20%22blog%22%2C%20%2F%2Frequired%0A%20%20%22url%22%3A%20%22https%3A%2F%2Fyour_blog.com%22%2C%20%2F%2Frequired%0A%20%20%22photo_url%22%3A%20%22https%3A%2F%2Fyour_blog.com%2Fyour_photo.png%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%20%28required%29%22%2C%20%2F%2Frequired%0A%20%20%22authors%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
 
 
 ### File name
@@ -62,8 +36,10 @@ The name of the file should be the site url (without `www` or `http(s)://` . Thi
 
 ### File content
 
+Using the link above will create a template for you to start with.
+Fill inn all the information that is relevant for your blog.
 There are several adaptations to an entry you can make that are not highlighted in every entry.
-If you copied the json template from above, remove all mentions of `\\required` or `\\optional`, these are just for making it clear which information you _must_ provide and which are optional.
+Remove all mentions of `\\required`, these are just for making it clear which information you _must_ provide for the file to be valid.
 Any optional field you don't want to add, you may delete entirely.
 For instance, if you don't have a subtitle or tagline for your blog, remove the entire line of `"subtite": "subtitle or tagline"` rather than leaving it empty with `"subtite": ""`
 
