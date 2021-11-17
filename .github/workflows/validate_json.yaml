@@ -26,12 +26,12 @@ jobs:
       
       - name: Cleanup json template comments
         run: |
-          for f in ${{ steps.getfile.outputs.files }}
-          do
+          for f in ${{ steps.getfile.outputs.files }}; do
             echo Cleaning up $f 
             sed -e s.//required..g $f > tmp
             cat tmp > $f
           done
+          rm tmp
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
