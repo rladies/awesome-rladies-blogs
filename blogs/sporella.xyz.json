@@ -1,0 +1,18 @@
+{
+  "title": "Ciencia de Datos es Español",
+  "type": "blog",
+  "url": "sporella.xyz",
+  "photo_url": "https://sporella.xyz/img/me.png",
+  "description": "Blog in Spanish about Data Science and personal projects.",
+  "language": "es",
+  "authors": [
+    {
+      "name": "Steph Orellana Bello",
+      "social_media": [{
+         "twitter": "sporella",
+         "github": "sporella",
+         "website": "sporella.xyz"
+      }]
+    }
+  ]
+}
