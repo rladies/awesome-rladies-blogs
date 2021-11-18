@@ -1,7 +1,7 @@
 {
   "title": "Ciencia de Datos en Español",
   "type": "blog",
-  "url": "sporella.xyz",
+  "url": "https://sporella.xyz",
   "photo_url": "https://sporella.xyz/img/me.png",
   "description": "Blog in Spanish about Data Science and personal projects.",
   "language": "es",
@@ -11,7 +11,7 @@
       "social_media": [{
          "twitter": "sporella",
          "github": "sporella",
-         "website": "sporella.xyz"
+         "website": "https://sporella.xyz"
       }]
     }
   ]
