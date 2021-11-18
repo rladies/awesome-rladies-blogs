@@ -31,7 +31,6 @@ jobs:
             sed -e s.//required..g $f > tmp
             cat tmp > $f
           done
-          rm tmp
 
       - name: Setup R
         uses: r-lib/actions/setup-r@v1
@@ -50,5 +49,5 @@ jobs:
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git commit blogs/ -m 'Commit cleaned jsons' || echo "No changes to commit"
-          git push origin || echo "Nothin to push
-          "
+          git push origin || echo "Nothin to push          "
+          
