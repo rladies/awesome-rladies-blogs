@@ -33,7 +33,8 @@ Created by accessing the json files in [blogs/](blogs/)
     Kariuki
   - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
     Canelón
-  - [Ciencia de Datos en Español](sporella.xyz) by Steph Orellana Bello
+  - [Ciencia de Datos en Español](https://sporella.xyz) by Steph
+    Orellana Bello
 
 ## License
 
