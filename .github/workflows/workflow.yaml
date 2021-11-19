@@ -9,7 +9,7 @@ on:
 name: Validate jsons
 
 jobs:
-  build:
+  validate:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -49,5 +49,40 @@ jobs:
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git commit blogs/ -m 'Commit cleaned jsons' || echo "No changes to commit"
-          git push origin || echo "Nothin to push          "
+          git push origin || echo "Nothin to push"
+    
+  renderreadme:
+    needs: validate
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - uses: r-lib/actions/setup-pandoc@v1
+
+      - uses: r-lib/actions/setup-r@v1
+
+      - name: Install R dependencies
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          install.packages(c("jsonlite", "rmarkdown", "here"), repos = "https://cloud.r-project.org/")
+        shell: Rscript {0}
+        
+      - name: Render readme files
+        run: rmarkdown::render("README.Rmd", output_format = "github_document")
+        shell: Rscript {0}
+
+      - name: Commit results
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit README.md -m 'Re-knit readme files' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+      
           
