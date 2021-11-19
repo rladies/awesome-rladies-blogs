@@ -6,7 +6,7 @@ on:
     paths:
     - 'blogs/**'
 
-name: Validate jsons
+name: Validate & knit readme
 
 jobs:
   validate:
@@ -52,8 +52,8 @@ jobs:
           git push origin || echo "Nothin to push"
     
   renderreadme:
-    needs: validate
     if: github.ref == 'refs/heads/main'
+    needs: validate
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -71,7 +71,8 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          install.packages(c("jsonlite", "rmarkdown", "here"), repos = "https://cloud.r-project.org/")
+          install.packages(c("jsonlite", "rmarkdown", "here"), 
+                           repos = "https://cloud.r-project.org/")
         shell: Rscript {0}
         
       - name: Render readme files
