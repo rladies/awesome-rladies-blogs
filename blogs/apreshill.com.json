@@ -1,0 +1,18 @@
+{
+  "title": "Alison Hill", 
+  "type": "blog", 
+  "url": "https://www.apreshill.com", 
+  "photo_url": "https://www.apreshill.com/about/sidebar/avatar.jpg",
+  "description": "Personal website, blog, and professional portfolio.",
+  "language": "en",
+  "authors": [ 
+    {
+      "name": "Alison Hill", 
+      "social_media": [{
+         "twitter": "apreshill",
+         "github": "apreshill",
+         "orcid": "0000-0002-8082-1890"
+      }]
+    }
+  ]
+}
