@@ -1,27 +1,16 @@
 {
-  "title": "Your title", //required
-  "subtitle": "subtitle or tagline", //optional
-  "type": "blog", //required
-  "url": "https://your_blog.com", //required
-  "photo_url": "https://your_blog.com/your_photo.png", //required
-  "description": "Short description of what you blog about",
+  "title": "Amanda's Data Blog", 
+  "type": "blog", 
+  "url": "amanda.rbind.io", 
+  "photo_url": "https://amanda.rbind.io/images/me.jpg", 
+  "description": "Amanda's musings about data analysis and R programming",
   "language": "en (required)", //required
-  "authors": [ //required
+  "authors": [ 
     {
-      "name": "Your Name", //required
+      "name": "Amanda Peterson", //required
       "social_media": [{
-         "twitter": "username",
-         "github": "username",
-         "instagram": "username",
-         "youtube": "username/end-url",
-         "tiktok": "username",
-         "periscope": "username",
-         "researchgate": "username",
-         "website": "url",
-         "linkedin": "username",
-         "facebook": "username",
-         "orcid": "member number",
-         "meetup": "end-url"
+         "twitter": "DrAmandaRP",
+         "github": "AmandaRP"
       }]
     }
   ]
