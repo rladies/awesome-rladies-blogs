@@ -1,0 +1,17 @@
+{
+  "title": "Amanda's Data Blog", 
+  "type": "blog", 
+  "url": "amanda.rbind.io", 
+  "photo_url": "https://amanda.rbind.io/images/me.jpg", 
+  "description": "Amanda's musings about data analysis and R programming",
+  "language": "en (required)", //required
+  "authors": [ 
+    {
+      "name": "Amanda Peterson", //required
+      "social_media": [{
+         "twitter": "DrAmandaRP",
+         "github": "AmandaRP"
+      }]
+    }
+  ]
+}
