@@ -17,6 +17,7 @@ To contribute to the list, please see the
 
 Created by accessing the json files in [blogs/](blogs/)
 
+  - [Amanda’s Data Blog](amanda.rbind.io) by Amanda Peterson
   - [Very Statisticious](https://aosmith.rbind.io) by Ariel Muldoon
   - [Alison Hill](https://www.apreshill.com) by Alison Hill
   - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
