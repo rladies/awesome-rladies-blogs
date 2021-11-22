@@ -33,7 +33,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          install.packages(c("jsonlite","jsonvalidate", "rmarkdown", "here"), 
+          install.packages(c("jsonlite", "jsonvalidate", "rmarkdown", "here"), 
                            repos = "https://cloud.r-project.org/")
         shell: Rscript {0}
         
