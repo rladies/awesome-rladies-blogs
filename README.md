@@ -26,7 +26,7 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
   - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
     Darya Vanichkina
-  - [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Mo
+  - [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Monika
     Mowinckel
   - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
