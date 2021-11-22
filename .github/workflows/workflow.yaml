@@ -29,7 +29,6 @@ jobs:
           for f in ${{ steps.getfile.outputs.files }}; do
             echo Cleaning up $f 
             sed -i -e s.//required..g $f
-            rm ${f}-e
           done
 
       - name: Setup R
