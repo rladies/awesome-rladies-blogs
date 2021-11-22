@@ -30,6 +30,7 @@ Created by accessing the json files in [blogs/](blogs/)
     Mowinckel
   - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+  - [Julia Silge](https://juliasilge.com/) by Julia Silge
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
   - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
