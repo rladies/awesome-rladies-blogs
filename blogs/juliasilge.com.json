@@ -1,0 +1,21 @@
+{
+  "title": "Julia Silge", //required
+  "type": "blog", //required
+  "url": "https://juliasilge.com/", //required
+  "photo_url": "https://github.com/juliasilge.png", //required
+  "description": "A data science blog by Julia Silge",
+  "language": "en", //required
+  "authors": [ //required
+    {
+      "name": "Julia Silge", //required
+      "social_media": [{
+         "twitter": "juliasilge",
+         "github": "juliasilge",
+         "youtube": "juliasilge",
+         "website": "https://juliasilge.com/",
+         "linkedin": "juliasilge",
+         "orcid": "0000-0002-3671-836X"
+      }]
+    }
+  ]
+}
