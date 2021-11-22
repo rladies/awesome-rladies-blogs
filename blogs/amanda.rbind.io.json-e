@@ -7,7 +7,7 @@
   "language": "en", 
   "authors": [ 
     {
-      "name": "Amanda Peterson", 
+      "name": "Amanda Peterson", //required
       "social_media": [{
          "twitter": "DrAmandaRP",
          "github": "AmandaRP"

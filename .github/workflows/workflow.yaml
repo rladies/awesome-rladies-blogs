@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2    
         with:
-          fetch-depth: 0
+          fetch-depth: 1
           
       - name: Get changed files
         id: getfile
@@ -28,8 +28,7 @@ jobs:
         run: |
           for f in ${{ steps.getfile.outputs.files }}; do
             echo Cleaning up $f 
-            sed -e s.//required..g $f > tmp
-            cat tmp > $f
+            sed -i -e s.//required..g $f
           done
 
       - name: Setup R
