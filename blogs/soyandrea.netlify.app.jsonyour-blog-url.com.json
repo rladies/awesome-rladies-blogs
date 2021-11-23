@@ -1,0 +1,18 @@
+{
+  "title": "Soy Andrea blog",
+  "type": "blog", 
+  "url": "https://soyandrea.netlify.app/",
+  "photo_url": "https://soyandrea.netlify.app/author/andrea/avatar.jpg",
+  "description": "Socióloga, web profesional & portafolio",
+  "language": "es", 
+  "authors": [ 
+    {
+      "name": "Andrea Gómez Vargas",
+      "social_media": [{
+         "twitter": "me_andre",
+         "github": "SoyAndrea",
+         "linkedin": "andreasociologa"
+      }]
+    }
+  ]
+}
