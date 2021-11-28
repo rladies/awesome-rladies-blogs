@@ -1,13 +1,13 @@
 {
-  "title": "Julia Silge", //required
-  "type": "blog", //required
-  "url": "https://juliasilge.com/", //required
-  "photo_url": "https://github.com/juliasilge.png", //required
+  "title": "Julia Silge",
+  "type": "blog",
+  "url": "https://juliasilge.com/",
+  "photo_url": "https://github.com/juliasilge.png",
   "description": "A data science blog by Julia Silge",
-  "language": "en", //required
-  "authors": [ //required
+  "language": "en",
+  "authors": [
     {
-      "name": "Julia Silge", //required
+      "name": "Julia Silge",
       "social_media": [{
          "twitter": "juliasilge",
          "github": "juliasilge",
