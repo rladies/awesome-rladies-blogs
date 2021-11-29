@@ -23,6 +23,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
   - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
     Navarro
+  - [Citizen Statistician](citizen-statistician.org) by Mine
+    Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
   - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
     Darya Vanichkina
