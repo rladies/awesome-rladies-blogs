@@ -1,0 +1,36 @@
+{
+  "title": "Citizen Statistician", 
+  "type": "blog", 
+  "url": "citizen-statistician.org", 
+  "photo_url": "http://www.citizen-statistician.org/img/logo.png",
+  "description": "A blog, meant for anyone wishing to become a citizen statistician, but in particular for statistics teachers – those who help empower citizens to become citizen statisticians.",
+  "language": "en",
+  "authors": [ 
+    {
+      "name": "Mine Çetinkaya-Rundel", 
+      "social_media": [{
+         "twitter": "minebocek",
+         "github": "mine-cetinkaya-rundel",
+         "orcid": "0000-0001-6452-2420",
+         "website": "http://mine-cr.com/"
+      }]
+    },
+    {
+      "name": "Rob Gould", 
+      "social_media": [{
+         "github": "rgmobilize",
+         "orcid": "0000-0001-5392-5945",
+         "website": "http://www.stat.ucla.edu/~rgould/Home/About_Me.html"
+      }]
+    },
+    {
+      "name": "Andrew Zieffler", 
+      "social_media": [{
+         "twitter": "Chili14",
+         "github": "zief0002",
+         "orcid": "0000-0002-1035-0341",
+         "website": "https://www.datadreaming.org/"
+      }]
+    }
+  ]
+}
