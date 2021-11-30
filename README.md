@@ -40,6 +40,8 @@ Created by accessing the json files in [blogs/](blogs/)
     Kariuki
   - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
     Canelón
+  - [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
+    Vargas
   - [Ciencia de Datos en Español](https://sporella.xyz) by Steph
     Orellana Bello
 
