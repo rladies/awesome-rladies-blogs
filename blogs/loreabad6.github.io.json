@@ -1,0 +1,20 @@
+{
+  "title": "Lore Abad", //required
+  "type": "blog", //required
+  "url": "https://loreabad6.github.io/", //required
+  "photo_url": "https://loreabad6.github.io/AbadL.jpg", //required
+  "description": "My adventures with RSpatial",
+  "language": "en", //required
+  "authors": [ //required
+    {
+      "name": "Lorena Abad", //required
+      "social_media": [{
+         "twitter": "@loreabad6",
+         "github": "loreabad6",
+         "researchgate": "Lorena-Abad",
+         "linkedin": "lorena-abad",
+         "orcid": "0000-0003-0554-734X"
+      }]
+    }
+  ]
+}
