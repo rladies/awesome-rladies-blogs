@@ -1,13 +1,13 @@
 {
-  "title": "Lore Abad", //required
-  "type": "blog", //required
-  "url": "https://loreabad6.github.io/", //required
-  "photo_url": "https://loreabad6.github.io/AbadL.jpg", //required
+  "title": "Lore Abad", 
+  "type": "blog", 
+  "url": "https://loreabad6.github.io/", 
+  "photo_url": "https://loreabad6.github.io/AbadL.jpg", 
   "description": "My adventures with RSpatial",
-  "language": "en", //required
-  "authors": [ //required
+  "language": "en", 
+  "authors": [ 
     {
-      "name": "Lorena Abad", //required
+      "name": "Lorena Abad", 
       "social_media": [{
          "twitter": "@loreabad6",
          "github": "loreabad6",
