@@ -1,14 +1,14 @@
 {
-  "title": "Pars pas les mains vides", //required
-  "subtitle": "subtitle or tagline", //optional
-  "type": "blog", //required
-  "url": "https://cararthompson.com/blog", //required
-  "photo_url": "https://www.cararthompson.com/images/home/profile-pic.png", //required
+  "title": "Pars pas les mains vides", 
+  "subtitle": "Don't leave empty-handed", 
+  "type": "blog", 
+  "url": "https://cararthompson.com/blog", 
+  "photo_url": "https://www.cararthompson.com/images/home/profile-pic.png", 
   "description": "Personal website, portfolio and a blog about the things I’ve picked up along the way in the weird and wonderful worlds of #rstats, datascience and dataviz.",
-  "language": "en", //required
-  "authors": [ //required
+  "language": "en", 
+  "authors": [ 
     {
-      "name": "Cara Thompson", //required
+      "name": "Cara Thompson", 
       "social_media": [{
          "twitter": "cararthompson",
          "github": "cararthompson",
