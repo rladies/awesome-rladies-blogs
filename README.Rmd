@@ -11,8 +11,9 @@ knitr::opts_chunk$set(
 ) 
 ```
 
-# Awesome R-Ladies' Blogs  [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome R-Ladies' Blogs  
 <!-- badges: start -->
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 <!-- badges: end -->
 
 Curated list of awesome blogs by R-Ladies, inspired by this [Tweet](https://twitter.com/WeAreRLadies/status/1362021673239785473).  
