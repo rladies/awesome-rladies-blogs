@@ -18,15 +18,10 @@ jobs:
           fetch-depth: 5
       - uses: r-lib/actions/setup-pandoc@v1
       - uses: r-lib/actions/setup-r@v2
-          
-      - name: Get changed files
-        id: getfile
-        run: |
       
       - name: Cleanup json template comments
         run: |
-          files=$(git diff-tree --no-commit-id --name-only -r HEAD~5 | grep ^blogs | xargs)
-          for f in $files; do
+          for f in $(ls blogs/*json) do
             echo Cleaning up $f 
             sed -i -e s.//required..g $f
           done
