@@ -48,6 +48,8 @@ Created by accessing the json files in [blogs/](blogs/)
     Vargas
   - [Ciencia de Datos en Español](https://sporella.xyz) by Steph
     Orellana Bello
+  - [Surrounded by Data](https://surroundedbydata.netlify.app/) by
+    Veerle van Son
 
 ## License
 
