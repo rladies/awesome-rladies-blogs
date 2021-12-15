@@ -15,18 +15,18 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2    
         with:
-          fetch-depth: 1
+          fetch-depth: 5
       - uses: r-lib/actions/setup-pandoc@v1
       - uses: r-lib/actions/setup-r@v2
           
       - name: Get changed files
         id: getfile
         run: |
-          echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}| grep ^blogs | xargs)"
       
       - name: Cleanup json template comments
         run: |
-          for f in ${{ steps.getfile.outputs.files }}; do
+          files=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}~5 | grep ^blogs | xargs)
+          for f in $files; do
             echo Cleaning up $f 
             sed -i -e s.//required..g $f
           done
