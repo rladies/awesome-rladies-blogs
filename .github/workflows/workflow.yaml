@@ -25,7 +25,7 @@ jobs:
       
       - name: Cleanup json template comments
         run: |
-          files=$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }}~5 | grep ^blogs | xargs)
+          files=$(git diff-tree --no-commit-id --name-only -r HEAD~5 | grep ^blogs | xargs)
           for f in $files; do
             echo Cleaning up $f 
             sed -i -e s.//required..g $f
