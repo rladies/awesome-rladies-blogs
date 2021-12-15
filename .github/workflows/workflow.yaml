@@ -23,16 +23,11 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v12
 
-      - name: List all changed files
-        run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo "$file was changed"
-          done
-          
       - name: Cleanup json template comments
         run: |
-          for f in $(ls blogs/*json); do
-            echo Cleaning up $f 
+          files=$(echo steps.changed-files.outputs.all_changed_files | grep ^blogs)
+          for f in $files; do
+            echo Cleaning $f 
             sed -i 's.//required..g' $f
           done
 
