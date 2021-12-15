@@ -5,7 +5,7 @@
   "url": "https://sarahgillespie.github.io/SG/",
   "photo_url": "https://github.com/SarahGillespie/SG/blob/main/docs/img_about_harbor_photo.jpg",
   "description": "Strategies to reduce machine learning bias through planning, data curation, and specific algorithm techniques.",
-  "language": "en (required)",
+  "language": "en",
   "authors": [
     {
       "name": "Sarah Gillespie",
