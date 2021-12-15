@@ -21,7 +21,7 @@ jobs:
       
       - name: Cleanup json template comments
         run: |
-          for f in $(ls blogs/*json) do
+          for f in $(ls blogs/*json); do
             echo Cleaning up $f 
             sed -i -e s.//required..g $f
           done
