@@ -23,7 +23,7 @@ jobs:
         run: |
           for f in $(ls blogs/*json); do
             echo Cleaning up $f 
-            sed -i -e s.//required..g $f
+            sed -i 's.//required..g' $f
           done
 
       - name: Install R dependencies
