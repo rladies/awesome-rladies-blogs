@@ -1,13 +1,13 @@
 {
-  "title": "Elena Dudukina's blog", //required
-  "type": "blog", //required
-  "url": "https://elenadudukina.com", //required
-  "photo_url": "https://www.elenadudukina.com/author/elena-dudukina/avatar_hub94ed909de68ef2f7bd91a471236bb47_211159_270x270_fill_q90_lanczos_center.jpg", //required
+  "title": "Elena Dudukina's blog", 
+  "type": "blog", 
+  "url": "https://elenadudukina.com", 
+  "photo_url": "https://www.elenadudukina.com/author/elena-dudukina/avatar_hub94ed909de68ef2f7bd91a471236bb47_211159_270x270_fill_q90_lanczos_center.jpg", 
   "description": "I blog about Rstats, pharmacoepidemiology, women's health, causal inference, and open source Nordic data",
-  "language": "en", //required
-  "authors": [ //required
+  "language": "en", /
+  "authors": [ 
     {
-      "name": "Elena Dudukina", //required
+      "name": "Elena Dudukina", 
       "social_media": [{
          "twitter": "evpatora",
          "orcid": "0000-0002-4238-049X"
