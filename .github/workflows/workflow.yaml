@@ -29,7 +29,8 @@ jobs:
         run: |
           for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo Cleaning $f 
-            sed -i ".bk" 's.//required..g' $f
+            sed -i .bk 's.//required..g' $f
+            ls ${f}*
             rm blogs/${f}.bk
           done
 
