@@ -1,13 +1,13 @@
 {
-  "title": "Surrounded by Data", //required
-  "type": "blog", //required
-  "url": "https://surroundedbydata.netlify.app/", //required
-  "photo_url": "https://surroundedbydata.netlify.app/about_files/Veerle_klein.jpg", //required
+  "title": "Surrounded by Data", 
+  "type": "blog", 
+  "url": "https://surroundedbydata.netlify.app/", 
+  "photo_url": "https://surroundedbydata.netlify.app/about_files/Veerle_klein.jpg", 
   "description": "Stories about the data that can be found all around us, in Dutch and English",
-  "language": "en (required)", //required
-  "authors": [ //required
+  "language": "en (required)", 
+  "authors": [ 
     {
-      "name": "Veerle van Son", //required
+      "name": "Veerle van Son", 
       "social_media": [{
          "twitter": "veerlevanson",
          "github": "veerlevanson",
