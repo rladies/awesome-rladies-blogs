@@ -1,0 +1,20 @@
+{
+  "title": "Surrounded by Data", //required
+  "type": "blog", //required
+  "url": "https://surroundedbydata.netlify.app/", //required
+  "photo_url": "https://surroundedbydata.netlify.app/about_files/Veerle_klein.jpg", //required
+  "description": "Stories about the data that can be found all around us, in Dutch and English",
+  "language": "en (required)", //required
+  "authors": [ //required
+    {
+      "name": "Veerle van Son", //required
+      "social_media": [{
+         "twitter": "veerlevanson",
+         "github": "veerlevanson",
+         "instagram": "veerle.van.son",
+         "linkedin": "veerlevanson",
+         "meetup": "rladies-den-bosch"
+      }]
+    }
+  ]
+}
