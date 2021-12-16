@@ -40,6 +40,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+  - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
+    Sarah Gillespie
   - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
     Kariuki
   - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
