@@ -31,6 +31,7 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
   - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
     Darya Vanichkina
+  - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
   - [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Monika
     Mowinckel
   - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
