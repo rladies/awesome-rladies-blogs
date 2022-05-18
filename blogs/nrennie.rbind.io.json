@@ -1,11 +1,11 @@
 {
-  "title": "Nicola Rennie", 
-  "type": "blog", 
-  "url": "https://nrennie.rbind.io", 
-  "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg", //required
+  "title": "Nicola Rennie",
+  "type": "blog",
+  "url": "https://nrennie.rbind.io",
+  "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg",
   "description": "Personal website, blog, and portfolio.",
   "language": "en",
-  "authors": [ //required
+  "authors": [
     {
       "name": "Nicola Rennie",
       "social_media": [{
