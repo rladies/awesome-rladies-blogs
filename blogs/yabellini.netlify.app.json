@@ -1,14 +1,14 @@
 {
-  "title": "Yanina Bellini Saibene", //required
+  "title": "Yanina Bellini Saibene", 
   "subtitle": "", //optional
-  "type": "blog", //required
-  "url": "https://yabellini.netlify.app/blog/", //required
-  "photo_url": "https://yabellini.netlify.app/about/sidebar/avatar.jpg", //required
+  "type": "blog", 
+  "url": "https://yabellini.netlify.app/blog/", 
+  "photo_url": "https://yabellini.netlify.app/about/sidebar/avatar.jpg", 
   "description": "Writings about my interests and my work: R, education, communities of practice, research, data science, experiences, talks and some more personal stuff.",
-  "language": "en", //required
-  "authors": [ //required
+  "language": "en", 
+  "authors": [ 
     {
-      "name": "Yanina Bellini Saibene", //required
+      "name": "Yanina Bellini Saibene", 
       "social_media": [{
          "twitter": "yabellini",
          "github": "yabellini",
