@@ -18,41 +18,41 @@ To contribute to the list, please see the
 
 Created by accessing the json files in [blogs/](blogs/)
 
--   [Amanda’s Data Blog](amanda.rbind.io) by Amanda Peterson
--   [Very Statisticious](https://aosmith.rbind.io) by Ariel Muldoon
--   [Alison Hill](https://www.apreshill.com) by Alison Hill
--   [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
--   [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
+  - [Amanda’s Data Blog](amanda.rbind.io) by Amanda Peterson
+  - [Very Statisticious](https://aosmith.rbind.io) by Ariel Muldoon
+  - [Alison Hill](https://www.apreshill.com) by Alison Hill
+  - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
+  - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
     Navarro
--   [Pars pas les mains vides](https://cararthompson.com/blog) by Cara
+  - [Pars pas les mains vides](https://cararthompson.com/blog) by Cara
     Thompson
--   [Citizen Statistician](citizen-statistician.org) by Mine
+  - [Citizen Statistician](citizen-statistician.org) by Mine
     Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
--   [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
--   [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
+  - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
+  - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
     Darya Vanichkina
--   [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
--   [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Monika
+  - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
+  - [Dr. Mowinckel’s blog](https://drmowinckels.io) by Athanasia Monika
     Mowinckel
--   [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
--   [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
--   [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
--   [Julia Silge](https://juliasilge.com/) by Julia Silge
--   [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
--   [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
--   [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
--   [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
--   [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
+  - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
+  - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
+  - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+  - [Julia Silge](https://juliasilge.com/) by Julia Silge
+  - [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
+  - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
+  - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
+  - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+  - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
     Sarah Gillespie
--   [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
+  - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
     Kariuki
--   [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
+  - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
     Canelón
--   [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
+  - [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
     Vargas
--   [Ciencia de Datos en Español](https://sporella.xyz) by Steph
+  - [Ciencia de Datos en Español](https://sporella.xyz) by Steph
     Orellana Bello
--   [Surrounded by Data](https://surroundedbydata.netlify.app/) by
+  - [Surrounded by Data](https://surroundedbydata.netlify.app/) by
     Veerle van Son
 
 ## License
