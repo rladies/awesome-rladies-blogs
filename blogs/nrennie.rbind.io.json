@@ -1,0 +1,18 @@
+{
+  "title": "Nicola Rennie",
+  "type": "blog",
+  "url": "https://nrennie.rbind.io",
+  "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg",
+  "description": "Personal website, blog, and portfolio.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Nicola Rennie",
+      "social_media": [{
+         "twitter": "nrennie35",
+         "github": "nrennie",
+         "linkedin": "nicola-rennie-076511b3",
+      }]
+    }
+  ]
+}
