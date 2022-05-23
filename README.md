@@ -54,6 +54,8 @@ Created by accessing the json files in [blogs/](blogs/)
     Orellana Bello
   - [Surrounded by Data](https://surroundedbydata.netlify.app/) by
     Veerle van Son
+  - [Yanina Bellini Saibene](https://yabellini.netlify.app/blog/) by
+    Yanina Bellini Saibene
 
 ## License
 
