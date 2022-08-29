@@ -28,7 +28,7 @@ Created by accessing the json files in [blogs/](blogs/)
     Thompson
   - [Citizen Statistician](citizen-statistician.org) by Mine
     Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
-  - [Cosima’s data blog](https://cosimameyer.rbind.io/) by Cosima Meyer
+  - [Cosima Meyer](https://cosimameyer.com/) by Cosima Meyer
   - [Darya Vanichkina’s blog](https://daryavanichkina.com/posts/) by
     Darya Vanichkina
   - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
