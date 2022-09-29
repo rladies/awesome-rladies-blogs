@@ -1,0 +1,21 @@
+{
+  "title": "my blog",
+  "type": "blog",
+  "url": "https://federicagazzelloni.netlify.app/",
+  "photo_url": "https://avatars.githubusercontent.com/u/61802414",
+  "description": "Data analytics, visualization and modeling with R",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Federica Gazzelloni",
+      "social_media": [{
+         "twitter": "fgazzelloni",
+         "github": "fgazzelloni",
+         "youtube": "Federica Gazzelloni",
+         "website": "https://federicagazzelloni.netlify.app/",
+         "linkedin": "fgazzelloni",
+         "orcid": "0000-0002-4285-611X"
+      }]
+    }
+  ]
+}
