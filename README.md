@@ -41,6 +41,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
   - [Julia Silge](https://juliasilge.com/) by Julia Silge
   - [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
+  - [Macarena Quiroga](https://macarenaquiroga.netlify.app) by Macarena
+    Quiroga
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
