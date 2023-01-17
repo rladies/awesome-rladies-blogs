@@ -4,7 +4,7 @@
   "url": "https://macarenaquiroga.netlify.app",
   "photo_url": "https://macarenaquiroga.netlify.app/author/macarena-quiroga/avatar_hu2dcaef447beb41a9ecf37ab13d81ec8c_130063_270x270_fill_q75_lanczos_center.jpg",
   "description": "Linguistics, education, and data science with R",
-  "language": "es", //required
+  "language": "es",
   "authors": [ //required
     {
       "name": "Macarena Quiroga", //required
