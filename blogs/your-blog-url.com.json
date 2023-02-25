@@ -8,7 +8,7 @@
   "language": "en",
   "authors": [ //required
     {
-      "name": "Meghan Harris", //required
+      "name": "Meghan Harris",
       "social_media": [{
          "twitter": "meghansharris",
          "github": "Meghansaha",
