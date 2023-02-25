@@ -1,5 +1,5 @@
 {
-  "title": "Exploration Corner", //required
+  "title": "Exploration Corner",
   "subtitle": "The Tidy Trekker", //optional
   "type": "blog", //required
   "url": "https://thetidytrekker.com/blog.html", //required
