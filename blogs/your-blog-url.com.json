@@ -1,6 +1,6 @@
 {
   "title": "Exploration Corner",
-  "subtitle": "The Tidy Trekker", //optional
+  "subtitle": "The Tidy Trekker",
   "type": "blog", //required
   "url": "https://thetidytrekker.com/blog.html", //required
   "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif", //required
