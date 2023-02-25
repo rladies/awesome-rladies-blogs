@@ -5,7 +5,7 @@
   "url": "https://thetidytrekker.com/blog.html",
   "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif",
   "description": "A mix of R Stats, general coding, and personal content",
-  "language": "en (required)", //required
+  "language": "en",
   "authors": [ //required
     {
       "name": "Meghan Harris", //required
