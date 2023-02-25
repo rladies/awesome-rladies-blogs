@@ -2,7 +2,7 @@
   "title": "Exploration Corner",
   "subtitle": "The Tidy Trekker",
   "type": "blog",
-  "url": "https://thetidytrekker.com/blog.html", //required
+  "url": "https://thetidytrekker.com/blog.html",
   "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif", //required
   "description": "A mix of R Stats, general coding, and personal content",
   "language": "en (required)", //required
