@@ -1,7 +1,7 @@
 {
   "title": "Exploration Corner",
   "subtitle": "The Tidy Trekker",
-  "type": "blog", //required
+  "type": "blog",
   "url": "https://thetidytrekker.com/blog.html", //required
   "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif", //required
   "description": "A mix of R Stats, general coding, and personal content",
