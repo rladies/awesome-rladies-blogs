@@ -6,7 +6,7 @@
   "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif",
   "description": "A mix of R Stats, general coding, and personal content",
   "language": "en",
-  "authors": [ //required
+  "authors": [
     {
       "name": "Meghan Harris",
       "social_media": [{
