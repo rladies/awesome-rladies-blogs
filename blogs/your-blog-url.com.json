@@ -3,7 +3,7 @@
   "subtitle": "The Tidy Trekker",
   "type": "blog",
   "url": "https://thetidytrekker.com/blog.html",
-  "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif", //required
+  "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif",
   "description": "A mix of R Stats, general coding, and personal content",
   "language": "en (required)", //required
   "authors": [ //required
