@@ -1,0 +1,22 @@
+{
+  "title": "Exploration Corner",
+  "subtitle": "The Tidy Trekker",
+  "type": "blog",
+  "url": "https://thetidytrekker.com/blog.html",
+  "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif",
+  "description": "A mix of R Stats, general coding, and personal content",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Meghan Harris",
+      "social_media": [{
+         "twitter": "meghansharris",
+         "github": "Meghansaha",
+         "website": "https://thetidytrekker.com",
+         "linkedin": "meghan-harris",
+         "orcid": "0000-0003-3922-8101",
+         "mastodon": "https://fosstodon.org/@meghansharris"
+      }]
+    }
+  ]
+}
