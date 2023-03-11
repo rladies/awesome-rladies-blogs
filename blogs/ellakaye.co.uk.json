@@ -1,0 +1,20 @@
+{
+  "title": "Ella Kaye",
+  "type": "blog",
+  "url": "https://ellakaye.co.uk",
+  "photo_url": "https://ellakaye.co.uk/images/ellakaye-profile.jpeg",
+  "description": "Personal website, portfolio and blog",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Ella Kaye",
+      "social_media": [{
+        "github": "EllaKaye", 
+        "mastodon": "https://fosstodon.org/@ellakaye",
+        "linkedin": "ellakaye/",
+        "website": "https://ellakaye.co.uk",
+        "orcid": "0000-0002-7300-3718"
+      }]
+    }
+  ]
+}
