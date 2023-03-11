@@ -36,7 +36,7 @@ Created by accessing the json files in [blogs/](blogs/)
     Mowinckel
   - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
   - [Ella Kaye’s blog](https://ellakaye.rbind.io) by Ella Kaye
-  - [my blog](https://federicagazzelloni.netlify.app/) by Federica
+  - [Federica Gazzelloni](https://federicagazzelloni.netlify.app/) by Federica
     Gazzelloni
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
   - [Julia Silge](https://juliasilge.com/) by Julia Silge
