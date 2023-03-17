@@ -2,6 +2,7 @@
   "title": "Piping Hot Data",
   "type": "blog",
   "url": "https://www.pipinghotdata.com",
+  "rss_feed": "https://www.pipinghotdata.com/blog.xml",
   "photo_url": "https://www.pipinghotdata.com/cirprofile.png",
   "language": "en",
   "authors": [
@@ -9,6 +10,7 @@
       "name": "Shannon Pileggi",
       "social_media": [{
         "twitter": "PipingHotData",
+        "mastodon": "@PipingHotData@fosstodon.org",
         "website": "https://twitter.com/PipingHotData",
         "linedin": "shannon-m-pileggi/"}]
     }

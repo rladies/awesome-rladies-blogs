@@ -1,7 +1,8 @@
 {
   "title": "Elena Dudukina's blog", 
   "type": "blog", 
-  "url": "https://elenadudukina.com", 
+  "url": "https://elenadudukina.com",
+  "rss_feed": "https://www.elenadudukina.com/category/r/index.xml", 
   "photo_url": "https://www.elenadudukina.com/author/elena-dudukina/avatar_hub94ed909de68ef2f7bd91a471236bb47_211159_270x270_fill_q90_lanczos_center.jpg", 
   "description": "I blog about Rstats, pharmacoepidemiology, women's health, causal inference, and open source Nordic data",
   "language": "en", 
@@ -10,6 +11,7 @@
       "name": "Elena Dudukina", 
       "social_media": [{
          "twitter": "evpatora",
+         "mastodon": "@evpatora@mstdn.social",
          "orcid": "0000-0002-4238-049X"
       }]
     }

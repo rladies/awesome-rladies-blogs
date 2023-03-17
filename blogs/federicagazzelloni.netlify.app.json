@@ -2,6 +2,7 @@
   "title": "my blog",
   "type": "blog",
   "url": "https://federicagazzelloni.netlify.app/",
+  "rss_feed": "https://federicagazzelloni.netlify.app/blog/index.xml",
   "photo_url": "https://avatars.githubusercontent.com/u/61802414",
   "description": "Data analytics, visualization and modeling with R",
   "language": "en",
@@ -10,6 +11,7 @@
       "name": "Federica Gazzelloni",
       "social_media": [{
          "twitter": "fgazzelloni",
+         "mastodon": "@Fgazzelloni@fosstodon.org",
          "github": "fgazzelloni",
          "youtube": "Federica Gazzelloni",
          "website": "https://federicagazzelloni.netlify.app/",

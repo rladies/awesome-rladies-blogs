@@ -2,6 +2,7 @@
   "title": "Lore Abad", 
   "type": "blog", 
   "url": "https://loreabad6.github.io/", 
+  "rss_feed": "https://loreabad6.github.io/index.xml",
   "photo_url": "https://loreabad6.github.io/AbadL.jpg", 
   "description": "My adventures with RSpatial",
   "language": "en", 
@@ -10,6 +11,7 @@
       "name": "Lorena Abad", 
       "social_media": [{
          "twitter": "@loreabad6",
+         "masterdon": "@loreabad6@fosstodon.org",
          "github": "loreabad6",
          "researchgate": "Lorena-Abad",
          "linkedin": "lorena-abad",

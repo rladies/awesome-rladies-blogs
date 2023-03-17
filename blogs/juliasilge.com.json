@@ -2,6 +2,7 @@
   "title": "Julia Silge",
   "type": "blog",
   "url": "https://juliasilge.com/",
+  "rss_feed": "https://juliasilge.com/categories/rstats/index.xml",
   "photo_url": "https://github.com/juliasilge.png",
   "description": "A data science blog by Julia Silge",
   "language": "en",
@@ -10,6 +11,7 @@
       "name": "Julia Silge",
       "social_media": [{
          "twitter": "juliasilge",
+         "mastodon": "@juliasilge@fosstodon.org",
          "github": "juliasilge",
          "youtube": "juliasilge",
          "website": "https://juliasilge.com/",
