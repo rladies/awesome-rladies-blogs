@@ -1,0 +1,22 @@
+{
+  "title": "Karina Bartolome",
+  "subtitle": "Personal blog", 
+  "type": "blog", 
+  "url": "https://karbartolome-blog.netlify.app",
+  "photo_url": "https://raw.githubusercontent.com/RLadies-BA/RLadies-BA/main/content/authors/kari/avatar.jpg",
+  "description": "Data science, economics and more",
+  "language": "es", 
+  "authors": [ 
+    {
+      "name": "Karina Bartolome", 
+      "social_media": [{
+         "twitter": "karbartolome",
+         "github": "karbartolome",
+         "instagram": "karbartolome",
+         "website": "https://karbartolome-blog.netlify.app",
+         "linkedin": "karinabartolome",
+         "meetup": "276190207"
+      }]
+    }
+  ]
+}
