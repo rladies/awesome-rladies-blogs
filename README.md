@@ -48,6 +48,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
   - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
   - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+  - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
+    Paulo
   - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
     Sarah Gillespie
   - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
