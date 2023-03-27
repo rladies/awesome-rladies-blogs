@@ -1,0 +1,20 @@
+{
+  "title": "R-Ladies São Paulo Blog",
+  "type": "blog",
+  "url": "https://rladies-sp.org/",
+  "photo_url": "https://rladies-sp.org/img/logo.jpg",
+  "description": "Blog in Brazilian Portuguese, in which people from the R-Ladies community in São Paulo and in Brazil share about the events, R tutorials, etc.",
+  "language": "pt",
+  "authors": [
+    {
+      "name": "R-Ladies São Paulo",
+      "social_media": [{
+        "twitter": "rladiessaopaulo",
+        "github": "R-Ladies-Sao-Paulo",
+        "instagram": "rladiessaopaulo",
+        "youtube": "RLadiesS%C3%A3oPaulo",
+        "website": "https://rladies-sp.org/"
+      }]
+    }
+  ]
+}
