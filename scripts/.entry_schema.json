@@ -23,6 +23,7 @@
                   "type": "object",
                   "properties": {
                     "twitter":      {"type": "string"},
+                    "mastodon":     {"type": "string"},
                     "linkedin":     {"type": "string"},
                     "facebook":     {"type": "string"},
                     "github":       {"type": "string"},
@@ -33,8 +34,7 @@
                     "researchgate": {"type": "string"},
                     "website":      {"type": "string"},
                     "orcid":        {"type": "string"},
-                    "meetup":       {"type": "string"},
-                    "mastodon":     {"type": "string"}
+                    "meetup":       {"type": "string"}
                   }
                 }
               ]
