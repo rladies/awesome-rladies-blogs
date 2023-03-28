@@ -10,6 +10,7 @@ This repository collects R-Ladies blogs, this is inclusive of those who identify
      - [ ] title (blog title)
      - [ ] type ("blog")
      - [ ] url (blog url)
+     - [ ] rss_feed (RSS feed for R-related posts. Ideally, you use "tags" or "categories" to identify your R-related posts. A title-based RSS feed is OK. If you need more input on how to get your RSS, have a look [here](https://zapier.com/blog/how-to-find-rss-feed-url/))
      - [ ] photo_url (logo or profile)
      - [ ] language (one of [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp))
      - [ ] authors (list of authors)
@@ -83,6 +84,7 @@ For rendering on the website, only the three first social media items for each a
 
 ```json
 "twitter": "username"
+"mastodon": "@username@instance"
 "github": "username"
 "instagram": "username"
 "youtube": "username/end-url"
