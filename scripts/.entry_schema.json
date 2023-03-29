@@ -4,6 +4,7 @@
   "properties": {
     "title": {"type": "string"},
     "url":   {"type": "string"},
+    "rss_feed": {"type": "string"},
     "type":  {"type": "string"},
     "photo_url":   {"type": "string"},
     "description": {"type": "string"},
@@ -22,6 +23,7 @@
                   "type": "object",
                   "properties": {
                     "twitter":      {"type": "string"},
+                    "mastodon":     {"type": "string"},
                     "linkedin":     {"type": "string"},
                     "facebook":     {"type": "string"},
                     "github":       {"type": "string"},

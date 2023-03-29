@@ -2,6 +2,7 @@
   "title": "Very Statisticious", 
   "type": "blog", 
   "url": "https://aosmith.rbind.io", 
+  "rss_feed": "https://aosmith.rbind.io/index.xml",
   "photo_url": "https://aosmith.rbind.io/img/main/ao_ppg2.jpg", 
   "language": "en",
   "authors": [ 
@@ -9,6 +10,7 @@
       "name": "Ariel Muldoon", 
       "social_media": [{
          "twitter": "aosmith16",
+         "mastodon": "@aosmith16@fosstodon.org",
          "github": "aosmith16",
          "website": "https://ariel.rbind.io",
          "linkedin": "arielmuldoon"

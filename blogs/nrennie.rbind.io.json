@@ -2,6 +2,7 @@
   "title": "Nicola Rennie",
   "type": "blog",
   "url": "https://nrennie.rbind.io",
+  "rss_feed": "https://nrennie.rbind.io/categories/r/index.xml",
   "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg",
   "description": "Personal website, blog, and portfolio.",
   "language": "en",
@@ -10,6 +11,7 @@
       "name": "Nicola Rennie",
       "social_media": [{
          "twitter": "nrennie35",
+         "mastodon": "@nrennie@fosstodon.org",
          "github": "nrennie",
          "linkedin": "nicola-rennie-076511b3"
       }]

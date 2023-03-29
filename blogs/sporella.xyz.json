@@ -2,6 +2,7 @@
   "title": "Ciencia de Datos en Español",
   "type": "blog",
   "url": "https://sporella.xyz",
+  "rss_feed": "https://sporella.xyz/tags/r/index.xml",
   "photo_url": "https://sporella.xyz/img/me.png",
   "description": "Blog in Spanish about Data Science and personal projects.",
   "language": "es",
@@ -10,6 +11,7 @@
       "name": "Steph Orellana Bello",
       "social_media": [{
          "twitter": "sporella",
+         "mastodon": "@sporella@fosstodon.org",
          "github": "sporella",
          "website": "https://sporella.xyz"
       }]

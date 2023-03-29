@@ -2,6 +2,7 @@
   "title": "Maëlle's R blog",
   "type": "blog",
   "url": "https://masalmon.eu/",
+  "rss_feed": "https://masalmon.eu/post/index.xml",
   "photo_url": "https://masalmon.eu/img/barbie_office.jpg",
   "description": "R(esearch) Software Engineer & Blogger based in Nancy, France",
   "language": "en",
@@ -10,6 +11,7 @@
       "name": "Maëlle Salmon",
       "social_media": [{
         "twitter": "ma_salmon",
+        "mastodon": "@maelle@mastodon.social",
         "github": "maelle",
         "orcid": "0000-0002-2815-0399"
       }]

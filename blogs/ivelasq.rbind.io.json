@@ -2,6 +2,7 @@
   "title": "%>% Dreams",
   "type": "blog",
   "url": "https://ivelasq.rbind.io/",
+  "rss_feed": "https://ivelasq.rbind.io/index.xml",
   "photo_url": "https://ivelasq.rbind.io/images/avatar.jpg",
   "description": "Isabella Velásquez Personal Site on R and Analytics",
   "language": "en",
@@ -10,6 +11,7 @@
       "name": "Isabella Velásquez",
       "social_media": [{
         "twitter": "ivelasq3",
+        "mastodon": "@ivelasq3@fosstodon.org",
         "github": "ivelasq",
         "linkedin": "ivelasq",
         "orcid": "0000-0002-7180-4095",
