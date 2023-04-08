@@ -1,0 +1,30 @@
+{
+  "title": "Emily Riederer", //required
+  "subtitle": "", //optional
+  "type": "blog", //required
+  "url": "https://emilyriederer.com", //required
+  "photo_url": "https://github.com/emilyriederer/website/blob/master/content/authors/admin/avatar.jpg?raw=true", //required
+  "description": "Thoughts on advancing the data analysis lifecycle -- from data quality and management, reproducible tooling, and statistical methods",
+  "language": "en", //required
+  "rss_feed": "https://www.emilyriederer.com/index.xml" //required
+  "authors": [ //required
+    {
+      "name": "Emily Riederer", //required
+      "social_media": [{
+         "twitter": "emilyriederer",
+         "mastodon": "@emilyriederer@mastodon.social",
+         "github": "emilyriederer",
+         "instagram": "",
+         "youtube": "",
+         "tiktok": "",
+         "periscope": "",
+         "researchgate": "",
+         "website": "emilyriederer.com",
+         "linkedin": "linkedin.com/in/emilyriederer",
+         "facebook": "emilyriederer",
+         "orcid": "0000-0002-1788-7934",
+         "meetup": ""
+      }]
+    }
+  ]
+}
