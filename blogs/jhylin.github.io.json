@@ -3,7 +3,7 @@
   "type": "blog",
   "url": "https://jhylin.github.io/Data_in_life_blog/",
   "photo_url": "https://github.com/jhylin/Data_in_life_blog/blob/main/profile%20avatar.jpg",
-  "description": "A blog on using data science for pharmaceutical and healthcare data",
+  "description": "A blog using data science on pharmaceutical and healthcare data",
   "language": "en", 
   "rss_feed": "https://jhylin.github.io/Data_in_life_blog/index.xml" 
   "authors": [ 
