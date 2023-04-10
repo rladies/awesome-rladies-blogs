@@ -3,6 +3,7 @@
   "subtitle": "Personal blog", 
   "type": "blog", 
   "url": "https://karbartolome-blog.netlify.app",
+  "rss_feed": "https://karbartolome-blog.netlify.app/categories/r/index.xml",
   "photo_url": "https://raw.githubusercontent.com/RLadies-BA/RLadies-BA/main/content/authors/kari/avatar.jpg",
   "description": "Data science, economics and more",
   "language": "es", 
@@ -11,6 +12,7 @@
       "name": "Karina Bartolome", 
       "social_media": [{
          "twitter": "karbartolome",
+         "mastodon": "@karbartolome@mastodon.social",
          "github": "karbartolome",
          "instagram": "karbartolome",
          "website": "https://karbartolome-blog.netlify.app",
