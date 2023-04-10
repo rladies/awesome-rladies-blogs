@@ -39,6 +39,8 @@ Created by accessing the json files in [blogs/](blogs/)
   - [my blog](https://federicagazzelloni.netlify.app/) by Federica
     Gazzelloni
   - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+  - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
+    Jennifer HY Lin
   - [Julia Silge](https://juliasilge.com/) by Julia Silge
   - [Karina Bartolome](https://karbartolome-blog.netlify.app) by Karina
     Bartolome
