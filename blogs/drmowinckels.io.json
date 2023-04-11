@@ -1,0 +1,23 @@
+{
+  "title": "Dr. Mowinckels",
+  "subtitle": "All things R and Neuroimaging",
+  "type": "blog",
+  "url": "https://drmowinckels.io",
+  "photo_url": "https://rladies.org/wp-content/uploads/connections-images/athanasia-mo-mowinckel/Athanasia.Mowinckel.2_square.png",
+  "description": "Personal website and blog about R and neuromaging in R.",
+    "rss_feed": "https://drmowinckels.io/tags/r/index.xml",
+  "authors": [{
+      "name": "Athanasia Mo  Mowinckel",
+      "social_media": [{
+        "twitter": "DrMowinckels",
+        "github": "drmowinckels",
+        "mastodon": "@drmowinckels@fosstodon.org"
+        }]
+      },
+      {
+      "name": "Maëlle Salmon",
+      "social_media": [{
+        "twitter": "ma_salmon"
+      }]
+    }]
+}
