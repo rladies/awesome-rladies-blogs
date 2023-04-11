@@ -42,7 +42,7 @@ jobs:
       - name: Validate jsons
         run: Rscript 'scripts/validate_jsons.R'
 
-      - uses: r-lib/actions/setup-pandoc@v1
+      - uses: r-lib/actions/setup-pandoc@v2
 
       - name: Render readme files
         if: github.event_name == 'push'
