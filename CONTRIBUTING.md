@@ -50,6 +50,48 @@ For instance, if you don't have a subtitle or tagline for your blog, remove the 
 The photo url you provide will be displayed as your blogs thumbnail. 
 This may be a picture of you, or if you have a logo for your blog/website, it may be best to use this in stead.
 
+#### RSS Feed
+
+Please add a content-specific feed in `rss_feed`. Ideally, you have a specific RSS feed for R-related posts. Depending on your website theme, the implementation may differ. We collected a few of the most common approaches below: 
+
+<details><summary>Quarto</summary>
+- Change the code in `index.qmd` as (under listing, also described [here](https://quarto.org/docs/websites/website-blog.html#rss-feed)):
+
+  ```
+  feed:
+    categories: [R]
+    
+  ```
+  
+- Note to new users that the category names will be the names of your category tags used in the blogs (not `posts`, which are the posts folder for Quarto blogs)
+- Then provide the RSS feed links as, `[url]/blog/index-r.xml` for R category posts (`[url]/blog/index.xml` will be the RSS feed link for main posts only)
+
+</details>
+
+<details><summary>Distill</summary>
+There is currently a [workaround](https://github.com/rladies/awesome-rladies-blogs/pull/54#issuecomment-1501263818) for adding RSS feeds in distill that works as follows:
+
+- In distill, there is a categories folder generated when a post is rendered which gets deleted when the blog is rendered
+- Store the folder and add it later because we need a categories folder, containing each specified category with an `index.xml` for each category
+</details>
+
+<details><summary>Hugo</summary>
+###### Hugo Academic
+
+- Apparently the RSS feed is enabled by default and you can access it by using the field `category` in the YAML of your posts
+- Further readings for [Hugo Academic](https://cosimameyer.com/post/adding-your-hugo-academic-blog-to-r-bloggers-and-python-bloggers/)
+
+###### Hugo Portio
+
+- Copy and paste the content of [this file](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml) (it’s Hugo’s default RSS settings)
+- Store it under `layouts/_default/rss.xml` (if there is no file, you need to create this one).
+- Exchange one line. Instead of `<description>{{ .Summary | html }}</description>`, we want `<description>{{ .Content | html }}</description>` (it’s at the very bottom of the file). This way, you RSS feed doesn’t show an excerpt but the full text.
+- More about [Hugo Portio](https://cosimameyer.com/post/adding-your-hugo-academic-blog-to-r-bloggers-and-python-bloggers/)
+</details>
+
+If you want to check how your RSS looks like, you can use [simple pie](https://simplepie.org/demo/).
+
+
 #### Authors
 
 The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.
