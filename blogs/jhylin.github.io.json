@@ -1,0 +1,18 @@
+{
+  "title": "Data in life",
+  "type": "blog",
+  "url": "https://jhylin.github.io/Data_in_life_blog/",
+  "description": "A blog using data science on pharmaceutical and healthcare data",
+  "language": "en", 
+  "rss_feed": "https://jhylin.github.io/Data_in_life_blog/index-r.xml", 
+  "authors": [ 
+    {
+      "name": "Jennifer HY Lin",
+      "social_media": [{
+         "twitter": "@jenhylin",
+         "mastodon": "@jhylin@fosstodon.org ",
+         "github": "jhylin"
+      }]
+    }
+  ]
+}

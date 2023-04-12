@@ -3,7 +3,6 @@
   "type": "blog", 
   "url": "https://yabellini.netlify.app/blog/", 
   "rss_feed": "https://yabellini.netlify.app/categories/rstats/index.xml",
-  "photo_url": "https://yabellini.netlify.app/about/sidebar/avatar.jpg", 
   "description": "Writings about my interests and my work: R, education, communities of practice, research, data science, experiences, talks and some more personal stuff.",
   "language": "en", 
   "authors": [ 
