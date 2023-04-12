@@ -1,0 +1,46 @@
+on:
+  pull_request:
+    paths:
+    - 'blogs/**'
+
+name: Validate and clean jsons
+
+jobs:
+  validate:
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3   
+        with:
+          fetch-depth: 5
+      - uses: r-lib/actions/setup-r@v2
+      
+      - uses: r-lib/actions/setup-r@v2
+
+      - uses: r-lib/actions/setup-renv@v2
+               
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v12
+        with:
+          files: blogs/
+
+      - name: Cleanup json template comments
+        run: |
+          for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            echo Cleaning $f 
+            sed -i .bk 's.//required..g' $f
+            rm ${f}.bk
+          done
+        
+      - name: Validate jsons
+        run: Rscript 'scripts/validate_jsons.R'
+        
+      - name: Commit data
+        env:
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.name "$GITHUB_ACTOR"
+          git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git commit blogs/ -m 'Commit cleaned jsons' || echo "No changes to commit"
+          git push origin || echo "Nothing to push"  
