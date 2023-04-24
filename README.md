@@ -10,9 +10,14 @@
 
 Curated list of awesome blogs by R-Ladies, inspired by this
 [Tweet](https://twitter.com/WeAreRLadies/status/1362021673239785473).
+The content of this list i rendered on the [R-Ladies
+website](https://www.rladies.org/activities/rladies-blogs/). The list
+also is the source for the [R-Ladies mastodon
+bot](https://fosstodon.org/@rladies_bot@botsin.space), that occasionally
+toots links to posts from these blogs.
 
 To contribute to the list, please see the
-[contributing](CONTRIBUTING.md) instructions
+[contributing](CONTRIBUTING.md) instructions.
 
 ## List of blogs
 
