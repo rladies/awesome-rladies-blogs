@@ -60,6 +60,7 @@ Created by accessing the json files in [blogs/](blogs/)
   Paulo
 - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
   Sarah Gillespie
+- [Sam Tyner-Monroe](https://sctyner.me) by Sam Tyner-Monroe
 - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
   Kariuki
 - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
