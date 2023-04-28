@@ -1,0 +1,19 @@
+{
+    "title": "Isabel Zimmerman",
+    "type": "blog",
+    "url": "https://isabelizimm.github.io/",
+    "rss_feed": "https://isabelizimm.github.io/blog-r.xml",
+    "photo_url": "https://isabelizimm.github.io/profile.jpg",
+    "language": "en",
+    "authors": [ 
+      {
+        "name": "Isabel Zimmerman",
+        "social_media": [{
+           "twitter": "@isabelizimm",
+           "mastodon": "@isabelizimm@fosstodon.org",
+           "github": "isabelizimm",
+           "linkedin": "isabel-zimmerman"
+        }]
+      }
+    ]
+  }
