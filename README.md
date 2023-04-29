@@ -44,6 +44,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Emily Riederer](https://emilyriederer.com) by Emily Riederer
 - [my blog](https://federicagazzelloni.netlify.app/) by Federica
   Gazzelloni
+- [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
 - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
   Jennifer HY Lin
