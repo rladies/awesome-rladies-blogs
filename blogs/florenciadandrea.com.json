@@ -1,0 +1,19 @@
+{
+  "title": "Florencia D'Andrea",
+  "type": "website",
+  "url": "https://florenciadandrea.com",
+  "photo_url": "https://florencia.netlify.app/about/sidebar/avatar.jpg",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Florencia D'Andrea",
+      "social_media": [{
+        "twitter": "cantoflor_87",
+        "mastodon": "@florencia@techhub.social",
+        "github": "flor14",
+        "orcid": "0000-0002-0041-097X",
+        "linkedin": "florenciadandrea"
+      }]
+    }
+  ]
+}

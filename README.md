@@ -10,9 +10,14 @@
 
 Curated list of awesome blogs by R-Ladies, inspired by this
 [Tweet](https://twitter.com/WeAreRLadies/status/1362021673239785473).
+The content of this list i rendered on the [R-Ladies
+website](https://www.rladies.org/activities/rladies-blogs/). The list
+also is the source for the [R-Ladies mastodon
+bot](https://fosstodon.org/@rladies_bot@botsin.space), that occasionally
+toots links to posts from these blogs.
 
 To contribute to the list, please see the
-[contributing](CONTRIBUTING.md) instructions
+[contributing](CONTRIBUTING.md) instructions.
 
 ## List of blogs
 
@@ -39,12 +44,18 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Emily Riederer](https://emilyriederer.com) by Emily Riederer
 - [my blog](https://federicagazzelloni.netlify.app/) by Federica
   Gazzelloni
+- [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
+  D’Andrea
+- [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
 - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
   Jennifer HY Lin
 - [Julia Silge](https://juliasilge.com/) by Julia Silge
 - [Karina Bartolome](https://karbartolome-blog.netlify.app) by Karina
   Bartolome
+- [Once Upon a Time
+  Series](https://lgibson7.quarto.pub/once-upon-a-time-series/) by Lydia
+  Gibson
 - [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
 - [Macarena Quiroga](https://macarenaquiroga.netlify.app) by Macarena
   Quiroga
@@ -55,6 +66,7 @@ Created by accessing the json files in [blogs/](blogs/)
   Paulo
 - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
   Sarah Gillespie
+- [Sam Tyner-Monroe](https://sctyner.me) by Sam Tyner-Monroe
 - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
   Kariuki
 - [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
