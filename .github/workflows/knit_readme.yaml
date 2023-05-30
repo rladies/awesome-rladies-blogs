@@ -33,3 +33,15 @@ jobs:
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git commit README.md -m 'Update README list' || echo "No changes to commit"
           git push origin || echo "Nothing to push"    
+          
+      - name: Trigger test build
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GHA_WORKFLOW_PAT }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'rladies',
+              repo: 'website',
+              workflow_id: 'build_preview.yaml',
+              ref: 'main'
+            })
