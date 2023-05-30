@@ -53,6 +53,9 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Julia Silge](https://juliasilge.com/) by Julia Silge
 - [Karina Bartolome](https://karbartolome-blog.netlify.app) by Karina
   Bartolome
+- [Once Upon a Time
+  Series](https://lgibson7.quarto.pub/once-upon-a-time-series/) by Lydia
+  Gibson
 - [Lore Abad](https://loreabad6.github.io/) by Lorena Abad
 - [Macarena Quiroga](https://macarenaquiroga.netlify.app) by Macarena
   Quiroga
