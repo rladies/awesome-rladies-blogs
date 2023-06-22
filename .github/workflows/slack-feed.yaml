@@ -30,7 +30,7 @@ jobs:
 
           const slackToken = process.env.SLACK_TOKEN;
           const channel = process.env.SLACK_CHANNEL;
-          const url = process.env.RSS_FEED_URL;
+          const url = `/feed ${process.env.RSS_FEED_URL;
 
           (async () => {
             const web = new WebClient(slackToken);
