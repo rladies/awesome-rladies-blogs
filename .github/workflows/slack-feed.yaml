@@ -32,12 +32,20 @@ jobs:
           const channel = process.env.SLACK_CHANNEL;
           const url = process.env.RSS_FEED_URL;
 
-          const web = new WebClient(slackToken);
-          const response = await web.chat.command({
-            channel,
-            command: "/feed",
-            text: url
+          (async () => {
+            const web = new WebClient(slackToken);
+            const response = await web.chat.command({
+              channel,
+              command: "/feed",
+              text: url
+            });
+
+            console.log("Response:", response);
+          })().catch(error => {
+            console.error("Error:", error);
+            process.exit(1);
           });
+          '
 
           console.log("Response:", response);
           '
