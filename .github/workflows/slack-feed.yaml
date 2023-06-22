@@ -36,7 +36,7 @@ jobs:
             const web = new WebClient(slackToken);
             const response = await web.chat.postMessage({
               channel,
-              text: `/feed ${url}`
+              text: `/feed subscribe ${url}`
             });
 
             console.log("Response:", response);
