@@ -34,9 +34,8 @@ jobs:
 
           (async () => {
             const web = new WebClient(slackToken);
-            const response = await web.chat.command({
+            const response = await web.chat.postMessage({
               channel,
-              command: "/feed",
               text: url
             });
 
