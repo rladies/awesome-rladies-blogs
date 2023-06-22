@@ -45,6 +45,3 @@ jobs:
             process.exit(1);
           });
           '
-
-          console.log("Response:", response);
-          '
