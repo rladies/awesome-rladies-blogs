@@ -1,0 +1,43 @@
+name: Slack RSS Subscription
+on:
+  workflow_dispatch:
+    inputs:
+      rss_feed_url:
+        description: 'RSS Feed URL'
+        required: true
+
+jobs:
+  send_url_to_slack:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+
+      - name: Subscribe to RSS feed
+        env:
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          SLACK_CHANNEL: rladiesblogs
+          RSS_FEED_URL: ${{ github.event.inputs.rss_feed_url }}
+        run: |
+          npm install @slack/web-api
+          node -e '
+          const { WebClient } = require("@slack/web-api");
+
+          const slackToken = process.env.SLACK_TOKEN;
+          const channel = process.env.SLACK_CHANNEL;
+          const url = process.env.RSS_FEED_URL;
+
+          const web = new WebClient(slackToken);
+          const response = await web.chat.command({
+            channel,
+            command: "/feed",
+            text: url
+          });
+
+          console.log("Response:", response);
+          '
