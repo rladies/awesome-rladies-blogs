@@ -37,11 +37,11 @@ jobs:
       - name: Trigger test build
         uses: actions/github-script@v6
         with:
-          github-token: ${{ secrets.GHA_WORKFLOW_PAT }}
+          github-token: ${{ secrets.GLOBAL_GHA_PAT }}
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: 'rladies',
-              repo: 'website',
-              workflow_id: 'build_preview.yaml',
+              repo: 'rladies.github.io',
+              workflow_id: 'build.yaml',
               ref: 'main'
             })

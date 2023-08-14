@@ -9,7 +9,7 @@ jobs:
       - uses: actions/github-script@v6
         name: send-message
         with:
-          github-token: ${{ secrets.GHA_WORKFLOW_DISPATCH }}
+          github-token: ${{ secrets.GLOBAL_GHA_PAT }}
           script: |
             await github.rest.issues.createComment({
               issue_number: context.issue.number,
