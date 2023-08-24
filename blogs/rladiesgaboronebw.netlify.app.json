@@ -1,0 +1,29 @@
+{
+  "title": "R-Ladies Gaborone",
+  "type": "blog",
+  "url": "https://rladiesgaboronebw.netlify.app",
+  "photo_url": "https://rladiesgaboronebw.netlify.app/r%20ladies%20gaborone%20transparent.png",
+  "description": "Blog by R-Ladies Gabarone",
+  "language": "en",
+  "rss_feed": "[url]/file.xml", //required
+  "authors": [ 
+    {
+      "name": "Simisani Ndaba", 
+      "social_media": [{
+         "twitter": "username",
+         "mastodon": "@username@server.org",
+         "github": "username",
+         "instagram": "username",
+         "youtube": "username/end-url",
+         "tiktok": "username",
+         "periscope": "username",
+         "researchgate": "username",
+         "website": "url",
+         "linkedin": "username",
+         "facebook": "username",
+         "orcid": "member number",
+         "meetup": "end-url"
+      }]
+    }
+  ]
+}
