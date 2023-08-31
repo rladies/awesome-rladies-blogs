@@ -10,19 +10,10 @@
     {
       "name": "Simisani Ndaba", 
       "social_media": [{
-         "twitter": "username",
-         "mastodon": "@username@server.org",
-         "github": "username",
-         "instagram": "username",
-         "youtube": "username/end-url",
-         "tiktok": "username",
-         "periscope": "username",
-         "researchgate": "username",
-         "website": "url",
-         "linkedin": "username",
-         "facebook": "username",
-         "orcid": "member number",
-         "meetup": "end-url"
+         "twitter": "RLadiesGaborone",
+         "youtube": "r-ladiesgaborone8407",
+         "linkedin": "r-ladies-gaborone",
+         "facebook": "RLadiesGaborone"
       }]
     }
   ]
