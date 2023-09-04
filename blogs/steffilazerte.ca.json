@@ -11,13 +11,13 @@
     {
       "name": "Steffi LaZerte",
       "social_media": [{
-         "twitter": "steffilazerte",
-         "mastodon": "@steffilazerte@fosstodon.org",
          "github": "steffilazerte",
-         "researchgate": "Steffi-Lazerte",
+         "mastodon": "@steffilazerte@fosstodon.org",
          "website": "https://steffilazerte.ca",
+         "orcid": "0000-0002-7690-8360",
+         "researchgate": "Steffi-Lazerte",
          "linkedin": "steffilazerte",
-         "orcid": "0000-0002-7690-8360"
+         "twitter": "steffilazerte"
       }]
     }
   ]
