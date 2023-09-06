@@ -1,0 +1,24 @@
+{
+  "title": "Steffi LaZerte",
+  "subtitle": "Tips & Tricks",
+  "type": "blog",
+  "url": "https://steffilazerte.ca/tips_and_tricks.html",
+  "photo_url": "https://github.com/steffilazerte.png",
+  "description": "Collection of statistical notes, general tips and tricks, and useful citations which serve as a reference when helping others with R, especially for statistics in the natural sciences.",
+  "language": "en",
+  "rss_feed": "https://steffilazerte.ca/tips_and_tricks-r.xml",
+  "authors": [
+    {
+      "name": "Steffi LaZerte",
+      "social_media": [{
+         "github": "steffilazerte",
+         "mastodon": "@steffilazerte@fosstodon.org",
+         "website": "https://steffilazerte.ca",
+         "orcid": "0000-0002-7690-8360",
+         "researchgate": "Steffi-Lazerte",
+         "linkedin": "steffilazerte",
+         "twitter": "steffilazerte"
+      }]
+    }
+  ]
+}
