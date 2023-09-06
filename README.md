@@ -78,6 +78,8 @@ Created by accessing the json files in [blogs/](blogs/)
   Vargas
 - [Ciencia de Datos en Español](https://sporella.xyz) by Steph Orellana
   Bello
+- [Steffi LaZerte](https://steffilazerte.ca/tips_and_tricks.html) by
+  Steffi LaZerte
 - [Surrounded by Data](https://surroundedbydata.netlify.app/) by Veerle
   van Son
 - [Exploration Corner](https://thetidytrekker.com/blog.html) by Meghan
