@@ -1,11 +1,11 @@
 {
-  "title": "Pars pas les mains vides", 
-  "subtitle": "Don't leave empty-handed", 
+  "title": "Building Stories with Data", 
+  "subtitle": "Pars pas les mains vides", 
   "type": "blog", 
   "url": "https://cararthompson.com/blog", 
-  "rss_feed": "https://www.cararthompson.com/blog.xml",
+  "rss_feed": "https://www.cararthompson.com/posts.xml",
   "photo_url": "https://www.cararthompson.com/images/home/profile-pic.png", 
-  "description": "Personal website, portfolio and a blog about the things I've picked up along the way in the weird and wonderful worlds of #rstats, datascience and dataviz.",
+  "description": "My website and portfolio, which includes talks and a blog about the things I've picked up along the way in the weird and wonderful worlds of #rstats, datascience and dataviz.",
   "language": "en", 
   "authors": [ 
     {
