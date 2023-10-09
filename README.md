@@ -29,7 +29,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
 - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
   Navarro
-- [Building Stories with Data](https://cararthompson.com/posts) by Cara
+- [Pars pas les mains vides](https://cararthompson.com/blog) by Cara
   Thompson
 - [Citizen Statistician](citizen-statistician.org) by Mine
   Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
