@@ -72,7 +72,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Sam Tyner-Monroe](https://sctyner.me) by Sam Tyner-Monroe
 - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
   Kariuki
-- [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
+- [Meeting People Where They R](https://silviacanelon.com) by Silvia
   Canelón
 - [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
   Vargas
