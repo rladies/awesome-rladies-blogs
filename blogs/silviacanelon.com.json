@@ -1,15 +1,15 @@
 {
   "title": "Meeting People Where They R",
   "type": "blog",
-  "url": "https://silvia.rbind.io/",
-  "rss_feed": "https://silvia.rbind.io/categories/r/index.xml",
+  "url": "https://silviacanelon.com",
+  "rss_feed": "https://silviacanelon.com/blog/index-r.xml",
   "language": "en",
   "authors": [
     {
       "name": "Silvia Canelón",
       "social_media": [{
         "twitter": "spcanelon",
-        "mastodon": "@spcanelon@fosstodon.org",
+        "mastodon": "@spcanelon@hachyderm.io",
         "github": "spcanelon",
         "linkedin": "spcanelon/"
       }]
