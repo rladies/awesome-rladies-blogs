@@ -1,0 +1,21 @@
+{
+  "title": "Melissa Van Bussel (ggnot2)'s YouTube channel about R",
+  "type": "youtube",
+  "url": "https://www.youtube.com/c/ggnot2",
+  "photo_url": "https://images.squarespace-cdn.com/content/v1/615e5d6733744f26a45a0916/dbb29443-45e7-4f7c-b8d8-ab721631d225/selectedEdit_2.png?format=1500w",
+  "description": "Melissa Van Bussel (ggnot2)'s YouTube channel that contains tutorials about R programming and Data Science",
+  "language": "en",
+  "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWPCd6tPtoLJYzQQ681pe5Q",
+  "authors": [
+    {
+      "name": "Melissa Van Bussel",
+      "social_media": [{
+         "youtube": "ggnot2",
+         "twitter": "melvanbussel",
+         "linkedin": "melissavanbussel",
+         "github": "melissavanbussel",
+         "website": "https://www.melissavanbussel.com"
+      }]
+    }
+  ]
+}
