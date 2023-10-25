@@ -86,6 +86,8 @@ Created by accessing the json files in [blogs/](blogs/)
   Harris
 - [Yanina Bellini Saibene](https://yabellini.netlify.app/blog/) by
   Yanina Bellini Saibene
+- [Melissa Van Bussel (ggnot2)’s YouTube channel about
+  R](https://www.youtube.com/c/ggnot2) by Melissa Van Bussel
 
 ## License
 
