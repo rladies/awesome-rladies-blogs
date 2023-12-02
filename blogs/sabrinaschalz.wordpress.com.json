@@ -1,0 +1,19 @@
+{
+  "title": "Data Science Blog",
+  "type": "blog",
+  "url": "https://sabrinaschalz.wordpress.com/data-science-blog/",
+  "photo_url": "https://sabrinaschalz.files.wordpress.com/2022/07/screenshot_20220720-132450_instagram.jpg",
+  "language": "en",
+  "rss_feed": "https://sabrinaschalz.wordpress.com/feed/",
+  "authors": [ 
+    {
+      "name": "Sabrina Schalz",
+      "social_media": [{
+         "mastodon": "@sabrinaschalz@fediscience.org",
+         "github": "SabrinaSchalz",
+         "website": "https://sabrinaschalz.wordpress.com",
+         "orcid": "0000-0003-0237-4367"
+      }]
+    }
+  ]
+}
