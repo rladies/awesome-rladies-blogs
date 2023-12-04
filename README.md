@@ -67,6 +67,9 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
+- [Data Science
+  Blog](https://sabrinaschalz.wordpress.com/data-science-blog/) by
+  Sabrina Schalz
 - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
   Sarah Gillespie
 - [Sam Tyner-Monroe](https://sctyner.me) by Sam Tyner-Monroe
