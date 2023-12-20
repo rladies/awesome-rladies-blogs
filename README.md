@@ -46,6 +46,8 @@ Created by accessing the json files in [blogs/](blogs/)
   Gazzelloni
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
   D’Andrea
+- [Hypebright](https://hypebright.nl/index.php/en/home-en/blog/) by
+  Veerle van Leemput
 - [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
 - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
@@ -65,6 +67,8 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
 - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
 - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+- [R-Ladies Gaborone](https://r-ladiesgaborone2021.quarto.pub) by
+  R-Ladies Gabarone
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
 - [Data Science
