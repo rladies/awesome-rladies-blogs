@@ -6,7 +6,7 @@
   "photo_url": "https://hypebright.nl/wp-content/uploads/2023/01/mvb2021-08-10-1058-scaled.jpg",
   "description": "R and Shiny tutorials for both beginners and advanced R developers",
   "language": "en",
-  "rss_feed": "https://hypebright.nl/index.php/en/home-en/blog/category/r/feed/",
+  "rss_feed": "https://hypebright.nl/index.php/en/category/r-en/feed/",
   "authors": [ 
     {
       "name": "Veerle van Leemput",
