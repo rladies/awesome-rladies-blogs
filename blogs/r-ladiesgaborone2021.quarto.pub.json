@@ -1,0 +1,21 @@
+{
+  "title": "R-Ladies Gaborone",
+  "type": "blog",
+  "url": "https://r-ladiesgaborone2021.quarto.pub",
+  "photo_url": "https://r-ladiesgaborone2021.quarto.pub/images/bo_5sEb-_400x400.jpg",
+  "description": "Blog by R-Ladies Gabarone",
+  "language": "en",
+
+  "authors": [ 
+    {
+      "name": "R-Ladies Gabarone", 
+      "social_media": [{
+         "twitter": "RLadiesGaborone",
+         "mastodon": "@RLadiesGaborone@fosstodon.org",
+         "youtube": "r-ladiesgaborone8407",
+         "linkedin": "r-ladies-gaborone",
+         "facebook": "RLadiesGaborone"
+      }]
+    }
+  ]
+}
