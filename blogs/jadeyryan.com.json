@@ -1,0 +1,23 @@
+{
+  "title": "data whiskeRs",
+  "type": "blog",
+  "url": "https://jadeyryan.com/blog",
+  "photo_url": "https://jadeyryan.com/assets/img/JR-logo.webp",
+  "description": "R code, environmental data science, and cats",
+  "language": "en",
+  "rss_feed": "https://jadeyryan.com/blog-r.xml",
+  "authors": [
+    {
+      "name": "Jadey Ryan",
+      "social_media": [{
+         "twitter": "jadeynryan",
+         "mastodon": "@jadeynryan@fosstodon.org",
+         "github": "jadeynryan",
+         "orcid": "0009-0004-5998-4697",
+         "youtube": "jadeynryan",
+         "website": "https://jadeyryan.com",
+         "linkedin": "jadeynryan"
+      }]
+    }
+  ]
+}
