@@ -50,6 +50,7 @@ Created by accessing the json files in [blogs/](blogs/)
   Veerle van Leemput
 - [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
 - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+- [data whiskeRs](https://jadeyryan.com/blog) by Jadey Ryan
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
   Jennifer HY Lin
 - [Julia Silge](https://juliasilge.com/) by Julia Silge
