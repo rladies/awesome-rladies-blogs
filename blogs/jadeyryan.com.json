@@ -2,7 +2,7 @@
   "title": "data whiskeRs",
   "type": "blog",
   "url": "https://jadeyryan.com/blog",
-  "photo_url": "https://jadeyryan.com/assets/img/JR-logo.webp",
+  "photo_url": "https://raw.githubusercontent.com/jadeynryan/jadey_website/main/assets/img/JR-logo.png",
   "description": "R code, environmental data science, and cats",
   "language": "en",
   "rss_feed": "https://jadeyryan.com/blog-r.xml",
