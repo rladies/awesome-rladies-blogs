@@ -27,7 +27,7 @@ jobs:
               ref: 'main',
               inputs: {
                 blogs: '${{ github.run_id }}',
-                triggering_issue: '${{ steps.make-pr.outputs.pull-request-number }}',
+                triggering_issue: '${{ github.event.number }}',
                 triggering_repo: '${{ github.event.repository.name }}'
               }
             })
@@ -40,7 +40,7 @@ jobs:
                 await github.issues.createComment({
                     owner: 'rladies',
                     repo: ${{ github.event.repository.name }},
-                    issue_number: ${{ steps.make-pr.outputs.pull-request-number }},
+                    issue_number: ${{ github.event.number }},
                     body: ` 
                         Building test-site now! The build will take a few minutes, 
                         but look at its progess in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml).
