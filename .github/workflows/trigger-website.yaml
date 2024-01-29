@@ -1,4 +1,4 @@
-name: Airtable updates
+name: Trigger website build test
 
 on:
   pull_request:
