@@ -41,4 +41,4 @@ jobs:
             repo="${{ github.event.repository.name }}"
             comment_body="Building test-site now! The build will take a few minutes,
                             but you can track its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml)."
-            echo "$comment_body" | gh issue comment $issue_number --repo $owner/$repo
+            gh issue comment $issue_number --repo $owner/$repo -b "$comment_body"
