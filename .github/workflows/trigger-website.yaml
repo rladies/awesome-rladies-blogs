@@ -33,16 +33,12 @@ jobs:
             })
 
       - name: Notify about build start
-        uses: actions/github-script@v6
-        with:
-            github-token: ${{ secrets.GLOBAL_GHA_PAT }}
-            script: |
-              await github.issues.createComment({
-                owner: 'rladies',
-                repo: context.repo.repo,
-                issue_number: context.issue.number,
-                body: ` 
-                  Building test-site now! The build will take a few minutes, 
-                  but you can track its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml).
-                `
-              })
+        env:
+            GH_TOKEN: ${{ secrets.GLOBAL_GHA_TOKEN }}
+          run: |
+            issue_number=${{ github.event.number }}
+            owner="rladies"
+            repo="${{ github.event.repository.name }}"
+            comment_body="Building test-site now! The build will take a few minutes,
+                           but you can track its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml)."
+            echo "$comment_body" | gh issue comment $issue_number --repo $owner/$repo
