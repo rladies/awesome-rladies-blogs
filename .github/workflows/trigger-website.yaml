@@ -28,7 +28,7 @@ jobs:
               inputs: {
                 blogs: '${{ github.run_id }}',
                 triggering_issue: '${{ steps.make-pr.outputs.pull-request-number }}',
-                triggering_rep: '${{ github.event.repository.name }}'
+                triggering_repo: '${{ github.event.repository.name }}'
               }
             })
 
