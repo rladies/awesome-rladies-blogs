@@ -7,7 +7,7 @@ on:
 
 jobs:
   airtable:
-    name: Airtable updates
+    name: Trigger website build test
     runs-on: macOS-latest
     steps:
       - name: Checkout repository
@@ -34,7 +34,7 @@ jobs:
 
       - name: Notify about build start
         env:
-            GH_TOKEN: ${{ secrets.GLOBAL_GHA_TOKEN }}
+            GH_TOKEN: ${{ secrets.GLOBAL_GHA_PAT }}
         run: |
             issue_number=${{ github.event.number }}
             owner="rladies"
