@@ -1,0 +1,48 @@
+name: Airtable updates
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  airtable:
+    name: Airtable updates
+    runs-on: macOS-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 1
+
+      - name: Trigger test build
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GLOBAL_GHA_PAT }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: 'rladies',
+              repo: 'rladies.github.io',
+              workflow_id: 'build.yaml',
+              ref: 'main',
+              inputs: {
+                blogs: '${{ github.run_id }}',
+                triggering_issue: '${{ steps.make-pr.outputs.pull-request-number }}',
+                triggering_rep: '${{ github.event.repository.name }}'
+              }
+            })
+
+      - name: Notify about build start
+        uses: actions/github-script@v6
+        with:
+            github-token: ${{ secrets.GLOBAL_GHA_PAT }}
+            script: |
+                await github.issues.createComment({
+                    owner: 'rladies',
+                    repo: $(basename ${{ github.event.repository.name }})',
+                    issue_number: ${{ steps.make-pr.outputs.pull-request-number }},
+                    body: ` 
+                        Building test-site now! The build will take a few minutes, 
+                        but look at its progess in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml).
+                    ` 
+                })
