@@ -29,7 +29,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
 - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
   Navarro
-- [Pars pas les mains vides](https://cararthompson.com/blog) by Cara
+- [Building Stories with Data](https://cararthompson.com/blog) by Cara
   Thompson
 - [Citizen Statistician](citizen-statistician.org) by Mine
   Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
@@ -46,8 +46,11 @@ Created by accessing the json files in [blogs/](blogs/)
   Gazzelloni
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
   D’Andrea
+- [Hypebright](https://hypebright.nl/index.php/en/home-en/blog/) by
+  Veerle van Leemput
 - [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
 - [%\>% Dreams](https://ivelasq.rbind.io/) by Isabella Velásquez
+- [data whiskeRs](https://jadeyryan.com/blog) by Jadey Ryan
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
   Jennifer HY Lin
 - [Julia Silge](https://juliasilge.com/) by Julia Silge
@@ -65,14 +68,19 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
 - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
 - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
+- [R-Ladies Gaborone](https://r-ladiesgaborone2021.quarto.pub) by
+  R-Ladies Gabarone
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
+- [Data Science
+  Blog](https://sabrinaschalz.wordpress.com/data-science-blog/) by
+  Sabrina Schalz
 - [Sarah Gillespie’s blog](https://sarahgillespie.github.io/SG/) by
   Sarah Gillespie
 - [Sam Tyner-Monroe](https://sctyner.me) by Sam Tyner-Monroe
 - [Shel Kariuki’s blog](https://shelkariuki.netlify.app/) by Shel
   Kariuki
-- [Meeting People Where They R](https://silvia.rbind.io/) by Silvia
+- [Meeting People Where They R](https://silviacanelon.com) by Silvia
   Canelón
 - [Soy Andrea blog](https://soyandrea.netlify.app/) by Andrea Gómez
   Vargas
@@ -86,6 +94,8 @@ Created by accessing the json files in [blogs/](blogs/)
   Harris
 - [Yanina Bellini Saibene](https://yabellini.netlify.app/blog/) by
   Yanina Bellini Saibene
+- [Melissa Van Bussel (ggnot2)’s YouTube channel about
+  R](https://www.youtube.com/c/ggnot2) by Melissa Van Bussel
 
 ## License
 
