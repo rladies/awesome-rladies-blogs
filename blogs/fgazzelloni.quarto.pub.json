@@ -1,8 +1,8 @@
 {
-  "title": "my blog",
+  "title": "Federica Gazzelloni",
   "type": "blog",
-  "url": "https://federicagazzelloni.netlify.app/",
-  "rss_feed": "https://federicagazzelloni.netlify.app/blog/index.xml",
+  "url": "https://fgazzelloni.quarto.pub",
+  "rss_feed": "https://fgazzelloni.quarto.pub/index.xml",
   "photo_url": "https://avatars.githubusercontent.com/u/61802414",
   "description": "Data analytics, visualization and modeling with R",
   "language": "en",
@@ -14,8 +14,8 @@
          "mastodon": "@Fgazzelloni@fosstodon.org",
          "github": "fgazzelloni",
          "youtube": "Federica Gazzelloni",
-         "website": "https://federicagazzelloni.netlify.app/",
-         "linkedin": "fgazzelloni",
+         "website": "https://fgazzelloni.quarto.pub",
+         "linkedin": "federicagazzelloni",
          "orcid": "0000-0002-4285-611X"
       }]
     }
