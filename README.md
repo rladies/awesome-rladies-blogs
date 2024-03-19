@@ -42,7 +42,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
 - [Ella Kaye](https://ellakaye.co.uk) by Ella Kaye
 - [Emily Riederer](https://emilyriederer.com) by Emily Riederer
-- [my blog](https://federicagazzelloni.netlify.app/) by Federica
+- [Federica Gazzelloni](https://fgazzelloni.quarto.pub) by Federica
   Gazzelloni
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
   D’Andrea
