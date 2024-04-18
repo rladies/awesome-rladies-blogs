@@ -37,7 +37,7 @@ jobs:
         with:
             github-token: ${{ secrets.GLOBAL_GHA_PAT }}
             script: |
-                await github.issues.createComment({
+                await github.rest.issues.createComment({
                     owner: 'rladies',
                     repo: '$(basename ${{ github.event.repository.name }})',
                     issue_number: '${{ steps.make-pr.outputs.pull-request-number }}',
