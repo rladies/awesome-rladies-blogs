@@ -41,7 +41,7 @@ jobs:
                 await github.rest.issues.createComment({
                     owner: 'rladies',
                     repo: 'awesome-rladies-blogs',
-                    issue_number: ${{ steps.make-pr.outputs.pull-request-number }},
+                    issue_number: '${{ steps.make-pr.outputs.pull-request-number }}',
                     body: 'Building test-site now! The build will take a few minutes, but look at its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build-preview.yaml).'
                 })
 
