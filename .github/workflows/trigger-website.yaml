@@ -23,7 +23,7 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: 'rladies',
               repo: 'rladies.github.io',
-              workflow_id: 'build.yaml',
+              workflow_id: 'build-preview.yaml',
               ref: 'main',
               inputs: {
                 blogs: '${{ github.run_id }}',
