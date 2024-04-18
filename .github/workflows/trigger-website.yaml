@@ -1,4 +1,4 @@
-name: Trigger website build test
+name: Airtable updates
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   airtable:
-    name: Trigger website build test
+    name: Airtable updates
     runs-on: macOS-latest
     steps:
       - name: Checkout repository
@@ -23,22 +23,26 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: 'rladies',
               repo: 'rladies.github.io',
-              workflow_id: 'build-preview.yaml',
+              workflow_id: 'build.yaml',
               ref: 'main',
               inputs: {
                 blogs: '${{ github.run_id }}',
-                triggering_issue: '${{ github.event.number }}',
-                triggering_repo: '${{ github.event.repository.name }}'
+                triggering_issue: '${{ steps.make-pr.outputs.pull-request-number }}',
+                triggering_rep: '${{ github.event.repository.name }}'
               }
             })
 
       - name: Notify about build start
-        env:
-            GH_TOKEN: ${{ secrets.GLOBAL_GHA_PAT }}
-        run: |
-            issue_number=${{ github.event.number }}
-            owner="rladies"
-            repo="${{ github.event.repository.name }}"
-            comment_body="Building test-site now! The build will take a few minutes,
-                            but you can track its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml)."
-            gh issue comment $issue_number --repo $owner/$repo -b "$comment_body"
+        uses: actions/github-script@v6
+        with:
+            github-token: ${{ secrets.GLOBAL_GHA_PAT }}
+            script: |
+                await github.issues.createComment({
+                    owner: 'rladies',
+                    repo: $(basename ${{ github.event.repository.name }})',
+                    issue_number: ${{ steps.make-pr.outputs.pull-request-number }},
+                    body: ` 
+                        Building test-site now! The build will take a few minutes, 
+                        but look at its progess in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build.yaml).
+                    ` 
+                })
