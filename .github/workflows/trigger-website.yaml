@@ -10,8 +10,6 @@ jobs:
     name: Trigger
     runs-on: ubuntu-latest
     steps:
-      - uses: 8BitJonny/gh-get-current-pr@3.0.0
-        id: PR
 
       - name: Trigger test build
         uses: actions/github-script@v7
@@ -25,7 +23,7 @@ jobs:
               ref: 'main',
               inputs: {
                 blogs: '${{ github.run_id }}',
-                triggering_issue: '${{ steps.PR.outputs.number }}',
+                triggering_issue: '${{ github.event.pull_request.number }}',
                 triggering_repo: '${{ github.event.repository.name }}'
               }
             })
@@ -39,7 +37,7 @@ jobs:
                 await github.rest.issues.createComment({
                     owner: 'rladies',
                     repo: 'awesome-rladies-blogs',
-                    issue_number: '${{ steps.PR.outputs.number }}',
+                    issue_number: '${{ github.event.pull_request.number }}',
                     body: 'Building test-site now! The build will take a few minutes, but look at its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build-preview.yaml).'
                 })
 
