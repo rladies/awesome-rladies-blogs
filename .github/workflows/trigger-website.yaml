@@ -1,4 +1,4 @@
-name: Airtable updates
+name: Trigger Website
 
 on:
   pull_request:
@@ -6,9 +6,9 @@ on:
       - main
 
 jobs:
-  airtable:
-    name: Airtable updates
-    runs-on: macOS-latest
+  trigger:
+    name: Trigger
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
               inputs: {
                 blogs: '${{ github.run_id }}',
                 triggering_issue: '${{ steps.make-pr.outputs.pull-request-number }}',
-                triggering_rep: '${{ github.event.repository.name }}'
+                triggering_repo: '${{ github.event.repository.name }}'
               }
             })
 
