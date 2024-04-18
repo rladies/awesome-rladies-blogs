@@ -8,22 +8,22 @@ on:
 jobs:
   airtable:
     name: Trigger website build test
-    runs-on: macOS-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
       - name: Trigger test build
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GLOBAL_GHA_PAT }}
           script: |
             await github.rest.actions.createWorkflowDispatch({
               owner: 'rladies',
               repo: 'rladies.github.io',
-              workflow_id: 'build.yaml',
+              workflow_id: 'build-preview.yaml',
               ref: 'main',
               inputs: {
                 blogs: '${{ github.run_id }}',

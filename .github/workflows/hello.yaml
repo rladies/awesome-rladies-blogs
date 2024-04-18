@@ -1,4 +1,4 @@
-name: Auto message for PR's and Issues
+name: "Auto message for PR's and Issues"
 on: [pull_request, issues]
 
 jobs:
