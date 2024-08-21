@@ -1,0 +1,22 @@
+{
+  "title": "Sophie Lee's blog", //required
+  "subtitle": "S-Cubed", //optional
+  "type": "blog", //required
+  "url": "https://scubed.rbind.io/blog/", //required
+  "photo_url": "https://scubed.rbind.io/about/sidebar/avatar.jpg", //required
+  "description": "Personal blog",
+  "language": "en", //required
+  "rss_feed": "https://scubed.netlify.app/index.xml", //required
+  "authors": [ //required
+    {
+      "name": "Sophie Lee", //required
+      "social_media": [{
+         "twitter": "Sophiestats10",
+         "github": "sophie-a-lee",
+         "instagram": "username",
+         "website": "https://scubed.rbind.io",
+         "linkedin": "sophie-a-lee"
+      }]
+    }
+  ]
+}
