@@ -39,7 +39,8 @@ jobs:
 
       - name: Install and activate renv
         run: |
-          install.packages("renv")
+          install.packages("remotes")
+          remotes::install_version("renv", "0.16.0")
           renv::activate()
         shell: Rscript {0}
 
