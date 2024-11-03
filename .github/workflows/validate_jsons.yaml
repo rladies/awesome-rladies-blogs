@@ -20,6 +20,7 @@ jobs:
       - name: Restore packages
         shell: Rscript {0}
         run: |
+          options(renv.config.mran.enabled = FALSE)
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
                               
