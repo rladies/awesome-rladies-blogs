@@ -34,6 +34,7 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Citizen Statistician](citizen-statistician.org) by Mine
   Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
 - [Cosima Meyer](https://cosimameyer.com/) by Cosima Meyer
+- [Crystal Lewis](cghlewis.com) by Crystal Lewis
 - [Darya Vanichkina’s blog](https://www.daryavanichkina.com/posts.html)
   by Darya Vanichkina
 - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
