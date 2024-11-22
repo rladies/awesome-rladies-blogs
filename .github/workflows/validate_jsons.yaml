@@ -25,11 +25,10 @@ jobs:
       - name: Cleanup json template comments
         run: |
           for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            echo Cleaning $f 
-            sed -i .bk 's.//required..g' $f
-            rm ${f}.bk
+            echo Cleaning $f
+            sed -i 's,//required,,g' $f
           done
-
+          
       - name: Validate jsons
         run: Rscript 'scripts/validate_jsons.R'
         
