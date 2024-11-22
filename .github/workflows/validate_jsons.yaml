@@ -22,11 +22,22 @@ jobs:
         with:
           files: blogs/
           
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev qpdf
+
+      - name: Cache R packages
+        uses: actions/cache@v3
+        with:
+          path: renv/library
+          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+
       - name: Restore R packages with renv
         run: |
           Rscript -e 'install.packages("renv", repos="https://cran.rstudio.com/")'
           Rscript -e 'renv::restore()'
-
+            
       - name: Cleanup json template comments
         run: |
           for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
