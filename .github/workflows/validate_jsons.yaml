@@ -21,6 +21,11 @@ jobs:
         uses: tj-actions/changed-files@v12
         with:
           files: blogs/
+          
+      - name: Restore R packages with renv
+        run: |
+          Rscript -e 'install.packages("renv", repos="https://cran.rstudio.com/")'
+          Rscript -e 'renv::restore()'
 
       - name: Cleanup json template comments
         run: |
