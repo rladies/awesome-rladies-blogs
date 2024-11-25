@@ -1,0 +1,22 @@
+{
+  "title": "R-Ladies Melbourne Blog",
+  "type": "blog",
+  "url": "https://r-ladiesmelbourne.github.io/",
+  "photo_url": "https://r-ladiesmelbourne.github.io/images/rladiesmelblogo.png",
+  "description": "Blog by R-Ladies Melbourne",
+  "language": "en",
+  "rss_feed": "https://r-ladiesmelbourne.github.io/blog_index.html",
+  "authors": [ 
+    {
+      "name": "R-Ladies Melbourde",
+      "social_media": [{
+         "twitter": "rladiesmelb",
+         "bluesky": "@rladiesmelb.bsky.social",
+         "github": "r-ladiesmelbourne",
+         "linkedin": "https://www.linkedin.com/company/r-ladies-melbourne/",
+         "meetup": "r-ladies-melbourne",
+        "website": "https://r-ladiesmelbourne.github.io/"
+      }]
+    }
+  ]
+}
