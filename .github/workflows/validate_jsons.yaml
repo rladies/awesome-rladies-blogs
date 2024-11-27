@@ -35,6 +35,7 @@ jobs:
           files: blogs/
 
       - name: Cleanup json template comments
+        if: ${{ steps.changed-files.outputs.any_changed }}
         run: |
           for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo Cleaning $f 
