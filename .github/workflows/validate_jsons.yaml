@@ -39,8 +39,7 @@ jobs:
         run: |
           for f in ${{ steps.changed-files.outputs.all_changed_files }}; do
             echo Cleaning $f 
-            sed -i .bk 's.//required..g' $f
-            rm ${f}.bk
+            sed -i 's.//required..g' $f
           done
         
       - name: Validate jsons
