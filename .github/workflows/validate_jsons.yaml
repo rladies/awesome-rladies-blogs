@@ -15,19 +15,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install cURL Headers
-        run: |
-          sudo apt-get update
-          sudo apt-get install libcurl4-openssl-dev
-
-      - name: Setup R
-        uses: r-lib/actions/setup-r@v2
-        with:
-          version: 'renv'
-
-      - name: Setup renv
-        uses: r-lib/actions/setup-renv@v2
-
       - name: Get changed files
         id: changed-files
         uses: tj-actions/changed-files@v12
@@ -41,7 +28,20 @@ jobs:
             echo Cleaning $f 
             sed -i 's.//required..g' $f
           done
-        
+
+      - name: Install cURL Headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install libcurl4-openssl-dev
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          version: 'renv'
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+
       - name: Validate jsons
         run: Rscript 'scripts/validate_jsons.R'
         
