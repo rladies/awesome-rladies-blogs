@@ -12,7 +12,8 @@
       "name": "Athanasia Monika Mowinckel",
       "social_media": [{
         "mastodon": "@Drmowinckels@fosstodon.org",
-        "github": "drmowinckels"
+        "github": "drmowinckels",
+        "bluesky": "@drmowinckels.io"
       }]
     }
   ]
