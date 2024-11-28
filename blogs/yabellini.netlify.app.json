@@ -9,11 +9,11 @@
     {
       "name": "Yanina Bellini Saibene", 
       "social_media": [{
-         "twitter": "yabellini",
          "mastodon": "@yabellini@fosstodon.org",
+         "bluesky": "@yabellini.bsky.social",
          "github": "yabellini",
-         "instagram": "yabellini",
-         "youtube": "channel/UCA7IUNba2IjQfrVVjh2Whmw",
+         "instagram": "yanina.bellini",
+         "youtube": "yabellini",
          "website": "https://yabellini.netlify.app/",
          "linkedin": "/in/yabellini/",
          "orcid": "0000-0002-4522-7466"
