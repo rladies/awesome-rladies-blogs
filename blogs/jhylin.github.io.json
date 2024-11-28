@@ -10,7 +10,8 @@
       "name": "Jennifer HY Lin",
       "social_media": [{
          "twitter": "@jenhylin",
-         "mastodon": "@jhylin@fosstodon.org ",
+         "mastodon": "@jhylin@fosstodon.org",
+         "bluesky": "@jhylin.bsky.social",
          "github": "jhylin"
       }]
     }
