@@ -1,0 +1,17 @@
+{
+  "title": "Crystal Lewis",
+  "type": "blog",
+  "url": "https://www.cghlewis.com",
+  "photo_url": "https://github.com/Cghlewis/crystal_site/blob/main/static/img/me2022v02.JPG",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Crystal Lewis",
+      "social_media": [{
+        "twitter": "Cghlewis",
+	"bluesky": "@cghlewis.bsky.social",
+        "website": "https://www.cghlewis.com",
+        "linkedin": "crystal-lewis-922b4193/"}]
+    }
+  ]
+}

@@ -24,6 +24,7 @@
                   "properties": {
                     "twitter":      {"type": "string"},
                     "mastodon":     {"type": "string"},
+                    "bluesky":      {"type": "string"},
                     "linkedin":     {"type": "string"},
                     "facebook":     {"type": "string"},
                     "github":       {"type": "string"},
