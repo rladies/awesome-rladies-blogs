@@ -28,7 +28,7 @@ extract_opengraph_info <- function(url) {
 add_og_info <- function(path){
   jsoncontent <- jsonlite::read_json(path)
 
-  if(jsoncontent$type == "blog"){
+  if(jsoncontent$type != "youtube"){
     jsoncontent$opengraph <- extract_opengraph_info(jsoncontent$url)
     jsonlite::write_json(
       jsoncontent, 
