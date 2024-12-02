@@ -12,7 +12,7 @@
       "social_media": [{
          "twitter": "sporella",
          "mastodon": "@sporella@fosstodon.org",
-         "bluesky": "@sporella.bsky.social",
+         "bluesky": "sporella.bsky.social",
          "github": "sporella",
          "website": "https://sporella.xyz"
       }]
