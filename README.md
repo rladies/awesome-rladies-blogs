@@ -31,6 +31,7 @@ Created by accessing the json files in [blogs/](blogs/)
   Navarro
 - [Building Stories with Data](https://cararthompson.com/blog) by Cara
   Thompson
+- [Crystal Lewis](https://www.cghlewis.com) by Crystal Lewis
 - [Citizen Statistician](citizen-statistician.org) by Mine
   Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
 - [Cosima Meyer](https://cosimameyer.com/) by Cosima Meyer
@@ -70,6 +71,8 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
 - [R-Ladies Gaborone](https://r-ladiesgaborone2021.quarto.pub) by
   R-Ladies Gabarone
+- [R-Ladies Melbourne Blog](https://r-ladiesmelbourne.github.io/) by
+  R-Ladies Melbourde
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
 - [Data Science
