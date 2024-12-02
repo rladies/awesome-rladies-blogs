@@ -12,10 +12,10 @@
       "social_media": [{
         "github": "EllaKaye", 
         "mastodon": "@ellakaye@fosstodon.org",
+        "bluesky": "ellakaye.co.uk",
         "linkedin": "ellakaye/",
         "website": "https://ellakaye.co.uk",
-        "orcid": "0000-0002-7300-3718",
-        "bluesky": "@ellakaye.co.uk"
+        "orcid": "0000-0002-7300-3718"
       }]
     }
   ]
