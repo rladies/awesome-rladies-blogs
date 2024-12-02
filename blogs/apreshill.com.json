@@ -12,9 +12,9 @@
       "social_media": [{
          "twitter": "apreshill",
          "mastodon": "@apreshill@fosstodon.org",
+         "bluesky": "apreshill.com",
          "github": "apreshill",
-         "orcid": "0000-0002-8082-1890",
-         "bluesky": "@apreshill.com"
+         "orcid": "0000-0002-8082-1890"
       }]
     }
   ]
