@@ -11,9 +11,9 @@
       "name": "Mine Dogucu", 
       "social_media": [{
          "twitter": "MineDogucu",
+         "bluesky": "minedogucu.bsky.social",
          "github": "mdogucu",
-         "linkedin": "minedogucu",
-         "bluesky": "@minedogucu.bsky.social"
+         "linkedin": "minedogucu"
       }]
     }
   ]
