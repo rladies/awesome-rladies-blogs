@@ -10,13 +10,13 @@
       "name": "Danielle Navarro",
       "social_media": [{
         "twitter": "djnavarro",
+        "bluesky": "djnavarro.bsky.social",
         "github": "djnavarro",
         "linkedin": "djnavarro",
         "instagram": "daniellenavarro77",
         "youtube": "daniellenavarro77",
         "orcid": "0000-0001-7648-6578",
-        "website": "https://djnavarro.net",
-        "bluesky": "@djnavarro.bsky.social"
+        "website": "https://djnavarro.net"
       }]
     }
   ]

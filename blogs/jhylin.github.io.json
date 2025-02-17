@@ -11,7 +11,7 @@
       "social_media": [{
          "twitter": "@jenhylin",
          "mastodon": "@jhylin@fosstodon.org",
-         "bluesky": "@jhylin.bsky.social",
+         "bluesky": "jhylin.bsky.social",
          "github": "jhylin"
       }]
     }
