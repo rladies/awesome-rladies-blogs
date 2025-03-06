@@ -11,10 +11,10 @@
       "social_media": [{
         "twitter": "cosima_meyer",
         "mastodon": "@cosima_meyer@mas.to",
+        "bluesky": "cosima.bsky.social",
         "github": "cosimameyer",
         "website": "https://cosimameyer.com/",
-        "linkedin": "cosimameyer/",
-        "bluesky": "@cosima.bsky.social"
+        "linkedin": "cosimameyer/"
       }]
     }
   ]
