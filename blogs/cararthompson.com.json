@@ -13,10 +13,10 @@
       "social_media": [{
          "twitter": "cararthompson",
          "mastodon": "@cararthompson@fosstodon.org",
+         "bluesky": "cararthompson.bsky.social",
          "github": "cararthompson",
          "website": "cararthompson.com",
-         "linkedin": "cararthompson",
-         "bluesky": "@cararthompson.bsky.social"
+         "linkedin": "cararthompson"
       }]
     }
   ]
