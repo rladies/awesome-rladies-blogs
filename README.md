@@ -1,4 +1,5 @@
 
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # Awesome R-Ladies’ Blogs
@@ -21,7 +22,7 @@ To contribute to the list, please see the
 
 ## List of blogs
 
-Created by accessing the json files in [blogs/](blogs/)
+Created by accessing the json files in [data/content/](data/content/)
 
 - [Amanda’s Data Blog](amanda.rbind.io) by Amanda Peterson
 - [Very Statisticious](https://aosmith.rbind.io) by Ariel Muldoon
@@ -97,6 +98,12 @@ Created by accessing the json files in [blogs/](blogs/)
 - [Melissa Van Bussel (ggnot2)’s YouTube channel about
   R](https://www.youtube.com/c/ggnot2) by Melissa Van Bussel
 
+## List of packages
+
+Created by accessing the json files in [data/packages/](data/packages/)
+
+- [meetupr](https://github.com/rladies/meetupr) by R-Ladies Core
+
 ## License
 
-[![CC0](https://upload.wikimedia.org/wikipedia/commons/6/69/CC0_button.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+[![](https://upload.wikimedia.org/wikipedia/commons/6/69/CC0_button.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
