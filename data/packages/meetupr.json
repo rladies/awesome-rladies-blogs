@@ -1,0 +1,18 @@
+{
+    "name": "meetupr",
+    "description": "Provides programmatic access to the 'Meetup' 'GraphQL' API ",
+    "repo_url": "https://github.com/rladies/meetupr",
+    "pkdown_url": "https://rladies.org/meetupr/",
+    "logo_url": "https://rladies.org/meetupr/logo.png",
+    "maintainers": [
+        {
+            "name": "R-Ladies Core",
+            "email": "info@rladies.org",
+            "social_media": {
+                "bluesky": "rladies.org",
+                "github": "rladies",
+                "mastodon": "@RLadiesGlobal@hachyderm.io"
+            }
+        }
+    ]
+}
