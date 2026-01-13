@@ -1,162 +1,83 @@
-# About 
+ # About
 
-This repository collects R-Ladies blogs, this is inclusive of those who identify as a minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, & agender). We'd love to have contributions to this list! If you identify with R-Ladies and have a blog, please add yourself.
+This repository collects R-Ladies community resources: content (one JSON per blog/channel) and R packages (one JSON per package). 
+Contributions are welcome from anyone who identifies with the R-Ladies community.
 
 # Contributing checklist
 
- - [ ] The entry is added to [blogs/](blogs/) folder
- - [ ] The entry filename ends with `.json`
- - [ ] The json contains at minimum: 
-     - [ ] title (blog title)
-     - [ ] type ("blog")
-     - [ ] url (blog url)
-     - [ ] rss_feed (RSS feed for R-related posts. Ideally, you use "tags" or "categories" to identify your R-related posts. A title-based RSS feed is OK. If you need more input on how to get your RSS, have a look [here](https://zapier.com/blog/how-to-find-rss-feed-url/))
-     - [ ] photo_url (logo or profile)
-     - [ ] language (one of [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp))
-     - [ ] authors (list of authors)
+- [ ] The entry is added to the correct folder:
+  - content metadata → `data/content/`
+  - package metadata → `data/packages/`
+- [ ] The entry filename ends with `.json`
+- Content JSONs
+  - [ ] Must include (minimum): `title`, `url` (rss feed url), `type` ("blog"), `authors`, `language` (see `scripts/json_schema/content.json` for full schema)
+  - [ ] Name the file using the content's host (e.g. `your-blog-url.com.json`)
+- Package JSONs 
+  - [ ] Must include (minimum): `name`, `maintainers` (see `scripts/json_schema/packages.json` for full schema)
+  - [ ] Name the file using the package name (e.g. `meetupr.json`)
 
 # Contributing details
 
-All the blogs are listed in the [blogs](blogs/) folder, where each blog is in its own json-file. These files are used to render a table on the upcoming revamped R-Ladies website. Follow the below instructions to add to the list. If you have any trouble, please create an issue for us to help.
+All blog metadata files live in `data/content/` and package metadata files live in `data/packages/`. 
+Each entry is a single JSON file which is used to render pages and to generate aggregated JSONs in `data/website/`.
 
-Depending on how you are most comfortable working, there are several ways of adding new entries. 
+If you are not comfortable editing JSON directly, open an issue using the repository issue template and provide the details and we can help create the file for you.
 
-If you are not familiar with JSON you can [open an issue](https://github.com/rladies/awesome-rladies-blogs/issues/new/choose) with your blog info, which uses a GitHub Form, and we'd create the JSON for you!
+There are two main ways to add an entry:
 
-Now we will focus on adding new entries directly through GitHub, but you could also work on a local copy (branch) or fork and add new entries that way too.
-
-
-## Create a new file
-
-Create a new file in the [blogs/](blogs/) folder by [using this link](https://github.com/rladies/awesome-rladies-blogs/new/main/?filename=blogs/your-blog-url.com.json&value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20%2F%2Foptional%0A%20%20%22type%22%3A%20%22blog%22%2C%20%2F%2Frequired%0A%20%20%22url%22%3A%20%22https%3A%2F%2Fyour_blog.com%22%2C%20%2F%2Frequired%0A%20%20%22photo_url%22%3A%20%22https%3A%2F%2Fyour_blog.com%2Fyour_photo.png%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20%2F%2Frequired%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D%2Ffile.xml%22%2C%20%2F%2Frequired%0A%20%20%22authors%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
-
-This link will fork the repository to your user account, and initiate a new file with some template content in it. After filling the file, please [create a PR to the main branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
-
-### File name
-
-The name of the file should be the site url (without `www` or `http(s)://` . This way we can ensure each file has a unique name and that duplication does not happen.
-
-### File content
-
-Using the link above will create a template for you to start with.
-Fill inn all the information that is relevant for your blog.
-There are several adaptations to an entry you can make that are not highlighted in every entry.
-Remove all mentions of `\\required`, these are just for making it clear which information you _must_ provide for the file to be valid.
-Any optional field you don't want to add, you may delete entirely.
-For instance, if you don't have a subtitle or tagline for your blog, remove the entire line of `"subtite": "subtitle or tagline"` rather than leaving it empty with `"subtite": ""`
-
-#### Photo
-
-The photo url you provide will be displayed as your blogs thumbnail. 
-This may be a picture of you, or if you have a logo for your blog/website, it may be best to use this in stead.
-
-#### RSS Feed
-
-Please add a content-specific feed in `rss_feed`. Ideally, you have a specific RSS feed for R-related posts. Depending on your website theme, the implementation may differ. We collected a few of the most common approaches below: 
-
-<details><summary>Quarto</summary>
-- Change the code in `index.qmd` as (under listing, also described [here](https://quarto.org/docs/websites/website-blog.html#rss-feed)):
-
-  ```
-  feed:
-    categories: [R]
-    
-  ```
-  
-- Note to new users that the category names will be the names of your category tags used in the blogs (not `posts`, which are the posts folder for Quarto blogs)
-- Then provide the RSS feed links as, `[url]/blog/index-r.xml` for R category posts (`[url]/blog/index.xml` will be the RSS feed link for main posts only)
-
-</details>
-
-<details><summary>Distill</summary>
-There is currently a [workaround](https://github.com/rladies/awesome-rladies-blogs/pull/54#issuecomment-1501263818) for adding RSS feeds in distill that works as follows:
-
-- In distill, there is a categories folder generated when a post is rendered which gets deleted when the blog is rendered
-- Store the folder and add it later because we need a categories folder, containing each specified category with an `index.xml` for each category
-</details>
-
-<details><summary>Hugo</summary>
-###### Hugo Academic
-
-- Apparently the RSS feed is enabled by default and you can access it by using the field `category` in the YAML of your posts
-- Further readings for [Hugo Academic](https://cosimameyer.com/post/adding-your-hugo-academic-blog-to-r-bloggers-and-python-bloggers/)
-
-###### Hugo Portio
-
-- Copy and paste the content of [this file](https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_default/rss.xml) (it’s Hugo’s default RSS settings)
-- Store it under `layouts/_default/rss.xml` (if there is no file, you need to create this one).
-- Exchange one line. Instead of `<description>{{ .Summary | html }}</description>`, we want `<description>{{ .Content | html }}</description>` (it’s at the very bottom of the file). This way, you RSS feed doesn’t show an excerpt but the full text.
-- More about [Hugo Portio](https://cosimameyer.com/post/adding-your-hugo-academic-blog-to-r-bloggers-and-python-bloggers/)
-</details>
-
-If you want to check how your RSS looks like, you can use [simple pie](https://simplepie.org/demo/).
+- Use the GitHub UI to create a new file in the appropriate folder (links below).
+- Fork or branch locally, add the JSON file, and create a pull request.
 
 
-#### Authors
+## Create a new content file
 
-The entry may have several authors. This is for blogs where maybe there are several blogging together. If it is a blog that mainly has guest bloggers, its better to list the editors/maintainers of the blog and add "guest bloggers" as authors also.
+Create a new file in `data/content/` (for example `data/content/your-blog-url.com.json`). You can use this link which pre-populates a template in a new file:
 
-Adding several authors means duplicating the content between the curlies `{}` in the author section, and adding a comma between each one.
+[data/content/your-url.com.json](https://github.com/rladies/awesome-rladies-blogs/new/main/?filename=data/content/your-url.com.json&value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20%2F%2Foptional%0A%20%20%22type%22%3A%20%22blog%22%2C%20%2F%2Frequired%0A%20%20%22url%22%3A%20%22https%3A%2F%2Fyour_blog.com%22%2C%20%2F%2Frequired%0A%20%20%22photo_url%22%3A%20%22https%3A%2F%2Fyour_blog.com%2Fyour_photo.png%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20%2F%2Frequired%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D%2Ffile.xml%22%2C%20%2F%2Frequired%0A%20%20%22authors%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
 
-```json
-"authors": [
-  {
-    "name": "Athanasia Mo  Mowinckel",
-    "social_media": [{
-      "twitter": "DrMowinckels",
-      "github": "Athanasiamo"
-    }]
-  },
-  {
-    "name": "Mary Johnson",
-    "social_media": [{
-      "linkedin": "maryj",
-      "youtube": "maryj"
-    }]
-  },
-  {
-    "name": "Guest bloggers"
-  }
-]
-```
 
-#### Icons
+**Template notes:**
+- Follow the schema in `scripts/json_schema/content.json`. Required fields include `title`, `url`, `type`, `authors`, and `language`.
+- Provide a `rss_feed` URL if you have a content-specific RSS (recommended for R-category posts).
+- `photo_url` should be a publicly accessible image used as a thumbnail.
 
-The `social_media` section supports many different key-value pairs. 
-For rendering on the website, only the three first social media items for each author will be rendered.
 
-```json
-"twitter": "username"
-"mastodon": "@username@instance"
-"bluesky": "username.domain"
-"github": "username"
-"instagram": "username"
-"youtube": "username/end-url"
-"tiktok": "username"
-"periscope": "username"
-"researchgate": "username"
-"website": "url"
-"linkedin": "username"
-"facebook": "username"
-"orcid": "member number"
-"meetup": "end-url"
-```
+## Create a new package file
 
-#### Language
-The language field should be populated with the [ISO 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp) of the site content.
-Please be thorough when entering this information.
+Create a new file in `data/packages/` (for example `data/packages/meetupr.json`). 
+You can use this link which pre-populates a template in a new file:
+
+[data/packages/meetupr.json](https://github.com/rladies/awesome-rladies-blogs/new/main/?filename=data/packages/your-package-name.json&value=%7B%0A%20%20%22name%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fman%2Flogo.png%22%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pkdown_url%3A%20%22https%3A%2F%2Fpkgdown.site%22%2C%0A%20%20%22maintainers%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D)
+
+**Template notes:**
+- Follow the schema in `scripts/json_schema/packages.json`. Required fields include `name` and `maintainers`.
+- Recommended fields: `repo_url`, `pkdown_url` (pkgdown or pkgdown-like site), `description`, `language`.
+
+
+### File name conventions
+
+- For blog entries (in `data/content/`) use the site host as the filename (e.g. `your-blog.com.json`, omit `www` and `http(s)://`).
+- For package entries (in `data/packages/`) use the package or repository name (e.g. `meetupr.json`).
+
+
+### Authors and social media
+
+The `authors` array for blog entries accepts objects with `name` and an optional `social_media` array/object. For packages, the `maintainers` array accepts objects with `name` and `social_media`.
+
+Only the first three social media items are rendered in the site UI; include handles for the services you want shown (twitter, github, mastodon, etc.).
+
+
+### Validation and aggregation
+
+- JSON schema files are available in `scripts/json_schema/` (`content.json` and `packages.json`). Use them to validate your JSON before submitting.
+- Aggregated outputs (`data/website/awesome_blogs.json` and `data/website/awesome_packages.json`) are produced by `scripts/generate_website_jsons.R`.
+
+If you'd like, you can run the validation locally; I can add a small script (`scripts/validate_package_jsons.R`) to do this automatically.
 
 ## Commit and PR the file
 
-At the bottom of the page on GitHub, add a commit message in the box. 
+At the bottom of the GitHub file editor page, add a commit message and create a PR to `main`.
 
-![Propose changes](images/contrib_patch.png)
+Once the PR is opened automated checks may run and we will review and request changes as needed. In the PR comments, please @rladies/website for review.
 
-You will immediately be sent to the 'Pull requests' page, to create a PR to the main branch. 
-Click the `Create pull request` button.
-Once this is done, a new page will open and some automated checks of your submitted entries start. 
-In the comment section, make sure to @drmowinckels so she can take a look.
-
-If anything needs fixing you will be notified and given instructions on how to do that.
-
-Once all checks pass and the entries have been reviewed, they will be merged to the main branch.
+After checks pass and the entries are reviewed they will be merged into `main`.
