@@ -353,6 +353,7 @@
           {
             "twitter": "emilyriederer",
             "mastodon": "@emilyriederer@mastodon.social",
+            "bluesky": "emilyriederer.bsky.social",
             "github": "emilyriederer",
             "website": "emilyriederer.com",
             "linkedin": "linkedin.com/in/emilyriederer",
@@ -969,6 +970,7 @@
         "social_media": [
           {
             "twitter": "veerlevanson",
+            "bluesky": "veerlevanson.bsky.social",
             "github": "veerlevanson",
             "instagram": "veerle.van.son",
             "linkedin": "veerlevanson",
