@@ -1,0 +1,1056 @@
+[
+  {
+    "title": "Amanda's Data Blog",
+    "type": "blog",
+    "url": "amanda.rbind.io",
+    "photo_url": "http://amanda.rbind.io/profile.jpg",
+    "description": "Amanda's musings about data analysis and R programming",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Amanda Peterson",
+        "social_media": [
+          {
+            "twitter": "DrAmandaRP",
+            "github": "AmandaRP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Very Statisticious",
+    "type": "blog",
+    "url": "https://aosmith.rbind.io",
+    "rss_feed": "https://aosmith.rbind.io/index.xml",
+    "photo_url": "https://aosmith.rbind.io/img/main/ao_ppg2.jpg",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Ariel Muldoon",
+        "social_media": [
+          {
+            "twitter": "aosmith16",
+            "mastodon": "@aosmith16@fosstodon.org",
+            "github": "aosmith16",
+            "website": "https://ariel.rbind.io",
+            "linkedin": "arielmuldoon"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Alison Hill",
+    "type": "blog",
+    "url": "https://www.apreshill.com",
+    "rss_feed": "https://www.apreshill.com/index.xml",
+    "photo_url": "https://www.apreshill.com/about/sidebar/avatar.jpg",
+    "description": "Personal website, blog, and professional portfolio.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Alison Hill",
+        "social_media": [
+          {
+            "twitter": "apreshill",
+            "mastodon": "@apreshill@fosstodon.org",
+            "github": "apreshill",
+            "orcid": "0000-0002-8082-1890"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Beatriz Milz's blog",
+    "type": "blog",
+    "url": "https://beatrizmilz.com/",
+    "photo_url": "https://beatrizmilz.com/about/sidebar/avatar.jpeg",
+    "description": "Blog in Brazilian Portuguese, in which I share what I have been learning related to R and Data science.",
+    "language": "pt",
+    "authors": [
+      {
+        "name": "Beatriz Milz",
+        "social_media": [
+          {
+            "twitter": "BeaMilz",
+            "bluesky": "beatrizmilz.bsky.social",
+            "github": "beatrizmilz",
+            "orcid": "0000-0002-3064-4486",
+            "linkedin": "beatrizmilz",
+            "instagram": "beatrizmilz",
+            "youtube": "UCJ3RjWuqWNfKiAthnNgcv-w",
+            "orcid.1": "0000-0001-7648-6578",
+            "website": "https://beatrizmilz.com/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Notes from a data witch",
+    "type": "blog",
+    "url": "https://blog.djnavarro.net/",
+    "photo_url": "https://djnavarro.net/img/danielle-navarro_hexes_square.jpg",
+    "description": "Data science and generative art",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "social_media": [
+          {
+            "twitter": "djnavarro",
+            "bluesky": "djnavarro.bsky.social",
+            "github": "djnavarro",
+            "linkedin": "djnavarro",
+            "instagram": "daniellenavarro77",
+            "youtube": "daniellenavarro77",
+            "orcid": "0000-0001-7648-6578",
+            "website": "https://djnavarro.net"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Building Stories with Data",
+    "subtitle": "Pars pas les mains vides",
+    "type": "blog",
+    "url": "https://cararthompson.com/blog",
+    "rss_feed": "https://www.cararthompson.com/posts.xml",
+    "photo_url": "https://www.cararthompson.com/images/home/profile-pic.png",
+    "description": "My website and portfolio, which includes talks and a blog about the things I've picked up along the way in the weird and wonderful worlds of #rstats, datascience and dataviz.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Cara Thompson",
+        "social_media": [
+          {
+            "twitter": "cararthompson",
+            "mastodon": "@cararthompson@fosstodon.org",
+            "bluesky": "cararthompson.bsky.social",
+            "github": "cararthompson",
+            "website": "cararthompson.com",
+            "linkedin": "cararthompson"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Crystal Lewis",
+    "type": "blog",
+    "url": "https://www.cghlewis.com",
+    "photo_url": "https://github.com/Cghlewis/crystal_site/blob/main/static/img/me2022v02.JPG?raw=true",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Crystal Lewis",
+        "social_media": [
+          {
+            "twitter": "Cghlewis",
+            "bluesky": "cghlewis.bsky.social",
+            "website": "https://www.cghlewis.com",
+            "linkedin": "crystal-lewis-922b4193/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Citizen Statistician",
+    "type": "blog",
+    "url": "citizen-statistician.org",
+    "rss_feed": "http://www.citizen-statistician.org/categories/rstats/index.xml",
+    "photo_url": "http://www.citizen-statistician.org/img/logo.png",
+    "description": "A blog, meant for anyone wishing to become a citizen statistician, but in particular for statistics teachers – those who help empower citizens to become citizen statisticians.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "social_media": [
+          {
+            "twitter": "minebocek",
+            "mastodon": "@minecr@fosstodon.org",
+            "bluesky": "minecr.bsky.social",
+            "github": "mine-cetinkaya-rundel",
+            "orcid": "0000-0001-6452-2420",
+            "website": "http://mine-cr.com/"
+          }
+        ]
+      },
+      {
+        "name": "Rob Gould",
+        "social_media": [
+          {
+            "github": "rgmobilize",
+            "orcid": "0000-0001-5392-5945",
+            "website": "http://www.stat.ucla.edu/~rgould/Home/About_Me.html"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Zieffler",
+        "social_media": [
+          {
+            "twitter": "Chili14",
+            "github": "zief0002",
+            "orcid": "0000-0002-1035-0341",
+            "website": "https://www.datadreaming.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cosima Meyer",
+    "type": "blog",
+    "url": "https://cosimameyer.com/",
+    "photo_url": "https://cosimameyer.com/images/hero/avatar.jpg",
+    "rss_feed": "https://cosimameyer.com/category/r-post/index.xml",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Cosima Meyer",
+        "social_media": [
+          {
+            "twitter": "cosima_meyer",
+            "mastodon": "@cosima_meyer@mas.to",
+            "bluesky": "cosima.bsky.social",
+            "github": "cosimameyer",
+            "website": "https://cosimameyer.com/",
+            "linkedin": "cosimameyer/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Darya Vanichkina's blog",
+    "type": "blog",
+    "url": "https://www.daryavanichkina.com/posts.html",
+    "photo_url": "https://daryavanichkina.com/images/daryaVhead1.jpg",
+    "description": "Darya Vanichkina's blog",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Darya Vanichkina",
+        "social_media": [
+          {
+            "twitter": "dvanichkina",
+            "github": "dvanic",
+            "linkedin": "daryavanichkina",
+            "orcid": "0000-0002-0406-164X",
+            "website": "https://daryavanichkina.com"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Pedagogy",
+    "subtitle": "Thoughts longer than a tweet, shorter than a manuscript on data, pedagogy, and data pedagogy",
+    "type": "blog",
+    "url": "https://www.datapedagogy.com/",
+    "photo_url": "https://www.datapedagogy.com/images/dogucu-icon.png",
+    "description": "Teaching and learning data science",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Mine Dogucu",
+        "social_media": [
+          {
+            "twitter": "MineDogucu",
+            "bluesky": "minedogucu.bsky.social",
+            "github": "mdogucu",
+            "linkedin": "minedogucu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Dr. Mowinckel's blog",
+    "subtitle": "All things R and Neuroimaging",
+    "type": "blog",
+    "url": "https://drmowinckels.io",
+    "rss_feed": "https://drmowinckels.io/tags/r/index.xml",
+    "photo_url": "https://drmowinckels.io/about/profile.png",
+    "description": "Personal website and blog about R and neuromaging in R",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Athanasia Monika Mowinckel",
+        "social_media": [
+          {
+            "mastodon": "@Drmowinckels@fosstodon.org",
+            "bluesky": "drmowinckels.io",
+            "github": "drmowinckels"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Elena Dudukina's blog",
+    "type": "blog",
+    "url": "https://elenadudukina.com",
+    "rss_feed": "https://www.elenadudukina.com/category/r/index.xml",
+    "photo_url": "https://www.elenadudukina.com/author/elena-dudukina/avatar_hub94ed909de68ef2f7bd91a471236bb47_211159_270x270_fill_q90_lanczos_center.jpg",
+    "description": "I blog about Rstats, pharmacoepidemiology, women's health, causal inference, and open source Nordic data",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Elena Dudukina",
+        "social_media": [
+          {
+            "twitter": "evpatora",
+            "mastodon": "@evpatora@mstdn.social",
+            "orcid": "0000-0002-4238-049X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ella Kaye",
+    "type": "blog",
+    "url": "https://ellakaye.co.uk",
+    "rss_feed": "https://ellakaye.co.uk/posts-r.xml",
+    "photo_url": "https://ellakaye.co.uk/images/ellakaye-profile.jpeg",
+    "description": "Personal website, portfolio and blog",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Ella Kaye",
+        "social_media": [
+          {
+            "github": "EllaKaye",
+            "mastodon": "@ellakaye@fosstodon.org",
+            "bluesky": "ellakaye.co.uk",
+            "linkedin": "ellakaye/",
+            "website": "https://ellakaye.co.uk",
+            "orcid": "0000-0002-7300-3718"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Emily Riederer",
+    "subtitle": "",
+    "type": "blog",
+    "url": "https://emilyriederer.com",
+    "photo_url": "https://avatars.githubusercontent.com/u/19798371",
+    "description": "Thoughts on advancing the data analysis lifecycle -- from data quality and management, reproducible tooling, and statistical methods",
+    "language": "en",
+    "rss_feed": "https://www.emilyriederer.com/tags/rstats/index.xml",
+    "authors": [
+      {
+        "name": "Emily Riederer",
+        "social_media": [
+          {
+            "twitter": "emilyriederer",
+            "mastodon": "@emilyriederer@mastodon.social",
+            "bluesky": "emilyriederer.bsky.social",
+            "github": "emilyriederer",
+            "website": "emilyriederer.com",
+            "linkedin": "linkedin.com/in/emilyriederer",
+            "facebook": "emilyriederer",
+            "orcid": "0000-0002-1788-7934"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Federica Gazzelloni",
+    "type": "blog",
+    "url": "https://fgazzelloni.quarto.pub",
+    "rss_feed": "https://fgazzelloni.quarto.pub/index.xml",
+    "photo_url": "https://avatars.githubusercontent.com/u/61802414",
+    "description": "Data analytics, visualization and modeling with R",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Federica Gazzelloni",
+        "social_media": [
+          {
+            "twitter": "fgazzelloni",
+            "mastodon": "@Fgazzelloni@fosstodon.org",
+            "github": "fgazzelloni",
+            "youtube": "Federica Gazzelloni",
+            "website": "https://fgazzelloni.quarto.pub",
+            "linkedin": "federicagazzelloni",
+            "orcid": "0000-0002-4285-611X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Florencia D'Andrea",
+    "type": "website",
+    "url": "https://florenciadandrea.com",
+    "photo_url": "https://florencia.netlify.app/about/sidebar/avatar.jpg",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Florencia D'Andrea",
+        "social_media": [
+          {
+            "twitter": "cantoflor_87",
+            "mastodon": "@florencia@techhub.social",
+            "github": "flor14",
+            "orcid": "0000-0002-0041-097X",
+            "linkedin": "florenciadandrea"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hypebright",
+    "subtitle": "Programming | R and Shiny",
+    "type": "blog",
+    "url": "https://hypebright.nl/index.php/en/home-en/blog/",
+    "photo_url": "https://hypebright.nl/wp-content/uploads/2023/01/mvb2021-08-10-1058-scaled.jpg",
+    "description": "R and Shiny tutorials for both beginners and advanced R developers",
+    "language": "en",
+    "rss_feed": "https://hypebright.nl/index.php/en/category/r-en/?feed=rss2",
+    "authors": [
+      {
+        "name": "Veerle van Leemput",
+        "social_media": [
+          {
+            "bluesky": "veerle.hypebright.nl",
+            "youtube": "HypebrightBV",
+            "website": "https://hypebright.nl",
+            "linkedin": "veerlevanleemput",
+            "github": "hypebright"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Isabel Zimmerman",
+    "type": "blog",
+    "url": "https://isabelizimm.github.io/",
+    "rss_feed": "https://isabelizimm.github.io/blog-r.xml",
+    "photo_url": "https://isabelizimm.github.io/profile.jpg",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Isabel Zimmerman",
+        "social_media": [
+          {
+            "twitter": "@isabelizimm",
+            "bluesky": "isabelizimm.bsky.social",
+            "mastodon": "@isabelizimm@fosstodon.org",
+            "github": "isabelizimm",
+            "linkedin": "isabel-zimmerman"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "%>% Dreams",
+    "type": "blog",
+    "url": "https://ivelasq.rbind.io/",
+    "rss_feed": "https://ivelasq.rbind.io/index.xml",
+    "photo_url": "https://ivelasq.rbind.io/images/avatar.jpg",
+    "description": "Isabella Velásquez Personal Site on R and Analytics",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Isabella Velásquez",
+        "social_media": [
+          {
+            "bluesky": "ivelasq3.bsky.social",
+            "mastodon": "@ivelasq3@fosstodon.org",
+            "github": "ivelasq",
+            "linkedin": "ivelasq",
+            "orcid": "0000-0002-7180-4095",
+            "instagram": "ivelasq",
+            "website": "https://ivelasq.rbind.io/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "data whiskeRs",
+    "type": "blog",
+    "url": "https://jadeyryan.com/blog",
+    "photo_url": "https://raw.githubusercontent.com/jadeynryan/jadey_website/main/assets/img/JR-logo.png",
+    "description": "R code, environmental data science, and cats",
+    "language": "en",
+    "rss_feed": "https://jadeyryan.com/blog-r.xml",
+    "authors": [
+      {
+        "name": "Jadey Ryan",
+        "social_media": [
+          {
+            "twitter": "jadeynryan",
+            "mastodon": "@jadeynryan@fosstodon.org",
+            "bluesky": "jadeynryan.bsky.social",
+            "github": "jadeynryan",
+            "orcid": "0009-0004-5998-4697",
+            "youtube": "jadeynryan",
+            "website": "https://jadeyryan.com",
+            "linkedin": "jadeynryan"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data in life",
+    "type": "blog",
+    "url": "https://jhylin.github.io/Data_in_life_blog/",
+    "description": "A blog using data science on pharmaceutical and healthcare data",
+    "language": "en",
+    "rss_feed": "https://jhylin.github.io/Data_in_life_blog/index-r.xml",
+    "authors": [
+      {
+        "name": "Jennifer HY Lin",
+        "social_media": [
+          {
+            "twitter": "@jenhylin",
+            "mastodon": "@jhylin@fosstodon.org",
+            "bluesky": "jhylin.bsky.social",
+            "github": "jhylin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Julia Silge",
+    "type": "blog",
+    "url": "https://juliasilge.com/",
+    "rss_feed": "https://juliasilge.com/categories/rstats/index.xml",
+    "photo_url": "https://github.com/juliasilge.png",
+    "description": "A data science blog by Julia Silge",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "social_media": [
+          {
+            "twitter": "juliasilge",
+            "mastodon": "@juliasilge@fosstodon.org",
+            "bluesky": "juliasilge.com",
+            "github": "juliasilge",
+            "youtube": "juliasilge",
+            "website": "https://juliasilge.com/",
+            "linkedin": "juliasilge",
+            "orcid": "0000-0002-3671-836X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Karina Bartolome",
+    "subtitle": "Personal blog",
+    "type": "blog",
+    "url": "https://karbartolome-blog.netlify.app",
+    "rss_feed": "https://karbartolome-blog.netlify.app/categories/r/index.xml",
+    "photo_url": "https://raw.githubusercontent.com/RLadies-BA/RLadies-BA/main/content/authors/kari/avatar.jpg",
+    "description": "Data science, economics and more",
+    "language": "es",
+    "authors": [
+      {
+        "name": "Karina Bartolome",
+        "social_media": [
+          {
+            "twitter": "karbartolome",
+            "mastodon": "@karbartolome@mastodon.social",
+            "github": "karbartolome",
+            "instagram": "karbartolome",
+            "website": "https://karbartolome-blog.netlify.app",
+            "linkedin": "karinabartolome",
+            "meetup": "276190207"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Once Upon a Time Series",
+    "type": "blog",
+    "url": "https://lgibson7.quarto.pub/once-upon-a-time-series/",
+    "photo_url": "https://lgibson7.quarto.pub/once-upon-a-time-series/profile_pic.jpeg",
+    "language": "en",
+    "rss_feed": "https://lgibson7.quarto.pub/once-upon-a-time-series/index.xml",
+    "authors": [
+      {
+        "name": "Lydia Gibson",
+        "social_media": [
+          {
+            "twitter": "Lydz_is_Poppin",
+            "bluesky": "lydz-gibby.bsky.social",
+            "github": "lgibson7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Lore Abad",
+    "type": "blog",
+    "url": "https://loreabad6.github.io/",
+    "rss_feed": "https://loreabad6.github.io/index.xml",
+    "photo_url": "https://loreabad6.github.io/AbadL.jpg",
+    "description": "My adventures with RSpatial",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Lorena Abad",
+        "social_media": [
+          {
+            "twitter": "@loreabad6",
+            "mastodon": "@loreabad6@fosstodon.org",
+            "github": "loreabad6",
+            "researchgate": "Lorena-Abad",
+            "linkedin": "lorena-abad",
+            "orcid": "0000-0003-0554-734X"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Macarena Quiroga",
+    "type": "blog",
+    "url": "https://macarenaquiroga.netlify.app",
+    "rss_feed": "https://macarenaquiroga.netlify.app/tag/rstats/index.xml",
+    "photo_url": "https://macarenaquiroga.netlify.app/author/macarena-quiroga/avatar_hu2dcaef447beb41a9ecf37ab13d81ec8c_130063_270x270_fill_q75_lanczos_center.jpg",
+    "description": "Linguistics, education, and data science with R",
+    "language": "es",
+    "authors": [
+      {
+        "name": "Macarena Quiroga",
+        "social_media": [
+          {
+            "twitter": "_msquiroga",
+            "mastodon": "@macarenaquiroga@datasci.social",
+            "github": "msquiroga89",
+            "linkedin": "macarena-quiroga"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maëlle's R blog",
+    "type": "blog",
+    "url": "https://masalmon.eu/",
+    "rss_feed": "https://masalmon.eu/post/index.xml",
+    "photo_url": "https://masalmon.eu/img/barbie_office.jpg",
+    "description": "R(esearch) Software Engineer & Blogger based in Nancy, France",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Maëlle Salmon",
+        "social_media": [
+          {
+            "twitter": "ma_salmon",
+            "mastodon": "@maelle@mastodon.social",
+            "bluesky": "@maellesalmon.bsky.social",
+            "github": "maelle",
+            "orcid": "0000-0002-2815-0399"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Nicola Rennie",
+    "type": "blog",
+    "url": "https://nrennie.rbind.io",
+    "rss_feed": "https://nrennie.rbind.io/categories/r/index.xml",
+    "photo_url": "https://nrennie.rbind.io/img/nicola_blue.jpg",
+    "description": "Personal website, blog, and portfolio.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "social_media": [
+          {
+            "twitter": "nrennie35",
+            "mastodon": "@nrennie@fosstodon.org",
+            "bluesky": "@nrennie.bsky.social",
+            "github": "nrennie",
+            "linkedin": "nicola-rennie-076511b3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Piping Hot Data",
+    "type": "blog",
+    "url": "https://www.pipinghotdata.com",
+    "rss_feed": "https://www.pipinghotdata.com/blog.xml",
+    "photo_url": "https://www.pipinghotdata.com/cirprofile.png",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Shannon Pileggi",
+        "social_media": [
+          {
+            "twitter": "PipingHotData",
+            "mastodon": "@PipingHotData@fosstodon.org",
+            "bluesky": "@pipinghotdata.com",
+            "website": "https://twitter.com/PipingHotData",
+            "linkedin": "shannon-m-pileggi/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R-Ladies Gaborone",
+    "type": "blog",
+    "url": "https://r-ladiesgaborone2021.quarto.pub",
+    "photo_url": "https://r-ladiesgaborone2021.quarto.pub/images/bo_5sEb-_400x400.jpg",
+    "description": "Blog by R-Ladies Gabarone",
+    "language": "en",
+    "authors": [
+      {
+        "name": "R-Ladies Gabarone",
+        "social_media": [
+          {
+            "twitter": "RLadiesGaborone",
+            "mastodon": "@RLadiesGaborone@fosstodon.org",
+            "youtube": "r-ladiesgaborone8407",
+            "linkedin": "r-ladies-gaborone",
+            "facebook": "RLadiesGaborone"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R-Ladies Melbourne Blog",
+    "type": "blog",
+    "url": "https://r-ladiesmelbourne.github.io/",
+    "photo_url": "https://r-ladiesmelbourne.github.io/images/rladiesmelblogo.png",
+    "description": "Blog by R-Ladies Melbourne",
+    "language": "en",
+    "rss_feed": "https://r-ladiesmelbourne.github.io/blog_index.html",
+    "authors": [
+      {
+        "name": "R-Ladies Melbourde",
+        "social_media": [
+          {
+            "twitter": "rladiesmelb",
+            "bluesky": "@rladiesmelb.bsky.social",
+            "github": "r-ladiesmelbourne",
+            "linkedin": "https://www.linkedin.com/company/r-ladies-melbourne/",
+            "meetup": "r-ladies-melbourne",
+            "website": "https://r-ladiesmelbourne.github.io/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "R-Ladies São Paulo Blog",
+    "type": "blog",
+    "url": "https://rladies-sp.org/",
+    "photo_url": "https://rladies-sp.org/img/logo.jpg",
+    "description": "Blog in Brazilian Portuguese, in which people from the R-Ladies community in São Paulo and in Brazil share about the events, R tutorials, etc.",
+    "language": "pt",
+    "authors": [
+      {
+        "name": "R-Ladies São Paulo",
+        "social_media": [
+          {
+            "twitter": "rladiessaopaulo",
+            "github": "R-Ladies-Sao-Paulo",
+            "instagram": "rladiessaopaulo",
+            "youtube": "RLadiesS%C3%A3oPaulo",
+            "website": "https://rladies-sp.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Data Science Blog",
+    "type": "blog",
+    "url": "https://sabrinaschalz.wordpress.com/data-science-blog/",
+    "photo_url": "https://sabrinaschalz.files.wordpress.com/2022/07/screenshot_20220720-132450_instagram.jpg",
+    "language": "en",
+    "rss_feed": "https://sabrinaschalz.wordpress.com/?feed=rss2",
+    "authors": [
+      {
+        "name": "Sabrina Schalz",
+        "social_media": [
+          {
+            "mastodon": "@sabrinaschalz@fediscience.org",
+            "bluesky": "sabrinaschalz.bsky.social",
+            "github": "SabrinaSchalz",
+            "website": "https://sabrinaschalz.wordpress.com",
+            "orcid": "0000-0003-0237-4367"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sarah Gillespie's blog",
+    "subtitle": "United States student majoring in (1) statistical and data sciences and (2) quantitative economics",
+    "type": "blog",
+    "url": "https://sarahgillespie.github.io/SG/",
+    "photo_url": "https://raw.githubusercontent.com/SarahGillespie/SG/main/docs/img_about_harbor_photo.jpg",
+    "description": "Strategies to reduce machine learning bias through planning, data curation, and specific algorithm techniques.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Sarah Gillespie",
+        "social_media": [
+          {
+            "twitter": "SarahG4567",
+            "github": "SarahGillespie"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sam Tyner-Monroe",
+    "type": "blog",
+    "url": "https://sctyner.me",
+    "photo_url": "https://sctyner.me/author/sam-tyner/avatar_hufb4a28a2230dd21f7cfbe0269e6196dd_54857_270x270_fill_q90_lanczos_center.jpg",
+    "rss_feed": "https://sctyner.me/category/r/index.xml",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Sam Tyner-Monroe",
+        "social_media": [
+          {
+            "twitter": "sctyner",
+            "github": "sctyner",
+            "website": "https://sctyner.me",
+            "linkedin": "sctyner/",
+            "orcid": "0000-0001-5484-2957"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Shel Kariuki's blog",
+    "type": "blog",
+    "url": "https://shelkariuki.netlify.app/",
+    "photo_url": "https://shelkariuki.netlify.app/author/avatar_hubc1f6cfd80a3e5aa5176d464d1c32c28_52181_270x270_fill_q90_lanczos_center.jpeg",
+    "description": "Data Analytics Consultant based in Nairobi, Kenya",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Shel Kariuki",
+        "social_media": [
+          {
+            "twitter": "Shel_Kariuki",
+            "github": "Shelmith-Kariuki"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Meeting People Where They R",
+    "type": "blog",
+    "url": "https://silviacanelon.com",
+    "rss_feed": "https://silviacanelon.com/blog/index-r.xml",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Silvia Canelón",
+        "social_media": [
+          {
+            "twitter": "spcanelon",
+            "mastodon": "@spcanelon@hachyderm.io",
+            "bluesky": "silviacanelon.com",
+            "github": "spcanelon",
+            "linkedin": "spcanelon/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Soy Andrea blog",
+    "type": "blog",
+    "url": "https://soyandrea.netlify.app/",
+    "rss_feed": "https://soyandrea.netlify.app/tag/r/index.xml",
+    "photo_url": "https://soyandrea.netlify.app/author/andrea/avatar.jpg",
+    "description": "Socióloga, web profesional & portafolio",
+    "language": "es",
+    "authors": [
+      {
+        "name": "Andrea Gómez Vargas",
+        "social_media": [
+          {
+            "twitter": "me_andre",
+            "mastodon": "@me_andre@mastodon.social",
+            "github": "SoyAndrea",
+            "linkedin": "andreasociologa"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Ciencia de Datos en Español",
+    "type": "blog",
+    "url": "https://sporella.xyz",
+    "rss_feed": "https://sporella.xyz/tags/r/index.xml",
+    "photo_url": "https://sporella.xyz/img/me.png",
+    "description": "Blog in Spanish about Data Science and personal projects.",
+    "language": "es",
+    "authors": [
+      {
+        "name": "Steph Orellana Bello",
+        "social_media": [
+          {
+            "twitter": "sporella",
+            "mastodon": "@sporella@fosstodon.org",
+            "bluesky": "sporella.bsky.social",
+            "github": "sporella",
+            "website": "https://sporella.xyz"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Steffi LaZerte",
+    "subtitle": "Tips & Tricks",
+    "type": "blog",
+    "url": "https://steffilazerte.ca/tips_and_tricks.html",
+    "photo_url": "https://github.com/steffilazerte.png",
+    "description": "Collection of statistical notes, general tips and tricks, and useful citations which serve as a reference when helping others with R, especially for statistics in the natural sciences.",
+    "language": "en",
+    "rss_feed": "https://steffilazerte.ca/tips_and_tricks-r.xml",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "social_media": [
+          {
+            "github": "steffilazerte",
+            "mastodon": "@steffilazerte@fosstodon.org",
+            "website": "https://steffilazerte.ca",
+            "orcid": "0000-0002-7690-8360",
+            "researchgate": "Steffi-Lazerte",
+            "linkedin": "steffilazerte",
+            "twitter": "steffilazerte"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Surrounded by Data",
+    "type": "blog",
+    "url": "https://surroundedbydata.netlify.app/",
+    "photo_url": "https://surroundedbydata.netlify.app/about_files/Veerle_klein.jpg",
+    "description": "Stories about the data that can be found all around us, in Dutch and English",
+    "language": "en (required)",
+    "authors": [
+      {
+        "name": "Veerle van Son",
+        "social_media": [
+          {
+            "twitter": "veerlevanson",
+            "bluesky": "veerlevanson.bsky.social",
+            "github": "veerlevanson",
+            "instagram": "veerle.van.son",
+            "linkedin": "veerlevanson",
+            "meetup": "rladies-den-bosch"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Exploration Corner",
+    "subtitle": "The Tidy Trekker",
+    "type": "blog",
+    "url": "https://thetidytrekker.com/blog.html",
+    "rss_feed": "https://thetidytrekker.com/blog.xml",
+    "photo_url": "https://thetidytrekker.com/assets/EC-Header.gif",
+    "description": "A mix of R Stats, general coding, and personal content",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Meghan Harris",
+        "social_media": [
+          {
+            "twitter": "meghansharris",
+            "mastodon": "@meghansharris@fosstodon.org",
+            "github": "Meghansaha",
+            "website": "https://thetidytrekker.com",
+            "linkedin": "meghan-harris",
+            "orcid": "0000-0003-3922-8101"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Yanina Bellini Saibene",
+    "type": "blog",
+    "url": "https://yabellini.netlify.app/blog/",
+    "rss_feed": "https://yabellini.netlify.app/categories/rstats/index.xml",
+    "description": "Writings about my interests and my work: R, education, communities of practice, research, data science, experiences, talks and some more personal stuff.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "social_media": [
+          {
+            "mastodon": "@yabellini@fosstodon.org",
+            "bluesky": "yabellini.bsky.social",
+            "github": "yabellini",
+            "instagram": "yanina.bellini",
+            "youtube": "yabellini",
+            "website": "https://yabellini.netlify.app/",
+            "linkedin": "/in/yabellini/",
+            "orcid": "0000-0002-4522-7466"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Melissa Van Bussel (ggnot2)'s YouTube channel about R",
+    "type": "youtube",
+    "url": "https://www.youtube.com/c/ggnot2",
+    "photo_url": "https://images.squarespace-cdn.com/content/v1/615e5d6733744f26a45a0916/dbb29443-45e7-4f7c-b8d8-ab721631d225/selectedEdit_2.png",
+    "description": "Melissa Van Bussel (ggnot2)'s YouTube channel that contains tutorials about R programming and Data Science",
+    "language": "en",
+    "rss_feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCWPCd6tPtoLJYzQQ681pe5Q",
+    "authors": [
+      {
+        "name": "Melissa Van Bussel",
+        "social_media": [
+          {
+            "youtube": "ggnot2",
+            "twitter": "melvanbussel",
+            "linkedin": "melissavanbussel",
+            "github": "melissavanbussel",
+            "website": "https://www.melissavanbussel.com"
+          }
+        ]
+      }
+    ]
+  }
+]

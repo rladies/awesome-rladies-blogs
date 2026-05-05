@@ -1,5 +1,6 @@
 ---
 output: github_document
+format: gfm
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -8,35 +9,60 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>"
-) 
+)
 ```
 
-# Awesome R-Ladies' Blogs  
-<!-- badges: start -->
+# Awesome R-Ladies' Content and Packages
+
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-<!-- badges: end -->
 
-Curated list of awesome blogs by R-Ladies, inspired by this [Tweet](https://twitter.com/WeAreRLadies/status/1362021673239785473).
-The content of this list i rendered on the [R-Ladies website](https://www.rladies.org/activities/rladies-blogs/).
-The list also is the source for the [R-Ladies mastodon bot](https://fosstodon.org/@rladies_bot@botsin.space), that occasionally toots links to posts from these blogs.
+Curated lists of R-Ladies community resources (blogs, YouTube channels, and R packages currently). 
+Each entry is stored as a JSON metadata file in this repository; the site-friendly aggregated JSON files are generated into the `website/` directory by the script `scripts/generate_website_jsons.R`.
 
-To contribute to the list, please see the [contributing](CONTRIBUTING.md) instructions.
+To contribute: add a JSON file describing the blog (to `content/`) or the package (to `packages/`) following the examples in the repository and the JSON schema at `scripts/json_schema/`.
 
+See `CONTRIBUTING.md` for style and metadata conventions.
 
 ## List of blogs
 
-Created by accessing the json files in [blogs/](blogs/)
-
+Created from the JSON files in `data/content/` (one JSON per blog). The aggregated file is written to `data/website/awesome_content.json`.
 ```{r, echo = FALSE, results='asis'}
-json_list <- list.files(here::here("blogs"), "json$", full.names = TRUE)
+json_list <- list.files(here::here("data/content"), "json$", full.names = TRUE)
 dt <- lapply(json_list, jsonlite::read_json)
 
 invisible(
-  lapply(dt, function(x){
-    cat(sprintf(" - [%s](%s) by %s", 
-                x$title, x$url,
-                paste(sapply(x$authors, function(x) x$name), collapse=", ")),
-        sep = "\n")
+  lapply(dt, function(x) {
+    cat(
+      sprintf(
+        " - [%s](%s) by %s",
+        x$title,
+        x$url,
+        paste(sapply(x$authors, function(x) x$name), collapse = ", ")
+      ),
+      sep = "\n"
+    )
+  })
+)
+```
+
+## List of packages
+
+Created from the JSON files in `data/packages/` (one JSON per package). The aggregated file is written to `data/website/awesome_packages.json`.
+```{r, echo = FALSE, results='asis'}
+json_list <- list.files(here::here("data/packages"), "json$", full.names = TRUE)
+dt <- lapply(json_list, jsonlite::read_json)
+
+invisible(
+  lapply(dt, function(x) {
+    cat(
+      sprintf(
+        " - [%s](%s) by %s",
+        x$name,
+        x$repo_url,
+        paste(sapply(x$maintainers, function(x) x$name), collapse = ", ")
+      ),
+      sep = "\n"
+    )
   })
 )
 ```

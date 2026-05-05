@@ -1,0 +1,84 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "repo_url": {
+            "type": "string"
+        },
+        "pkdown_url": {
+            "type": "string"
+        },
+        "logo_url": {
+            "type": "string"
+        },
+        "maintainers": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "email": {
+                        "type": "string"
+                    },
+                    "social_media": {
+                        "type": "object",
+                        "properties": {
+                            "twitter": {
+                                "type": "string"
+                            },
+                            "mastodon": {
+                                "type": "string"
+                            },
+                            "bluesky": {
+                                "type": "string"
+                            },
+                            "linkedin": {
+                                "type": "string"
+                            },
+                            "facebook": {
+                                "type": "string"
+                            },
+                            "github": {
+                                "type": "string"
+                            },
+                            "instagram": {
+                                "type": "string"
+                            },
+                            "youtube": {
+                                "type": "string"
+                            },
+                            "tiktok": {
+                                "type": "string"
+                            },
+                            "website": {
+                                "type": "string"
+                            },
+                            "orcid": {
+                                "type": "string"
+                            }
+                        },
+                        "additionalProperties": true
+                    }
+                },
+                "required": [
+                    "name"
+                ],
+                "additionalProperties": true
+            }
+        }
+    },
+    "required": [
+        "name",
+        "maintainers",
+        "description"
+    ],
+    "additionalProperties": true
+}
