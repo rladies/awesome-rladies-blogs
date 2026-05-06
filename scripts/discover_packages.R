@@ -329,6 +329,8 @@ normalise_pkg <- function(pkg, source, matched_author, handle = NA, roles = NULL
 }
 
 # ---- Pipeline ---------------------------------------------------------------
+# Skipped when this file is sourced from another script (sys.nframe() > 0).
+run_pipeline <- function() {
 
 cat("Loading author list from", content_dir, "\n")
 authors <- read_authors(content_dir)
@@ -420,3 +422,7 @@ if (!is.null(mp) && !is.null(mp$Package)) {
 }
 
 cat("Done.", length(candidates), "candidate package files written (+meetupr).\n")
+
+}
+
+if (sys.nframe() == 0) run_pipeline()

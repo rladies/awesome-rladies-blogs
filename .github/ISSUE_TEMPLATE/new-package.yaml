@@ -1,0 +1,66 @@
+name: New Package
+description: Submit an R package to the awesome-rladies-creations list
+title: "[New Package]: "
+labels: ["package-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding an R package! :package:
+        Most metadata is fetched automatically from r-universe or CRAN.
+        The package must be discoverable on r-universe, CRAN, or both.
+  - type: input
+    id: package_name
+    attributes:
+      label: Package name
+      description: Exact name of the package as published (case-sensitive).
+      placeholder: ex. ggplot2
+    validations:
+      required: true
+  - type: input
+    id: r_universe_handle
+    attributes:
+      label: r-universe owner handle
+      description: |
+        GitHub user or org whose r-universe instance hosts this package
+        (i.e. the `<handle>` in `https://<handle>.r-universe.dev`).
+        Leave blank if the package is only on CRAN.
+      placeholder: ex. tidyverse
+    validations:
+      required: false
+  - type: input
+    id: author_directory_id
+    attributes:
+      label: Author directory ID (optional)
+      description: |
+        If a primary author has an entry in the
+        [R-Ladies directory](https://github.com/rladies/directory),
+        the slug for their JSON file (filename without `.json`).
+        We'll use this to link the package to their directory profile.
+      placeholder: ex. firstname-lastname
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes (optional)
+      description: Anything else we should know? Co-authors, special considerations, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: This package is maintained by, or has substantial contribution from, an R-Ladies community member.
+          required: true
+        - label: I am the package author/maintainer, OR I will get explicit consent from them before this submission is merged.
+          required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](http://rladies.org/code-of-conduct/).
+      options:
+        - label: I agree to follow R-Ladies' Code of Conduct.
+          required: true

@@ -23,8 +23,9 @@ Each entry is a single JSON file which is used to render pages and to generate a
 
 If you are not comfortable editing JSON directly, open an issue using the repository issue template and provide the details and we can help create the file for you.
 
-There are two main ways to add an entry:
+There are three ways to add an entry:
 
+- **Easiest (packages only):** open an issue with the [New Package](../../issues/new?template=new-package.yaml) form. Provide the package name and r-universe handle (or leave the handle blank for a CRAN-only package). A workflow fetches metadata from r-universe/CRAN, generates the JSON, and opens a draft PR linked to your issue. A maintainer reviews and merges.
 - Use the GitHub UI to create a new file in the appropriate folder (links below).
 - Fork or branch locally, add the JSON file, and create a pull request.
 
