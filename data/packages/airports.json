@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/OpenIntroStat/airports",
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/OpenIntroStat/airports/issues",
-  "logo_url": null,
+  "logo_url": "https://raw.githubusercontent.com/OpenIntroStat/airports/HEAD/man/figures/logo.png",
   "last_updated": "2020-06-29",
   "authors": [
     {

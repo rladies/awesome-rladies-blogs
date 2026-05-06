@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/djnavarro/hexify",
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/djnavarro/hexify/issues",
-  "logo_url": null,
+  "logo_url": "https://raw.githubusercontent.com/djnavarro/hexify/HEAD/img/hexagonal.png",
   "last_updated": "2022-02-02",
   "authors": [
     {
