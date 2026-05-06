@@ -1,0 +1,10 @@
+{
+  "name": "R-Ladies Melbourde",
+  "github": "r-ladiesmelbourne",
+  "directory_id": null,
+  "orcid": null,
+  "package_sync": {
+    "enabled": true,
+    "exclude": []
+  }
+}

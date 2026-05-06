@@ -1,0 +1,10 @@
+{
+  "name": "Julia Silge",
+  "github": "juliasilge",
+  "directory_id": null,
+  "orcid": "0000-0002-3671-836X",
+  "package_sync": {
+    "enabled": true,
+    "exclude": []
+  }
+}

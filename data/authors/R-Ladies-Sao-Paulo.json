@@ -1,0 +1,10 @@
+{
+  "name": "R-Ladies São Paulo",
+  "github": "R-Ladies-Sao-Paulo",
+  "directory_id": null,
+  "orcid": null,
+  "package_sync": {
+    "enabled": true,
+    "exclude": []
+  }
+}

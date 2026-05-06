@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "github": {
+            "type": "string",
+            "description": "GitHub user/org handle. Drives r-universe lookups and the filename for this entry."
+        },
+        "directory_id": {
+            "type": ["string", "null"],
+            "description": "Slug of the author's entry in rladies/directory."
+        },
+        "orcid": {
+            "type": ["string", "null"]
+        },
+        "package_sync": {
+            "type": "object",
+            "description": "Controls automated package syncing from r-universe.",
+            "properties": {
+                "enabled": {
+                    "type": "boolean",
+                    "description": "When false, the periodic sync skips this author entirely."
+                },
+                "exclude": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "description": "Package names to skip during sync, even if r-universe lists the author."
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "required": ["name", "github"],
+    "additionalProperties": true
+}

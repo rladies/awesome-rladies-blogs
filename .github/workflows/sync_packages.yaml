@@ -1,0 +1,59 @@
+name: Sync packages from r-universe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install cURL Headers
+        run: |
+          sudo apt-get update
+          sudo apt-get install libcurl4-openssl-dev
+
+      - name: Setup R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "renv"
+
+      - name: Setup renv
+        uses: r-lib/actions/setup-renv@v2
+
+      - name: Run package sync
+        run: Rscript scripts/sync_packages.R
+
+      - name: Open PR with changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: sync/packages
+          base: main
+          delete-branch: true
+          title: "Weekly package sync from r-universe"
+          commit-message: |
+            Weekly sync of packages from r-universe
+          body: |
+            Automated weekly sync driven by `data/authors/*.json`.
+
+            Each enabled author is queried at `https://<handle>.r-universe.dev`,
+            packages are filtered by author/maintainer role in DESCRIPTION, and
+            anything in their `package_sync.exclude` list is skipped. Stale
+            entries are preserved (this PR never deletes a package JSON).
+
+            Review the changes below before merging.
+          add-paths: data/packages/*.json
+          labels: package-sync
