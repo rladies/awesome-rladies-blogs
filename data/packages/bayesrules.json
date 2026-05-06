@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/bayes-rules/bayesrules/",
   "pkdown_url": "https://bayes-rules.github.io/bayesrules/docs/",
   "bug_reports_url": "https://github.com/bayes-rules/bayesrules/issues",
-  "logo_url": null,
+  "logo_url": "https://raw.githubusercontent.com/bayes-rules/bayesrules/HEAD/man/figures/bayes-rules-hex.png",
   "last_updated": "2026-01-20",
   "authors": [
     {

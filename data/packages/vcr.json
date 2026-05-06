@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/ropensci/vcr/",
   "pkdown_url": "https://books.ropensci.org/http-testing/",
   "bug_reports_url": "https://github.com/ropensci/vcr/issues",
-  "logo_url": null,
+  "logo_url": "https://raw.githubusercontent.com/ropensci/vcr/HEAD/man/figures/logo.png",
   "last_updated": "2025-12-05",
   "authors": [
     {

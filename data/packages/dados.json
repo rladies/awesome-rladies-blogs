@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/cienciadedatos/dados",
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/cienciadedatos/dados/issues",
-  "logo_url": null,
+  "logo_url": "https://raw.githubusercontent.com/cienciadedatos/dados/HEAD/man/figures/dados-hex.png",
   "last_updated": "2022-02-24",
   "authors": [
     {
