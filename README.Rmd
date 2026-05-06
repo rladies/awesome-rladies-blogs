@@ -16,10 +16,10 @@ knitr::opts_chunk$set(
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Curated lists of R-Ladies community resources (blogs, YouTube channels, and R packages currently). 
-Each entry is stored as a JSON metadata file in this repository; the site-friendly aggregated JSON files are generated into the `website/` directory by the script `scripts/generate_website_jsons.R`.
+Curated lists of R-Ladies community resources (blogs, YouTube channels, and R packages currently).
+Each entry is stored as a JSON metadata file in this repository; the site-friendly aggregated JSON files are generated into the `data/website/` directory by the script `scripts/generate_website_jsons.R`.
 
-To contribute: add a JSON file describing the blog (to `content/`) or the package (to `packages/`) following the examples in the repository and the JSON schema at `scripts/json_schema/`.
+To contribute: add a JSON file describing the blog (to `data/content/`) or the package (to `data/packages/`) following the examples in the repository and the JSON schema at `scripts/json_schema/`.
 
 See `CONTRIBUTING.md` for style and metadata conventions.
 
@@ -27,22 +27,23 @@ See `CONTRIBUTING.md` for style and metadata conventions.
 
 Created from the JSON files in `data/content/` (one JSON per blog). The aggregated file is written to `data/website/awesome_content.json`.
 ```{r, echo = FALSE, results='asis'}
+coalesce <- function(...) {
+  for (v in list(...)) if (!is.null(v) && nzchar(v)) return(v)
+  ""
+}
+
+author_names <- function(authors) {
+  paste(vapply(authors, function(a) a$name %||% "", character(1)), collapse = ", ")
+}
+
 json_list <- list.files(here::here("data/content"), "json$", full.names = TRUE)
 dt <- lapply(json_list, jsonlite::read_json)
 
-invisible(
-  lapply(dt, function(x) {
-    cat(
-      sprintf(
-        " - [%s](%s) by %s",
-        x$title,
-        x$url,
-        paste(sapply(x$authors, function(x) x$name), collapse = ", ")
-      ),
-      sep = "\n"
-    )
-  })
-)
+bullets <- vapply(dt, function(x) {
+  sprintf("- [%s](%s) by %s", x$title, coalesce(x$url), author_names(x$authors))
+}, character(1))
+
+cat("\n", bullets, sep = "\n")
 ```
 
 ## List of packages
@@ -52,19 +53,12 @@ Created from the JSON files in `data/packages/` (one JSON per package). The aggr
 json_list <- list.files(here::here("data/packages"), "json$", full.names = TRUE)
 dt <- lapply(json_list, jsonlite::read_json)
 
-invisible(
-  lapply(dt, function(x) {
-    cat(
-      sprintf(
-        " - [%s](%s) by %s",
-        x$name,
-        x$repo_url,
-        paste(sapply(x$maintainers, function(x) x$name), collapse = ", ")
-      ),
-      sep = "\n"
-    )
-  })
-)
+bullets <- vapply(dt, function(x) {
+  url <- coalesce(x$repo_url, x$pkdown_url, x$bug_reports_url)
+  sprintf("- [%s](%s) by %s", x$name, url, author_names(x$authors))
+}, character(1))
+
+cat("\n", bullets, sep = "\n")
 ```
 
 

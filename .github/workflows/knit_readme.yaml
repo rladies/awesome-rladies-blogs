@@ -1,8 +1,15 @@
-name: Knit readme
+name: Knit readme and aggregate website JSONs
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
+    paths:
+      - 'data/content/**'
+      - 'data/packages/**'
+      - 'README.Rmd'
+      - 'scripts/generate_website_jsons.R'
+      - '.github/workflows/knit_readme.yaml'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -36,8 +43,8 @@ jobs:
         run: rmarkdown::render("README.Rmd", output_format = "github_document")
         shell: Rscript {0}
 
-      - name: Update aggregated files
-        run: Rscript -e 'source("scripts/generate_website_jsons.R")'
+      - name: Aggregate website JSONs
+        run: source("scripts/generate_website_jsons.R")
         shell: Rscript {0}
 
       - name: Commit data
@@ -46,6 +53,6 @@ jobs:
         run: |
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git commit README.md -m 'Update README list' || echo "No changes to commit"
-          git commit data/website -m 'Update website data' || echo "No changes to commit"
+          git add README.md data/website
+          git diff --cached --quiet || git commit -m 'Update README and aggregated website JSONs'
           git push origin || echo "Nothing to push"
