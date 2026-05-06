@@ -1,0 +1,53 @@
+{
+  "name": "tinkr",
+  "title": "Cast '(R)Markdown' Files to 'XML' and Back Again",
+  "description": "Parsing '(R)Markdown' files with numerous regular expressions can be fraught with peril, but it does not have to be this way. Converting '(R)Markdown' files to 'XML' using the 'commonmark' package allows in-memory editing via of 'markdown' elements via 'XPath' through the extensible 'R6' class called 'yarn'. These modified 'XML' representations can be written to '(R)Markdown' documents via an 'xslt' stylesheet which implements an extended version of 'GitHub'-flavoured 'markdown' so that you can tinker to your hearts content.",
+  "repo_url": "https://github.com/ropensci/tinkr",
+  "pkdown_url": "https://docs.ropensci.org/tinkr/",
+  "bug_reports_url": "https://github.com/ropensci/tinkr/issues",
+  "logo_url": "https://docs.ropensci.org/tinkr/logo.png",
+  "last_updated": "2025-10-04",
+  "authors": [
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Zhian N. Kamvar",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1458-7108",
+      "email": "zkamvar@gmail.com"
+    },
+    {
+      "name": "Jeroen Ooms",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nick Wellnhofer",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "rOpenSci",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Peter Daengeli",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

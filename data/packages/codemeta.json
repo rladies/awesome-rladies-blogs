@@ -1,0 +1,92 @@
+{
+  "name": "codemeta",
+  "title": "A Smaller 'codemetar' Package",
+  "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides core utilities to generate this metadata with a minimum of dependencies.",
+  "repo_url": "https://github.com/cboettig/codemeta",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cboettig/codemeta/issues",
+  "logo_url": null,
+  "last_updated": "2021-12-22",
+  "authors": [
+    {
+      "name": "Carl Boettiger",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-1642-628X",
+      "email": "cboettig@gmail.com"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "ctb",
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Katrin Leinweber",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-5135-5758"
+    },
+    {
+      "name": "Noam Ross",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2136-0000"
+    },
+    {
+      "name": "Arfon Smith",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jeroen Ooms",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-4035-0289"
+    },
+    {
+      "name": "Sebastian Meyer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-1791-9449"
+    },
+    {
+      "name": "Michael Rustler",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0647-7726"
+    },
+    {
+      "name": "Hauke Sonnenberg",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-9134-2871"
+    },
+    {
+      "name": "Sebastian Kreutzer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-0734-2199"
+    },
+    {
+      "name": "rOpenSci",
+      "roles": [
+        "fnd"
+      ]
+    }
+  ]
+}

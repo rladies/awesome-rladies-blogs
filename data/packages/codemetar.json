@@ -1,0 +1,114 @@
+{
+  "name": "codemetar",
+  "title": "Generate 'CodeMeta' Metadata for R Packages",
+  "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides utilities to generate, parse, and modify 'codemeta.json' files automatically for R packages, as well as tools and examples for working with 'codemeta.json' 'JSON-LD' more generally.",
+  "repo_url": "https://github.com/ropensci/codemetar",
+  "pkdown_url": "https://docs.ropensci.org/codemetar/",
+  "bug_reports_url": "https://github.com/ropensci/codemetar/issues",
+  "logo_url": "https://docs.ropensci.org/codemetar/logo.png",
+  "last_updated": "2026-02-11",
+  "authors": [
+    {
+      "name": "Carl Boettiger",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-1642-628X",
+      "email": "cboettig@gmail.com"
+    },
+    {
+      "name": "Anna Krystalli",
+      "roles": [
+        "rev",
+        "ctb"
+      ],
+      "orcid": "0000-0002-2378-4915"
+    },
+    {
+      "name": "Toph Allen",
+      "roles": [
+        "rev"
+      ],
+      "orcid": "0000-0003-4580-091X"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "ctb",
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "rOpenSci",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Katrin Leinweber",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-5135-5758"
+    },
+    {
+      "name": "Noam Ross",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2136-0000"
+    },
+    {
+      "name": "Arfon Smith",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jeroen Ooms",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-4035-0289"
+    },
+    {
+      "name": "Sebastian Meyer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-1791-9449"
+    },
+    {
+      "name": "Michael Rustler",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0647-7726"
+    },
+    {
+      "name": "Hauke Sonnenberg",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-9134-2871"
+    },
+    {
+      "name": "Sebastian Kreutzer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-0734-2199"
+    },
+    {
+      "name": "Thierry Onkelinx",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-8804-4216"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "name": "ggPMX",
+  "title": "'ggplot2' Based Tool to Facilitate Diagnostic Plots for NLME\nModels",
+  "description": "At Novartis, we aimed at standardizing the set of diagnostic plots used for modeling activities in order to reduce the overall effort required for generating such plots. For this, we developed a guidance that proposes an adequate set of diagnostics and a toolbox, called 'ggPMX' to execute them. 'ggPMX' is a toolbox that can generate all diagnostic plots at a quality sufficient for publication and submissions using few lines of code. This package focuses on plots recommended by ISoP <doi:10.1002/psp4.12161>. While not required, you can get/install the 'R' 'lixoftConnectors' package in the 'Monolix' installation, as described at the following url <https://monolixsuite.slp-software.com/r-functions/2024R1/installation-and-initialization>. When 'lixoftConnectors' is available, 'R' can use 'Monolix' directly to create the required Chart Data instead of exporting it from the 'Monolix' gui.",
+  "repo_url": "https://github.com/ggPMXdevelopment/ggPMX",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ggPMXdevelopment/ggPMX/issues",
+  "logo_url": null,
+  "last_updated": "2025-09-05",
+  "authors": [
+    {
+      "name": "Amine Gassem",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Bruno Bieth",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Irina Baltcheva",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Thomas Dumortier",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Christian Bartels",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Souvik Bhattacharya",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Inga Ludwig",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Ines Paule",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Didier Renard",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Matthew Fidler",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-8538-6691"
+    },
+    {
+      "name": "Seid Hamzic",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Benjamin Guiastrennec",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Kyle T Baron",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-7252-5656"
+    },
+    {
+      "name": "Qing Xi Ooi",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Aleksandr Pogodaev",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1371-207X",
+      "email": "alex.pogodaev@novartis.com"
+    },
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "danielle-navarro"
+    },
+    {
+      "name": "Ibtissem Rebai",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Mahmoud Ali",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Novartis Pharma AG",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

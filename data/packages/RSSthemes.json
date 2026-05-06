@@ -1,0 +1,28 @@
+{
+  "name": "RSSthemes",
+  "title": "RSS Palettes and Themes",
+  "description": "Defines colour palettes and themes for Royal Statistical Society (RSS) publications, including Significance magazine. Palettes and themes are supported in both base R and 'ggplot2' graphics, and are intended to be used by authors submitting to RSS publications.",
+  "repo_url": "https://github.com/nrennie/RSSthemes",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/nrennie/RSSthemes/issues",
+  "logo_url": null,
+  "last_updated": "2024-03-02",
+  "authors": [
+    {
+      "name": "Nicola Rennie",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "nicola-rennie",
+      "email": "nrennie35@gmail.com"
+    },
+    {
+      "name": "Royal Statistical Society",
+      "roles": [
+        "fnd",
+        "cph"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "asciify",
+  "title": "Make ASCII Art From Images",
+  "description": "Takes an arbitrary image as input and constructs an text-based approximation to the image using the imager package.",
+  "repo_url": "https://github.com/djnavarro/asciify",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/djnavarro/asciify/issues",
+  "logo_url": null,
+  "last_updated": "2020-04-23",
+  "authors": [
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-7648-6578",
+      "directory_id": "danielle-navarro",
+      "email": "d.navarro@unsw.edu.au"
+    }
+  ]
+}

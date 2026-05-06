@@ -1,0 +1,95 @@
+{
+  "name": "igraph",
+  "title": "Network Analysis and Visualization",
+  "description": "Routines for simple graphs and network analysis. It can handle large graphs very well and provides functions for generating random and regular graphs, graph visualization, centrality methods and much more.",
+  "repo_url": "https://github.com/igraph/rigraph",
+  "pkdown_url": "https://r.igraph.org/",
+  "bug_reports_url": "https://github.com/igraph/rigraph/issues",
+  "logo_url": "https://r.igraph.org/logo.png",
+  "last_updated": "2026-05-04",
+  "authors": [
+    {
+      "name": "Gábor Csárdi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7098-9676"
+    },
+    {
+      "name": "Tamás Nepusz",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1451-338X"
+    },
+    {
+      "name": "Vincent Traag",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3170-3879"
+    },
+    {
+      "name": "Szabolcs Horvát",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3100-523X"
+    },
+    {
+      "name": "Fabio Zanini",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7097-8539"
+    },
+    {
+      "name": "Daniel Noom",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kirill Müller",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1416-3412",
+      "email": "kirill@cynkra.com"
+    },
+    {
+      "name": "Michael Antonov",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Chan Zuckerberg Initiative",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "David Schoch",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2952-4812"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "R Consortium",
+      "roles": [
+        "fnd"
+      ]
+    }
+  ]
+}

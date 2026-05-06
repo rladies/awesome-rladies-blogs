@@ -1,0 +1,88 @@
+{
+  "name": "dados",
+  "title": "Translate Datasets to Portuguese",
+  "description": "Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.",
+  "repo_url": "https://github.com/cienciadedatos/dados",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cienciadedatos/dados/issues",
+  "logo_url": null,
+  "last_updated": "2022-02-24",
+  "authors": [
+    {
+      "name": "Riva Quiroga",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-1147-4135",
+      "directory_id": "riva-quiroga",
+      "email": "riva.quiroga@uc.cl"
+    },
+    {
+      "name": "Sara Mortara",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6221-7537"
+    },
+    {
+      "name": "Beatriz Milz",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3064-4486",
+      "directory_id": "beatriz-milz"
+    },
+    {
+      "name": "Andrea Sánchez-Tapia",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3521-4338",
+      "directory_id": "andrea-sancheztapia"
+    },
+    {
+      "name": "Alejandra Andrea Tapia Silva",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0762-7618"
+    },
+    {
+      "name": "Beatriz Maurer Costa",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jean Prado",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7928-774X"
+    },
+    {
+      "name": "Renata Hirota",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3589-3246",
+      "directory_id": "renata-hirota"
+    },
+    {
+      "name": "William Amorim",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0543-3473"
+    },
+    {
+      "name": "Emmanuelle Rodrigues Nunes",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5994-352X",
+      "directory_id": "emmanuelle-rodrigues-nunes"
+    }
+  ]
+}

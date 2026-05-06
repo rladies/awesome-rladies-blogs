@@ -1,0 +1,43 @@
+{
+  "name": "sfnetworks",
+  "title": "Tidy Geospatial Networks",
+  "description": "Provides a tidy approach to spatial network analysis, in the form of classes and functions that enable a seamless interaction between the network analysis package 'tidygraph' and the spatial analysis package 'sf'.",
+  "repo_url": "https://github.com/luukvdmeer/sfnetworks",
+  "pkdown_url": "https://luukvdmeer.github.io/sfnetworks/",
+  "bug_reports_url": "https://github.com/luukvdmeer/sfnetworks/issues/",
+  "logo_url": "https://luukvdmeer.github.io/sfnetworks/logo.png",
+  "last_updated": "2024-12-06",
+  "authors": [
+    {
+      "name": "Lucas van der Meer",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-6336-8628",
+      "email": "luukvandermeer@live.nl"
+    },
+    {
+      "name": "Lorena Abad",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0554-734X",
+      "directory_id": "lorena-abad"
+    },
+    {
+      "name": "Andrea Gilardi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9424-7439"
+    },
+    {
+      "name": "Robin Lovelace",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5679-6536"
+    }
+  ]
+}

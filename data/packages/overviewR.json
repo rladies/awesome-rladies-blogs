@@ -1,0 +1,27 @@
+{
+  "name": "overviewR",
+  "title": "Easily Extracting Information About Your Data",
+  "description": "Makes it easy to display descriptive information on a data set. Getting an easy overview of a data set by displaying and visualizing sample information in different tables (e.g., time and scope conditions). The package also provides publishable 'LaTeX' code to present the sample information.",
+  "repo_url": "https://github.com/cosimameyer/overviewR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cosimameyer/overviewR/issues",
+  "logo_url": null,
+  "last_updated": "2026-05-04",
+  "authors": [
+    {
+      "name": "Cosima Meyer",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "directory_id": "cosima-meyer",
+      "email": "cosima.meyer@gmail.com"
+    },
+    {
+      "name": "Dennis Hammerschmidt",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "monochromeR",
+  "title": "Easily Create, View and Use Monochrome Colour Palettes",
+  "description": "Generate a monochrome palette from a starting colour for a specified number of colours. The package can also be used to display colour palettes in the plot window, with or without hex codes and colour labels.",
+  "repo_url": "https://github.com/cararthompson/monochromeR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cararthompson/monochromeR/issues",
+  "logo_url": null,
+  "last_updated": "2023-09-05",
+  "authors": [
+    {
+      "name": "Cara Thompson",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6472-5073",
+      "email": "packages@cararthompson.com"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "namer",
+  "title": "Names Your 'R Markdown' Chunks",
+  "description": "It names the 'R Markdown' chunks of files based on the filename.",
+  "repo_url": "https://github.com/jumpingrivers/namer",
+  "pkdown_url": "https://jumpingrivers.github.io/namer/",
+  "bug_reports_url": "https://github.com/jumpingrivers/namer/issues",
+  "logo_url": null,
+  "last_updated": "2025-01-23",
+  "authors": [
+    {
+      "name": "Colin Gillespie",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "colin@jumpingrivers.com"
+    },
+    {
+      "name": "Steph Locke",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "steph-locke"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Ellis Valentiner",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Charlie Hadley",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-3039-6849"
+    },
+    {
+      "name": "Jumping Rivers",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Han Oostdijk",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6710-4566"
+    },
+    {
+      "name": "Patrick Schratz",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-0748-6624"
+    }
+  ]
+}

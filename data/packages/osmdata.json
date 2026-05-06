@@ -1,0 +1,96 @@
+{
+  "name": "osmdata",
+  "title": "Import 'OpenStreetMap' Data as Simple Features or Spatial\nObjects",
+  "description": "Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects. 'OSM' data are extracted from the 'Overpass' web server (<https://overpass-api.de/>) and processed with very fast 'C++' routines for return to 'R'.",
+  "repo_url": "https://github.com/ropensci/osmdata",
+  "pkdown_url": "https://docs.ropensci.org/osmdata/",
+  "bug_reports_url": "https://github.com/ropensci/osmdata/issues",
+  "logo_url": "https://docs.ropensci.org/osmdata/logo.png",
+  "last_updated": "2025-08-23",
+  "authors": [
+    {
+      "name": "Joan Maspons",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2286-8727",
+      "email": "joanmaspons@gmail.com"
+    },
+    {
+      "name": "Mark Padgham",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Bob Rudis",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Robin Lovelace",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Andrew Smith",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "James Smith",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andrea Gilardi",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Enrico Spinielli",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Anthony North",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Martin Machyna",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Marcin Kalicinski",
+      "roles": [
+        "ctb",
+        "cph"
+      ]
+    },
+    {
+      "name": "Eli Pousson",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-8280-1706"
+    }
+  ]
+}

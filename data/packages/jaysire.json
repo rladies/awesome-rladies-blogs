@@ -1,0 +1,25 @@
+{
+  "name": "jaysire",
+  "title": "Build jsPsych Experiments in R",
+  "description": "The jaysire package allows the user to build browser based behavioral experiments within R by providing an interface to the jsPsych javascript library.",
+  "repo_url": "https://github.com/djnavarro/jaysire",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/djnavarro/jaysire/issues",
+  "logo_url": null,
+  "last_updated": "2021-04-07",
+  "authors": [
+    {
+      "name": "Danielle Navarro",
+      "directory_id": "danielle-navarro",
+      "email": "d.navarro@unsw.edu.au"
+    },
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "danielle-navarro",
+      "email": "d.navarro@unsw.edu.au"
+    }
+  ]
+}

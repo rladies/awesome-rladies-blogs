@@ -1,0 +1,34 @@
+{
+  "name": "SISINTAR",
+  "title": "Lee y Manipula Datos de Suelo de SISINTA",
+  "description": "Permite descargar y manipular datos de perfiles de suelo disponibles en la plataforma SISINTA.",
+  "repo_url": "https://github.com/inta-suelos/SISINTAR",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2023-05-30",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "cre",
+        "ctb"
+      ],
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    },
+    {
+      "name": "Elio Campitelli",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7742-9230"
+    },
+    {
+      "name": "Paola Corrales",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

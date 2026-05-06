@@ -1,0 +1,22 @@
+{
+  "name": "ggflowchart",
+  "title": "Flowcharts with 'ggplot2'",
+  "description": "Flowcharts can be a useful way to visualise complex processes. This package uses the layered grammar of graphics of 'ggplot2' to create simple flowcharts.",
+  "repo_url": "https://github.com/nrennie/ggflowchart",
+  "pkdown_url": "https://nrennie.github.io/ggflowchart/",
+  "bug_reports_url": "https://github.com/nrennie/ggflowchart/issues",
+  "logo_url": "https://nrennie.github.io/ggflowchart/logo.png",
+  "last_updated": "2023-12-20",
+  "authors": [
+    {
+      "name": "Nicola Rennie",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "directory_id": "nicola-rennie",
+      "email": "nrennie35@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "spatialsample",
+  "title": "Spatial Resampling Infrastructure",
+  "description": "Functions and classes for spatial resampling to use with the 'rsample' package, such as spatial cross-validation (Brenning, 2012) <doi:10.1109/IGARSS.2012.6352393>. The scope of 'rsample' and 'spatialsample' is to provide the basic building blocks for creating and analyzing resamples of a spatial data set, but neither package includes functions for modeling or computing statistics. The resampled spatial data sets created by 'spatialsample' do not contain much overhead in memory.",
+  "repo_url": "https://github.com/tidymodels/spatialsample",
+  "pkdown_url": "https://spatialsample.tidymodels.org",
+  "bug_reports_url": "https://github.com/tidymodels/spatialsample/issues",
+  "logo_url": "https://spatialsample.tidymodels.org/logo.png",
+  "last_updated": "2025-12-02",
+  "authors": [
+    {
+      "name": "Michael Mahoney",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2402-304X",
+      "email": "mike.mahoney.218@gmail.com"
+    },
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

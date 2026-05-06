@@ -1,0 +1,35 @@
+{
+  "name": "hellodatascience",
+  "title": "Datasets from the Hello Data Science Book",
+  "description": "Provides datasets used for analysis and visualizations in the open-access Hello Data Science book.",
+  "repo_url": "https://github.com/hellodata-science/hellodatascience",
+  "pkdown_url": "https://hellodata-science.github.io/hellodatascience/",
+  "bug_reports_url": "https://github.com/hellodata-science/hellodatascience/issues",
+  "logo_url": "https://hellodata-science.github.io/hellodatascience/logo.png",
+  "last_updated": "2026-01-19",
+  "authors": [
+    {
+      "name": "Mine Dogucu",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-8007-934X",
+      "directory_id": "mine-dogucu",
+      "email": "mdogucu@gmail.com"
+    },
+    {
+      "name": "Catalina Medina",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2847-8180"
+    },
+    {
+      "name": "Alma Castro",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

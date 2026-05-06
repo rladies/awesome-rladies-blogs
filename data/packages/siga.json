@@ -1,0 +1,46 @@
+{
+  "name": "siga",
+  "title": "Descargar y Leer Datos del SIGA",
+  "description": "Descarga y lee datos del Sistema de Información y Gestión Agrometeorológica del INTA <http://siga.inta.gob.ar/>.",
+  "repo_url": "https://github.com/AgRoMeteorologiaINTA/siga",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/AgRoMeteorologiaINTA/siga/issues",
+  "logo_url": null,
+  "last_updated": "2024-05-21",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "cre",
+        "ctb"
+      ],
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    },
+    {
+      "name": "Elio Campitelli",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7742-9230"
+    },
+    {
+      "name": "Paola Corrales",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Natalia Gattinoni",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "INTA",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

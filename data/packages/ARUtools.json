@@ -1,0 +1,36 @@
+{
+  "name": "ARUtools",
+  "title": "Management and Processing of Autonomous Recording Unit (ARU)\nData",
+  "description": "Parse Autonomous Recording Unit (ARU) data and for sub-sampling recordings. Extract Metadata from your recordings, select a subset of recordings for interpretation, and prepare files for processing on the 'WildTrax' <https://wildtrax.ca/> platform. Read and process metadata from recordings collected using the SongMeter and BAR-LT types of ARUs.",
+  "repo_url": "https://github.com/ARUtools/ARUtools",
+  "pkdown_url": "https://arutools.github.io/ARUtools/",
+  "bug_reports_url": "https://github.com/ARUtools/ARUtools/issues",
+  "logo_url": "https://arutools.github.io/ARUtools/logo.png",
+  "last_updated": "2025-07-28",
+  "authors": [
+    {
+      "name": "David Hope",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-2140-4261",
+      "email": "david.hope@ec.gc.ca"
+    },
+    {
+      "name": "Steffi LaZerte",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7690-8360",
+      "directory_id": "steffi-lazerte"
+    },
+    {
+      "name": "Government of Canada",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

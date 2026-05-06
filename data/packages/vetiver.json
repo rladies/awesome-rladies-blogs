@@ -1,0 +1,32 @@
+{
+  "name": "vetiver",
+  "title": "Version, Share, Deploy, and Monitor Models",
+  "description": "The goal of 'vetiver' is to provide fluent tooling to version, share, deploy, and monitor a trained model. Functions handle both recording and checking the model's input data prototype, and predicting from a remote API endpoint. The 'vetiver' package is extensible, with generics that can support many kinds of models.",
+  "repo_url": "https://github.com/rstudio/vetiver-r/",
+  "pkdown_url": "https://vetiver.posit.co",
+  "bug_reports_url": "https://github.com/rstudio/vetiver-r/issues",
+  "logo_url": null,
+  "last_updated": "2025-12-13",
+  "authors": [
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge",
+      "email": "julia.silge@posit.co"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

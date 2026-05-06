@@ -1,0 +1,54 @@
+{
+  "name": "riem",
+  "title": "Accesses Weather Data from the Iowa Environment Mesonet",
+  "description": "Allows to get weather data from Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.",
+  "repo_url": "https://github.com/ropensci/riem",
+  "pkdown_url": "https://docs.ropensci.org/riem/",
+  "bug_reports_url": "https://github.com/ropensci/riem/issues",
+  "logo_url": "https://docs.ropensci.org/riem/logo.png",
+  "last_updated": "2025-01-31",
+  "authors": [
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon",
+      "email": "maelle.salmon@yahoo.se"
+    },
+    {
+      "name": "Brooke Anderson",
+      "roles": [
+        "rev"
+      ],
+      "directory_id": "brooke-anderson"
+    },
+    {
+      "name": "CHAI Project",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "rOpenSci",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Daryl Herzmann",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jonathan Elchison",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0004-0787-3426"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "bcgwlreports",
+  "title": "Create BC Groundwater Level Reports",
+  "description": "Fetch data, calculate historical percentiles and create reports of BC groundwater levels for set dates.",
+  "repo_url": "https://github.com/bcgov/bcgwlreports",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-08-07",
+  "authors": [
+    {
+      "name": "Steffi LaZerte",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7690-8360",
+      "directory_id": "steffi-lazerte",
+      "email": "steffi@steffi.ca"
+    },
+    {
+      "name": "Jon Goetz",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4993-1119"
+    }
+  ]
+}

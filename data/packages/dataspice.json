@@ -1,0 +1,77 @@
+{
+  "name": "dataspice",
+  "title": "Create Lightweight Schema.org Descriptions of Data",
+  "description": "The goal of 'dataspice' is to make it easier for researchers to create basic, lightweight, and concise metadata files for their datasets. These basic files can then be used to make useful information available during analysis, create a helpful dataset \"README\" webpage, and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on the 'Schema.org' and 'Ecological Metadata Language' standards.",
+  "repo_url": "https://github.com/ropensci/dataspice",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ropensci/dataspice/issues",
+  "logo_url": null,
+  "last_updated": "2025-09-23",
+  "authors": [
+    {
+      "name": "Carl Boettiger",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Auriel Fournier",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "auriel-fournier"
+    },
+    {
+      "name": "Kelly Hondula",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Anna Krystalli",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Bryce Mecum",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "brycemecum@gmail.com"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Kate Webbink",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kara Woo",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "kara-woo"
+    },
+    {
+      "name": "Irene Steves",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

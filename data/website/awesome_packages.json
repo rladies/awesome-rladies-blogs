@@ -1,19 +1,4361 @@
 [
   {
+    "name": "airports",
+    "title": "Data on Airports",
+    "description": "Geographic, use, and property related data on airports.",
+    "repo_url": "https://github.com/OpenIntroStat/airports",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/OpenIntroStat/airports/issues",
+    "logo_url": {},
+    "last_updated": "2020-06-29",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6452-2420",
+        "email": "cetinkaya.mine@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "aperol",
+    "title": "Generates Tipsy or Drunk Praise",
+    "description": "This is a joke package, which generates praise using the praise package, then garbles it, as if being delivered by someone tipsy or drunk.",
+    "repo_url": "https://github.com/EllaKaye/aperol",
+    "pkdown_url": "https://ellakaye.github.io/aperol/",
+    "bug_reports_url": "https://github.com/EllaKaye/aperol/issues",
+    "logo_url": "https://ellakaye.github.io/aperol/logo.png",
+    "last_updated": "2025-02-27",
+    "authors": [
+      {
+        "name": "Ella Kaye",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "ella-kaye",
+        "email": "ella.kaye@gmail.com"
+      },
+      {
+        "name": "Kelly Bodwin",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Collin Schwantes",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "artpack",
+    "title": "Creates Generative Art Data",
+    "description": "Create data that displays generative art when mapped into a 'ggplot2' plot. Functionality includes specialized data frame creation for geometric shapes, tools that define artistic color palettes, tools for geometrically transforming data, and other miscellaneous tools that are helpful when using 'ggplot2' for generative art.",
+    "repo_url": "https://github.com/Meghansaha/artpack",
+    "pkdown_url": "https://meghansaha.github.io/artpack/",
+    "bug_reports_url": "https://github.com/Meghansaha/artpack/issues",
+    "logo_url": "https://meghansaha.github.io/artpack/logo.png",
+    "last_updated": "2025-09-17",
+    "authors": [
+      {
+        "name": "Meghan Harris",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0003-3922-8101",
+        "directory_id": "meghan-harris",
+        "email": "meghanha01@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "arttools",
+    "title": "Tools For Generative Art Workflows",
+    "description": "A personal-use package for managing generative art workflows.",
+    "repo_url": "https://github.com/djnavarro/arttools",
+    "pkdown_url": "https://arttools.djnavarro.net/",
+    "bug_reports_url": "https://github.com/djnavarro/arttools/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-21",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ARUtools",
+    "title": "Management and Processing of Autonomous Recording Unit (ARU)\nData",
+    "description": "Parse Autonomous Recording Unit (ARU) data and for sub-sampling recordings. Extract Metadata from your recordings, select a subset of recordings for interpretation, and prepare files for processing on the 'WildTrax' <https://wildtrax.ca/> platform. Read and process metadata from recordings collected using the SongMeter and BAR-LT types of ARUs.",
+    "repo_url": "https://github.com/ARUtools/ARUtools",
+    "pkdown_url": "https://arutools.github.io/ARUtools/",
+    "bug_reports_url": "https://github.com/ARUtools/ARUtools/issues",
+    "logo_url": "https://arutools.github.io/ARUtools/logo.png",
+    "last_updated": "2025-07-28",
+    "authors": [
+      {
+        "name": "David Hope",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-2140-4261",
+        "email": "david.hope@ec.gc.ca"
+      },
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7690-8360",
+        "directory_id": "steffi-lazerte"
+      },
+      {
+        "name": "Government of Canada",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "asciify",
+    "title": "Make ASCII Art From Images",
+    "description": "Takes an arbitrary image as input and constructs an text-based approximation to the image using the imager package.",
+    "repo_url": "https://github.com/djnavarro/asciify",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/asciify/issues",
+    "logo_url": {},
+    "last_updated": "2020-04-23",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "bakeoff",
+    "title": "Data from \"The Great British Bake Off\"",
+    "description": "Data about the bakers, challenges, and ratings for \"The Great British Bake Off\", from Wikipedia <https://en.wikipedia.org/wiki/The_Great_British_Bake_Off>.",
+    "repo_url": "https://github.com/apreshill/bakeoff",
+    "pkdown_url": "https://bakeoff.netlify.app/",
+    "bug_reports_url": "https://github.com/apreshill/bakeoff/issues",
+    "logo_url": "https://bakeoff.netlify.app/logo.png",
+    "last_updated": "2022-11-02",
+    "authors": [
+      {
+        "name": "Alison Hill",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-8082-1890",
+        "email": "apreshill@gmail.com"
+      },
+      {
+        "name": "Chester Ismay",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2820-2547"
+      },
+      {
+        "name": "Richard Iannone",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3925-190X"
+      }
+    ]
+  },
+  {
+    "name": "basepenguins",
+    "title": "Convert Files that Use 'palmerpenguins' to Work with 'datasets'",
+    "description": "From 'R' 4.5.0, the 'datasets' package includes the penguins and penguins_raw data sets popularised in the 'palmerpenguins' package. 'basepenguins' takes files that use the 'palmerpenguins' package and converts them to work with the versions from 'datasets' ('R' >= 4.5.0). It does this by removing calls to library(palmerpenguins) and making the necessary changes to column names. Additionally, it provides helper functions to define new files paths for saving the output and a directory of example files to experiment with.",
+    "repo_url": "https://github.com/EllaKaye/basepenguins",
+    "pkdown_url": "https://ellakaye.github.io/basepenguins/",
+    "bug_reports_url": "https://github.com/EllaKaye/basepenguins/issues",
+    "logo_url": "https://ellakaye.github.io/basepenguins/logo.png",
+    "last_updated": "2025-04-10",
+    "authors": [
+      {
+        "name": "Ella Kaye",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-7300-3718",
+        "directory_id": "ella-kaye",
+        "email": "ella.kaye@gmail.com"
+      },
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1256-3375",
+        "directory_id": "heather-turner"
+      },
+      {
+        "name": "Achim Zeileis",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0918-3766"
+      }
+    ]
+  },
+  {
+    "name": "BayesERtools",
+    "title": "Bayesian Exposure-Response Analysis Tools",
+    "description": "Suite of tools that facilitate exposure-response analysis using Bayesian methods. The package provides a streamlined workflow for fitting types of models that are commonly used in exposure-response analysis - linear and Emax for continuous endpoints, logistic linear and logistic Emax for binary endpoints, as well as performing simulation and visualization. Learn more about the workflow at <https://genentech.github.io/BayesERbook/>.",
+    "repo_url": {},
+    "pkdown_url": "https://genentech.github.io/BayesERtools/",
+    "bug_reports_url": {},
+    "logo_url": "https://genentech.github.io/BayesERtools/logo.png",
+    "last_updated": "2026-04-23",
+    "authors": [
+      {
+        "name": "Kenta Yoshida",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-4967-3831",
+        "email": "yoshida.kenta.6@gmail.com"
+      },
+      {
+        "name": "François Mercier",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-5685-1408"
+      },
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro"
+      },
+      {
+        "name": "Genentech"
+      },
+      {
+        "name": "Inc.",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bayesrules",
+    "title": "Datasets and Supplemental Functions from Bayes Rules! Book",
+    "description": "Provides datasets and functions used for analysis and visualizations in the Bayes Rules! book (<https://www.bayesrulesbook.com>). The package contains a set of functions that summarize and plot Bayesian models from some conjugate families and another set of functions for evaluation of some Bayesian models.",
+    "repo_url": "https://github.com/bayes-rules/bayesrules/",
+    "pkdown_url": "https://bayes-rules.github.io/bayesrules/docs/",
+    "bug_reports_url": "https://github.com/bayes-rules/bayesrules/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-20",
+    "authors": [
+      {
+        "name": "Mine Dogucu",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-8007-934X",
+        "directory_id": "mine-dogucu",
+        "email": "mdogucu@gmail.com"
+      },
+      {
+        "name": "Alicia Johnson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Miles Ott",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4457-6565"
+      }
+    ]
+  },
+  {
+    "name": "bcaquiferdata",
+    "title": "BC Aquifer data tools",
+    "description": "Set of tools for processing BC Aquifer lithology and yield data.",
+    "repo_url": "https://github.com/bcgov/bcaquiferdata",
+    "pkdown_url": "http://bcgov.github.io/bcaquiferdata/",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-02-06",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7690-8360",
+        "directory_id": "steffi-lazerte",
+        "email": "sel@steffilazerte.ca"
+      },
+      {
+        "name": "Christine Bieber",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Province of British Columbia",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bcgwcat",
+    "title": "BC Groundwater Chemistry Analysis Tool",
+    "description": "Set of tools for working with groundwater chemstry data from the BC Government Environmental Monitoring System (EMS). Download EMS data and a) export for use in AquaChem, b) view water quality summaries, c) create piper and stiff plots.",
+    "repo_url": "https://github.com/bcgov/bcgwcat/",
+    "pkdown_url": "https://bcgov.github.io/bcgwcat/",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-02-12",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7690-8360",
+        "directory_id": "steffi-lazerte",
+        "email": "sel@steffilazerte.ca"
+      },
+      {
+        "name": "Andarge Baye",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Province of British Columbia",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bcgwlreports",
+    "title": "Create BC Groundwater Level Reports",
+    "description": "Fetch data, calculate historical percentiles and create reports of BC groundwater levels for set dates.",
+    "repo_url": "https://github.com/bcgov/bcgwlreports",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-08-07",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7690-8360",
+        "directory_id": "steffi-lazerte",
+        "email": "steffi@steffi.ca"
+      },
+      {
+        "name": "Jon Goetz",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-4993-1119"
+      }
+    ]
+  },
+  {
+    "name": "BradleyTerryScalable",
+    "title": "Fits the Bradley-Terry Model to Potentially Large and Sparse\nNetworks of Comparison Data",
+    "description": "Facilities are provided for fitting the simple, unstructured Bradley-Terry model to networks of binary comparisons. The implemented methods are designed to scale well to large, potentially sparse, networks. A fairly high degree of scalability is achieved through the use of EM and MM algorithms, which are relatively undemanding in terms of memory usage (relative to some other commonly used methods such as iterative weighted least squares, for example). Both maximum likelihood and Bayesian MAP estimation methods are implemented. The package provides various standard methods for a newly defined 'btfit' model class, such as the extraction and summarisation of model parameters and the simulation of new datasets from a fitted model. Tools are also provided for reshaping data into the newly defined \"btdata\" class, and for analysing the comparison network, prior to fitting the Bradley-Terry model. This package complements, rather than replaces, the existing 'BradleyTerry2' package. (BradleyTerry2 has rather different aims, which are mainly the specification and fitting of \"structured\" Bradley-Terry models in which the strength parameters depend on covariates.)",
+    "repo_url": "https://github.com/EllaKaye/BradleyTerryScalable",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/EllaKaye/BradleyTerryScalable/issues",
+    "logo_url": {},
+    "last_updated": "2022-05-29",
+    "authors": [
+      {
+        "name": "Ella Kaye",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "ella-kaye",
+        "email": "E.Kaye.1@warwick.ac.uk"
+      },
+      {
+        "name": "David Firth",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bs4cards",
+    "title": "Generate Bootstrap Cards",
+    "description": "Allows the user to generate bootstrap cards within R markdown documents. Intended for use in conjunction with R markdown HTML outputs and other formats that support the bootstrap 4 library.",
+    "repo_url": "https://github.com/djnavarro/bs4cards",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/bs4cards/issues",
+    "logo_url": {},
+    "last_updated": "2021-11-30",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "bundle",
+    "title": "Serialize Model Objects with a Consistent Interface",
+    "description": "Typically, models in 'R' exist in memory and can be saved via regular 'R' serialization. However, some models store information in locations that cannot be saved using 'R' serialization alone. The goal of 'bundle' is to provide a common interface to capture this information, situate it within a portable object, and restore it for use in new settings.",
+    "repo_url": "https://github.com/rstudio/bundle",
+    "pkdown_url": "https://rstudio.github.io/bundle/",
+    "bug_reports_url": "https://github.com/rstudio/bundle/issues",
+    "logo_url": {},
+    "last_updated": "2025-12-10",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@posit.co"
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Qiushi Yan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "butcher",
+    "title": "Model Butcher",
+    "description": "Provides a set of S3 generics to axe components of fitted model objects and help reduce the size of model objects saved to disk.",
+    "repo_url": "https://github.com/tidymodels/butcher",
+    "pkdown_url": "https://butcher.tidymodels.org/",
+    "bug_reports_url": "https://github.com/tidymodels/butcher/issues",
+    "logo_url": "https://butcher.tidymodels.org/logo.png",
+    "last_updated": "2025-12-09",
+    "authors": [
+      {
+        "name": "Joyce Cahoon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7217-4702"
+      },
+      {
+        "name": "Davis Vaughan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-136X",
+        "email": "max@posit.co"
+      },
+      {
+        "name": "Alex Hayes",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "capesData",
+    "title": "Data on Scholarships in CAPES International Mobility Programs",
+    "description": "Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019 <https://dadosabertos.capes.gov.br/dataset/>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-08-28",
+    "authors": [
+      {
+        "name": "Leonardo Biazoli",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-4069-111X",
+        "email": "leonardobiazoli19@gmail.com"
+      },
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6452-2420"
+      },
+      {
+        "name": "Eric Fernandes de Mello Araujo",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4263-9075"
+      },
+      {
+        "name": "Izabela R. Cardoso de Oliveira",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3254-2827"
+      }
+    ]
+  },
+  {
+    "name": "cereal",
+    "title": "Serialize 'vctrs' Objects to 'JSON'",
+    "description": "The 'vctrs' package provides a concept of vector prototype that can be especially useful when deploying models and code. Serialize these object prototypes to 'JSON' so they can be used to check and coerce data in production systems, and deserialize 'JSON' back to the correct object prototypes.",
+    "repo_url": "https://github.com/r-lib/cereal/",
+    "pkdown_url": "https://r-lib.github.io/cereal/",
+    "bug_reports_url": "https://github.com/r-lib/cereal/issues",
+    "logo_url": {},
+    "last_updated": "2023-06-09",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@posit.co"
+      },
+      {
+        "name": "Davis Vaughan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cherryblossom",
+    "title": "Cherry Blossom Run Race Results",
+    "description": "Race results of the Cherry Blossom Run, which is an annual road race that takes place in Washington, DC.",
+    "repo_url": "https://github.com/OpenIntroStat/cherryblossom",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/OpenIntroStat/cherryblossom/issues",
+    "logo_url": {},
+    "last_updated": "2020-06-25",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6452-2420",
+        "email": "cetinkaya.mine@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "codemeta",
+    "title": "A Smaller 'codemetar' Package",
+    "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides core utilities to generate this metadata with a minimum of dependencies.",
+    "repo_url": "https://github.com/cboettig/codemeta",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cboettig/codemeta/issues",
+    "logo_url": {},
+    "last_updated": "2021-12-22",
+    "authors": [
+      {
+        "name": "Carl Boettiger",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-1642-628X",
+        "email": "cboettig@gmail.com"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "ctb",
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Katrin Leinweber",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-5135-5758"
+      },
+      {
+        "name": "Noam Ross",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2136-0000"
+      },
+      {
+        "name": "Arfon Smith",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jeroen Ooms",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-4035-0289"
+      },
+      {
+        "name": "Sebastian Meyer",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-1791-9449"
+      },
+      {
+        "name": "Michael Rustler",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0647-7726"
+      },
+      {
+        "name": "Hauke Sonnenberg",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-9134-2871"
+      },
+      {
+        "name": "Sebastian Kreutzer",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-0734-2199"
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "codemetar",
+    "title": "Generate 'CodeMeta' Metadata for R Packages",
+    "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides utilities to generate, parse, and modify 'codemeta.json' files automatically for R packages, as well as tools and examples for working with 'codemeta.json' 'JSON-LD' more generally.",
+    "repo_url": "https://github.com/ropensci/codemetar",
+    "pkdown_url": "https://docs.ropensci.org/codemetar/",
+    "bug_reports_url": "https://github.com/ropensci/codemetar/issues",
+    "logo_url": "https://docs.ropensci.org/codemetar/logo.png",
+    "last_updated": "2026-02-11",
+    "authors": [
+      {
+        "name": "Carl Boettiger",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-1642-628X",
+        "email": "cboettig@gmail.com"
+      },
+      {
+        "name": "Anna Krystalli",
+        "roles": [
+          "rev",
+          "ctb"
+        ],
+        "orcid": "0000-0002-2378-4915"
+      },
+      {
+        "name": "Toph Allen",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0003-4580-091X"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "ctb",
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Katrin Leinweber",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-5135-5758"
+      },
+      {
+        "name": "Noam Ross",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2136-0000"
+      },
+      {
+        "name": "Arfon Smith",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jeroen Ooms",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-4035-0289"
+      },
+      {
+        "name": "Sebastian Meyer",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-1791-9449"
+      },
+      {
+        "name": "Michael Rustler",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0647-7726"
+      },
+      {
+        "name": "Hauke Sonnenberg",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-9134-2871"
+      },
+      {
+        "name": "Sebastian Kreutzer",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-0734-2199"
+      },
+      {
+        "name": "Thierry Onkelinx",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-8804-4216"
+      }
+    ]
+  },
+  {
+    "name": "colorhex",
+    "title": "Colors and Palettes from Color-Hex",
+    "description": "The website <https://www.color-hex.com> is a great resource of hex colour codes and palettes. This package allows you to retrieve palettes and colour information from the website directly from R. There are also custom scale-functions for 'ggplot2'.",
+    "repo_url": "https://github.com/drmowinckels/colorhex",
+    "pkdown_url": "https://drmowinckels.github.io/colorhex/",
+    "bug_reports_url": "https://github.com/drmowinckels/colorhex/issues",
+    "logo_url": {},
+    "last_updated": "2023-09-15",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Julia Romanowska",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-6733-1953",
+        "directory_id": "julia-romanowska"
+      }
+    ]
+  },
+  {
+    "name": "cransays",
+    "title": "Creates an Overview of CRAN Incoming Submissions",
+    "description": "It scrapes the CRAN incoming FTP folder to find where each submission is.",
+    "repo_url": "https://github.com/r-hub/cransays",
+    "pkdown_url": "https://r-hub.github.io/cransays/",
+    "bug_reports_url": "https://github.com/r-hub/cransays/issues",
+    "logo_url": {},
+    "last_updated": "2025-12-26",
+    "authors": [
+      {
+        "name": "Hugo Gruson",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-4094-1476",
+        "email": "hugo.gruson+R@normalesup.org"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut",
+          "ccp"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Locke Data",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Stephanie Locke",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2387-3723"
+      },
+      {
+        "name": "Mitchell O'Hara-Wild",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6729-7695"
+      },
+      {
+        "name": "Lluís Revilla Sancho",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-9747-2570"
+      },
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2739-7082"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      }
+    ]
+  },
+  {
+    "name": "dados",
+    "title": "Translate Datasets to Portuguese",
+    "description": "Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.",
+    "repo_url": "https://github.com/cienciadedatos/dados",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cienciadedatos/dados/issues",
+    "logo_url": {},
+    "last_updated": "2022-02-24",
+    "authors": [
+      {
+        "name": "Riva Quiroga",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1147-4135",
+        "directory_id": "riva-quiroga",
+        "email": "riva.quiroga@uc.cl"
+      },
+      {
+        "name": "Sara Mortara",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6221-7537"
+      },
+      {
+        "name": "Beatriz Milz",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3064-4486",
+        "directory_id": "beatriz-milz"
+      },
+      {
+        "name": "Andrea Sánchez-Tapia",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3521-4338",
+        "directory_id": "andrea-sancheztapia"
+      },
+      {
+        "name": "Alejandra Andrea Tapia Silva",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0762-7618"
+      },
+      {
+        "name": "Beatriz Maurer Costa",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jean Prado",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7928-774X"
+      },
+      {
+        "name": "Renata Hirota",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3589-3246",
+        "directory_id": "renata-hirota"
+      },
+      {
+        "name": "William Amorim",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0543-3473"
+      },
+      {
+        "name": "Emmanuelle Rodrigues Nunes",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5994-352X",
+        "directory_id": "emmanuelle-rodrigues-nunes"
+      }
+    ]
+  },
+  {
+    "name": "dataspice",
+    "title": "Create Lightweight Schema.org Descriptions of Data",
+    "description": "The goal of 'dataspice' is to make it easier for researchers to create basic, lightweight, and concise metadata files for their datasets. These basic files can then be used to make useful information available during analysis, create a helpful dataset \"README\" webpage, and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on the 'Schema.org' and 'Ecological Metadata Language' standards.",
+    "repo_url": "https://github.com/ropensci/dataspice",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ropensci/dataspice/issues",
+    "logo_url": {},
+    "last_updated": "2025-09-23",
+    "authors": [
+      {
+        "name": "Carl Boettiger",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Auriel Fournier",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "auriel-fournier"
+      },
+      {
+        "name": "Kelly Hondula",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Anna Krystalli",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Bryce Mecum",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "brycemecum@gmail.com"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Kate Webbink",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "kara-woo"
+      },
+      {
+        "name": "Irene Steves",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "emodnet.wfs",
+    "title": "Access 'EMODnet' Web Feature Service Data",
+    "description": "Access and interrogate 'EMODnet' (European Marine Observation and Data Network) Web Feature Service data <https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation#data-download-services>. This includes listing existing data sources, and getting data from each of them.",
+    "repo_url": "https://github.com/EMODnet/emodnet.wfs",
+    "pkdown_url": "https://docs.ropensci.org/emodnet.wfs/",
+    "bug_reports_url": "https://github.com/EMODnet/emodnet.wfs/issues",
+    "logo_url": "https://docs.ropensci.org/emodnet.wfs/logo.svg",
+    "last_updated": "2026-03-26",
+    "authors": [
+      {
+        "name": "Joana Beja",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5196-8447",
+        "email": "joana.beja@vliz.be"
+      },
+      {
+        "name": "Anna Krystalli",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2378-4915"
+      },
+      {
+        "name": "Salvador Fernández-Bejarano",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0535-7677"
+      },
+      {
+        "name": "Thomas J Webb",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "European Marine Observation Data Network",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "VLIZ",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Alec L. Robitaille",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0002-4706-1762"
+      },
+      {
+        "name": "Liz Hare",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0002-3978-2543"
+      },
+      {
+        "name": "François Michonneau",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0002-9092-966X"
+      }
+    ]
+  },
+  {
+    "name": "flametree",
+    "title": "Generate Random Tree-Like Images",
+    "description": "A generative art system for producing tree-like images using an L-system to create the structures. The package includes tools for generating the data structures and visualise them in a variety of styles.",
+    "repo_url": "https://github.com/djnavarro/flametree",
+    "pkdown_url": "https://flametree.djnavarro.net/",
+    "bug_reports_url": "https://github.com/djnavarro/flametree/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-21",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ggauto",
+    "title": "Automatically Create and Style 'ggplot2' Charts",
+    "description": "Automatically choose an appropriate chart type based on the types and values in the data. Apply more accessible default styling and colours to 'ggplot2' charts.",
+    "repo_url": "https://github.com/nrennie/ggauto",
+    "pkdown_url": "https://nrennie.rbind.io/ggauto/",
+    "bug_reports_url": "https://github.com/nrennie/ggauto/issues",
+    "logo_url": "https://nrennie.rbind.io/ggauto/logo.png",
+    "last_updated": "2026-04-24",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "directory_id": "nicola-rennie",
+        "email": "nrennie.research@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ggflowchart",
+    "title": "Flowcharts with 'ggplot2'",
+    "description": "Flowcharts can be a useful way to visualise complex processes. This package uses the layered grammar of graphics of 'ggplot2' to create simple flowcharts.",
+    "repo_url": "https://github.com/nrennie/ggflowchart",
+    "pkdown_url": "https://nrennie.github.io/ggflowchart/",
+    "bug_reports_url": "https://github.com/nrennie/ggflowchart/issues",
+    "logo_url": "https://nrennie.github.io/ggflowchart/logo.png",
+    "last_updated": "2023-12-20",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "directory_id": "nicola-rennie",
+        "email": "nrennie35@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ggPMX",
+    "title": "'ggplot2' Based Tool to Facilitate Diagnostic Plots for NLME\nModels",
+    "description": "At Novartis, we aimed at standardizing the set of diagnostic plots used for modeling activities in order to reduce the overall effort required for generating such plots. For this, we developed a guidance that proposes an adequate set of diagnostics and a toolbox, called 'ggPMX' to execute them. 'ggPMX' is a toolbox that can generate all diagnostic plots at a quality sufficient for publication and submissions using few lines of code. This package focuses on plots recommended by ISoP <doi:10.1002/psp4.12161>. While not required, you can get/install the 'R' 'lixoftConnectors' package in the 'Monolix' installation, as described at the following url <https://monolixsuite.slp-software.com/r-functions/2024R1/installation-and-initialization>. When 'lixoftConnectors' is available, 'R' can use 'Monolix' directly to create the required Chart Data instead of exporting it from the 'Monolix' gui.",
+    "repo_url": "https://github.com/ggPMXdevelopment/ggPMX",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ggPMXdevelopment/ggPMX/issues",
+    "logo_url": {},
+    "last_updated": "2025-09-05",
+    "authors": [
+      {
+        "name": "Amine Gassem",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Bruno Bieth",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Irina Baltcheva",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Thomas Dumortier",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Christian Bartels",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Souvik Bhattacharya",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Inga Ludwig",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ines Paule",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Didier Renard",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Matthew Fidler",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-8538-6691"
+      },
+      {
+        "name": "Seid Hamzic",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Benjamin Guiastrennec",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Kyle T Baron",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-7252-5656"
+      },
+      {
+        "name": "Qing Xi Ooi",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Aleksandr Pogodaev",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1371-207X",
+        "email": "alex.pogodaev@novartis.com"
+      },
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "danielle-navarro"
+      },
+      {
+        "name": "Ibtissem Rebai",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Mahmoud Ali",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Novartis Pharma AG",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ghclass",
+    "title": "Tools for Managing Classes on GitHub",
+    "description": "Interface for the GitHub API that enables efficient management of courses on GitHub. It has a functionality for managing organizations, teams, repositories, and users on GitHub and helps automate most of the tedious and repetitive tasks around creating and distributing assignments.",
+    "repo_url": "https://github.com/rundel/ghclass",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rundel/ghclass/issues",
+    "logo_url": {},
+    "last_updated": "2025-05-06",
+    "authors": [
+      {
+        "name": "Colin Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "rundel@gmail.com"
+      },
+      {
+        "name": "Mine Cetinkaya-Rundel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Therese Anders",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "glitter",
+    "title": "glitter makes SPARQL",
+    "description": "This package aims at writing and sending SPARQL queries. It makes the exploration and use of Linked Open Data (Wikidata in particular) easier for those who do not know SPARQL.",
+    "repo_url": "https://github.com/lvaudor/glitter",
+    "pkdown_url": "https://lvaudor.github.io/glitter/",
+    "bug_reports_url": "https://github.com/lvaudor/glitter/issues",
+    "logo_url": "https://lvaudor.github.io/glitter/logo.png",
+    "last_updated": "2023-12-21",
+    "authors": [
+      {
+        "name": "Lise Vaudor",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1844-6425",
+        "directory_id": "lise-vaudor",
+        "email": "lise.vaudor@ens-lyon.fr"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      }
+    ]
+  },
+  {
+    "name": "gtreg",
+    "title": "Regulatory Tables for Clinical Research",
+    "description": "Creates tables suitable for regulatory agency submission by leveraging the 'gtsummary' package as the back end. Tables can be exported to HTML, Word, PDF and more. Highly customized outputs are available by utilizing existing styling functions from 'gtsummary' as well as custom options designed for regulatory tables.",
+    "repo_url": "https://github.com/shannonpileggi/gtreg",
+    "pkdown_url": "https://shannonpileggi.github.io/gtreg/",
+    "bug_reports_url": "https://github.com/shannonpileggi/gtreg/issues",
+    "logo_url": "https://shannonpileggi.github.io/gtreg/logo.png",
+    "last_updated": "2025-11-25",
+    "authors": [
+      {
+        "name": "Shannon Pileggi",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-7732-4164",
+        "directory_id": "shannon-pileggi",
+        "email": "shannon.pileggi@gmail.com"
+      },
+      {
+        "name": "Daniel D. Sjoberg",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0862-2018"
+      }
+    ]
+  },
+  {
+    "name": "hellodatascience",
+    "title": "Datasets from the Hello Data Science Book",
+    "description": "Provides datasets used for analysis and visualizations in the open-access Hello Data Science book.",
+    "repo_url": "https://github.com/hellodata-science/hellodatascience",
+    "pkdown_url": "https://hellodata-science.github.io/hellodatascience/",
+    "bug_reports_url": "https://github.com/hellodata-science/hellodatascience/issues",
+    "logo_url": "https://hellodata-science.github.io/hellodatascience/logo.png",
+    "last_updated": "2026-01-19",
+    "authors": [
+      {
+        "name": "Mine Dogucu",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-8007-934X",
+        "directory_id": "mine-dogucu",
+        "email": "mdogucu@gmail.com"
+      },
+      {
+        "name": "Catalina Medina",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2847-8180"
+      },
+      {
+        "name": "Alma Castro",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "hexify",
+    "title": "Create Hex Stickers",
+    "description": "Allows the user to create hex stickers from images.",
+    "repo_url": "https://github.com/djnavarro/hexify",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/hexify/issues",
+    "logo_url": {},
+    "last_updated": "2022-02-02",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "hmsidwR",
+    "title": "Health Metrics and the Spread of Infectious Diseases",
+    "description": "A collection of datasets and supporting functions accompanying Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni (2024). This package provides data for health metrics calculations, including Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), as well as additional tools for analyzing and visualizing health data. Federica Gazzelloni (2024) <doi:10.5281/zenodo.10818338>.",
+    "repo_url": "https://github.com/Fgazzelloni/hmsidwR",
+    "pkdown_url": "https://fgazzelloni.github.io/hmsidwR/",
+    "bug_reports_url": "https://github.com/Fgazzelloni/hmsidwR/issues",
+    "logo_url": "https://fgazzelloni.github.io/hmsidwR/logo.png",
+    "last_updated": "2025-05-16",
+    "authors": [
+      {
+        "name": "Federica Gazzelloni",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-4285-611X",
+        "directory_id": "federica-gazzelloni",
+        "email": "fede.gazzelloni@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "igraph",
+    "title": "Network Analysis and Visualization",
+    "description": "Routines for simple graphs and network analysis. It can handle large graphs very well and provides functions for generating random and regular graphs, graph visualization, centrality methods and much more.",
+    "repo_url": "https://github.com/igraph/rigraph",
+    "pkdown_url": "https://r.igraph.org/",
+    "bug_reports_url": "https://github.com/igraph/rigraph/issues",
+    "logo_url": "https://r.igraph.org/logo.png",
+    "last_updated": "2026-05-04",
+    "authors": [
+      {
+        "name": "Gábor Csárdi",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7098-9676"
+      },
+      {
+        "name": "Tamás Nepusz",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1451-338X"
+      },
+      {
+        "name": "Vincent Traag",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3170-3879"
+      },
+      {
+        "name": "Szabolcs Horvát",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3100-523X"
+      },
+      {
+        "name": "Fabio Zanini",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7097-8539"
+      },
+      {
+        "name": "Daniel Noom",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kirill Müller",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1416-3412",
+        "email": "kirill@cynkra.com"
+      },
+      {
+        "name": "Michael Antonov",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Chan Zuckerberg Initiative",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "David Schoch",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2952-4812"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "R Consortium",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "infer",
+    "title": "Tidy Statistical Inference",
+    "description": "The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.",
+    "repo_url": "https://github.com/tidymodels/infer",
+    "pkdown_url": "https://infer.tidymodels.org/",
+    "bug_reports_url": "https://github.com/tidymodels/infer/issues",
+    "logo_url": "https://infer.tidymodels.org/logo.png",
+    "last_updated": "2025-12-18",
+    "authors": [
+      {
+        "name": "Andrew Bray",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Chester Ismay",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2820-2547"
+      },
+      {
+        "name": "Evgeni Chasnovski",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1617-4019"
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-5676-5107",
+        "email": "simon.couch@posit.co"
+      },
+      {
+        "name": "Ben Baumer",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3279-0516"
+      },
+      {
+        "name": "Mine Cetinkaya-Rundel",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6452-2420"
+      },
+      {
+        "name": "Ted Laderas",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-6207-7068"
+      },
+      {
+        "name": "Nick Solomon",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Johanna Hardin",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Albert Y. Kim",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-7824-306X"
+      },
+      {
+        "name": "Neal Fultz",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Doug Friedman",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Richie Cotton",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-2504-802X"
+      },
+      {
+        "name": "Brian Fannin",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "janeaustenr",
+    "title": "Jane Austen's Complete Novels",
+    "description": "Full texts for Jane Austen's 6 completed novels, ready for text analysis. These novels are \"Sense and Sensibility\", \"Pride and Prejudice\", \"Mansfield Park\", \"Emma\", \"Northanger Abbey\", and \"Persuasion\".",
+    "repo_url": "https://github.com/juliasilge/janeaustenr",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/juliasilge/janeaustenr/issues",
+    "logo_url": {},
+    "last_updated": "2022-08-26",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "jasmines",
+    "title": "Generative Art",
+    "description": "It doesn't do much, really.",
+    "repo_url": "https://github.com/djnavarro/jasmines",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/jasmines/issues",
+    "logo_url": {},
+    "last_updated": "2021-04-07",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "jaysire",
+    "title": "Build jsPsych Experiments in R",
+    "description": "The jaysire package allows the user to build browser based behavioral experiments within R by providing an interface to the jsPsych javascript library.",
+    "repo_url": "https://github.com/djnavarro/jaysire",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/jaysire/issues",
+    "logo_url": {},
+    "last_updated": "2021-04-07",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "directory_id": "danielle-navarro",
+        "email": "d.navarro@unsw.edu.au"
+      },
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "danielle-navarro",
+        "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "learnres",
+    "title": "Templates for different learnr tutorials in Spanish",
+    "description": "Contains templates and themeing files.",
+    "repo_url": "https://github.com/yabellini/learnres",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-07-19",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0000-0000-0000",
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "LITAP",
+    "title": "Landscape Integrated Terrain Analysis Package",
+    "description": "Terrain analysis and landscape and hydrology models built on terrain attributes. A major component of LITAP is founded on R. A. (Bob) MacMillan's LandMapR suite of programs for flow topology and landform segmentation analyses with extended new parameters and methodologies, as well as with new calculations and uses of directional terrain attributes.",
+    "repo_url": "https://github.com/FRDC-SHL/LITAP",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-10-02",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "steffi-lazerte",
+        "email": "steffi@steffi.ca"
+      },
+      {
+        "name": "Sheng Li",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Agriculture and Agri-Food Canada",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "lsr",
+    "title": "Companion to \"Learning Statistics with R\"",
+    "description": "A collection of tools intended to make introductory statistics easier to teach, including wrappers for common hypothesis tests and basic data manipulation. It accompanies Navarro, D. J. (2015). Learning Statistics with R: A Tutorial for Psychology Students and Other Beginners, Version 0.6.",
+    "repo_url": "https://github.com/djnavarro/lsr",
+    "pkdown_url": "http://lsr.djnavarro.net/",
+    "bug_reports_url": "https://github.com/djnavarro/lsr/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-21",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
     "name": "meetupr",
-    "description": "Provides programmatic access to the 'Meetup' 'GraphQL' API ",
+    "title": "Access Meetup Data",
+    "description": "Provides programmatic access to the 'Meetup' 'GraphQL' API (<https://www.meetup.com/graphql/>), enabling users to retrieve information about groups, events, and members from 'Meetup' (<https://www.meetup.com/>). Supports authentication via 'OAuth2' and includes functions for common queries and data manipulation tasks.",
     "repo_url": "https://github.com/rladies/meetupr",
     "pkdown_url": "https://rladies.org/meetupr/",
+    "bug_reports_url": "https://github.com/rladies/meetupr/issues",
     "logo_url": "https://rladies.org/meetupr/logo.png",
-    "maintainers": [
+    "last_updated": "2025-12-23",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "erin-ledell"
+      },
+      {
+        "name": "Olga Mierzwa-Sulima",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "olga-mierzwasulima"
+      },
+      {
+        "name": "Lucy D'Agostino McGowan",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "lucy-dagostino-mcgowan"
+      },
+      {
+        "name": "Claudia Vitolo",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Gabriela De Queiroz",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "gabriela-de-queiroz"
+      },
+      {
+        "name": "Michael Beigelmacher",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Augustina Ragwitz",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Greg Sutcliffe",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Rick Pack",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Ben Ubah",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Barret Schloerke",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-9986-114X"
+      },
       {
         "name": "R-Ladies Global",
-        "email": "info@rladies.org",
-        "social_media": {
-          "bluesky": "rladies.org",
-          "github": "rladies",
-          "mastodon": "@RLadiesGlobal@hachyderm.io"
-        }
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "messy",
+    "title": "Create Messy Data from Clean Data Frames",
+    "description": "For the purposes of teaching, it is often desirable to show examples of working with messy data and how to clean it. This R package creates messy data from clean, tidy data frames so that students have a clean example to work towards.",
+    "repo_url": "https://github.com/nrennie/messy",
+    "pkdown_url": "https://nrennie.rbind.io/messy/",
+    "bug_reports_url": "https://github.com/nrennie/messy/issues",
+    "logo_url": "https://nrennie.rbind.io/messy/logo.png",
+    "last_updated": "2025-08-29",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0003-4797-557X",
+        "directory_id": "nicola-rennie",
+        "email": "nrennie35@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "MLDataR",
+    "title": "Collection of Machine Learning Datasets for Supervised Machine\nLearning",
+    "description": "Contains a collection of datasets for working with machine learning tasks. It will contain datasets for supervised machine learning Jiang (2020)<doi:10.1016/j.beth.2020.05.002> and will include datasets for classification and regression. The aim of this package is to use data generated around health and other domains.",
+    "repo_url": "https://github.com/StatsGary/MLDataR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/StatsGary/MLDataR/issues",
+    "logo_url": {},
+    "last_updated": "2022-10-03",
+    "authors": [
+      {
+        "name": "Gary Hutson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-3534-6143",
+        "email": "hutsons-hacks@outlook.com"
+      },
+      {
+        "name": "Asif Laldin",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Isabella Velásquez",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "isabella-velasquez"
+      }
+    ]
+  },
+  {
+    "name": "monochromeR",
+    "title": "Easily Create, View and Use Monochrome Colour Palettes",
+    "description": "Generate a monochrome palette from a starting colour for a specified number of colours. The package can also be used to display colour palettes in the plot window, with or without hex codes and colour labels.",
+    "repo_url": "https://github.com/cararthompson/monochromeR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cararthompson/monochromeR/issues",
+    "logo_url": {},
+    "last_updated": "2023-09-05",
+    "authors": [
+      {
+        "name": "Cara Thompson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6472-5073",
+        "email": "packages@cararthompson.com"
+      }
+    ]
+  },
+  {
+    "name": "MSUthemes",
+    "title": "Michigan State University (MSU) Palettes and Themes",
+    "description": "Defines colour palettes and themes for Michigan State University (MSU) publications and presentations. Palettes and themes are supported in both base R and 'ggplot2' graphics, and are intended to provide consistency between those creating documents and presentations.",
+    "repo_url": "https://github.com/emilioxavier/MSUthemes",
+    "pkdown_url": "https://emilioxavier.github.io/MSUthemes/",
+    "bug_reports_url": "https://github.com/emilioxavier/MSUthemes/issues",
+    "logo_url": "https://emilioxavier.github.io/MSUthemes/logo.png",
+    "last_updated": "2025-10-17",
+    "authors": [
+      {
+        "name": "Emilio Xavier Esposito",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-6193-0485",
+        "email": "emilio.esposito@gmail.com"
+      },
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "nicola-rennie"
+      },
+      {
+        "name": "Michigan State University",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "namer",
+    "title": "Names Your 'R Markdown' Chunks",
+    "description": "It names the 'R Markdown' chunks of files based on the filename.",
+    "repo_url": "https://github.com/jumpingrivers/namer",
+    "pkdown_url": "https://jumpingrivers.github.io/namer/",
+    "bug_reports_url": "https://github.com/jumpingrivers/namer/issues",
+    "logo_url": {},
+    "last_updated": "2025-01-23",
+    "authors": [
+      {
+        "name": "Colin Gillespie",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "colin@jumpingrivers.com"
+      },
+      {
+        "name": "Steph Locke",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "steph-locke"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Ellis Valentiner",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Charlie Hadley",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-3039-6849"
+      },
+      {
+        "name": "Jumping Rivers",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Han Oostdijk",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-6710-4566"
+      },
+      {
+        "name": "Patrick Schratz",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0748-6624"
+      }
+    ]
+  },
+  {
+    "name": "naturecounts",
+    "title": "Access and download data on plant and animal populations from\nNatureCounts",
+    "description": "Access and download data on plant and animal populations from various databases through NatureCounts, a service managed by Bird Studies Canada.",
+    "repo_url": "https://github.com/BirdsCanada/naturecounts",
+    "pkdown_url": "https://naturecounts.ca",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-03-31",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "steffi-lazerte"
+      },
+      {
+        "name": "Denis Lepage",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "dlepage@birdscanada.org"
+      }
+    ]
+  },
+  {
+    "name": "odbr",
+    "title": "Download Data from Brazil's Origin Destination Surveys",
+    "description": "Download data from Brazil's Origin Destination Surveys. The package covers both data from household travel surveys, dictionaries of variables, and the spatial geometries of surveys conducted in different years and across various urban areas in Brazil. For some cities, the package will include enhanced versions of the data sets with variables \"harmonized\" across different years.",
+    "repo_url": "https://github.com/hsvab/odbr",
+    "pkdown_url": "https://hsvab.github.io/odbr/",
+    "bug_reports_url": "https://github.com/hsvab/odbr/issues",
+    "logo_url": "https://hsvab.github.io/odbr/logo.png",
+    "last_updated": "2025-02-14",
+    "authors": [
+      {
+        "name": "Haydee Svab",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "haydee-svab",
+        "email": "hsvab@hsvab.eng.br"
+      },
+      {
+        "name": "Beatriz Milz",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3064-4486",
+        "directory_id": "beatriz-milz"
+      },
+      {
+        "name": "Diego Rabatone Oliveira",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Rafael H. M. Pereira",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2125-7465"
+      }
+    ]
+  },
+  {
+    "name": "opencage",
+    "title": "Geocode with the OpenCage API",
+    "description": "Geocode with the OpenCage API, either from place name to longitude and latitude (forward geocoding) or from longitude and latitude to the name and address of a location (reverse geocoding), see <https://opencagedata.com/>.",
+    "repo_url": "https://github.com/ropensci/opencage",
+    "pkdown_url": "https://docs.ropensci.org/opencage/",
+    "bug_reports_url": "https://github.com/ropensci/opencage/issues",
+    "logo_url": "https://docs.ropensci.org/opencage/logo.png",
+    "last_updated": "2021-02-20",
+    "authors": [
+      {
+        "name": "Daniel Possenriede",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6738-9845",
+        "email": "possenriede+r@gmail.com"
+      },
+      {
+        "name": "Jesse Sadler",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6081-9681"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Noam Ross",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jake Russ",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "rev"
+        ],
+        "directory_id": "julia-silge"
+      }
+    ]
+  },
+  {
+    "name": "openintro",
+    "title": "Datasets and Supplemental Functions from 'OpenIntro' Textbooks\nand Labs",
+    "description": "Supplemental functions and data for 'OpenIntro' resources, which includes open-source textbooks and resources for introductory statistics (<https://www.openintro.org/>). The package contains datasets used in our open-source textbooks along with custom plotting functions for reproducing book figures. Note that many functions and examples include color transparency; some plotting elements may not show up properly (or at all) when run in some versions of Windows operating system.",
+    "repo_url": "https://github.com/OpenIntroStat/openintro/",
+    "pkdown_url": "http://openintrostat.github.io/openintro/",
+    "bug_reports_url": "https://github.com/OpenIntroStat/openintro/issues",
+    "logo_url": "http://openintrostat.github.io/openintro/logo.png",
+    "last_updated": "2024-05-31",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6452-2420",
+        "email": "cetinkaya.mine@gmail.com"
+      },
+      {
+        "name": "David Diez",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Andrew Bray",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Albert Y. Kim",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7824-306X"
+      },
+      {
+        "name": "Ben Baumer",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Chester Ismay",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nick Paterno",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Christopher Barr",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "osmdata",
+    "title": "Import 'OpenStreetMap' Data as Simple Features or Spatial\nObjects",
+    "description": "Download and import of 'OpenStreetMap' ('OSM') data as 'sf' or 'sp' objects. 'OSM' data are extracted from the 'Overpass' web server (<https://overpass-api.de/>) and processed with very fast 'C++' routines for return to 'R'.",
+    "repo_url": "https://github.com/ropensci/osmdata",
+    "pkdown_url": "https://docs.ropensci.org/osmdata/",
+    "bug_reports_url": "https://github.com/ropensci/osmdata/issues",
+    "logo_url": "https://docs.ropensci.org/osmdata/logo.png",
+    "last_updated": "2025-08-23",
+    "authors": [
+      {
+        "name": "Joan Maspons",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2286-8727",
+        "email": "joanmaspons@gmail.com"
+      },
+      {
+        "name": "Mark Padgham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Bob Rudis",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Robin Lovelace",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Andrew Smith",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "James Smith",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andrea Gilardi",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Enrico Spinielli",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Anthony North",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Martin Machyna",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Marcin Kalicinski",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Eli Pousson",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-8280-1706"
+      }
+    ]
+  },
+  {
+    "name": "overviewR",
+    "title": "Easily Extracting Information About Your Data",
+    "description": "Makes it easy to display descriptive information on a data set. Getting an easy overview of a data set by displaying and visualizing sample information in different tables (e.g., time and scope conditions). The package also provides publishable 'LaTeX' code to present the sample information.",
+    "repo_url": "https://github.com/cosimameyer/overviewR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cosimameyer/overviewR/issues",
+    "logo_url": {},
+    "last_updated": "2026-05-04",
+    "authors": [
+      {
+        "name": "Cosima Meyer",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "cosima-meyer",
+        "email": "cosima.meyer@gmail.com"
+      },
+      {
+        "name": "Dennis Hammerschmidt",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "palmerpenguins",
+    "title": "Palmer Archipelago (Antarctica) Penguin Data",
+    "description": "Size measurements, clutch observations, and blood isotope ratios for adult foraging Adélie, Chinstrap, and Gentoo penguins observed on islands in the Palmer Archipelago near Palmer Station, Antarctica. Data were collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program.",
+    "repo_url": "https://github.com/allisonhorst/palmerpenguins",
+    "pkdown_url": "https://allisonhorst.github.io/palmerpenguins/",
+    "bug_reports_url": "https://github.com/allisonhorst/palmerpenguins/issues",
+    "logo_url": "https://allisonhorst.github.io/palmerpenguins/logo.png",
+    "last_updated": "2022-08-15",
+    "authors": [
+      {
+        "name": "Allison Horst",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6047-5564",
+        "email": "ahorst@ucsb.edu"
+      },
+      {
+        "name": "Alison Hill",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-8082-1890"
+      },
+      {
+        "name": "Kristen Gorman",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0258-9264"
+      }
+    ]
+  },
+  {
+    "name": "parmsurvfit",
+    "title": "Parametric Models for Survival Data",
+    "description": "Executes simple parametric models for right-censored survival data. Functionality emulates capabilities in 'Minitab', including fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.",
+    "repo_url": "https://github.com/apjacobson/parmsurvfit",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/apjacobson/parmsurvfit/issues",
+    "logo_url": {},
+    "last_updated": "2018-12-07",
+    "authors": [
+      {
+        "name": "Ashley Jacobson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "ashleypjacobson@gmail.com"
+      },
+      {
+        "name": "Victor Wilson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Shannon Pileggi",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "shannon-pileggi"
+      }
+    ]
+  },
+  {
+    "name": "pins",
+    "title": "Pin, Discover, and Share Resources",
+    "description": "Publish data sets, models, and other R objects, making it easy to share them across projects and with your colleagues. You can pin objects to a variety of \"boards\", including local folders (to share on a networked drive or with 'DropBox'), 'Posit Connect', 'AWS S3', and more.",
+    "repo_url": "https://github.com/rstudio/pins-r",
+    "pkdown_url": "https://pins.rstudio.com/",
+    "bug_reports_url": "https://github.com/rstudio/pins-r/issues",
+    "logo_url": "https://pins.rstudio.com/logo.png",
+    "last_updated": "2026-03-09",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@posit.co"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Javier Luraschi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pkgdown",
+    "title": "Make Static HTML Documentation for a Package",
+    "description": "Generate an attractive and useful website from a source package. 'pkgdown' converts your documentation, vignettes, 'README', and more to 'HTML' making it easy to share information about your package online.",
+    "repo_url": "https://github.com/r-lib/pkgdown",
+    "pkdown_url": "https://pkgdown.r-lib.org/",
+    "bug_reports_url": "https://github.com/r-lib/pkgdown/issues",
+    "logo_url": "https://pkgdown.r-lib.org/logo.png",
+    "last_updated": "2025-11-06",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-4757-117X",
+        "email": "hadley@posit.co"
+      },
+      {
+        "name": "Jay Hesselberth",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6299-179X"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Olivier Roy",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Salim Brüggemann",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-5329-5987"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pkgsearch",
+    "title": "Search and Query CRAN R Packages",
+    "description": "Search CRAN metadata about packages by keyword, popularity, recent activity, package name and more. Uses the 'R-hub' search server, see <https://r-pkg.org> and the CRAN metadata database, that contains information about CRAN packages. Note that this is _not_ a CRAN project.",
+    "repo_url": "https://github.com/r-hub/pkgsearch",
+    "pkdown_url": "https://r-hub.github.io/pkgsearch/",
+    "bug_reports_url": "https://github.com/r-hub/pkgsearch/issues",
+    "logo_url": {},
+    "last_updated": "2025-04-12",
+    "authors": [
+      {
+        "name": "Gábor Csárdi",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "csardi.gabor@gmail.com"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "R Consortium",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pregnancy",
+    "title": "Calculate and Track Dates and Medications During Pregnancy",
+    "description": "Provides functionality for calculating pregnancy-related dates and tracking medications during pregnancy and fertility treatment. Calculates due dates from various starting points including last menstrual period and IVF (In Vitro Fertilisation) transfer dates, determines pregnancy progress on any given date, and identifies when specific pregnancy weeks are reached. Includes medication tracking capabilities for individuals undergoing fertility treatment or during pregnancy, allowing users to monitor remaining doses and quantities needed over specified time periods. Designed for those tracking their own pregnancies or supporting partners through the process, making use of options to personalise output messages. For details on due date calculations, see <https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date>.",
+    "repo_url": "https://github.com/EllaKaye/pregnancy",
+    "pkdown_url": "https://ellakaye.github.io/pregnancy/",
+    "bug_reports_url": "https://github.com/EllaKaye/pregnancy/issues",
+    "logo_url": "https://ellakaye.github.io/pregnancy/logo.png",
+    "last_updated": "2026-01-15",
+    "authors": [
+      {
+        "name": "Ella Kaye",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-7300-3718",
+        "directory_id": "ella-kaye",
+        "email": "ella.kaye@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "PrettyCols",
+    "title": "Pretty Colour Palettes",
+    "description": "Defines aesthetically pleasing colour palettes.",
+    "repo_url": "https://github.com/nrennie/PrettyCols",
+    "pkdown_url": "https://nrennie.rbind.io/PrettyCols/",
+    "bug_reports_url": "https://github.com/nrennie/PrettyCols/issues",
+    "logo_url": "https://nrennie.rbind.io/PrettyCols/logo.png",
+    "last_updated": "2025-04-23",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "nicola-rennie",
+        "email": "nrennie35@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "projmgr",
+    "title": "Task Tracking and Project Management with GitHub",
+    "description": "Provides programmatic access to 'GitHub' API with a focus on project management. Key functionality includes setting up issues and milestones from R objects or 'YAML' configurations, querying outstanding or completed tasks, and generating progress updates in tables, charts, and RMarkdown reports. Useful for those using 'GitHub' in personal, professional, or academic settings with an emphasis on streamlining the workflow of data analysis projects.",
+    "repo_url": "https://github.com/emilyriederer/projmgr",
+    "pkdown_url": "https://emilyriederer.github.io/projmgr/",
+    "bug_reports_url": "https://github.com/emilyriederer/projmgr/issues",
+    "logo_url": "https://emilyriederer.github.io/projmgr/logo.png",
+    "last_updated": "2025-11-29",
+    "authors": [
+      {
+        "name": "Emily Riederer",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "emily-riederer",
+        "email": "emilyriederer@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "quadkeyr",
+    "title": "Generate Raster Images from QuadKey-Identified Datasets",
+    "description": "A set of functions of increasing complexity allows users to (1) convert QuadKey-identified datasets, based on 'Microsoft's Bing Maps Tile System', into Simple Features data frames, (2) transform Simple Features data frames into rasters, and (3) process multiple 'Meta' ('Facebook') QuadKey-identified human mobility files directly into raster files. For more details, see D’Andrea et al. (2024) <doi:10.21105/joss.06500>.",
+    "repo_url": "https://github.com/ropensci/quadkeyr",
+    "pkdown_url": "https://docs.ropensci.org/quadkeyr/",
+    "bug_reports_url": "https://github.com/ropensci/quadkeyr/issues",
+    "logo_url": "https://docs.ropensci.org/quadkeyr/logo.png",
+    "last_updated": "2025-03-24",
+    "authors": [
+      {
+        "name": "Florencia D'Andrea",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-0041-097X",
+        "directory_id": "florencia-dandrea",
+        "email": "florencia.dandrea@gmail.com"
+      },
+      {
+        "name": "Pilar Fernandez",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-8645-2267",
+        "directory_id": "pilar-fernandez"
+      },
+      {
+        "name": "Maria Paula Caldas",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0002-1938-6471",
+        "directory_id": "maria-paula-caldas"
+      },
+      {
+        "name": "Vincent van Hees",
+        "roles": [
+          "rev"
+        ],
+        "orcid": "0000-0003-0182-9008"
+      },
+      {
+        "name": "Andrew Pulsipher",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-0773-3210"
+      },
+      {
+        "name": "CDC's Center for Forecasting and Outbreak Analytics",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "MIDAS-NIH COVID-19 urgent grant program",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Paul G. Allen School for Global Health"
+      },
+      {
+        "name": "Washington State University",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "qualtRics",
+    "title": "Download 'Qualtrics' Survey Data",
+    "description": "Provides functions to access survey results directly into R using the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an online survey and data collection software platform. See <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. This package is community-maintained and is not officially supported by 'Qualtrics'.",
+    "repo_url": "https://github.com/ropensci/qualtRics",
+    "pkdown_url": "https://docs.ropensci.org/qualtRics/",
+    "bug_reports_url": "https://github.com/ropensci/qualtRics/issues",
+    "logo_url": "https://docs.ropensci.org/qualtRics/logo.png",
+    "last_updated": "2025-08-23",
+    "authors": [
+      {
+        "name": "Jasper Ginn",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jackson Curtis",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Shaun Jackson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Samuel Kaminsky",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Eric Knudsen",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Joseph O'Brien",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Daniel Seneca",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@gmail.com"
+      },
+      {
+        "name": "Phoebe Wong",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "phoebe-wong"
+      }
+    ]
+  },
+  {
+    "name": "quartose",
+    "title": "Dynamically Generate Quarto Syntax",
+    "description": "Provides helper functions to work programmatically within a quarto document. It allows the user to create section headers, tabsets, divs, and spans, and formats these objects into quarto syntax when printed into a document.",
+    "repo_url": "https://github.com/djnavarro/quartose",
+    "pkdown_url": "https://quartose.djnavarro.net/",
+    "bug_reports_url": "https://github.com/djnavarro/quartose/issues",
+    "logo_url": {},
+    "last_updated": "2025-07-09",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "queue",
+    "title": "Simple Multi-Threaded Task Queuing",
+    "description": "Implements a simple multi-threaded task queue using R6 classes.",
+    "repo_url": "https://github.com/djnavarro/queue",
+    "pkdown_url": "http://djnavarro.net/queue/",
+    "bug_reports_url": "https://github.com/djnavarro/queue/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-21",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "rainbowr",
+    "title": "Make LGBT Hexes and Flags",
+    "description": "Generates a variety of LGBT flags (e.g., rainbow, transgender) overlaid with the R logo, using the magick package. Also generates hex stickers based on LGBT flags and tilings thereof.",
+    "repo_url": "https://github.com/djnavarro/rainbowr",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/djnavarro/rainbowr/issues",
+    "logo_url": {},
+    "last_updated": "2020-07-07",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro",
+        "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "rhub",
+    "title": "Tools for R Package Developers",
+    "description": "R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.",
+    "repo_url": "https://github.com/r-hub/rhub",
+    "pkdown_url": "https://r-hub.github.io/rhub/",
+    "bug_reports_url": "https://github.com/r-hub/rhub/issues",
+    "logo_url": "https://r-hub.github.io/rhub/logo.png",
+    "last_updated": "2025-03-06",
+    "authors": [
+      {
+        "name": "Gábor Csárdi",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "csardi.gabor@gmail.com"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "R Consortium",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "riem",
+    "title": "Accesses Weather Data from the Iowa Environment Mesonet",
+    "description": "Allows to get weather data from Automated Surface Observing System (ASOS) stations (airports) in the whole world thanks to the Iowa Environment Mesonet website.",
+    "repo_url": "https://github.com/ropensci/riem",
+    "pkdown_url": "https://docs.ropensci.org/riem/",
+    "bug_reports_url": "https://github.com/ropensci/riem/issues",
+    "logo_url": "https://docs.ropensci.org/riem/logo.png",
+    "last_updated": "2025-01-31",
+    "authors": [
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon",
+        "email": "maelle.salmon@yahoo.se"
+      },
+      {
+        "name": "Brooke Anderson",
+        "roles": [
+          "rev"
+        ],
+        "directory_id": "brooke-anderson"
+      },
+      {
+        "name": "CHAI Project",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Daryl Herzmann",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jonathan Elchison",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0009-0004-0787-3426"
+      }
+    ]
+  },
+  {
+    "name": "roblog",
+    "title": "rOpenSci's blog guidance",
+    "description": "It provides templates for roweb2 blogging and help for a GitHub forking workflow.",
+    "repo_url": "https://github.com/ropenscilabs/roblog",
+    "pkdown_url": "https://docs.ropensci.org/roblog/",
+    "bug_reports_url": "https://github.com/ropenscilabs/roblog/issues",
+    "logo_url": "https://docs.ropensci.org/roblog/logo.png",
+    "last_updated": "2026-02-18",
+    "authors": [
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon",
+        "email": "maelle.salmon@yahoo.se"
+      },
+      {
+        "name": "Stefanie Butland",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "stefanie-butland"
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "amanda-dobbyn"
+      },
+      {
+        "name": "Christophe Dervieux",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Romain LESUR",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rsample",
+    "title": "General Resampling Infrastructure",
+    "description": "Classes and functions to create and summarize different types of resampling objects (e.g. bootstrap, cross-validation).",
+    "repo_url": "https://github.com/tidymodels/rsample",
+    "pkdown_url": "https://rsample.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/rsample/issues",
+    "logo_url": "https://rsample.tidymodels.org/logo.png",
+    "last_updated": "2026-01-30",
+    "authors": [
+      {
+        "name": "Hannah Frick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6049-5258",
+        "directory_id": "hannah-frick",
+        "email": "hannah@posit.co"
+      },
+      {
+        "name": "Fanny Chow",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Michael Mahoney",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-304X"
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "RSSthemes",
+    "title": "RSS Palettes and Themes",
+    "description": "Defines colour palettes and themes for Royal Statistical Society (RSS) publications, including Significance magazine. Palettes and themes are supported in both base R and 'ggplot2' graphics, and are intended to be used by authors submitting to RSS publications.",
+    "repo_url": "https://github.com/nrennie/RSSthemes",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/nrennie/RSSthemes/issues",
+    "logo_url": {},
+    "last_updated": "2024-03-02",
+    "authors": [
+      {
+        "name": "Nicola Rennie",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "nicola-rennie",
+        "email": "nrennie35@gmail.com"
+      },
+      {
+        "name": "Royal Statistical Society",
+        "roles": [
+          "fnd",
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rstanemax",
+    "title": "Emax Model Analysis with 'Stan'",
+    "description": "Perform sigmoidal Emax model fit using 'Stan' in a formula notation, without writing 'Stan' model code.",
+    "repo_url": "https://github.com/yoshidk6/rstanemax",
+    "pkdown_url": "https://yoshidk6.github.io/rstanemax/",
+    "bug_reports_url": "https://github.com/yoshidk6/rstanemax/issues",
+    "logo_url": {},
+    "last_updated": "2025-02-17",
+    "authors": [
+      {
+        "name": "Kenta Yoshida",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-4967-3831",
+        "email": "yoshida.kenta.6@gmail.com"
+      },
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7648-6578",
+        "directory_id": "danielle-navarro"
+      },
+      {
+        "name": "Trustees of Columbia University",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sessioncheck",
+    "title": "Checks Session Status",
+    "description": "Provides tools to check variables contained in the user environment, and inspect the currently loaded package namespaces. The intended use is to allow user scripts to throw errors or warnings if unwanted variables exist or if unwanted packages are loaded.",
+    "repo_url": "https://github.com/djnavarro/sessioncheck",
+    "pkdown_url": "https://sessioncheck.djnavarro.net/",
+    "bug_reports_url": "https://github.com/djnavarro/sessioncheck/issues",
+    "logo_url": {},
+    "last_updated": "2026-02-27",
+    "authors": [
+      {
+        "name": "Danielle Navarro",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "directory_id": "danielle-navarro",
+        "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "sfnetworks",
+    "title": "Tidy Geospatial Networks",
+    "description": "Provides a tidy approach to spatial network analysis, in the form of classes and functions that enable a seamless interaction between the network analysis package 'tidygraph' and the spatial analysis package 'sf'.",
+    "repo_url": "https://github.com/luukvdmeer/sfnetworks",
+    "pkdown_url": "https://luukvdmeer.github.io/sfnetworks/",
+    "bug_reports_url": "https://github.com/luukvdmeer/sfnetworks/issues/",
+    "logo_url": "https://luukvdmeer.github.io/sfnetworks/logo.png",
+    "last_updated": "2024-12-06",
+    "authors": [
+      {
+        "name": "Lucas van der Meer",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6336-8628",
+        "email": "luukvandermeer@live.nl"
+      },
+      {
+        "name": "Lorena Abad",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0554-734X",
+        "directory_id": "lorena-abad"
+      },
+      {
+        "name": "Andrea Gilardi",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-9424-7439"
+      },
+      {
+        "name": "Robin Lovelace",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5679-6536"
+      }
+    ]
+  },
+  {
+    "name": "shinyMobile",
+    "title": "Mobile Ready 'shiny' Apps with Standalone Capabilities",
+    "description": "Develop outstanding 'shiny' apps for 'iOS' and 'Android' as well as beautiful 'shiny' gadgets. 'shinyMobile' is built on top of the latest 'Framework7' template <https://framework7.io>. Discover 14 new input widgets (sliders, vertical sliders, stepper, grouped action buttons, toggles, picker, smart select, ...), 2 themes (light and dark), 12 new widgets (expandable cards, badges, chips, timelines, gauges, progress bars, ...) combined with the power of server-side notifications such as alerts, modals, toasts, action sheets, sheets (and more) as well as 3 layouts (single, tabs and split).",
+    "repo_url": "https://github.com/RinteRface/shinyMobile",
+    "pkdown_url": "https://rinterface.github.io/shinyMobile/",
+    "bug_reports_url": "https://github.com/RinteRface/shinyMobile/issues",
+    "logo_url": "https://rinterface.github.io/shinyMobile/logo.png",
+    "last_updated": "2024-10-04",
+    "authors": [
+      {
+        "name": "David Granjon",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "dgranjon@ymail.com"
+      },
+      {
+        "name": "Veerle van Leemput",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "veerle-van-leemput"
+      },
+      {
+        "name": "AthlyticZ",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Victor Perrier",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "John Coene",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Isabelle Rudolf",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dieter Menne",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Marvelapp",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Vladimir Kharlampidi",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shinymodels",
+    "title": "Interactive Assessments of Models",
+    "description": "Launch a 'shiny' application for 'tidymodels' results. For classification or regression models, the app can be used to determine if there is lack of fit or poorly predicted points.",
+    "repo_url": "https://github.com/tidymodels/shinymodels",
+    "pkdown_url": "https://shinymodels.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/shinymodels/issues",
+    "logo_url": {},
+    "last_updated": "2024-01-31",
+    "authors": [
+      {
+        "name": "Max Kuhn",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2402-136X"
+      },
+      {
+        "name": "Shisham Adhikari",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge"
+      },
+      {
+        "name": "Simon Couch",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-5676-5107",
+        "email": "simon.couch@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "siga",
+    "title": "Descargar y Leer Datos del SIGA",
+    "description": "Descarga y lee datos del Sistema de Información y Gestión Agrometeorológica del INTA <http://siga.inta.gob.ar/>.",
+    "repo_url": "https://github.com/AgRoMeteorologiaINTA/siga",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/AgRoMeteorologiaINTA/siga/issues",
+    "logo_url": {},
+    "last_updated": "2024-05-21",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "cre",
+          "ctb"
+        ],
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      },
+      {
+        "name": "Elio Campitelli",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7742-9230"
+      },
+      {
+        "name": "Paola Corrales",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Natalia Gattinoni",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "INTA",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SISINTAR",
+    "title": "Lee y Manipula Datos de Suelo de SISINTA",
+    "description": "Permite descargar y manipular datos de perfiles de suelo disponibles en la plataforma SISINTA.",
+    "repo_url": "https://github.com/inta-suelos/SISINTAR",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-05-30",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "cre",
+          "ctb"
+        ],
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      },
+      {
+        "name": "Elio Campitelli",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7742-9230"
+      },
+      {
+        "name": "Paola Corrales",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "spatialsample",
+    "title": "Spatial Resampling Infrastructure",
+    "description": "Functions and classes for spatial resampling to use with the 'rsample' package, such as spatial cross-validation (Brenning, 2012) <doi:10.1109/IGARSS.2012.6352393>. The scope of 'rsample' and 'spatialsample' is to provide the basic building blocks for creating and analyzing resamples of a spatial data set, but neither package includes functions for modeling or computing statistics. The resampled spatial data sets created by 'spatialsample' do not contain much overhead in memory.",
+    "repo_url": "https://github.com/tidymodels/spatialsample",
+    "pkdown_url": "https://spatialsample.tidymodels.org",
+    "bug_reports_url": "https://github.com/tidymodels/spatialsample/issues",
+    "logo_url": "https://spatialsample.tidymodels.org/logo.png",
+    "last_updated": "2025-12-02",
+    "authors": [
+      {
+        "name": "Michael Mahoney",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2402-304X",
+        "email": "mike.mahoney.218@gmail.com"
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "statsr",
+    "title": "Companion Software for the Coursera Statistics with R\nSpecialization",
+    "description": "Data and functions to support Bayesian and frequentist inference and decision making for the Coursera Specialization \"Statistics with R\". See <https://github.com/StatsWithR/statsr> for more information.",
+    "repo_url": "https://github.com/StatsWithR/statsr",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/StatsWithR/statsr/issues",
+    "logo_url": {},
+    "last_updated": "2021-01-22",
+    "authors": [
+      {
+        "name": "Colin Rundel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mine Cetinkaya-Rundel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Merlise Clyde",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "clyde@duke.edu"
+      },
+      {
+        "name": "David Banks",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TextMiningTutorial",
+    "title": "What the Package Does (One Line, Title Case)",
+    "description": "Tutorial de introducción a Text Mining",
+    "repo_url": "https://github.com/yabellini/TextMiningTutorial",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-05-19",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "tidylo",
+    "title": "Weighted Tidy Log Odds Ratio",
+    "description": "How can we measure how the usage or frequency of some feature, such as words, differs across some group or set, such as documents? One option is to use the log odds ratio, but the log odds ratio alone does not account for sampling variability; we haven't counted every feature the same number of times so how do we know which differences are meaningful? Enter the weighted log odds, which 'tidylo' provides an implementation for, using tidy data principles. In particular, here we use the method outlined in Monroe, Colaresi, and Quinn (2008) <doi:10.1093/pan/mpn018> to weight the log odds ratio by a prior. By default, the prior is estimated from the data itself, an empirical Bayes approach, but an uninformative prior is also available.",
+    "repo_url": "https://github.com/juliasilge/tidylo",
+    "pkdown_url": "https://juliasilge.github.io/tidylo/",
+    "bug_reports_url": "https://github.com/juliasilge/tidylo/issues",
+    "logo_url": {},
+    "last_updated": "2022-03-22",
+    "authors": [
+      {
+        "name": "Tyler Schnoebelen",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@gmail.com"
+      },
+      {
+        "name": "Alex Hayes",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-4985-5160"
+      }
+    ]
+  },
+  {
+    "name": "tidyquintro",
+    "title": "Quick Intro to Tidyverse",
+    "description": "A 4 hour workshop with quick introduction to tidyverse.",
+    "repo_url": "https://github.com/drmowinckels/tidyquintro",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2022-10-10",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      }
+    ]
+  },
+  {
+    "name": "tidytext",
+    "title": "Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools",
+    "description": "Using tidy data principles can make many text mining tasks easier, more effective, and consistent with tools already in wide use. Much of the infrastructure needed for text mining with tidy data frames already exists in packages like 'dplyr', 'broom', 'tidyr', and 'ggplot2'. In this package, we provide functions and supporting data sets to allow conversion of text to and from tidy formats, and to switch seamlessly between tidy tools and existing text mining packages.",
+    "repo_url": "https://github.com/juliasilge/tidytext",
+    "pkdown_url": "https://juliasilge.github.io/tidytext/",
+    "bug_reports_url": "https://github.com/juliasilge/tidytext/issues",
+    "logo_url": "https://juliasilge.github.io/tidytext/logo.png",
+    "last_updated": "2026-02-21",
+    "authors": [
+      {
+        "name": "Gabriela De Queiroz",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "gabriela-de-queiroz"
+      },
+      {
+        "name": "Colin Fay",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-7343-1846"
+      },
+      {
+        "name": "Emil Hvitfeldt",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Os Keyes",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-5196-609X"
+      },
+      {
+        "name": "Kanishka Misra",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Tim Mastny",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jeff Erickson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "David Robinson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "tinkr",
+    "title": "Cast '(R)Markdown' Files to 'XML' and Back Again",
+    "description": "Parsing '(R)Markdown' files with numerous regular expressions can be fraught with peril, but it does not have to be this way. Converting '(R)Markdown' files to 'XML' using the 'commonmark' package allows in-memory editing via of 'markdown' elements via 'XPath' through the extensible 'R6' class called 'yarn'. These modified 'XML' representations can be written to '(R)Markdown' documents via an 'xslt' stylesheet which implements an extended version of 'GitHub'-flavoured 'markdown' so that you can tinker to your hearts content.",
+    "repo_url": "https://github.com/ropensci/tinkr",
+    "pkdown_url": "https://docs.ropensci.org/tinkr/",
+    "bug_reports_url": "https://github.com/ropensci/tinkr/issues",
+    "logo_url": "https://docs.ropensci.org/tinkr/logo.png",
+    "last_updated": "2025-10-04",
+    "authors": [
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Zhian N. Kamvar",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1458-7108",
+        "email": "zkamvar@gmail.com"
+      },
+      {
+        "name": "Jeroen Ooms",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nick Wellnhofer",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      },
+      {
+        "name": "Peter Daengeli",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "traudem",
+    "title": "Use TauDEM",
+    "description": "Simple trustworthy utility functions to use TauDEM (Terrain Analysis Using Digital Elevation Models <https://hydrology.usu.edu/taudem/taudem5/>) command-line interface. This package provides a guide to installation of TauDEM and its dependencies GDAL (Geopatial Data Abstraction Library) and MPI (Message Passing Interface) for different operating systems. Moreover, it checks that TauDEM and its dependencies are correctly installed and included to the PATH, and it provides wrapper commands for calling TauDEM methods from R.",
+    "repo_url": "https://github.com/lucarraro/traudem",
+    "pkdown_url": "https://lucarraro.github.io/traudem/",
+    "bug_reports_url": "https://github.com/lucarraro/traudem/issues",
+    "logo_url": {},
+    "last_updated": "2024-04-24",
+    "authors": [
+      {
+        "name": "Luca Carraro",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "Luca.Carraro@eawag.ch"
+      },
+      {
+        "name": "University of Zurich",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Wael Sadek",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kirill Müller",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1416-3412"
+      }
+    ]
+  },
+  {
+    "name": "TutorialgRaficosFN",
+    "title": "Tutorial sobre Gráficos en R",
+    "description": "Tutorial para generar gráficos en R festejando a Florence Nightingale",
+    "repo_url": "https://github.com/yabellini/TutorialgRaficosFN",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-05-11",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      },
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "TutorialIterar",
+    "title": "Tutoriales de learnr para aprender sobre iteracción en R",
+    "description": "este paquete contiene dos turoriales de learnr para aprender for loops y map.",
+    "repo_url": "https://github.com/yabellini/TutorialIterar",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-04-25",
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "yanina-bellini-saibene",
+        "email": "yabellini@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "typeR",
+    "title": "Simulate Typing Script",
+    "description": "Simulates typing of R script files for presentations and demonstrations. Provides character-by-character animation with optional live code execution. Supports R scripts (.R), R Markdown (.Rmd), and Quarto (.qmd) documents.",
+    "repo_url": "https://github.com/Fgazzelloni/typeR",
+    "pkdown_url": "https://Fgazzelloni.github.io/typeR/",
+    "bug_reports_url": "https://github.com/Fgazzelloni/typeR/issues",
+    "logo_url": "https://Fgazzelloni.github.io/typeR/logo.png",
+    "last_updated": "2026-02-08",
+    "authors": [
+      {
+        "name": "Federica Gazzelloni",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "federica-gazzelloni",
+        "email": "fede.gazzelloni@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "uiothemes",
+    "title": "Branding themes for the University of Oslo, Norway",
+    "description": "Contains templates, themeing files and functions. Made specifically for branding purposes for the University of Oslo.",
+    "repo_url": "https://github.com/drmowinckels/uiothemes",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2020-10-29",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      }
+    ]
+  },
+  {
+    "name": "ukbabynames",
+    "title": "UK Baby Names Data",
+    "description": "Full listing of UK baby names occurring more than three times per year between 1974 and 2020, and rankings of baby name popularity by decade from 1904 to 1994.",
+    "repo_url": "https://github.com/mine-cetinkaya-rundel/ukbabynames",
+    "pkdown_url": "https://mine-cetinkaya-rundel.github.io/ukbabynames/",
+    "bug_reports_url": "https://github.com/mine-cetinkaya-rundel/ukbabynames/issues",
+    "logo_url": {},
+    "last_updated": "2022-03-25",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6452-2420",
+        "email": "cetinkaya.mine@gmail.com"
+      },
+      {
+        "name": "Thomas J. Leeper",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nicholas Goguen-Compagnoni",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sara Lemus",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "usdata",
+    "title": "Data on the States and Counties of the United States",
+    "description": "Demographic data on the United States at the county and state levels spanning multiple years.",
+    "repo_url": "https://github.com/OpenIntroStat/usdata",
+    "pkdown_url": "https://openintrostat.github.io/usdata/",
+    "bug_reports_url": "https://github.com/OpenIntroStat/usdata/issues",
+    "logo_url": "https://openintrostat.github.io/usdata/logo.png",
+    "last_updated": "2024-06-02",
+    "authors": [
+      {
+        "name": "Mine Çetinkaya-Rundel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6452-2420",
+        "email": "cetinkaya.mine@gmail.com"
+      },
+      {
+        "name": "David Diez",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leah Dorazio",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vcr",
+    "title": "Record 'HTTP' Calls to Disk",
+    "description": "Record test suite 'HTTP' requests and replays them during future runs. A port of the Ruby gem of the same name (<https://github.com/vcr/vcr/>). Works by recording real 'HTTP' requests/responses on disk in 'cassettes', and then replaying matching responses on subsequent requests.",
+    "repo_url": "https://github.com/ropensci/vcr/",
+    "pkdown_url": "https://books.ropensci.org/http-testing/",
+    "bug_reports_url": "https://github.com/ropensci/vcr/issues",
+    "logo_url": {},
+    "last_updated": "2025-12-05",
+    "authors": [
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1444-9135",
+        "email": "myrmecocystus@gmail.com"
+      },
+      {
+        "name": "Aaron Wolen",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2542-2202"
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2815-0399",
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Daniel Possenriede",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6738-9845"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "rOpenSci",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "verbaliseR",
+    "title": "Make your Text Mighty Fine",
+    "description": "Turn R analysis outputs into full sentences, by writing vectors into in-sentence lists, pluralising words conditionally, spelling out numbers if they are at the start of sentences, writing out dates in full following US or UK style, and managing capitalisations in tidy data.",
+    "repo_url": "https://github.com/cararthompson/verbaliseR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cararthompson/verbaliseR/issues",
+    "logo_url": {},
+    "last_updated": "2022-10-04",
+    "authors": [
+      {
+        "name": "Cara Thompson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6472-5073",
+        "email": "cara.r.thompson@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "vetiver",
+    "title": "Version, Share, Deploy, and Monitor Models",
+    "description": "The goal of 'vetiver' is to provide fluent tooling to version, share, deploy, and monitor a trained model. Functions handle both recording and checking the model's input data prototype, and predicting from a remote API endpoint. The 'vetiver' package is extensible, with generics that can support many kinds of models.",
+    "repo_url": "https://github.com/rstudio/vetiver-r/",
+    "pkdown_url": "https://vetiver.posit.co",
+    "bug_reports_url": "https://github.com/rstudio/vetiver-r/issues",
+    "logo_url": {},
+    "last_updated": "2025-12-13",
+    "authors": [
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "washi",
+    "title": "Washington Soil Health Initiative Branding",
+    "description": "Create plots and tables in a consistent style with WaSHI (Washington Soil Health Initiative) branding. Use 'washi' to easily style your 'ggplot2' plots and 'flextable' tables.",
+    "repo_url": "https://github.com/WA-Department-of-Agriculture/washi",
+    "pkdown_url": "https://wa-department-of-agriculture.github.io/washi/",
+    "bug_reports_url": "https://github.com/WA-Department-of-Agriculture/washi/issues/",
+    "logo_url": "https://wa-department-of-agriculture.github.io/washi/logo.png",
+    "last_updated": "2025-09-16",
+    "authors": [
+      {
+        "name": "Jadey Ryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "jryan@agr.wa.gov"
+      },
+      {
+        "name": "Molly McIlquham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dani Gelardi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Washington State Department of Agriculture",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "weathercan",
+    "title": "Download Weather Data from Environment and Climate Change Canada",
+    "description": "Provides means for downloading historical weather data from the Environment and Climate Change Canada website (<https://climate.weather.gc.ca/historical_data/search_historic_data_e.html>). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.",
+    "repo_url": "https://github.com/ropensci/weathercan/",
+    "pkdown_url": "https://docs.ropensci.org/weathercan/",
+    "bug_reports_url": "https://github.com/ropensci/weathercan/issues/",
+    "logo_url": "https://docs.ropensci.org/weathercan/logo.png",
+    "last_updated": "2026-01-19",
+    "authors": [
+      {
+        "name": "Steffi LaZerte",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7690-8360",
+        "directory_id": "steffi-lazerte",
+        "email": "sel@steffilazerte.ca"
+      },
+      {
+        "name": "Sam Albers",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-9270-7884"
+      },
+      {
+        "name": "Nick Brown",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2719-0671"
+      },
+      {
+        "name": "Kevin Cazelles",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-6619-9874"
+      },
+      {
+        "name": "Richard Littauer",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-5428-7535"
+      },
+      {
+        "name": "Shandiya Balasubramaniam",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-9928-9964"
+      },
+      {
+        "name": "Mark Ciechanowski",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-3732-5939"
+      },
+      {
+        "name": "Jeremy Selva",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-4498-2662"
+      },
+      {
+        "name": "Kelli F. Johnson",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-5149-451X"
+      },
+      {
+        "name": "Russ Allen",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Everett Snieder",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-4997-3404"
+      },
+      {
+        "name": "Josh Persi",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2700-6483"
+      },
+      {
+        "name": "Mahjabin Oyshi",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0009-0000-7992-6727"
+      }
+    ]
+  },
+  {
+    "name": "widyr",
+    "title": "Widen, Process, then Re-Tidy Data",
+    "description": "Encapsulates the pattern of untidying data into a wide matrix, performing some processing, then turning it back into a tidy form. This is useful for several operations such as co-occurrence counts, correlations, or clustering that are mathematically convenient on wide matrices.",
+    "repo_url": "https://github.com/juliasilge/widyr",
+    "pkdown_url": "https://juliasilge.github.io/widyr/",
+    "bug_reports_url": "https://github.com/juliasilge/widyr/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-09",
+    "authors": [
+      {
+        "name": "David Robinson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kanishka Misra",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Julia Silge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3671-836X",
+        "directory_id": "julia-silge",
+        "email": "julia.silge@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "worrrd",
+    "title": "Generate Wordsearch and Crossword Puzzles",
+    "description": "Generate wordsearch and crossword puzzles using custom lists of words (and clues). Make them easy or hard, and print them to solve offline with paper and pencil!",
+    "repo_url": "https://github.com/anthonypileggi/worrrd",
+    "pkdown_url": "https://www.stochastic-squirrel.com/worrrd/",
+    "bug_reports_url": "https://github.com/anthonypileggi/worrrd/issues",
+    "logo_url": "https://www.stochastic-squirrel.com/worrrd/logo.png",
+    "last_updated": "2022-10-25",
+    "authors": [
+      {
+        "name": "Anthony Pileggi",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "email": "apileggi20@gmail.com"
+      },
+      {
+        "name": "Shannon Pileggi",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7732-4164",
+        "directory_id": "shannon-pileggi"
       }
     ]
   }
