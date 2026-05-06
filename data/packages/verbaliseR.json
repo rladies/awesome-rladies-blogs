@@ -1,0 +1,21 @@
+{
+  "name": "verbaliseR",
+  "title": "Make your Text Mighty Fine",
+  "description": "Turn R analysis outputs into full sentences, by writing vectors into in-sentence lists, pluralising words conditionally, spelling out numbers if they are at the start of sentences, writing out dates in full following US or UK style, and managing capitalisations in tidy data.",
+  "repo_url": "https://github.com/cararthompson/verbaliseR",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/cararthompson/verbaliseR/issues",
+  "logo_url": null,
+  "last_updated": "2022-10-04",
+  "authors": [
+    {
+      "name": "Cara Thompson",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6472-5073",
+      "email": "cara.r.thompson@gmail.com"
+    }
+  ]
+}

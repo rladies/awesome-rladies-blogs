@@ -1,0 +1,33 @@
+{
+  "name": "LITAP",
+  "title": "Landscape Integrated Terrain Analysis Package",
+  "description": "Terrain analysis and landscape and hydrology models built on terrain attributes. A major component of LITAP is founded on R. A. (Bob) MacMillan's LandMapR suite of programs for flow topology and landform segmentation analyses with extended new parameters and methodologies, as well as with new calculations and uses of directional terrain attributes.",
+  "repo_url": "https://github.com/FRDC-SHL/LITAP",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-10-02",
+  "authors": [
+    {
+      "name": "Steffi LaZerte",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "steffi-lazerte",
+      "email": "steffi@steffi.ca"
+    },
+    {
+      "name": "Sheng Li",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Agriculture and Agri-Food Canada",
+      "roles": [
+        "fnd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "cransays",
+  "title": "Creates an Overview of CRAN Incoming Submissions",
+  "description": "It scrapes the CRAN incoming FTP folder to find where each submission is.",
+  "repo_url": "https://github.com/r-hub/cransays",
+  "pkdown_url": "https://r-hub.github.io/cransays/",
+  "bug_reports_url": "https://github.com/r-hub/cransays/issues",
+  "logo_url": null,
+  "last_updated": "2025-12-26",
+  "authors": [
+    {
+      "name": "Hugo Gruson",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0002-4094-1476",
+      "email": "hugo.gruson+R@normalesup.org"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut",
+        "ccp"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Locke Data",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Stephanie Locke",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2387-3723"
+    },
+    {
+      "name": "Mitchell O'Hara-Wild",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6729-7695"
+    },
+    {
+      "name": "Lluís Revilla Sancho",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-9747-2570"
+    },
+    {
+      "name": "Jim Hester",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2739-7082"
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-4757-117X"
+    }
+  ]
+}

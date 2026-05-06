@@ -1,0 +1,27 @@
+{
+  "name": "BradleyTerryScalable",
+  "title": "Fits the Bradley-Terry Model to Potentially Large and Sparse\nNetworks of Comparison Data",
+  "description": "Facilities are provided for fitting the simple, unstructured Bradley-Terry model to networks of binary comparisons. The implemented methods are designed to scale well to large, potentially sparse, networks. A fairly high degree of scalability is achieved through the use of EM and MM algorithms, which are relatively undemanding in terms of memory usage (relative to some other commonly used methods such as iterative weighted least squares, for example). Both maximum likelihood and Bayesian MAP estimation methods are implemented. The package provides various standard methods for a newly defined 'btfit' model class, such as the extraction and summarisation of model parameters and the simulation of new datasets from a fitted model. Tools are also provided for reshaping data into the newly defined \"btdata\" class, and for analysing the comparison network, prior to fitting the Bradley-Terry model. This package complements, rather than replaces, the existing 'BradleyTerry2' package. (BradleyTerry2 has rather different aims, which are mainly the specification and fitting of \"structured\" Bradley-Terry models in which the strength parameters depend on covariates.)",
+  "repo_url": "https://github.com/EllaKaye/BradleyTerryScalable",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/EllaKaye/BradleyTerryScalable/issues",
+  "logo_url": null,
+  "last_updated": "2022-05-29",
+  "authors": [
+    {
+      "name": "Ella Kaye",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "ella-kaye",
+      "email": "E.Kaye.1@warwick.ac.uk"
+    },
+    {
+      "name": "David Firth",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

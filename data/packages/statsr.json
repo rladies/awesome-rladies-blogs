@@ -1,0 +1,38 @@
+{
+  "name": "statsr",
+  "title": "Companion Software for the Coursera Statistics with R\nSpecialization",
+  "description": "Data and functions to support Bayesian and frequentist inference and decision making for the Coursera Specialization \"Statistics with R\". See <https://github.com/StatsWithR/statsr> for more information.",
+  "repo_url": "https://github.com/StatsWithR/statsr",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/StatsWithR/statsr/issues",
+  "logo_url": null,
+  "last_updated": "2021-01-22",
+  "authors": [
+    {
+      "name": "Colin Rundel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Mine Cetinkaya-Rundel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Merlise Clyde",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "clyde@duke.edu"
+    },
+    {
+      "name": "David Banks",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

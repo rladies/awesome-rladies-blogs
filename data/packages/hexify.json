@@ -1,0 +1,22 @@
+{
+  "name": "hexify",
+  "title": "Create Hex Stickers",
+  "description": "Allows the user to create hex stickers from images.",
+  "repo_url": "https://github.com/djnavarro/hexify",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/djnavarro/hexify/issues",
+  "logo_url": null,
+  "last_updated": "2022-02-02",
+  "authors": [
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-7648-6578",
+      "directory_id": "danielle-navarro",
+      "email": "djnavarro@protonmail.com"
+    }
+  ]
+}

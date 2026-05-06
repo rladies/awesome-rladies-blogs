@@ -1,0 +1,22 @@
+{
+  "name": "learnres",
+  "title": "Templates for different learnr tutorials in Spanish",
+  "description": "Contains templates and themeing files.",
+  "repo_url": "https://github.com/yabellini/learnres",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-07-19",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0000-0000-0000",
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    }
+  ]
+}

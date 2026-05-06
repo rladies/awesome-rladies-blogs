@@ -1,0 +1,35 @@
+{
+  "name": "rstanemax",
+  "title": "Emax Model Analysis with 'Stan'",
+  "description": "Perform sigmoidal Emax model fit using 'Stan' in a formula notation, without writing 'Stan' model code.",
+  "repo_url": "https://github.com/yoshidk6/rstanemax",
+  "pkdown_url": "https://yoshidk6.github.io/rstanemax/",
+  "bug_reports_url": "https://github.com/yoshidk6/rstanemax/issues",
+  "logo_url": null,
+  "last_updated": "2025-02-17",
+  "authors": [
+    {
+      "name": "Kenta Yoshida",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-4967-3831",
+      "email": "yoshida.kenta.6@gmail.com"
+    },
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7648-6578",
+      "directory_id": "danielle-navarro"
+    },
+    {
+      "name": "Trustees of Columbia University",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}

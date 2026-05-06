@@ -1,0 +1,71 @@
+{
+  "name": "qualtRics",
+  "title": "Download 'Qualtrics' Survey Data",
+  "description": "Provides functions to access survey results directly into R using the 'Qualtrics' API. 'Qualtrics' <https://www.qualtrics.com/about/> is an online survey and data collection software platform. See <https://api.qualtrics.com/> for more information about the 'Qualtrics' API. This package is community-maintained and is not officially supported by 'Qualtrics'.",
+  "repo_url": "https://github.com/ropensci/qualtRics",
+  "pkdown_url": "https://docs.ropensci.org/qualtRics/",
+  "bug_reports_url": "https://github.com/ropensci/qualtRics/issues",
+  "logo_url": "https://docs.ropensci.org/qualtRics/logo.png",
+  "last_updated": "2025-08-23",
+  "authors": [
+    {
+      "name": "Jasper Ginn",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jackson Curtis",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Shaun Jackson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Samuel Kaminsky",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Eric Knudsen",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Joseph O'Brien",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Daniel Seneca",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge",
+      "email": "julia.silge@gmail.com"
+    },
+    {
+      "name": "Phoebe Wong",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "phoebe-wong"
+    }
+  ]
+}

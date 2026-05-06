@@ -1,0 +1,106 @@
+{
+  "name": "infer",
+  "title": "Tidy Statistical Inference",
+  "description": "The objective of this package is to perform inference using an expressive statistical grammar that coheres with the tidy design framework.",
+  "repo_url": "https://github.com/tidymodels/infer",
+  "pkdown_url": "https://infer.tidymodels.org/",
+  "bug_reports_url": "https://github.com/tidymodels/infer/issues",
+  "logo_url": "https://infer.tidymodels.org/logo.png",
+  "last_updated": "2025-12-18",
+  "authors": [
+    {
+      "name": "Andrew Bray",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Chester Ismay",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2820-2547"
+    },
+    {
+      "name": "Evgeni Chasnovski",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1617-4019"
+    },
+    {
+      "name": "Simon Couch",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-5676-5107",
+      "email": "simon.couch@posit.co"
+    },
+    {
+      "name": "Ben Baumer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3279-0516"
+    },
+    {
+      "name": "Mine Cetinkaya-Rundel",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6452-2420"
+    },
+    {
+      "name": "Ted Laderas",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-6207-7068"
+    },
+    {
+      "name": "Nick Solomon",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Johanna Hardin",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Albert Y. Kim",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-7824-306X"
+    },
+    {
+      "name": "Neal Fultz",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Doug Friedman",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Richie Cotton",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-2504-802X"
+    },
+    {
+      "name": "Brian Fannin",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

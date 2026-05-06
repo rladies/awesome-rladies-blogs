@@ -5,19 +5,29 @@
         "name": {
             "type": "string"
         },
+        "title": {
+            "type": "string"
+        },
         "description": {
             "type": "string"
         },
         "repo_url": {
-            "type": "string"
+            "type": ["string", "null"]
         },
         "pkdown_url": {
-            "type": "string"
+            "type": ["string", "null"]
+        },
+        "bug_reports_url": {
+            "type": ["string", "null"]
         },
         "logo_url": {
-            "type": "string"
+            "type": ["string", "null"]
         },
-        "maintainers": {
+        "last_updated": {
+            "type": ["string", "null"],
+            "description": "ISO date (YYYY-MM-DD) of last publication: r-universe Date/Publication, falling back to _published or CRAN Date/Publication."
+        },
+        "authors": {
             "type": "array",
             "items": {
                 "type": "object",
@@ -26,59 +36,28 @@
                         "type": "string"
                     },
                     "email": {
-                        "type": "string"
+                        "type": ["string", "null"]
                     },
-                    "social_media": {
-                        "type": "object",
-                        "properties": {
-                            "twitter": {
-                                "type": "string"
-                            },
-                            "mastodon": {
-                                "type": "string"
-                            },
-                            "bluesky": {
-                                "type": "string"
-                            },
-                            "linkedin": {
-                                "type": "string"
-                            },
-                            "facebook": {
-                                "type": "string"
-                            },
-                            "github": {
-                                "type": "string"
-                            },
-                            "instagram": {
-                                "type": "string"
-                            },
-                            "youtube": {
-                                "type": "string"
-                            },
-                            "tiktok": {
-                                "type": "string"
-                            },
-                            "website": {
-                                "type": "string"
-                            },
-                            "orcid": {
-                                "type": "string"
-                            }
-                        },
-                        "additionalProperties": true
+                    "directory_id": {
+                        "type": ["string", "null"]
+                    },
+                    "orcid": {
+                        "type": ["string", "null"]
+                    },
+                    "roles": {
+                        "type": "array",
+                        "items": { "type": "string" }
                     }
                 },
-                "required": [
-                    "name"
-                ],
+                "required": ["name"],
                 "additionalProperties": true
             }
         }
     },
     "required": [
         "name",
-        "maintainers",
-        "description"
+        "description",
+        "authors"
     ],
     "additionalProperties": true
 }

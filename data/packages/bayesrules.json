@@ -1,0 +1,35 @@
+{
+  "name": "bayesrules",
+  "title": "Datasets and Supplemental Functions from Bayes Rules! Book",
+  "description": "Provides datasets and functions used for analysis and visualizations in the Bayes Rules! book (<https://www.bayesrulesbook.com>). The package contains a set of functions that summarize and plot Bayesian models from some conjugate families and another set of functions for evaluation of some Bayesian models.",
+  "repo_url": "https://github.com/bayes-rules/bayesrules/",
+  "pkdown_url": "https://bayes-rules.github.io/bayesrules/docs/",
+  "bug_reports_url": "https://github.com/bayes-rules/bayesrules/issues",
+  "logo_url": null,
+  "last_updated": "2026-01-20",
+  "authors": [
+    {
+      "name": "Mine Dogucu",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-8007-934X",
+      "directory_id": "mine-dogucu",
+      "email": "mdogucu@gmail.com"
+    },
+    {
+      "name": "Alicia Johnson",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Miles Ott",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4457-6565"
+    }
+  ]
+}

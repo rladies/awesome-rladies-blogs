@@ -1,0 +1,36 @@
+{
+  "name": "tidylo",
+  "title": "Weighted Tidy Log Odds Ratio",
+  "description": "How can we measure how the usage or frequency of some feature, such as words, differs across some group or set, such as documents? One option is to use the log odds ratio, but the log odds ratio alone does not account for sampling variability; we haven't counted every feature the same number of times so how do we know which differences are meaningful? Enter the weighted log odds, which 'tidylo' provides an implementation for, using tidy data principles. In particular, here we use the method outlined in Monroe, Colaresi, and Quinn (2008) <doi:10.1093/pan/mpn018> to weight the log odds ratio by a prior. By default, the prior is estimated from the data itself, an empirical Bayes approach, but an uninformative prior is also available.",
+  "repo_url": "https://github.com/juliasilge/tidylo",
+  "pkdown_url": "https://juliasilge.github.io/tidylo/",
+  "bug_reports_url": "https://github.com/juliasilge/tidylo/issues",
+  "logo_url": null,
+  "last_updated": "2022-03-22",
+  "authors": [
+    {
+      "name": "Tyler Schnoebelen",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge",
+      "email": "julia.silge@gmail.com"
+    },
+    {
+      "name": "Alex Hayes",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4985-5160"
+    }
+  ]
+}

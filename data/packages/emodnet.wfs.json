@@ -1,0 +1,82 @@
+{
+  "name": "emodnet.wfs",
+  "title": "Access 'EMODnet' Web Feature Service Data",
+  "description": "Access and interrogate 'EMODnet' (European Marine Observation and Data Network) Web Feature Service data <https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation#data-download-services>. This includes listing existing data sources, and getting data from each of them.",
+  "repo_url": "https://github.com/EMODnet/emodnet.wfs",
+  "pkdown_url": "https://docs.ropensci.org/emodnet.wfs/",
+  "bug_reports_url": "https://github.com/EMODnet/emodnet.wfs/issues",
+  "logo_url": "https://docs.ropensci.org/emodnet.wfs/logo.svg",
+  "last_updated": "2026-03-26",
+  "authors": [
+    {
+      "name": "Joana Beja",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-5196-8447",
+      "email": "joana.beja@vliz.be"
+    },
+    {
+      "name": "Anna Krystalli",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2378-4915"
+    },
+    {
+      "name": "Salvador Fernández-Bejarano",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0535-7677"
+    },
+    {
+      "name": "Thomas J Webb",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "European Marine Observation Data Network",
+      "roles": [
+        "cph"
+      ]
+    },
+    {
+      "name": "VLIZ",
+      "roles": [
+        "fnd"
+      ]
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Alec L. Robitaille",
+      "roles": [
+        "rev"
+      ],
+      "orcid": "0000-0002-4706-1762"
+    },
+    {
+      "name": "Liz Hare",
+      "roles": [
+        "rev"
+      ],
+      "orcid": "0000-0002-3978-2543"
+    },
+    {
+      "name": "François Michonneau",
+      "roles": [
+        "rev"
+      ],
+      "orcid": "0000-0002-9092-966X"
+    }
+  ]
+}

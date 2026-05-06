@@ -1,0 +1,73 @@
+{
+  "name": "tidytext",
+  "title": "Text Mining using 'dplyr', 'ggplot2', and Other Tidy Tools",
+  "description": "Using tidy data principles can make many text mining tasks easier, more effective, and consistent with tools already in wide use. Much of the infrastructure needed for text mining with tidy data frames already exists in packages like 'dplyr', 'broom', 'tidyr', and 'ggplot2'. In this package, we provide functions and supporting data sets to allow conversion of text to and from tidy formats, and to switch seamlessly between tidy tools and existing text mining packages.",
+  "repo_url": "https://github.com/juliasilge/tidytext",
+  "pkdown_url": "https://juliasilge.github.io/tidytext/",
+  "bug_reports_url": "https://github.com/juliasilge/tidytext/issues",
+  "logo_url": "https://juliasilge.github.io/tidytext/logo.png",
+  "last_updated": "2026-02-21",
+  "authors": [
+    {
+      "name": "Gabriela De Queiroz",
+      "roles": [
+        "ctb"
+      ],
+      "directory_id": "gabriela-de-queiroz"
+    },
+    {
+      "name": "Colin Fay",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-7343-1846"
+    },
+    {
+      "name": "Emil Hvitfeldt",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Os Keyes",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-5196-609X"
+    },
+    {
+      "name": "Kanishka Misra",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Tim Mastny",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Jeff Erickson",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "David Robinson",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge",
+      "email": "julia.silge@gmail.com"
+    }
+  ]
+}

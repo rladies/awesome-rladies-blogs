@@ -1,0 +1,22 @@
+{
+  "name": "bs4cards",
+  "title": "Generate Bootstrap Cards",
+  "description": "Allows the user to generate bootstrap cards within R markdown documents. Intended for use in conjunction with R markdown HTML outputs and other formats that support the bootstrap 4 library.",
+  "repo_url": "https://github.com/djnavarro/bs4cards",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/djnavarro/bs4cards/issues",
+  "logo_url": null,
+  "last_updated": "2021-11-30",
+  "authors": [
+    {
+      "name": "Danielle Navarro",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0001-7648-6578",
+      "directory_id": "danielle-navarro",
+      "email": "djnavarro@protonmail.com"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "TextMiningTutorial",
+  "title": "What the Package Does (One Line, Title Case)",
+  "description": "Tutorial de introducción a Text Mining",
+  "repo_url": "https://github.com/yabellini/TextMiningTutorial",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-05-19",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    }
+  ]
+}

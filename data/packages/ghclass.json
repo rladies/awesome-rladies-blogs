@@ -1,0 +1,32 @@
+{
+  "name": "ghclass",
+  "title": "Tools for Managing Classes on GitHub",
+  "description": "Interface for the GitHub API that enables efficient management of courses on GitHub. It has a functionality for managing organizations, teams, repositories, and users on GitHub and helps automate most of the tedious and repetitive tasks around creating and distributing assignments.",
+  "repo_url": "https://github.com/rundel/ghclass",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/rundel/ghclass/issues",
+  "logo_url": null,
+  "last_updated": "2025-05-06",
+  "authors": [
+    {
+      "name": "Colin Rundel",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "rundel@gmail.com"
+    },
+    {
+      "name": "Mine Cetinkaya-Rundel",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Therese Anders",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

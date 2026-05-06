@@ -1,0 +1,36 @@
+{
+  "name": "bakeoff",
+  "title": "Data from \"The Great British Bake Off\"",
+  "description": "Data about the bakers, challenges, and ratings for \"The Great British Bake Off\", from Wikipedia <https://en.wikipedia.org/wiki/The_Great_British_Bake_Off>.",
+  "repo_url": "https://github.com/apreshill/bakeoff",
+  "pkdown_url": "https://bakeoff.netlify.app/",
+  "bug_reports_url": "https://github.com/apreshill/bakeoff/issues",
+  "logo_url": "https://bakeoff.netlify.app/logo.png",
+  "last_updated": "2022-11-02",
+  "authors": [
+    {
+      "name": "Alison Hill",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-8082-1890",
+      "email": "apreshill@gmail.com"
+    },
+    {
+      "name": "Chester Ismay",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2820-2547"
+    },
+    {
+      "name": "Richard Iannone",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3925-190X"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "TutorialgRaficosFN",
+  "title": "Tutorial sobre Gráficos en R",
+  "description": "Tutorial para generar gráficos en R festejando a Florence Nightingale",
+  "repo_url": "https://github.com/yabellini/TutorialgRaficosFN",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-05-11",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    },
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    }
+  ]
+}

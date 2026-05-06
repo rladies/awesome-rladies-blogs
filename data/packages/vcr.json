@@ -1,0 +1,55 @@
+{
+  "name": "vcr",
+  "title": "Record 'HTTP' Calls to Disk",
+  "description": "Record test suite 'HTTP' requests and replays them during future runs. A port of the Ruby gem of the same name (<https://github.com/vcr/vcr/>). Works by recording real 'HTTP' requests/responses on disk in 'cassettes', and then replaying matching responses on subsequent requests.",
+  "repo_url": "https://github.com/ropensci/vcr/",
+  "pkdown_url": "https://books.ropensci.org/http-testing/",
+  "bug_reports_url": "https://github.com/ropensci/vcr/issues",
+  "logo_url": null,
+  "last_updated": "2025-12-05",
+  "authors": [
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-1444-9135",
+      "email": "myrmecocystus@gmail.com"
+    },
+    {
+      "name": "Aaron Wolen",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-2542-2202"
+    },
+    {
+      "name": "Maëlle Salmon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2815-0399",
+      "directory_id": "maelle-salmon"
+    },
+    {
+      "name": "Daniel Possenriede",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6738-9845"
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "rOpenSci",
+      "roles": [
+        "fnd"
+      ]
+    }
+  ]
+}

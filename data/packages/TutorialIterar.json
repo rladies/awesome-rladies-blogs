@@ -1,0 +1,21 @@
+{
+  "name": "TutorialIterar",
+  "title": "Tutoriales de learnr para aprender sobre iteracción en R",
+  "description": "este paquete contiene dos turoriales de learnr para aprender for loops y map.",
+  "repo_url": "https://github.com/yabellini/TutorialIterar",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2021-04-25",
+  "authors": [
+    {
+      "name": "Yanina Bellini Saibene",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "yanina-bellini-saibene",
+      "email": "yabellini@gmail.com"
+    }
+  ]
+}

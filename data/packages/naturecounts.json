@@ -1,0 +1,27 @@
+{
+  "name": "naturecounts",
+  "title": "Access and download data on plant and animal populations from\nNatureCounts",
+  "description": "Access and download data on plant and animal populations from various databases through NatureCounts, a service managed by Bird Studies Canada.",
+  "repo_url": "https://github.com/BirdsCanada/naturecounts",
+  "pkdown_url": "https://naturecounts.ca",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-03-31",
+  "authors": [
+    {
+      "name": "Steffi LaZerte",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "steffi-lazerte"
+    },
+    {
+      "name": "Denis Lepage",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "dlepage@birdscanada.org"
+    }
+  ]
+}

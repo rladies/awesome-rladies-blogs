@@ -1,0 +1,35 @@
+{
+  "name": "MSUthemes",
+  "title": "Michigan State University (MSU) Palettes and Themes",
+  "description": "Defines colour palettes and themes for Michigan State University (MSU) publications and presentations. Palettes and themes are supported in both base R and 'ggplot2' graphics, and are intended to provide consistency between those creating documents and presentations.",
+  "repo_url": "https://github.com/emilioxavier/MSUthemes",
+  "pkdown_url": "https://emilioxavier.github.io/MSUthemes/",
+  "bug_reports_url": "https://github.com/emilioxavier/MSUthemes/issues",
+  "logo_url": "https://emilioxavier.github.io/MSUthemes/logo.png",
+  "last_updated": "2025-10-17",
+  "authors": [
+    {
+      "name": "Emilio Xavier Esposito",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-6193-0485",
+      "email": "emilio.esposito@gmail.com"
+    },
+    {
+      "name": "Nicola Rennie",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "nicola-rennie"
+    },
+    {
+      "name": "Michigan State University",
+      "roles": [
+        "fnd"
+      ]
+    }
+  ]
+}

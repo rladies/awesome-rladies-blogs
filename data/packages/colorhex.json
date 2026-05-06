@@ -1,0 +1,30 @@
+{
+  "name": "colorhex",
+  "title": "Colors and Palettes from Color-Hex",
+  "description": "The website <https://www.color-hex.com> is a great resource of hex colour codes and palettes. This package allows you to retrieve palettes and colour information from the website directly from R. There are also custom scale-functions for 'ggplot2'.",
+  "repo_url": "https://github.com/drmowinckels/colorhex",
+  "pkdown_url": "https://drmowinckels.github.io/colorhex/",
+  "bug_reports_url": "https://github.com/drmowinckels/colorhex/issues",
+  "logo_url": null,
+  "last_updated": "2023-09-15",
+  "authors": [
+    {
+      "name": "Athanasia Mo Mowinckel",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-5756-0223",
+      "directory_id": "athanasia-mo-mowinckel",
+      "email": "a.m.mowinckel@psykologi.uio.no"
+    },
+    {
+      "name": "Julia Romanowska",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6733-1953",
+      "directory_id": "julia-romanowska"
+    }
+  ]
+}

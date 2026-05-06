@@ -1,0 +1,58 @@
+{
+  "name": "butcher",
+  "title": "Model Butcher",
+  "description": "Provides a set of S3 generics to axe components of fitted model objects and help reduce the size of model objects saved to disk.",
+  "repo_url": "https://github.com/tidymodels/butcher",
+  "pkdown_url": "https://butcher.tidymodels.org/",
+  "bug_reports_url": "https://github.com/tidymodels/butcher/issues",
+  "logo_url": "https://butcher.tidymodels.org/logo.png",
+  "last_updated": "2025-12-09",
+  "authors": [
+    {
+      "name": "Joyce Cahoon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7217-4702"
+    },
+    {
+      "name": "Davis Vaughan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Max Kuhn",
+      "roles": [
+        "cre",
+        "aut"
+      ],
+      "orcid": "0000-0003-2402-136X",
+      "email": "max@posit.co"
+    },
+    {
+      "name": "Alex Hayes",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Julia Silge",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3671-836X",
+      "directory_id": "julia-silge"
+    },
+    {
+      "name": "Posit Software"
+    },
+    {
+      "name": "PBC",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

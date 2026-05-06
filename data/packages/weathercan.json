@@ -1,0 +1,105 @@
+{
+  "name": "weathercan",
+  "title": "Download Weather Data from Environment and Climate Change Canada",
+  "description": "Provides means for downloading historical weather data from the Environment and Climate Change Canada website (<https://climate.weather.gc.ca/historical_data/search_historic_data_e.html>). Data can be downloaded from multiple stations and over large date ranges and automatically processed into a single dataset. Tools are also provided to identify stations either by name or proximity to a location.",
+  "repo_url": "https://github.com/ropensci/weathercan/",
+  "pkdown_url": "https://docs.ropensci.org/weathercan/",
+  "bug_reports_url": "https://github.com/ropensci/weathercan/issues/",
+  "logo_url": "https://docs.ropensci.org/weathercan/logo.png",
+  "last_updated": "2026-01-19",
+  "authors": [
+    {
+      "name": "Steffi LaZerte",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-7690-8360",
+      "directory_id": "steffi-lazerte",
+      "email": "sel@steffilazerte.ca"
+    },
+    {
+      "name": "Sam Albers",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-9270-7884"
+    },
+    {
+      "name": "Nick Brown",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2719-0671"
+    },
+    {
+      "name": "Kevin Cazelles",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6619-9874"
+    },
+    {
+      "name": "Richard Littauer",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-5428-7535"
+    },
+    {
+      "name": "Shandiya Balasubramaniam",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-9928-9964"
+    },
+    {
+      "name": "Mark Ciechanowski",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-3732-5939"
+    },
+    {
+      "name": "Jeremy Selva",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-4498-2662"
+    },
+    {
+      "name": "Kelli F. Johnson",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-5149-451X"
+    },
+    {
+      "name": "Russ Allen",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Everett Snieder",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0003-4997-3404"
+    },
+    {
+      "name": "Josh Persi",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-2700-6483"
+    },
+    {
+      "name": "Mahjabin Oyshi",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0009-0000-7992-6727"
+    }
+  ]
+}
