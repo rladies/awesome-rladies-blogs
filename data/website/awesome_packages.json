@@ -6,7 +6,7 @@
     "repo_url": "https://github.com/OpenIntroStat/airports",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/OpenIntroStat/airports/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/OpenIntroStat/airports/HEAD/man/figures/logo.png",
     "last_updated": "2020-06-29",
     "authors": [
       {
@@ -282,7 +282,7 @@
     "repo_url": "https://github.com/bayes-rules/bayesrules/",
     "pkdown_url": "https://bayes-rules.github.io/bayesrules/docs/",
     "bug_reports_url": "https://github.com/bayes-rules/bayesrules/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/bayes-rules/bayesrules/HEAD/man/figures/bayes-rules-hex.png",
     "last_updated": "2026-01-20",
     "authors": [
       {
@@ -651,7 +651,7 @@
     "repo_url": "https://github.com/OpenIntroStat/cherryblossom",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/OpenIntroStat/cherryblossom/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/OpenIntroStat/cherryblossom/HEAD/man/figures/logo.png",
     "last_updated": "2020-06-25",
     "authors": [
       {
@@ -979,7 +979,7 @@
     "repo_url": "https://github.com/cienciadedatos/dados",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/cienciadedatos/dados/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/cienciadedatos/dados/HEAD/man/figures/dados-hex.png",
     "last_updated": "2022-02-24",
     "authors": [
       {
@@ -1292,7 +1292,7 @@
     "repo_url": "https://github.com/ggPMXdevelopment/ggPMX",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/ggPMXdevelopment/ggPMX/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/ggPMXdevelopment/ggPMX/HEAD/man/figures/logo.jpg",
     "last_updated": "2025-09-05",
     "authors": [
       {
@@ -1424,7 +1424,7 @@
     "repo_url": "https://github.com/rundel/ghclass",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/rundel/ghclass/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/rundel/ghclass/HEAD/man/figures/logo.png",
     "last_updated": "2025-05-06",
     "authors": [
       {
@@ -1551,7 +1551,7 @@
     "repo_url": "https://github.com/djnavarro/hexify",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/djnavarro/hexify/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/djnavarro/hexify/HEAD/img/hexagonal.png",
     "last_updated": "2022-02-02",
     "authors": [
       {
@@ -1796,7 +1796,7 @@
     "repo_url": "https://github.com/juliasilge/janeaustenr",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/juliasilge/janeaustenr/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/juliasilge/janeaustenr/HEAD/tools/logo.png",
     "last_updated": "2022-08-26",
     "authors": [
       {
@@ -2072,7 +2072,7 @@
     "repo_url": "https://github.com/StatsGary/MLDataR",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/StatsGary/MLDataR/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/StatsGary/MLDataR/HEAD/man/figures/mldataR.png",
     "last_updated": "2022-10-03",
     "authors": [
       {
@@ -2117,41 +2117,6 @@
         ],
         "orcid": "0000-0002-6472-5073",
         "email": "packages@cararthompson.com"
-      }
-    ]
-  },
-  {
-    "name": "MSUthemes",
-    "title": "Michigan State University (MSU) Palettes and Themes",
-    "description": "Defines colour palettes and themes for Michigan State University (MSU) publications and presentations. Palettes and themes are supported in both base R and 'ggplot2' graphics, and are intended to provide consistency between those creating documents and presentations.",
-    "repo_url": "https://github.com/emilioxavier/MSUthemes",
-    "pkdown_url": "https://emilioxavier.github.io/MSUthemes/",
-    "bug_reports_url": "https://github.com/emilioxavier/MSUthemes/issues",
-    "logo_url": "https://emilioxavier.github.io/MSUthemes/logo.png",
-    "last_updated": "2025-10-17",
-    "authors": [
-      {
-        "name": "Emilio Xavier Esposito",
-        "roles": [
-          "aut",
-          "cre",
-          "cph"
-        ],
-        "orcid": "0000-0002-6193-0485",
-        "email": "emilio.esposito@gmail.com"
-      },
-      {
-        "name": "Nicola Rennie",
-        "roles": [
-          "aut"
-        ],
-        "directory_id": "nicola-rennie"
-      },
-      {
-        "name": "Michigan State University",
-        "roles": [
-          "fnd"
-        ]
       }
     ]
   },
@@ -2514,7 +2479,7 @@
     "repo_url": "https://github.com/cosimameyer/overviewR",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/cosimameyer/overviewR/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/cosimameyer/overviewR/HEAD/man/figures/logo.png",
     "last_updated": "2026-05-04",
     "authors": [
       {
@@ -3000,7 +2965,7 @@
     "repo_url": "https://github.com/djnavarro/rainbowr",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/djnavarro/rainbowr/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/djnavarro/rainbowr/HEAD/man/figures/logo.png",
     "last_updated": "2020-07-07",
     "authors": [
       {
@@ -3229,7 +3194,7 @@
     "repo_url": "https://github.com/nrennie/RSSthemes",
     "pkdown_url": {},
     "bug_reports_url": "https://github.com/nrennie/RSSthemes/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/nrennie/RSSthemes/HEAD/man/figures/logo.png",
     "last_updated": "2024-03-02",
     "authors": [
       {
@@ -4051,7 +4016,7 @@
     "repo_url": "https://github.com/ropensci/vcr/",
     "pkdown_url": "https://books.ropensci.org/http-testing/",
     "bug_reports_url": "https://github.com/ropensci/vcr/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/ropensci/vcr/HEAD/man/figures/logo.png",
     "last_updated": "2025-12-05",
     "authors": [
       {
@@ -4127,7 +4092,7 @@
     "repo_url": "https://github.com/rstudio/vetiver-r/",
     "pkdown_url": "https://vetiver.posit.co",
     "bug_reports_url": "https://github.com/rstudio/vetiver-r/issues",
-    "logo_url": {},
+    "logo_url": "https://raw.githubusercontent.com/rstudio/vetiver-r/HEAD/man/figures/logo.png",
     "last_updated": "2025-12-13",
     "authors": [
       {

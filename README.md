@@ -210,8 +210,6 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Laldin, Isabella Velásquez
 - [monochromeR](https://github.com/cararthompson/monochromeR) by Cara
   Thompson
-- [MSUthemes](https://github.com/emilioxavier/MSUthemes) by Emilio
-  Xavier Esposito, Nicola Rennie, Michigan State University
 - [namer](https://github.com/jumpingrivers/namer) by Colin Gillespie,
   Steph Locke, Maëlle Salmon, Ellis Valentiner, Charlie Hadley, Jumping
   Rivers, Han Oostdijk, Patrick Schratz
