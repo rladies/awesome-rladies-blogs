@@ -16,8 +16,8 @@ concurrency:
 jobs:
   generate:
     if: |
-      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'new-package')) ||
-      (github.event.action == 'labeled' && github.event.label.name == 'new-package')
+      (github.event.action == 'opened' && contains(github.event.issue.labels.*.name, 'package-submission')) ||
+      (github.event.action == 'labeled' && github.event.label.name == 'package-submission')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -61,7 +61,7 @@ jobs:
               repo: context.repo.repo,
               issue_number: context.issue.number,
               body: "Hi @" + context.payload.issue.user.login +
-                ", I couldn't find a **Package Name** in the form — could you edit the issue to fill that field in? Once it's set I'll re-run automatically when the `new-package` label is re-applied."
+                ", I couldn't find a **Package Name** in the form — could you edit the issue to fill that field in? Once it's set I'll re-run automatically when the `package-submission` label is re-applied."
             });
             core.setFailed('Package name missing.');
 
@@ -105,7 +105,7 @@ jobs:
                 ", I couldn't find **`" + pkg + "`** on r-universe (owner: `" +
                 (owner || '<none>') + "`) or CRAN. " +
                 "Please double-check the package name and the r-universe owner, " +
-                "then remove and re-apply the `new-package` label to retry."
+                "then remove and re-apply the `package-submission` label to retry."
             });
 
       - name: Check for changes and prepare branch
