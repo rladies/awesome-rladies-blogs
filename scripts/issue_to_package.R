@@ -20,6 +20,7 @@ env_or_arg <- function(env_name, arg_index) {
 pkg_name <- trimws(env_or_arg("PKG_NAME", 1))
 owner_hint <- trimws(env_or_arg("PKG_OWNER", 2))
 repo_url_hint <- trimws(env_or_arg("PKG_REPO_URL", 3))
+directory_ids_text <- env_or_arg("DIRECTORY_IDS", 4)
 
 if (!nzchar(pkg_name)) {
   stop("Package name is required (env PKG_NAME or first positional arg).")
@@ -107,6 +108,17 @@ if (is_blank(cand$url) && nzchar(repo_url_hint)) {
 }
 
 entry <- to_package_shape(cand, dir_lookup)
+
+# Apply explicit directory_id pairings from the issue form. These run after
+# the automatic name/handle lookup so submitters can fix mismatches that the
+# directory's own data doesn't catch (e.g. CRAN packages where the Author
+# field has a different transliteration of someone's name).
+pairs <- parse_directory_id_pairs(directory_ids_text, dir_lookup)
+if (length(pairs) > 0) {
+  cat("Applying", length(pairs), "directory_id pairings from the form\n")
+  entry$authors <- apply_directory_id_pairs(entry$authors, pairs)
+}
+
 path <- write_pkg(entry, packages_dir)
 
 cat("Wrote", path, "\n")
