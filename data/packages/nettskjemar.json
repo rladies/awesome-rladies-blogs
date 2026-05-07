@@ -1,0 +1,29 @@
+{
+  "name": "nettskjemar",
+  "title": "Connect to the 'nettskjema.no' API of the University of Oslo",
+  "description": "Enables users to retrieve data, meta-data, and codebooks from <https://nettskjema.no/>. The data from the API is richer than from the online data portal. This package is not developed by the University of Oslo IT. Mowinckel (2021) <doi:10.5281/zenodo.4745481>.",
+  "repo_url": "https://github.com/CAPRO-UiO/nettskjemar",
+  "pkdown_url": "https://zenodo.org/badge/latestdoi/206264675",
+  "bug_reports_url": "https://github.com/capro-uio/nettskjemar/issues",
+  "logo_url": "https://raw.githubusercontent.com/CAPRO-UiO/nettskjemar/HEAD/man/figures/logo.png",
+  "last_updated": "2025-09-08",
+  "authors": [
+    {
+      "name": "Athanasia Mo Mowinckel",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-5756-0223",
+      "directory_id": "athanasia-mo-mowinckel",
+      "email": "a.m.mowinckel@psykologi.uio.no"
+    },
+    {
+      "name": "Trym Nohr Fjørtoft",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0002-7654-4587"
+    }
+  ]
+}
