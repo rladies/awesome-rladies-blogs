@@ -41,12 +41,30 @@ body:
     validations:
       required: false
   - type: textarea
+    id: directory_ids
+    attributes:
+      label: Directory IDs
+      description: |
+        If you (or co-authors) have an entry in the [R-Ladies directory](https://github.com/rladies/directory),
+        list one directory id per line so we can link the package to your profile(s).
+        Use the slug (filename without `.json`) from the directory.
+
+        Each line is either:
+        - `slug` — we'll match by name from the directory
+        - `slug = Author Name` — explicit pairing if your directory name doesn't match the package author exactly
+      placeholder: |
+        athanasia-mo-mowinckel
+        alejandra-tapia = Alejandra Tapia González
+      render: text
+    validations:
+      required: false
+  - type: textarea
     id: notes
     attributes:
       label: Additional notes
       description: |
-        Anything else maintainers should know — e.g. additional authors who
-        need a `directory_id`, a custom logo URL, etc.
+        Anything else maintainers should know — e.g. a custom logo URL, an
+        author whose name differs across CRAN/r-universe, etc.
     validations:
       required: false
   - type: checkboxes

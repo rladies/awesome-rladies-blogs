@@ -44,10 +44,12 @@ jobs:
             const pkg = fields['package name'] || '';
             const owner = fields['r-universe owner / github org or user'] || '';
             const repoUrl = fields['repository url'] || '';
+            const directoryIds = fields['directory ids'] || '';
             core.setOutput('pkg_name', pkg);
             core.setOutput('pkg_owner', owner);
             core.setOutput('pkg_repo_url', repoUrl);
-            core.info(`Parsed: name='${pkg}' owner='${owner}' repo='${repoUrl}'`);
+            core.setOutput('directory_ids', directoryIds);
+            core.info(`Parsed: name='${pkg}' owner='${owner}' repo='${repoUrl}' directory_ids='${directoryIds.replace(/\n/g, ' | ')}'`);
 
       - name: Bail out if package name is missing
         if: steps.parse.outputs.pkg_name == ''
@@ -82,6 +84,7 @@ jobs:
           PKG_NAME: ${{ steps.parse.outputs.pkg_name }}
           PKG_OWNER: ${{ steps.parse.outputs.pkg_owner }}
           PKG_REPO_URL: ${{ steps.parse.outputs.pkg_repo_url }}
+          DIRECTORY_IDS: ${{ steps.parse.outputs.directory_ids }}
         run: Rscript scripts/issue_to_package.R
 
       - name: Comment on lookup failure

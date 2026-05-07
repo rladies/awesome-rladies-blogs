@@ -34,6 +34,33 @@ read_authors <- function(dir) {
   out
 }
 
+# Read directory entries that have a github handle, returning a list of
+# (slug, name, github) tuples. Used to seed package discovery for community
+# members who don't (yet) have a blog listed in data/content/.
+read_directory_entries <- function(dir) {
+  if (!dir.exists(dir)) {
+    return(list())
+  }
+  files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
+  out <- list()
+  for (f in files) {
+    entry <- tryCatch(jsonlite::read_json(f), error = function(e) NULL)
+    if (is.null(entry)) {
+      next
+    }
+    gh <- entry$social_media$github
+    if (is_blank(gh)) {
+      next
+    }
+    out[[length(out) + 1]] <- list(
+      slug = sub("\\.json$", "", basename(f)),
+      name = entry$name %||% NA_character_,
+      github = trimws(gh)
+    )
+  }
+  out
+}
+
 # Build a name/handle -> directory slug lookup from the sibling rladies/directory
 # repo. The slug (filename minus .json) is the canonical directory_id.
 build_directory_lookup <- function(dir) {
@@ -43,11 +70,12 @@ build_directory_lookup <- function(dir) {
       normalizePath(dir, mustWork = FALSE),
       " — directory_id lookup will be skipped."
     )
-    return(list(by_handle = list(), by_name = list()))
+    return(list(by_handle = list(), by_name = list(), by_slug = list()))
   }
   files <- list.files(dir, pattern = "\\.json$", full.names = TRUE)
   by_handle <- list()
   by_name <- list()
+  by_slug <- list()
   for (f in files) {
     entry <- tryCatch(jsonlite::read_json(f), error = function(e) NULL)
     if (is.null(entry)) {
@@ -60,10 +88,117 @@ build_directory_lookup <- function(dir) {
     }
     if (!is_blank(entry$name)) {
       by_name[[tolower(trimws(ascii(entry$name)))]] <- id
+      by_slug[[tolower(id)]] <- entry$name
     }
   }
   message("Loaded ", length(files), " directory entries from ", dir)
-  list(by_handle = by_handle, by_name = by_name)
+  list(by_handle = by_handle, by_name = by_name, by_slug = by_slug)
+}
+
+# Parse a "Directory IDs" textarea from the issue form. Each non-blank line is
+# either:
+#   - bare `slug` (we'll resolve the name from the directory entry)
+#   - `Author Name = slug` or `slug = Author Name` (explicit pairing for cases
+#     where the directory name doesn't quite match the package's Author field)
+# Returns a list of (slug, dir_name, explicit_name) entries; lines whose slug
+# isn't in the directory are dropped with a warning.
+parse_directory_id_pairs <- function(text, dir_lookup) {
+  if (is_blank(text)) {
+    return(list())
+  }
+  lines <- trimws(strsplit(text, "[\r\n]+")[[1]])
+  lines <- lines[nzchar(lines)]
+  pairs <- list()
+  for (line in lines) {
+    if (grepl("=", line, fixed = TRUE)) {
+      halves <- trimws(strsplit(line, "=", fixed = TRUE)[[1]])
+      a <- halves[1]
+      b <- if (length(halves) >= 2) halves[2] else ""
+      # Slug-shaped halves are lowercase letters/digits/hyphens only.
+      if (grepl("^[a-z0-9-]+$", a)) {
+        slug <- a
+        explicit_name <- b
+      } else {
+        slug <- b
+        explicit_name <- a
+      }
+    } else {
+      slug <- line
+      explicit_name <- ""
+    }
+    slug <- tolower(trimws(slug))
+    if (!nzchar(slug)) {
+      next
+    }
+    dir_name <- dir_lookup$by_slug[[slug]]
+    if (is.null(dir_name)) {
+      message(
+        "Directory id '",
+        slug,
+        "' not found in the R-Ladies directory — skipping."
+      )
+      next
+    }
+    pairs[[length(pairs) + 1]] <- list(
+      slug = slug,
+      dir_name = dir_name,
+      explicit_name = explicit_name
+    )
+  }
+  pairs
+}
+
+# Two names match if either is contained in the other (substring), or if
+# their first and last tokens are identical, after ascii/case normalisation.
+# Token comparison handles common DESCRIPTION quirks like missing middle
+# names ("Athanasia Mo Mowinckel" vs "Athanasia Mowinckel").
+names_match <- function(a, b) {
+  if (is_blank(a) || is_blank(b)) {
+    return(FALSE)
+  }
+  if (name_in(a, b) || name_in(b, a)) {
+    return(TRUE)
+  }
+  ta <- strsplit(tolower(trimws(ascii(a))), "\\s+")[[1]]
+  tb <- strsplit(tolower(trimws(ascii(b))), "\\s+")[[1]]
+  ta <- ta[nzchar(ta)]
+  tb <- tb[nzchar(tb)]
+  if (length(ta) < 2 || length(tb) < 2) {
+    return(FALSE)
+  }
+  ta[1] == tb[1] && ta[length(ta)] == tb[length(tb)]
+}
+
+apply_directory_id_pairs <- function(authors, pairs) {
+  if (length(pairs) == 0) {
+    return(authors)
+  }
+  for (p in pairs) {
+    matched <- FALSE
+    candidates <- c(p$dir_name, if (nzchar(p$explicit_name)) p$explicit_name)
+    for (i in seq_along(authors)) {
+      if (any(vapply(
+        candidates,
+        function(c) names_match(c, authors[[i]]$name),
+        logical(1)
+      ))) {
+        authors[[i]]$directory_id <- p$slug
+        matched <- TRUE
+        break
+      }
+    }
+    if (!matched) {
+      message(
+        "Could not match directory_id '",
+        p$slug,
+        "' (",
+        p$dir_name,
+        ") to any package author. ",
+        "Add `slug = Author Name` in the form to override the matching name."
+      )
+    }
+  }
+  authors
 }
 
 lookup_directory_id <- function(name, github, dir_lookup) {
