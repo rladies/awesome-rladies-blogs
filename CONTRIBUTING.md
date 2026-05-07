@@ -1,83 +1,105 @@
- # About
+# About
 
-This repository collects R-Ladies community resources: content (one JSON per blog/channel) and R packages (one JSON per package). 
+This repository collects R-Ladies community resources: online content (one JSON
+per blog, website or YouTube channel) and R packages (one JSON per package).
 Contributions are welcome from anyone who identifies with the R-Ladies community.
 
-# Contributing checklist
+# How to contribute
 
-- [ ] The entry is added to the correct folder:
-  - content metadata → `data/content/`
-  - package metadata → `data/packages/`
-- [ ] The entry filename ends with `.json`
-- Content JSONs
-  - [ ] Must include (minimum): `title`, `url` (rss feed url), `type` ("blog"), `authors`, `language` (see `scripts/json_schema/content.json` for full schema)
-  - [ ] Name the file using the content's host (e.g. `your-blog-url.com.json`)
-- Package JSONs 
-  - [ ] Must include (minimum): `name`, `maintainers` (see `scripts/json_schema/packages.json` for full schema)
-  - [ ] Name the file using the package name (e.g. `meetupr.json`)
+The easiest way to add an entry is to **open an issue** using one of the two
+issue forms — a bot will fetch the metadata, generate the JSON file, push it
+to a new branch, and open a draft pull request linked to your issue. You'll
+be tagged on the PR so you can review the file and request adjustments before
+it is merged.
 
-# Contributing details
+If you'd rather edit JSON directly, you can also fork the repo, add the file
+under `data/content/` or `data/packages/`, and open a PR — see
+[Editing JSON directly](#editing-json-directly) below.
 
-All blog metadata files live in `data/content/` and package metadata files live in `data/packages/`. 
-Each entry is a single JSON file which is used to render pages and to generate aggregated JSONs in `data/website/`.
+## Recommended: open an issue
 
-If you are not comfortable editing JSON directly, open an issue using the repository issue template and provide the details and we can help create the file for you.
+Pick the form that matches what you're submitting:
 
-There are two main ways to add an entry:
+- **[New Online Content](.github/ISSUE_TEMPLATE/new-content.yaml)** — for
+  blogs, personal websites and YouTube channels. The bot fetches the URL and
+  fills in title / description / image / RSS feed by scraping the page (you
+  can override any of those in the form).
+- **[New Package](.github/ISSUE_TEMPLATE/new-package.yaml)** — for an R
+  package authored by someone in the R-Ladies community. The bot looks the
+  package up on r-universe (if you give an owner) and falls back to CRAN.
 
-- Use the GitHub UI to create a new file in the appropriate folder (links below).
-- Fork or branch locally, add the JSON file, and create a pull request.
+Both forms accept an optional **Directory IDs** field. If you (or co-authors)
+have an entry in the [R-Ladies directory](https://github.com/rladies/directory),
+list one slug per line and the bot will link the entry to your profile(s).
+Each line is either:
 
+```
+athanasia-mo-mowinckel
+alejandra-tapia = Alejandra Tapia González
+```
 
-## Create a new content file
+The bare-slug form looks up the directory entry's name and tries to match a
+package author / content author by name. Use the `slug = Author Name` form
+when the directory name doesn't match what's on CRAN / on the page.
 
-Create a new file in `data/content/` (for example `data/content/your-blog-url.com.json`). You can use this link which pre-populates a template in a new file:
+### What the bot does
 
-[data/content/your-url.com.json](https://github.com/rladies/awesome-rladies-blogs/new/main/?filename=data/content/your-url.com.json&value=%7B%0A%20%20%22title%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22subtitle%22%3A%20%22subtitle%20or%20tagline%22%2C%20%2F%2Foptional%0A%20%20%22type%22%3A%20%22blog%22%2C%20%2F%2Frequired%0A%20%20%22url%22%3A%20%22https%3A%2F%2Fyour_blog.com%22%2C%20%2F%2Frequired%0A%20%20%22photo_url%22%3A%20%22https%3A%2F%2Fyour_blog.com%2Fyour_photo.png%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22language%22%3A%20%22en%22%2C%20%2F%2Frequired%0A%20%20%22rss_feed%22%3A%20%22%5Burl%5D%2Ffile.xml%22%2C%20%2F%2Frequired%0A%20%20%22authors%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D).
+When you submit the form (or apply the `content-submission` /
+`package-submission` label to an existing issue):
 
+1. It parses the form, validates required fields, and runs the matching R
+   script (`scripts/issue_to_content.R` or `scripts/issue_to_package.R`).
+2. It writes the generated JSON to `data/content/<host>.json` or
+   `data/packages/<pkg>.json`.
+3. It pushes a branch named `auto/new-content-...` or `auto/new-package-...`
+   and opens a **draft PR** that closes your issue.
+4. It comments on the issue with a link to the PR so you can review the
+   generated file and request changes.
 
-**Template notes:**
-- Follow the schema in `scripts/json_schema/content.json`. Required fields include `title`, `url`, `type`, `authors`, and `language`.
-- Provide a `rss_feed` URL if you have a content-specific RSS (recommended for R-category posts).
-- `photo_url` should be a publicly accessible image used as a thumbnail.
+If the bot can't find the package or fetch the URL, it leaves a comment
+explaining what went wrong. Edit the issue and remove + re-apply the
+`content-submission` / `package-submission` label to retry.
 
+## Editing JSON directly
 
-## Create a new package file
-
-Create a new file in `data/packages/` (for example `data/packages/meetupr.json`). 
-You can use this link which pre-populates a template in a new file:
-
-[data/packages/meetupr.json](https://github.com/rladies/awesome-rladies-blogs/new/main/?filename=data/packages/your-package-name.json&value=%7B%0A%20%20%22name%22%3A%20%22Your%20title%22%2C%20%2F%2Frequired%0A%20%20%22description%22%3A%20%22Short%20description%20of%20what%20you%20blog%20about%22%2C%0A%20%20%22logo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%2Fman%2Flogo.png%22%0A%20%20%22repo_url%22%3A%20%22https%3A%2F%2Fgithub.com%2Fusername%2Fpackage%22%2C%0A%20%20%22pkdown_url%3A%20%22https%3A%2F%2Fpkgdown.site%22%2C%0A%20%20%22maintainers%22%3A%20%5B%20%2F%2Frequired%0A%20%20%20%20%7B%0A%20%20%20%20%20%20%22name%22%3A%20%22Your%20Name%22%2C%20%2F%2Frequired%0A%20%20%20%20%20%20%22social_media%22%3A%20%5B%7B%0A%20%20%20%20%20%20%20%20%20%22twitter%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22mastodon%22%3A%20%22%40username%40server.org%22%2C%0A%20%20%20%20%20%20%20%20%20%22bluesky%22%3A%20%22username.domain%22%2C%0A%20%20%20%20%20%20%20%20%20%22github%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22instagram%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22youtube%22%3A%20%22username%2Fend-url%22%2C%0A%20%20%20%20%20%20%20%20%20%22tiktok%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22periscope%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22researchgate%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22website%22%3A%20%22url%22%2C%0A%20%20%20%20%20%20%20%20%20%22linkedin%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22facebook%22%3A%20%22username%22%2C%0A%20%20%20%20%20%20%20%20%20%22orcid%22%3A%20%22member%20number%22%2C%0A%20%20%20%20%20%20%20%20%20%22meetup%22%3A%20%22end-url%22%0A%20%20%20%20%20%20%7D%5D%0A%20%20%20%20%7D%0A%20%20%5D%0A%7D)
-
-**Template notes:**
-- Follow the schema in `scripts/json_schema/packages.json`. Required fields include `name` and `maintainers`.
-- Recommended fields: `repo_url`, `pkdown_url` (pkgdown or pkgdown-like site), `description`, `language`.
-
+All content metadata files live in `data/content/` and package metadata files
+live in `data/packages/`. Each entry is a single JSON file used to render
+pages and to generate the aggregated JSONs in `data/website/`.
 
 ### File name conventions
 
-- For blog entries (in `data/content/`) use the site host as the filename (e.g. `your-blog.com.json`, omit `www` and `http(s)://`).
-- For package entries (in `data/packages/`) use the package or repository name (e.g. `meetupr.json`).
+- Online content (`data/content/`): the site host, with no protocol or `www.`
+  prefix (e.g. `your-blog.com.json`).
+- Packages (`data/packages/`): the package or repository name
+  (e.g. `meetupr.json`).
 
+### Schemas
+
+- Content: `scripts/json_schema/content.json`. Required fields: `title`,
+  `url`, `type` (`blog`, `website` or `youtube`), `authors`, `language`.
+- Packages: `scripts/json_schema/packages.json`. Required fields: `name`,
+  `description`, `authors`. Recommended: `repo_url`, `pkdown_url`,
+  `bug_reports_url`, `logo_url`.
 
 ### Authors and social media
 
-The `authors` array for blog entries accepts objects with `name` and an optional `social_media` array/object. For packages, the `maintainers` array accepts objects with `name` and `social_media`.
+The `authors` array accepts objects with `name` and an optional
+`social_media` array; only the first three social media items are rendered
+in the site UI. Include handles for the services you want shown (twitter,
+github, mastodon, bluesky, etc.).
 
-Only the first three social media items are rendered in the site UI; include handles for the services you want shown (twitter, github, mastodon, etc.).
-
+For packages, authors may also have an `email`, `roles` (`aut`, `cre`, …),
+`orcid` and `directory_id`.
 
 ### Validation and aggregation
 
-- JSON schema files are available in `scripts/json_schema/` (`content.json` and `packages.json`). Use them to validate your JSON before submitting.
-- Aggregated outputs (`data/website/awesome_blogs.json` and `data/website/awesome_packages.json`) are produced by `scripts/generate_website_jsons.R`.
+- Validate locally with `Rscript scripts/validate_jsons.R`.
+- Aggregated outputs (`data/website/awesome_blogs.json` and
+  `data/website/awesome_packages.json`) are produced by
+  `scripts/generate_website_jsons.R` on push to `main`.
 
-If you'd like, you can run the validation locally; I can add a small script (`scripts/validate_package_jsons.R`) to do this automatically.
+## After your PR is opened
 
-## Commit and PR the file
-
-At the bottom of the GitHub file editor page, add a commit message and create a PR to `main`.
-
-Once the PR is opened automated checks may run and we will review and request changes as needed. In the PR comments, please @rladies/website for review.
-
-After checks pass and the entries are reviewed they will be merged into `main`.
+Whether the PR was opened by the bot or by you directly, please @rladies/website
+in the PR comments so a maintainer can review. After checks pass and the entry
+is reviewed it will be merged into `main`.
