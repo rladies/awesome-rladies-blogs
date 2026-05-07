@@ -1,0 +1,38 @@
+{
+  "name": "ggseg.extra",
+  "title": "Create Brain Atlases for the 'ggsegverse' Plotting Ecosystem",
+  "description": "Create brain atlas data sets compatible with the 'ggsegverse' plotting packages in 'R'. Provides pipelines for building cortical, subcortical, and white-matter tract atlases from 'FreeSurfer' annotation files, 'GIFTI' and 'CIFTI' surface formats, 'neuromaps', and volumetric 'NIfTI' images.",
+  "repo_url": "https://github.com/ggsegverse/ggseg.extra",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ggsegverse/ggseg.extra/issues",
+  "logo_url": "https://raw.githubusercontent.com/ggsegverse/ggseg.extra/HEAD/man/figures/logo.png",
+  "last_updated": "2026-03-29",
+  "authors": [
+    {
+      "name": "Athanasia Mo Mowinckel",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-5756-0223",
+      "directory_id": "athanasia-mo-mowinckel",
+      "email": "a.m.mowinckel@psykologi.uio.no"
+    },
+    {
+      "name": "Didac Vidal-Piñeiro",
+      "roles": [
+        "ctb",
+        "cph"
+      ],
+      "orcid": "0000-0001-9997-9156"
+    },
+    {
+      "name": "John Muschelli",
+      "roles": [
+        "ctb"
+      ],
+      "orcid": "0000-0001-6469-1750"
+    }
+  ]
+}
