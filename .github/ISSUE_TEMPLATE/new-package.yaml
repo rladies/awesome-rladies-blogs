@@ -1,7 +1,7 @@
 name: New Package
 description: Submit an R package authored by an R-Ladies community member
 title: "[New Package]: "
-labels: ["new-package"]
+labels: ["package-submission"]
 body:
   - type: markdown
     attributes:
