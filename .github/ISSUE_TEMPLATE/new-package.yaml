@@ -1,0 +1,59 @@
+name: New Package
+description: Submit an R package authored by an R-Ladies community member
+title: "[New Package]: "
+labels: ["new-package"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a new R package! :tada:
+
+        Once you open this issue, a bot will try to look the package up on
+        r-universe and CRAN, generate a JSON file under `data/packages/`, push
+        it to a new branch, and open a draft pull request linked to this
+        issue. You'll be tagged on the PR so you can review the file (e.g.
+        adding `directory_id` for additional authors) before it is merged.
+  - type: input
+    id: package
+    attributes:
+      label: Package Name
+      description: The package's `Package:` field, e.g. `meetupr`.
+      placeholder: ex. meetupr
+    validations:
+      required: true
+  - type: input
+    id: owner
+    attributes:
+      label: R-universe Owner / GitHub Org or User
+      description: |
+        The r-universe namespace or GitHub user/org that hosts the package.
+        Used to query `https://<owner>.r-universe.dev`. If left empty we'll
+        fall back to CRAN.
+      placeholder: ex. rladies
+    validations:
+      required: false
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      description: GitHub/GitLab/Codeberg URL for the package source.
+      placeholder: ex. https://github.com/rladies/meetupr
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: |
+        Anything else maintainers should know — e.g. additional authors who
+        need a `directory_id`, a custom logo URL, etc.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](http://rladies.org/code-of-conduct/)
+      options:
+        - label: I agree to follow R-Ladies' Code of Conduct
+          required: true
