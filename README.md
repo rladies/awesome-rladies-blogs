@@ -342,6 +342,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [washi](https://github.com/WA-Department-of-Agriculture/washi) by
   Jadey Ryan, Molly McIlquham, Dani Gelardi, Washington State Department
   of Agriculture
+- [wcep](https://github.com/sarah-0k/wcep) by Jeffrey Bakal, Cynthia
+  Westerhout, Sarah Rathwell, Caroline Falvey, Huiman Barnhart, Na Zhang
 - [weathercan](https://github.com/ropensci/weathercan/) by Steffi
   LaZerte, Sam Albers, Nick Brown, Kevin Cazelles, Richard Littauer,
   Shandiya Balasubramaniam, Mark Ciechanowski, Jeremy Selva, Kelli F.
