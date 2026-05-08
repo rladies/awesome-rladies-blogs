@@ -23,7 +23,6 @@ jobs:
               workflow_id: 'build-preview.yaml',
               ref: 'main',
               inputs: {
-                blogs: '${{ github.run_id }}',
                 triggering_issue: '${{ github.event.pull_request.number }}',
                 triggering_repo: '${{ github.event.repository.name }}'
               }
