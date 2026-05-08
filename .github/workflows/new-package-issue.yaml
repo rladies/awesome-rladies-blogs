@@ -194,6 +194,7 @@ jobs:
             });
 
             let pr;
+            let prCreated = false;
             if (existing.data.length > 0) {
               pr = existing.data[0];
               await github.rest.pulls.update({
@@ -214,12 +215,37 @@ jobs:
                 draft: true
               });
               pr = created.data;
+              prCreated = true;
               core.info(`Opened PR #${pr.number}`);
+            }
+
+            // Assign the issue author to the PR so it shows up on their dashboard.
+            // Silently no-ops for users without write access (GitHub ignores them).
+            try {
+              await github.rest.issues.addAssignees({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: pr.number,
+                assignees: [author]
+              });
+            } catch (e) {
+              core.info(`Could not assign @${author} to PR #${pr.number}: ${e.message}`);
             }
 
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Hi @${author}, I drafted [\`${file}\`](${pr.html_url}/files) on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — the file is generated from \`${source}\` so things like additional authors' \`directory_id\` may need a manual touch-up.`
+              body: `Hi @${author}, I drafted [\`${file}\`](${pr.html_url}/files) on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — the file is generated from \`${source}\` so things like additional authors' \`directory_id\` may need a manual touch-up. I'm closing this issue; let's continue on the PR.`
             });
+
+            // Move communication to the PR by closing the issue once the PR is up.
+            // Only on first creation — if a maintainer reopened the issue, leave it.
+            if (prCreated) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                state: 'closed'
+              });
+            }
