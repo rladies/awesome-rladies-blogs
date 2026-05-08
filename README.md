@@ -1,11 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Awesome R-Ladies’ Content and Packages
+# Awesome RLadies+ Content and Packages
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Curated lists of R-Ladies community resources (blogs, YouTube channels,
+Curated lists of RLadies+ community resources (blogs, YouTube channels,
 and R packages currently). Each entry is stored as a JSON metadata file
 in this repository; the site-friendly aggregated JSON files are
 generated into the `data/website/` directory by the script

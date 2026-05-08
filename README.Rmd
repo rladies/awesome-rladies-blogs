@@ -12,11 +12,11 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Awesome R-Ladies' Content and Packages
+# Awesome RLadies+ Content and Packages
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Curated lists of R-Ladies community resources (blogs, YouTube channels, and R packages currently).
+Curated lists of RLadies+ community resources (blogs, YouTube channels, and R packages currently).
 Each entry is stored as a JSON metadata file in this repository; the site-friendly aggregated JSON files are generated into the `data/website/` directory by the script `scripts/generate_website_jsons.R`.
 
 To contribute: add a JSON file describing the blog (to `data/content/`) or the package (to `data/packages/`) following the examples in the repository and the JSON schema at `scripts/json_schema/`.
