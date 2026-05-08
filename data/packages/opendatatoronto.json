@@ -1,0 +1,28 @@
+{
+  "name": "opendatatoronto",
+  "title": "Access the City of Toronto Open Data Portal",
+  "description": "Access data from the \"City of Toronto Open Data Portal\" (<https://open.toronto.ca>) directly from R.",
+  "repo_url": "https://github.com/sharlagelfand/opendatatoronto/",
+  "pkdown_url": "https://sharlagelfand.github.io/opendatatoronto/",
+  "bug_reports_url": "https://github.com/sharlagelfand/opendatatoronto/issues",
+  "logo_url": "https://sharlagelfand.github.io/opendatatoronto/logo.png",
+  "last_updated": "2025-04-02",
+  "authors": [
+    {
+      "name": "Sharla Gelfand",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "sharla-gelfand",
+      "email": "sharla.gelfand@gmail.com"
+    },
+    {
+      "name": "City of Toronto",
+      "roles": [
+        "cph",
+        "fnd"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "ckanr",
+  "title": "Client for the Comprehensive Knowledge Archive Network ('CKAN')\nAPI",
+  "description": "Client for 'CKAN' API (<https://ckan.org/>). Includes interface to 'CKAN' 'APIs' for search, list, show for packages, organizations, and resources. In addition, provides an interface to the 'datastore' API.",
+  "repo_url": "https://github.com/ropensci/ckanr (devel)",
+  "pkdown_url": "https://docs.ropensci.org/ckanr/ (website)",
+  "bug_reports_url": "https://github.com/ropensci/ckanr/issues",
+  "logo_url": null,
+  "last_updated": "2023-03-17",
+  "authors": [
+    {
+      "name": "Scott Chamberlain",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1444-9135"
+    },
+    {
+      "name": "Imanuel Costigan",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Wush Wu",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5180-0567"
+    },
+    {
+      "name": "Florian Mayer",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4269-4242"
+    },
+    {
+      "name": "Sharla Gelfand",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "sharla-gelfand"
+    },
+    {
+      "name": "Francisco Alves",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-3390-0534",
+      "email": "fjunior.alves.oliveira@gmail.com"
+    }
+  ]
+}

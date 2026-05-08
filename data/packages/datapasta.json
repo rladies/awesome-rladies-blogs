@@ -1,0 +1,62 @@
+{
+  "name": "datapasta",
+  "title": "R Tools for Data Copy-Pasta",
+  "description": "RStudio addins and R functions that make copy-pasting vectors and tables to text painless.",
+  "repo_url": "https://github.com/milesmcbain/datapasta",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/milesmcbain/datapasta/issues",
+  "logo_url": "https://raw.githubusercontent.com/milesmcbain/datapasta/master/inst/media/hex_web.png",
+  "last_updated": "2020-01-17",
+  "authors": [
+    {
+      "name": "Miles McBain",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0003-2865-2548",
+      "email": "miles.mcbain@gmail.com"
+    },
+    {
+      "name": "Jonathan Carroll",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-1404-5264"
+    },
+    {
+      "name": "Mark Dulhunty",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Andrew Collier",
+      "roles": [
+        "ctb"
+      ]
+    },
+    {
+      "name": "Sharla Gelfand",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "sharla-gelfand"
+    },
+    {
+      "name": "Suthira Owlarn",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3258-1415",
+      "directory_id": "suthira-owlarn"
+    },
+    {
+      "name": "Garrick Aden-Buie",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-7111-0077"
+    }
+  ]
+}
