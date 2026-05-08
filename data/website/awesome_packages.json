@@ -1250,6 +1250,42 @@
     ]
   },
   {
+    "name": "ern",
+    "title": "Effective Reproduction Number Estimation",
+    "description": "Estimate the effective reproduction number from wastewater and clinical data sources.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-01-16",
+    "authors": [
+      {
+        "name": "David Champredon",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7090-8757",
+        "email": "david.champredon@canada.ca"
+      },
+      {
+        "name": "Warsame Yusuf",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5571-8122"
+      },
+      {
+        "name": "Irena Papst",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5901-7585",
+        "directory_id": "irena-papst"
+      }
+    ]
+  },
+  {
     "name": "flametree",
     "title": "Generate Random Tree-Like Images",
     "description": "A generative art system for producing tree-like images using an L-system to create the structures. The package includes tools for generating the data structures and visualise them in a variety of styles.",
@@ -3260,6 +3296,57 @@
     ]
   },
   {
+    "name": "rddapp",
+    "title": "Regression Discontinuity Design Application",
+    "description": "Estimation of both single- and multiple-assignment Regression Discontinuity Designs (RDDs). Provides both parametric (global) and non-parametric (local) estimation choices for both sharp and fuzzy designs, along with power analysis and assumption checks. Introductions to the underlying logic and analysis of RDDs are in Thistlethwaite, D. L., Campbell, D. T. (1960) <doi:10.1037/h0044319> and Lee, D. S., Lemieux, T. (2010) <doi:10.1257/jel.48.2.281>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-07-23",
+    "authors": [
+      {
+        "name": "Ze Jin",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Wang Liao",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Irena Papst",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "irena-papst"
+      },
+      {
+        "name": "Wenyu Zhang",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kimberly Hochstedler",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Felix Thoemmes",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "fjt36@cornell.edu"
+      }
+    ]
+  },
+  {
     "name": "rhub",
     "title": "Tools for R Package Developers",
     "description": "R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.",
@@ -4690,6 +4777,42 @@
         "orcid": "0000-0002-3671-836X",
         "directory_id": "julia-silge",
         "email": "julia.silge@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "wingen",
+    "title": "Continuous Mapping of Genetic Diversity",
+    "description": "Generate continuous maps of genetic diversity using moving windows with options for rarefaction, interpolation, and masking as described in Bishop et al. (2023) <doi:10.1111/2041-210X.14090>.",
+    "repo_url": "https://github.com/AnushaPB/wingen",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/AnushaPB/wingen/issues",
+    "logo_url": "https://raw.githubusercontent.com/AnushaPB/wingen/HEAD/man/figures/logo.png",
+    "last_updated": "2025-08-19",
+    "authors": [
+      {
+        "name": "Anusha Bishop",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1731-8683",
+        "directory_id": "anusha-bishop",
+        "email": "anusha.bishop@berkeley.edu"
+      },
+      {
+        "name": "Anne Chambers",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7369-0108"
+      },
+      {
+        "name": "Ian Wang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2554-9414"
       }
     ]
   },

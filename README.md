@@ -163,6 +163,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Anna Krystalli, Salvador Fernández-Bejarano, Thomas J Webb, European
   Marine Observation Data Network, VLIZ, Maëlle Salmon, Alec L.
   Robitaille, Liz Hare, François Michonneau
+- [ern]() by David Champredon, Warsame Yusuf, Irena Papst
 - [flametree](https://github.com/djnavarro/flametree) by Danielle
   Navarro
 - [ggauto](https://github.com/nrennie/ggauto) by Nicola Rennie
@@ -274,6 +275,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [quartose](https://github.com/djnavarro/quartose) by Danielle Navarro
 - [queue](https://github.com/djnavarro/queue) by Danielle Navarro
 - [rainbowr](https://github.com/djnavarro/rainbowr) by Danielle Navarro
+- [rddapp]() by Ze Jin, Wang Liao, Irena Papst, Wenyu Zhang, Kimberly
+  Hochstedler, Felix Thoemmes
 - [rhub](https://github.com/r-hub/rhub) by Gábor Csárdi, Maëlle Salmon,
   R Consortium
 - [riem](https://github.com/ropensci/riem) by Maëlle Salmon, Brooke
@@ -350,6 +353,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Johnson, Russ Allen, Everett Snieder, Josh Persi, Mahjabin Oyshi
 - [widyr](https://github.com/juliasilge/widyr) by David Robinson,
   Kanishka Misra, Julia Silge
+- [wingen](https://github.com/AnushaPB/wingen) by Anusha Bishop, Anne
+  Chambers, Ian Wang
 - [worrrd](https://github.com/anthonypileggi/worrrd) by Anthony Pileggi,
   Shannon Pileggi
 
