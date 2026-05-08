@@ -702,7 +702,7 @@ emit_pr_block <- function(p) {
   )
   directory_url <- sprintf("https://rladies.org/directory/%s/", p$slug)
   body <- sprintf(
-    "Hi @%s 👋\n\nThis is an opt-in awesome list of R-Ladies community R packages. We found you in the [R-Ladies directory](%s) and cross-referenced your handle against r-universe and CRAN to surface the following package(s) authored or maintained by you:\n\n%s\n\n**Please leave a comment to opt in or out** — a \"yes\" (or any go-ahead comment) and a maintainer will merge; a \"no thanks\" and we'll close it. Let us know in the same comment if you'd like to be skipped in future sweeps. Corrections on the metadata are also welcome.\n\nIf you'd like to update or remove your directory entry itself, instructions for both are on your [directory page](%s).\n\nSee the [README](https://github.com/rladies/awesome-rladies-creations) for more about this list.",
+    "Hi @%s 👋\n\nThis is an opt-in awesome list of R-Ladies community R packages. We found you in the [R-Ladies directory](%s) and cross-referenced your handle against r-universe and CRAN to surface the following package(s) authored or maintained by you:\n\n%s\n\n**Please leave a comment to opt in or out** — a \"yes\" (or any go-ahead comment) and a maintainer will merge; a \"no thanks\" and we'll close it. Corrections on the metadata are also welcome.\n\nIf you'd like to update or remove your directory entry itself, instructions for both are on your [directory page](%s).\n\nSee the [README](https://github.com/rladies/awesome-rladies-creations) for more about this list.",
     p$github,
     directory_url,
     pkg_list_md,
