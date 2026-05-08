@@ -1,0 +1,23 @@
+{
+  "name": "DiPs",
+  "title": "Directional Penalties for Optimal Matching in Observational\nStudies",
+  "description": "Improves the balance of optimal matching with near-fine balance by giving penalties on the unbalanced covariates with the unbalanced directions. Many directional penalties can also be viewed as Lagrange multipliers, pushing a matched sample in the direction of satisfying a linear constraint that would not be satisfied without penalization. Yu and Rosenbaum (2019) <doi:10.1111/biom.13098>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2022-08-07",
+  "authors": [
+    {
+      "name": "Ruoqi Yu",
+      "email": "ruoqiyu125@gmail.com"
+    },
+    {
+      "name": "Ruoqi Yu",
+      "roles": [
+        "cre"
+      ],
+      "email": "ruoqiyu125@gmail.com"
+    }
+  ]
+}

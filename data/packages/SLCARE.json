@@ -1,0 +1,27 @@
+{
+  "name": "SLCARE",
+  "title": "Semiparametric Latent Class Analysis of Recurrent Events",
+  "description": "Efficient R package for latent class analysis of recurrent events, based on the semiparametric multiplicative intensity model by Zhao et al. (2022) <doi:10.1111/rssb.12499>. SLCARE returns estimates for non-functional model parameters along with the associated variance estimates and p-values. Visualization tools are provided to depict the estimated functional model parameters and related functional quantities of interest. SLCARE also delivers a model checking plot to help assess the adequacy of the fitted model.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-06-24",
+  "authors": [
+    {
+      "name": "Qi Yu",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "qi-yu",
+      "email": "qi.yu2@emory.edu"
+    },
+    {
+      "name": "Limin Peng",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,371 @@
+{
+  "name": "FAIRmaterials",
+  "title": "Ontology Tools with Data FAIRification in Development",
+  "description": "Translates several CSV files with ontological terms and corresponding data into RDF triples. These RDF triples are stored in OWL and JSON-LD files, facilitating data accessibility, interoperability, and knowledge unification. The triples are also visualized in a graph saved as an SVG. The input CSVs must be formatted with a template from a public Google Sheet; see README or vignette for more information. This is a tool is used by the SDLE Research Center at Case Western Reserve University to create and visualize material science ontologies, and it includes example ontologies to demonstrate its capabilities. This work was supported by the U.S. Department of Energy’s Office of Energy Efficiency and Renewable Energy (EERE) under Solar Energy Technologies Office (SETO) Agreement Numbers E-EE0009353 and DE-EE0009347, Department of Energy (National Nuclear Security Administration) under Award Number DE-NA0004104 and Contract number B647887, and U.S. National Science Foundation Award under Award Number 2133576.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2024-06-27",
+  "authors": [
+    {
+      "name": "Jonathan E Gordon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0007-5958-7386"
+    },
+    {
+      "name": "Alexander Harding Bradley",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0000-2917-773X"
+    },
+    {
+      "name": "Priyan Rajamohan",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0003-5326-1706"
+    },
+    {
+      "name": "Nathaniel Hahn",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kiefer Lin",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Arafath Nihar",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-4826-290X"
+    },
+    {
+      "name": "Hayden Cadwell",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jiana Kambo",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jayvic Jimenez",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-2342-5648"
+    },
+    {
+      "name": "Kristen J Hernandez",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6139-1218"
+    },
+    {
+      "name": "Hein Htet-Aung",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-8191-8213"
+    },
+    {
+      "name": "Brian Giera",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6543-7498"
+    },
+    {
+      "name": "Weiqi Yue",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3253-7991"
+    },
+    {
+      "name": "Mohommad Redad Mehdi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0593-5222"
+    },
+    {
+      "name": "Finley Holt",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Quynh Tran",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0006-4025-1834"
+    },
+    {
+      "name": "Gabriel Ponon",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9366-6199"
+    },
+    {
+      "name": "Daniel Savage",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-9973-2030"
+    },
+    {
+      "name": "Donald Brown",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Jarod Kaltenbaugh",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0007-4576-7714"
+    },
+    {
+      "name": "Kush Havinal",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Nicholas Gray",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Max Liggett",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Benjamin G Pierce",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9080-4584"
+    },
+    {
+      "name": "Raymond Wieser",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1531-6430"
+    },
+    {
+      "name": "Yangxin Fan",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1728-9560"
+    },
+    {
+      "name": "Tommy Ciardi",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Olatunde J Akanbi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7719-2619"
+    },
+    {
+      "name": "Hadiza Iawal",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-5086-2344"
+    },
+    {
+      "name": "Will Oltjen",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0380-1033"
+    },
+    {
+      "name": "Maliesha Kalutotage",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0009-6440-8180"
+    },
+    {
+      "name": "Antony Lino",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Van Tran",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0008-4355-0543"
+    },
+    {
+      "name": "Mingjian Lu",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Xuanji Yu",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1967-3769"
+    },
+    {
+      "name": "Liangyi Huang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-0845-3293"
+    },
+    {
+      "name": "Zelin Li",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6287-3697"
+    },
+    {
+      "name": "Abhishek Daundkar",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Hope Omodolor",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0009-0005-7842-406X"
+    },
+    {
+      "name": "Deepa Bhuvanagiri",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-5896-545X"
+    },
+    {
+      "name": "Mirra Rasmussen",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Sameera Nalin-Venkat",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9114-4602"
+    },
+    {
+      "name": "Tian Wang",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-6088-4405"
+    },
+    {
+      "name": "Rounak Chawla",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Leean Jo",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7026-3779"
+    },
+    {
+      "name": "Jeffrey M Yarus",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9331-9568"
+    },
+    {
+      "name": "Kristopher O Davis",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-5772-6254"
+    },
+    {
+      "name": "Mengjie Li",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9531-2474"
+    },
+    {
+      "name": "Yinghui Wu",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-3991-5155"
+    },
+    {
+      "name": "Pawan K Tripathi",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-8604-7744"
+    },
+    {
+      "name": "Laura S Bruckman",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0003-1271-1072"
+    },
+    {
+      "name": "Erika I Barcelos",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-9273-8488"
+    },
+    {
+      "name": "Roger H French",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0000-0002-6162-0532",
+      "email": "roger.french@case.edu"
+    }
+  ]
+}

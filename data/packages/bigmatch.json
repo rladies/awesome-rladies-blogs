@@ -1,0 +1,23 @@
+{
+  "name": "bigmatch",
+  "title": "Making Optimal Matching Size-Scalable Using Optimal Calipers",
+  "description": "Implements optimal matching with near-fine balance in large observational studies with the use of optimal calipers to get a sparse network. The caliper is optimal in the sense that it is as small as possible such that a matching exists. The main functions in the 'bigmatch' package are optcal() to find the optimal caliper, optconstant() to find the optimal number of nearest neighbors, and nfmatch() to find a near-fine balance match with a caliper and a restriction on the number of nearest neighbors. Yu, R., Silber, J. H., and Rosenbaum, P. R. (2020). <DOI:10.1214/19-sts699>.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2022-08-11",
+  "authors": [
+    {
+      "name": "Ruoqi Yu",
+      "email": "ruoqiyu125@gmail.com"
+    },
+    {
+      "name": "Ruoqi Yu",
+      "roles": [
+        "cre"
+      ],
+      "email": "ruoqiyu125@gmail.com"
+    }
+  ]
+}
