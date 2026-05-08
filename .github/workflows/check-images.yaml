@@ -2,24 +2,26 @@ name: Check repo image urls
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
   schedule:
-    - cron: "0 0 * * SAT" 
+    - cron: "0 0 * * SAT"
+
+permissions:
+  issues: write
+  contents: read
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
-  knit:
+  sweep:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          
+
       - name: Install cURL Headers
         run: |
           sudo apt-get update
@@ -33,7 +35,50 @@ jobs:
       - name: Setup renv
         uses: r-lib/actions/setup-renv@v2
 
-      - name: Check repo image urls
-        run: |
-          Rscript --verbose scripts/check-images.R
+      - name: Run image URL sweep
+        run: Rscript scripts/check-images.R
 
+      - name: Update rolling tracking issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_TITLE: "Broken image URLs sweep"
+        run: |
+          set -euo pipefail
+          REPORT_FILE="image-check-report.md"
+
+          BROKEN=$(grep -oE '[0-9]+ broken image URL' "$REPORT_FILE" | grep -oE '^[0-9]+' | head -n1)
+          BROKEN=${BROKEN:-0}
+          echo "Broken URL count: $BROKEN"
+
+          ISSUE_INFO=$(gh issue list \
+            --state all \
+            --limit 100 \
+            --search "in:title \"$ISSUE_TITLE\"" \
+            --json number,title,state \
+            --jq "[.[] | select(.title == \"$ISSUE_TITLE\")] | sort_by(.number) | last")
+
+          ISSUE_NUMBER=$(echo "$ISSUE_INFO" | jq -r '.number // empty')
+          ISSUE_STATE=$(echo "$ISSUE_INFO" | jq -r '.state // empty')
+          echo "Existing issue: ${ISSUE_NUMBER:-none} (state=${ISSUE_STATE:-n/a})"
+
+          if [ "$BROKEN" -eq 0 ]; then
+            if [ -n "$ISSUE_NUMBER" ] && [ "$ISSUE_STATE" = "OPEN" ]; then
+              echo "No broken URLs; closing issue #$ISSUE_NUMBER"
+              gh issue close "$ISSUE_NUMBER" \
+                --comment "Latest sweep ($(date -u +%Y-%m-%d)) found zero broken image URLs. Closing — this issue will be reopened automatically if any URLs break."
+            else
+              echo "No broken URLs and no open tracking issue; nothing to do."
+            fi
+          else
+            if [ -n "$ISSUE_NUMBER" ]; then
+              if [ "$ISSUE_STATE" = "CLOSED" ]; then
+                echo "Reopening issue #$ISSUE_NUMBER"
+                gh issue reopen "$ISSUE_NUMBER"
+              fi
+              echo "Updating issue #$ISSUE_NUMBER"
+              gh issue edit "$ISSUE_NUMBER" --body-file "$REPORT_FILE"
+            else
+              echo "Creating new tracking issue"
+              gh issue create --title "$ISSUE_TITLE" --body-file "$REPORT_FILE"
+            fi
+          fi
