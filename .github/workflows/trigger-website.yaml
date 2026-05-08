@@ -2,7 +2,7 @@ name: Trigger Website
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request_target:
     branches:
       - main
 
@@ -36,7 +36,7 @@ jobs:
                 const path = require('path');
                 await github.rest.issues.createComment({
                     owner: 'rladies',
-                    repo: 'awesome-rladies-blogs',
+                    repo: '${{ github.event.repository.name }}',
                     issue_number: '${{ github.event.pull_request.number }}',
                     body: 'Building test-site now! The build will take a few minutes, but look at its progress in the [website repo](https://github.com/rladies/rladies.github.io/actions/workflows/build-preview.yaml).'
                 })
