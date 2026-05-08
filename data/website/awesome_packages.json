@@ -157,6 +157,34 @@
     ]
   },
   {
+    "name": "avilistr",
+    "title": "Access and Work with the 'AviList' Global Avian Checklist",
+    "description": "Provides easy access to the 'AviList' Global Avian Checklist, the first unified global bird taxonomy that harmonizes previous differences between International Ornithological Committee ('IOC'), 'Clements', and 'BirdLife' checklists. This package contains the complete 'AviList' dataset as R data objects ready for ornithological research and analysis. For more details see 'AviList' Core Team (2025) <doi:10.2173/avilist.v2025>.",
+    "repo_url": "https://github.com/dalyanalytics/avilistr",
+    "pkdown_url": "https://dalyanalytics.github.io/avilistr/",
+    "bug_reports_url": "https://github.com/dalyanalytics/avilistr/issues",
+    "logo_url": "https://dalyanalytics.github.io/avilistr/logo.png",
+    "last_updated": "2025-06-17",
+    "authors": [
+      {
+        "name": "Jasmine Daly",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-8006-2428",
+        "directory_id": "jasmine-dumas",
+        "email": "jasmine.dumas@gmail.com"
+      },
+      {
+        "name": "AviList Core Team",
+        "roles": [
+          "dtc"
+        ]
+      }
+    ]
+  },
+  {
     "name": "bakeoff",
     "title": "Data from \"The Great British Bake Off\"",
     "description": "Data about the bakers, challenges, and ratings for \"The Great British Bake Off\", from Wikipedia <https://en.wikipedia.org/wiki/The_Great_British_Bake_Off>.",
@@ -174,7 +202,8 @@
           "cph"
         ],
         "orcid": "0000-0002-8082-1890",
-        "email": "apreshill@gmail.com"
+        "email": "apreshill@gmail.com",
+        "directory_id": "alison-presmanes-hill"
       },
       {
         "name": "Chester Ismay",
@@ -1020,7 +1049,8 @@
         "roles": [
           "aut"
         ],
-        "orcid": "0000-0003-0762-7618"
+        "orcid": "0000-0003-0762-7618",
+        "directory_id": "alejandra-tapia"
       },
       {
         "name": "Beatriz Maurer Costa",
@@ -1412,6 +1442,201 @@
       {
         "name": "Novartis Pharma AG",
         "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ggseg.extra",
+    "title": "Create Brain Atlases for the 'ggsegverse' Plotting Ecosystem",
+    "description": "Create brain atlas data sets compatible with the 'ggsegverse' plotting packages in 'R'. Provides pipelines for building cortical, subcortical, and white-matter tract atlases from 'FreeSurfer' annotation files, 'GIFTI' and 'CIFTI' surface formats, 'neuromaps', and volumetric 'NIfTI' images.",
+    "repo_url": "https://github.com/ggsegverse/ggseg.extra",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ggsegverse/ggseg.extra/issues",
+    "logo_url": "https://raw.githubusercontent.com/ggsegverse/ggseg.extra/HEAD/man/figures/logo.png",
+    "last_updated": "2026-03-29",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Didac Vidal-Piñeiro",
+        "roles": [
+          "ctb",
+          "cph"
+        ],
+        "orcid": "0000-0001-9997-9156"
+      },
+      {
+        "name": "John Muschelli",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-6469-1750"
+      }
+    ]
+  },
+  {
+    "name": "ggseg.formats",
+    "title": "Brain Atlas Data Structures for the 'ggseg' Ecosystem",
+    "description": "Provides the 'ggseg_atlas' S3 class used across the 'ggseg' ecosystem for 2D and 3D brain visualisation. Ships three bundled atlases ('Desikan-Killiany', 'FreeSurfer' 'aseg', 'TRACULA') and functions for querying, subsetting, renaming, and enriching atlas objects. Also includes readers for 'FreeSurfer' statistics files.",
+    "repo_url": "https://github.com/ggsegverse/ggseg.formats",
+    "pkdown_url": "https://ggsegverse.github.io/ggseg.formats/",
+    "bug_reports_url": "https://github.com/ggsegverse/ggseg.formats/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-03",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Center for Lifespan Changes in Brain and Cognition"
+      },
+      {
+        "name": "University of Oslo",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ggseg",
+    "title": "Plotting Tool for Brain Atlases",
+    "description": "Provides a 'ggplot2' geom and position for visualizing brain region data on cortical, subcortical, and white matter tract atlases. Brain atlas geometries are stored as simple features ('sf'), enabling seamless integration with the 'ggplot2' ecosystem including faceting, custom scales, and themes. Mowinckel & Vidal-Piñeiro (2020) <doi:10.1177/2515245920928009>.",
+    "repo_url": "https://github.com/ggsegverse/ggseg",
+    "pkdown_url": "https://ggsegverse.github.io/ggseg/",
+    "bug_reports_url": "https://github.com/ggsegverse/ggseg/issues",
+    "logo_url": "https://ggsegverse.github.io/ggseg/logo.png",
+    "last_updated": "2026-04-16",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Didac Vidal-Piñeiro",
+        "roles": [
+          "aut",
+          "cph"
+        ],
+        "orcid": "0000-0001-9997-9156"
+      },
+      {
+        "name": "Ramiro Magno",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5226-3441"
+      },
+      {
+        "name": "Center for Lifespan Changes in Brain and Cognition"
+      },
+      {
+        "name": "University of Oslo"
+      },
+      {
+        "name": "Norway",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ggseg.meshes",
+    "title": "Additional Brain Surface Meshes for the 'ggsegverse' Ecosystem",
+    "description": "Provides additional brain surface meshes for cortical and cerebellar visualisation in the 'ggsegverse' ecosystem. Cortical surfaces include pial, white, midthickness, semi-inflated, sphere, smoothwm, and orig at fsaverage5 resolution. Cerebellar surfaces include the Spatially Unbiased Infratentorial Template (SUIT) flatmap. All meshes follow the same vertices/faces data frame format used by 'ggseg.formats' and 'ggseg3d'.",
+    "repo_url": "https://github.com/ggsegverse/ggseg.meshes",
+    "pkdown_url": "https://ggsegverse.github.io/ggseg.meshes/",
+    "bug_reports_url": "https://github.com/ggsegverse/ggseg.meshes/issues",
+    "logo_url": "https://ggsegverse.github.io/ggseg.meshes/logo.png",
+    "last_updated": "2026-04-09",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Center for Lifespan Changes in Brain and Cognition"
+      },
+      {
+        "name": "University of Oslo",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ggseg3d",
+    "title": "Interactive 3D Brain Atlas Visualization",
+    "description": "Plot brain atlases as interactive 3D meshes using 'Three.js' via 'htmlwidgets', or render publication-quality static images through 'rgl' and 'rayshader'. A pipe-friendly API lets you map data onto brain regions, control camera angles, toggle region edges, overlay glass brains, and snapshot or ray-trace the result. Additional atlases are available through the 'ggsegverse' r-universe. Mowinckel & Vidal-Piñeiro (2020) <doi:10.1177/2515245920928009>.",
+    "repo_url": "https://github.com/ggsegverse/ggseg3d",
+    "pkdown_url": "https://ggsegverse.github.io/ggseg3d/",
+    "bug_reports_url": "https://github.com/ggsegverse/ggseg3d/issues",
+    "logo_url": "https://ggsegverse.github.io/ggseg3d/logo.png",
+    "last_updated": "2026-04-22",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Didac Vidal-Piñeiro",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-9997-9156"
+      },
+      {
+        "name": "Center for Lifespan Changes in Brain and Cognition"
+      },
+      {
+        "name": "University of Oslo",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "three.js authors",
+        "roles": [
+          "ctb",
           "cph"
         ]
       }
@@ -2164,7 +2389,8 @@
         "roles": [
           "ctb"
         ],
-        "orcid": "0000-0002-3039-6849"
+        "orcid": "0000-0002-3039-6849",
+        "directory_id": "charlie-joey-hadley"
       },
       {
         "name": "Jumping Rivers",
@@ -2212,6 +2438,58 @@
           "cre"
         ],
         "email": "dlepage@birdscanada.org"
+      }
+    ]
+  },
+  {
+    "name": "nettskjemar",
+    "title": "Connect to the 'nettskjema.no' API of the University of Oslo",
+    "description": "Enables users to retrieve data, meta-data, and codebooks from <https://nettskjema.no/>. The data from the API is richer than from the online data portal. This package is not developed by the University of Oslo IT. Mowinckel (2021) <doi:10.5281/zenodo.4745481>.",
+    "repo_url": "https://github.com/CAPRO-UiO/nettskjemar",
+    "pkdown_url": "https://zenodo.org/badge/latestdoi/206264675",
+    "bug_reports_url": "https://github.com/capro-uio/nettskjemar/issues",
+    "logo_url": "https://raw.githubusercontent.com/CAPRO-UiO/nettskjemar/HEAD/man/figures/logo.png",
+    "last_updated": "2025-09-08",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
+      },
+      {
+        "name": "Trym Nohr Fjørtoft",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-7654-4587"
+      }
+    ]
+  },
+  {
+    "name": "neuromapr",
+    "title": "Spatial Null Models and Transforms for Brain Map Comparison",
+    "description": "Implements spatial null models and coordinate-space transformations for statistical comparison of brain maps, following the framework described in Markello et al. (2022) <doi:10.1038/s41592-022-01625-w>. Provides variogram-matching surrogates (Burt et al. 2020), Moran spectral randomization (Wagner & Dray 2015), and spin-based permutation tests (Alexander-Bloch et al. 2018). Includes an R interface to the 'neuromaps' annotation registry for browsing, downloading, and comparing brain map annotations from the Open Science Framework ('OSF'). Integrates with 'ciftiTools' for coordinate-space transforms.",
+    "repo_url": "https://github.com/lcbc-uio/neuromapr",
+    "pkdown_url": "https://lcbc-uio.github.io/neuromapr/",
+    "bug_reports_url": "https://github.com/lcbc-uio/neuromapr/issues",
+    "logo_url": "https://lcbc-uio.github.io/neuromapr/logo.svg",
+    "last_updated": "2026-04-30",
+    "authors": [
+      {
+        "name": "Athanasia Mo Mowinckel",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-5756-0223",
+        "directory_id": "athanasia-mo-mowinckel",
+        "email": "a.m.mowinckel@psykologi.uio.no"
       }
     ]
   },
@@ -2523,7 +2801,8 @@
         "roles": [
           "aut"
         ],
-        "orcid": "0000-0002-8082-1890"
+        "orcid": "0000-0002-8082-1890",
+        "directory_id": "alison-presmanes-hill"
       },
       {
         "name": "Kristen Gorman",
@@ -3316,6 +3595,49 @@
     ]
   },
   {
+    "name": "shinyfa",
+    "title": "Analyze the File Contents of 'shiny' Directories",
+    "description": "Provides tools for analyzing and understanding the file contents of large 'shiny' application directories. The package extracts key information about render functions, reactive functions, and their inputs from app files, organizing them into structured data frames for easy reference. This streamlines the onboarding process for new contributors and helps identify areas for optimization in complex 'shiny' codebases with multiple files and sourcing chains.",
+    "repo_url": "https://github.com/dalyanalytics/shinyfa",
+    "pkdown_url": "https://dalyanalytics.github.io/shinyfa/",
+    "bug_reports_url": "https://github.com/dalyanalytics/shinyfa/issues",
+    "logo_url": "https://dalyanalytics.github.io/shinyfa/logo.png",
+    "last_updated": "2025-11-09",
+    "authors": [
+      {
+        "name": "Jasmine Daly",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-8006-2428",
+        "directory_id": "jasmine-dumas",
+        "email": "jasmine.dumas@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "shinyLP",
+    "title": "Bootstrap Landing Home Pages for Shiny Applications",
+    "description": "Provides functions that wrap HTML Bootstrap components code to enable the design and layout of informative landing home pages for Shiny applications. This can lead to a better user experience for the users and writing less HTML for the developer.",
+    "repo_url": "https://github.com/jasdumas/shinyLP",
+    "pkdown_url": "http://jasminedaly.com/shinyLP/",
+    "bug_reports_url": {},
+    "logo_url": "http://jasminedaly.com/shinyLP/logo.png",
+    "last_updated": "2025-05-15",
+    "authors": [
+      {
+        "name": "Jasmine Daly",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "jasmine-dumas",
+        "email": "jasmine.dumas@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "shinyMobile",
     "title": "Mobile Ready 'shiny' Apps with Standalone Capabilities",
     "description": "Develop outstanding 'shiny' apps for 'iOS' and 'Android' as well as beautiful 'shiny' gadgets. 'shinyMobile' is built on top of the latest 'Framework7' template <https://framework7.io>. Discover 14 new input widgets (sliders, vertical sliders, stepper, grouped action buttons, toggles, picker, smart select, ...), 2 themes (light and dark), 12 new widgets (expandable cards, badges, chips, timelines, gauges, progress bars, ...) combined with the power of server-side notifications such as alerts, modals, toasts, action sheets, sheets (and more) as well as 3 layouts (single, tabs and split).",
@@ -3845,6 +4167,27 @@
           "aut"
         ],
         "orcid": "0000-0002-1416-3412"
+      }
+    ]
+  },
+  {
+    "name": "ttbbeer",
+    "title": "US Beer Statistics from TTB",
+    "description": "U.S. Department of the Treasury, Alcohol and Tobacco Tax and Trade Bureau (TTB) collects data and reports on monthly beer industry production and operations. This data package includes a collection of 10 years (2006 - 2015) worth of data on materials used at U.S. breweries in pounds reported by the Brewer's Report of Operations and the Quarterly Brewer's Report of Operations forms, ready for data analysis. This package also includes historical tax rates on distilled spirits, wine, beer, champagne, and tobacco products as individual data sets.",
+    "repo_url": "https://github.com/jasdumas/ttbbeer",
+    "pkdown_url": "http://jasminedaly.com/ttbbeer/",
+    "bug_reports_url": "https://github.com/jasdumas/ttbbeer/issues",
+    "logo_url": "http://jasminedaly.com/ttbbeer/logo.png",
+    "last_updated": "2025-06-30",
+    "authors": [
+      {
+        "name": "Jasmine Daly",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "jasmine-dumas",
+        "email": "jasmine.dumas@gmail.com"
       }
     ]
   },

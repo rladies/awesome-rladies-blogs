@@ -110,6 +110,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [ARUtools](https://github.com/ARUtools/ARUtools) by David Hope, Steffi
   LaZerte, Government of Canada
 - [asciify](https://github.com/djnavarro/asciify) by Danielle Navarro
+- [avilistr](https://github.com/dalyanalytics/avilistr) by Jasmine Daly,
+  AviList Core Team
 - [bakeoff](https://github.com/apreshill/bakeoff) by Alison Hill,
   Chester Ismay, Richard Iannone
 - [basepenguins](https://github.com/EllaKaye/basepenguins) by Ella Kaye,
@@ -171,6 +173,20 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Fidler, Seid Hamzic, Benjamin Guiastrennec, Kyle T Baron, Qing Xi Ooi,
   Aleksandr Pogodaev, Danielle Navarro, Ibtissem Rebai, Mahmoud Ali,
   Novartis Pharma AG
+- [ggseg.extra](https://github.com/ggsegverse/ggseg.extra) by Athanasia
+  Mo Mowinckel, Didac Vidal-Piñeiro, John Muschelli
+- [ggseg.formats](https://github.com/ggsegverse/ggseg.formats) by
+  Athanasia Mo Mowinckel, Center for Lifespan Changes in Brain and
+  Cognition, University of Oslo
+- [ggseg](https://github.com/ggsegverse/ggseg) by Athanasia Mo
+  Mowinckel, Didac Vidal-Piñeiro, Ramiro Magno, Center for Lifespan
+  Changes in Brain and Cognition, University of Oslo, Norway
+- [ggseg.meshes](https://github.com/ggsegverse/ggseg.meshes) by
+  Athanasia Mo Mowinckel, Center for Lifespan Changes in Brain and
+  Cognition, University of Oslo
+- [ggseg3d](https://github.com/ggsegverse/ggseg3d) by Athanasia Mo
+  Mowinckel, Didac Vidal-Piñeiro, Center for Lifespan Changes in Brain
+  and Cognition, University of Oslo, three.js authors
 - [ghclass](https://github.com/rundel/ghclass) by Colin Rundel, Mine
   Cetinkaya-Rundel, Therese Anders
 - [glitter](https://github.com/lvaudor/glitter) by Lise Vaudor, Maëlle
@@ -215,6 +231,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Rivers, Han Oostdijk, Patrick Schratz
 - [naturecounts](https://github.com/BirdsCanada/naturecounts) by Steffi
   LaZerte, Denis Lepage
+- [nettskjemar](https://github.com/CAPRO-UiO/nettskjemar) by Athanasia
+  Mo Mowinckel, Trym Nohr Fjørtoft
+- [neuromapr](https://github.com/lcbc-uio/neuromapr) by Athanasia Mo
+  Mowinckel
 - [odbr](https://github.com/hsvab/odbr) by Haydee Svab, Beatriz Milz,
   Diego Rabatone Oliveira, Rafael H. M. Pereira
 - [opencage](https://github.com/ropensci/opencage) by Daniel
@@ -272,6 +292,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Navarro
 - [sfnetworks](https://github.com/luukvdmeer/sfnetworks) by Lucas van
   der Meer, Lorena Abad, Andrea Gilardi, Robin Lovelace
+- [shinyfa](https://github.com/dalyanalytics/shinyfa) by Jasmine Daly
+- [shinyLP](https://github.com/jasdumas/shinyLP) by Jasmine Daly
 - [shinyMobile](https://github.com/RinteRface/shinyMobile) by David
   Granjon, Veerle van Leemput, AthlyticZ, Victor Perrier, John Coene,
   Isabelle Rudolf, Dieter Menne, Marvelapp, Vladimir Kharlampidi
@@ -298,6 +320,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Kamvar, Jeroen Ooms, Nick Wellnhofer, rOpenSci, Peter Daengeli
 - [traudem](https://github.com/lucarraro/traudem) by Luca Carraro,
   University of Zurich, Maëlle Salmon, Wael Sadek, Kirill Müller
+- [ttbbeer](https://github.com/jasdumas/ttbbeer) by Jasmine Daly
 - [TutorialgRaficosFN](https://github.com/yabellini/TutorialgRaficosFN)
   by Yanina Bellini Saibene, Yanina Bellini Saibene
 - [TutorialIterar](https://github.com/yabellini/TutorialIterar) by
