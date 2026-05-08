@@ -1,0 +1,173 @@
+name: New Online Content
+description: Submit an R-Ladies blog, website, or YouTube channel
+title: "[New Content]: "
+labels: ["content-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting new R-Ladies online content! :tada:
+
+        Once you open this issue, a bot will fetch the URL, try to pull the
+        title, description, image and RSS feed off the page, generate a JSON
+        file under `data/content/`, push it to a new branch, and open a draft
+        PR linked to this issue. You'll be tagged on the PR so you can review
+        the file before it is merged.
+  - type: dropdown
+    id: type
+    attributes:
+      label: Content type
+      description: What kind of content is this?
+      options:
+        - blog
+        - website
+        - youtube
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: |
+        Public URL for the content. For YouTube, link to the channel
+        (e.g. `https://www.youtube.com/c/yourchannel`).
+      placeholder: ex. https://yourblog.com
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Title (optional)
+      description: |
+        Override for the title we'd otherwise scrape from the page's
+        `<title>` or `og:title` tag. Leave blank to auto-detect.
+      placeholder: ex. Awesome R Blog
+    validations:
+      required: false
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: ISO 639-1 two-letter code (e.g. `en`, `pt`, `es`).
+      placeholder: ex. en
+    validations:
+      required: true
+  - type: input
+    id: photo_url
+    attributes:
+      label: Photo URL (optional)
+      description: |
+        Override for the thumbnail image. Leave blank and we'll try to use
+        `og:image` from the page.
+      placeholder: ex. https://yourblog.com/me.jpg
+    validations:
+      required: false
+  - type: input
+    id: rss_feed
+    attributes:
+      label: RSS feed (optional)
+      description: |
+        Override for the RSS / Atom feed URL. Leave blank and we'll try to
+        discover it from the page's `<link rel="alternate">` tags. For
+        YouTube channels we'll derive it from the channel id automatically.
+      placeholder: ex. https://yourblog.com/index.xml
+    validations:
+      required: false
+  - type: input
+    id: description
+    attributes:
+      label: Description (optional)
+      description: |
+        Override for the short description. Leave blank and we'll try to
+        use `og:description` or `<meta name="description">`.
+    validations:
+      required: false
+  - type: input
+    id: author1name
+    attributes:
+      label: Author Name
+      description: Name of an author
+      placeholder: ex. Firstname Lastname
+    validations:
+      required: true
+  - type: input
+    id: author1twitter
+    attributes:
+      label: Author Twitter Username
+      description: Username on Twitter without the URL
+      placeholder: ex. username
+    validations:
+      required: false
+  - type: input
+    id: author1mastodon
+    attributes:
+      label: Author Mastodon
+      description: "Full Mastodon handle, e.g. `@username@server.org`"
+      placeholder: ex. "@username@fosstodon.org"
+    validations:
+      required: false
+  - type: input
+    id: author1bluesky
+    attributes:
+      label: Author Bluesky
+      description: Bluesky handle without the URL
+      placeholder: ex. username.bsky.social
+    validations:
+      required: false
+  - type: input
+    id: author1github
+    attributes:
+      label: Author GitHub Username
+      description: Username on GitHub without the URL
+      placeholder: ex. username
+    validations:
+      required: false
+  - type: input
+    id: author1linkedin
+    attributes:
+      label: Author LinkedIn
+      description: LinkedIn slug (e.g. `username` from `linkedin.com/in/username`)
+      placeholder: ex. username
+    validations:
+      required: false
+  - type: input
+    id: author1orcid
+    attributes:
+      label: Author ORCID ID
+      description: ID on ORCID without the URL
+      placeholder: ex. 1234-1234-1234-1234
+    validations:
+      required: false
+  - type: textarea
+    id: directory_ids
+    attributes:
+      label: Directory IDs
+      description: |
+        If you (or co-authors) have an entry in the
+        [R-Ladies directory](https://github.com/rladies/directory),
+        list one directory id per line so we can link the content to your
+        profile(s). Use the slug (filename without `.json`).
+
+        Each line is either:
+        - `slug` — we'll match by name from the directory
+        - `slug = Author Name` — explicit pairing if your directory name doesn't match exactly
+      placeholder: |
+        athanasia-mo-mowinckel
+      render: text
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        If the content has multiple authors, add the extra ones as a comment
+        on this issue once it's open — the bot will only pick up Author 1
+        from the form, but you can edit the generated JSON in the PR.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](http://rladies.org/code-of-conduct/)
+      options:
+        - label: I agree to follow R-Ladies' Code of Conduct
+          required: true
