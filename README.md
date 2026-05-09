@@ -101,6 +101,9 @@ aggregated file is written to `data/website/awesome_content.json`.
 Created from the JSON files in `data/packages/` (one JSON per package).
 The aggregated file is written to `data/website/awesome_packages.json`.
 
+- [adjclust](https://github.com/pneuvial/adjclust) by Christophe
+  Ambroise, Shubham Chaturvedi, Alia Dehman, Pierre Neuvial, Guillem
+  Rigaill, Nathalie Vialaneix, Gabriel Hoffman
 - [airports](https://github.com/OpenIntroStat/airports) by Mine
   Çetinkaya-Rundel
 - [aperol](https://github.com/EllaKaye/aperol) by Ella Kaye, Kelly
@@ -110,6 +113,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [ARUtools](https://github.com/ARUtools/ARUtools) by David Hope, Steffi
   LaZerte, Government of Canada
 - [asciify](https://github.com/djnavarro/asciify) by Danielle Navarro
+- [ASICS]() by Gaëlle Lefort, Rémi Servien, Patrick Tardivel, Nathalie
+  Vialaneix
 - [avilistr](https://github.com/dalyanalytics/avilistr) by Jasmine Daly,
   AviList Core Team
 - [bakeoff](https://github.com/apreshill/bakeoff) by Alison Hill,
@@ -126,6 +131,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Andarge Baye, Province of British Columbia
 - [bcgwlreports](https://github.com/bcgov/bcgwlreports) by Steffi
   LaZerte, Jon Goetz
+- [biwt]() by Jo Hardin <jo.hardin@pomona.edu>, Jo Hardin
 - [BradleyTerryScalable](https://github.com/EllaKaye/BradleyTerryScalable)
   by Ella Kaye, David Firth
 - [bs4cards](https://github.com/djnavarro/bs4cards) by Danielle Navarro
@@ -233,6 +239,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [hellodatascience](https://github.com/hellodata-science/hellodatascience)
   by Mine Dogucu, Catalina Medina, Alma Castro
 - [hexify](https://github.com/djnavarro/hexify) by Danielle Navarro
+- [hicream](https://forge.inrae.fr/scales/hicream/-) by Elise Jorge,
+  Sylvain Foissac, Toby Hocking, Pierre Neuvial, Nathalie Vialaneix,
+  Gilles Blanchard, Guillermo Durand, Nicolas Enjalbert-Courrech,
+  Etienne Roquain
 - [hmsidwR](https://github.com/Fgazzelloni/hmsidwR) by Federica
   Gazzelloni
 - [igraph](https://github.com/igraph/rigraph) by Gábor Csárdi, Tamás
@@ -260,6 +270,9 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Schloerke, R-Ladies Global
 - [messy](https://github.com/nrennie/messy) by Nicola Rennie
 - [mitey](https://github.com/kylieainslie/mitey) by Kylie Ainslie
+- [mixKernel](https://forgemia.inra.fr/genotoul-bioinfo/mixKernel/-) by
+  Nathalie Vialaneix, Celine Brouard, Remi Flamary, Julien Henry, Jerome
+  Mariette
 - [MLDataR](https://github.com/StatsGary/MLDataR) by Gary Hutson, Asif
   Laldin, Isabella Velásquez
 - [mmaqshiny](https://github.com/meenakshi-kushwaha/mmaqshiny) by
@@ -277,6 +290,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Mo Mowinckel, Trym Nohr Fjørtoft
 - [neuromapr](https://github.com/lcbc-uio/neuromapr) by Athanasia Mo
   Mowinckel
+- [NiLeDAM]() by Nathalie Vialaneix, Aurélie Mercadié, Jean-Marc Montel,
+  Anne-Magali Seydoux-Guillaume
 - [odbr](https://github.com/hsvab/odbr) by Haydee Svab, Beatriz Milz,
   Diego Rabatone Oliveira, Rafael H. M. Pereira
 - [opencage](https://github.com/ropensci/opencage) by Daniel
@@ -295,6 +310,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Allison Horst, Alison Hill, Kristen Gorman
 - [parmsurvfit](https://github.com/apjacobson/parmsurvfit) by Ashley
   Jacobson, Victor Wilson, Shannon Pileggi
+- [phoenics](https://forge.inrae.fr/panoramics/phoenics/-) by Camille
+  Guilmineau, Remi Servien, Nathalie Vialaneix
 - [phyloseq](https://github.com/joey711/phyloseq) by Paul J. McMurdie,
   Susan Holmes, Gregory Jordan, Scott Chamberlain
 - [pins](https://github.com/rstudio/pins-r) by Julia Silge, Hadley
@@ -338,6 +355,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   R Consortium
 - [riem](https://github.com/ropensci/riem) by Maëlle Salmon, Brooke
   Anderson, CHAI Project, rOpenSci, Daryl Herzmann, Jonathan Elchison
+- [RNAseqNet]() by Alyssa Imbert, Nathalie Vialaneix
 - [roblog](https://github.com/ropenscilabs/roblog) by Maëlle Salmon,
   Stefanie Butland, rOpenSci, Amanda Dobbyn, Christophe Dervieux, Romain
   LESUR
@@ -366,8 +384,13 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Saibene, Elio Campitelli, Paola Corrales, Natalia Gattinoni, INTA
 - [SISINTAR](https://github.com/inta-suelos/SISINTAR) by Yanina Bellini
   Saibene, Elio Campitelli, Paola Corrales
+- [SISIR](https://forgemia.inra.fr/sfcb/sisir/-) by Victor Picheny, Remi
+  Servien, Nathalie Vialaneix
 - [smbdata](https://github.com/emitanaka/smbdata) by Emi Tanaka, Sue
   Welham, Salvador Gezan, Suzanne Clark, Andrew Mead
+- [SOMbrero](https://github.com/tuxette/SOMbrero) by Nathalie Vialaneix,
+  Elise Maigne, Jerome Mariette, Madalina Olteanu, Fabrice Rossi, Laura
+  Bendhaiba, Julien Boelaert
 - [spatialsample](https://github.com/tidymodels/spatialsample) by
   Michael Mahoney, Julia Silge, Posit Software, PBC
 - [statsr](https://github.com/StatsWithR/statsr) by Colin Rundel, Mine
@@ -389,6 +412,9 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Kamvar, Jeroen Ooms, Nick Wellnhofer, rOpenSci, Peter Daengeli
 - [traudem](https://github.com/lucarraro/traudem) by Luca Carraro,
   University of Zurich, Maëlle Salmon, Wael Sadek, Kirill Müller
+- [treediff](https://forge.inrae.fr/scales/treediff/-) by Nathalie
+  Vialaneix, Gwendaelle Cardenas, Marie Chavent, Sylvain Foissac, Pierre
+  Neuvial, Nathanael Randriamihamison
 - [ttbbeer](https://github.com/jasdumas/ttbbeer) by Jasmine Daly
 - [TutorialgRaficosFN](https://github.com/yabellini/TutorialgRaficosFN)
   by Yanina Bellini Saibene, Yanina Bellini Saibene

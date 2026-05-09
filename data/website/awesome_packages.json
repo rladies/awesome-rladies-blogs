@@ -1,5 +1,64 @@
 [
   {
+    "name": "adjclust",
+    "title": "Adjacency-Constrained Clustering of a Block-Diagonal Similarity\nMatrix",
+    "description": "Implements a constrained version of hierarchical agglomerative clustering, in which each observation is associated to a position, and only adjacent clusters can be merged. Typical application fields in bioinformatics include Genome-Wide Association Studies or Hi-C data analysis, where the similarity between items is a decreasing function of their genomic distance. Taking advantage of this feature, the implemented algorithm is time and memory efficient. This algorithm is described in Ambroise et al (2019) <doi:10.1186/s13015-019-0157-4>.",
+    "repo_url": "https://github.com/pneuvial/adjclust",
+    "pkdown_url": "https://pneuvial.github.io/adjclust/",
+    "bug_reports_url": "https://github.com/pneuvial/adjclust/issues",
+    "logo_url": {},
+    "last_updated": "2025-11-20",
+    "authors": [
+      {
+        "name": "Christophe Ambroise",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Shubham Chaturvedi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Alia Dehman",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Pierre Neuvial",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-3584-9998",
+        "email": "pierre.neuvial@math.univ-toulouse.fr"
+      },
+      {
+        "name": "Guillem Rigaill",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix"
+      },
+      {
+        "name": "Gabriel Hoffman",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "airports",
     "title": "Data on Airports",
     "description": "Geographic, use, and property related data on airports.",
@@ -153,6 +212,45 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "ASICS",
+    "title": "Automatic Statistical Identification in Complex Spectra",
+    "description": "With a set of pure metabolite reference spectra, ASICS quantifies concentration of metabolites in a complex spectrum. The identification of metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are described in Tardivel et al. (2017) <doi:10.1007/s11306-017-1244-5>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Gaëlle Lefort",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "gaelle.lefort@inrae.fr"
+      },
+      {
+        "name": "Rémi Servien",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Patrick Tardivel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "nathalie-vialaneix"
       }
     ]
   },
@@ -433,6 +531,29 @@
           "aut"
         ],
         "orcid": "0000-0002-4993-1119"
+      }
+    ]
+  },
+  {
+    "name": "biwt",
+    "title": "Compute the Biweight Mean Vector and Covariance & Correlation\nMatrice",
+    "description": "Compute multivariate location, scale, and correlation estimates based on Tukey's biweight M-estimator.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2022-06-13",
+    "authors": [
+      {
+        "name": "Jo Hardin <jo.hardin@pomona.edu>"
+      },
+      {
+        "name": "Jo Hardin",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "jo-hardin",
+        "email": "jo.hardin@pomona.edu"
       }
     ]
   },
@@ -2617,6 +2738,80 @@
     ]
   },
   {
+    "name": "hicream",
+    "title": "HIC diffeREntial Analysis Method",
+    "description": "Perform Hi-C data differential analysis based on pixel-level differential analysis and a post hoc inference strategy to quantify signal in clusters of pixels. Clusters of pixels are obtained through a connectivity-constrained two-dimensional hierarchical clustering.",
+    "repo_url": "https://forge.inrae.fr/scales/hicream/-",
+    "pkdown_url": "https://scales.pages-forge.inrae.fr/hicream/",
+    "bug_reports_url": "https://forge.inrae.fr/scales/hicream/-/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-30",
+    "authors": [
+      {
+        "name": "Elise Jorge",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "elise.jorge@inrae.fr"
+      },
+      {
+        "name": "Sylvain Foissac",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2631-5356"
+      },
+      {
+        "name": "Toby Hocking",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3146-0865"
+      },
+      {
+        "name": "Pierre Neuvial",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3584-9998"
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix"
+      },
+      {
+        "name": "Gilles Blanchard",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Guillermo Durand",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-4056-5631"
+      },
+      {
+        "name": "Nicolas Enjalbert-Courrech",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Etienne Roquain",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "hmsidwR",
     "title": "Health Metrics and the Spread of Infectious Diseases",
     "description": "A collection of datasets and supporting functions accompanying Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni (2024). This package provides data for health metrics calculations, including Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), as well as additional tools for analyzing and visualizing health data. Federica Gazzelloni (2024) <doi:10.5281/zenodo.10818338>.",
@@ -3139,6 +3334,51 @@
     ]
   },
   {
+    "name": "mixKernel",
+    "title": "Omics Data Integration Using Kernel Methods",
+    "description": "Kernel-based methods are powerful methods for integrating heterogeneous types of data. mixKernel aims at providing methods to combine kernel for unsupervised exploratory analysis. Different solutions are provided to compute a meta-kernel, in a consensus way or in a way that best preserves the original topology of the data. mixKernel also integrates kernel PCA to visualize similarities between samples in a non linear space and from the multiple source point of view <doi:10.1093/bioinformatics/btx682>. A method to select (as well as funtions to display) important variables is also provided <doi:10.1093/nargab/lqac014>.",
+    "repo_url": "https://forgemia.inra.fr/genotoul-bioinfo/mixKernel/-",
+    "pkdown_url": "http://mixkernel.clementine.wf",
+    "bug_reports_url": "https://forgemia.inra.fr/genotoul-bioinfo/mixKernel/-/issues",
+    "logo_url": {},
+    "last_updated": "2025-04-19",
+    "authors": [
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      },
+      {
+        "name": "Celine Brouard",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Remi Flamary",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Julien Henry",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jerome Mariette",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "MLDataR",
     "title": "Collection of Machine Learning Datasets for Supervised Machine\nLearning",
     "description": "Contains a collection of datasets for working with machine learning tasks. It will contain datasets for supervised machine learning Jiang (2020)<doi:10.1016/j.beth.2020.05.002> and will include datasets for classification and regression. The aim of this package is to use data generated around health and other domains.",
@@ -3403,6 +3643,47 @@
         "orcid": "0000-0002-5756-0223",
         "directory_id": "athanasia-mo-mowinckel",
         "email": "a.m.mowinckel@psykologi.uio.no"
+      }
+    ]
+  },
+  {
+    "name": "NiLeDAM",
+    "title": "Monazite Dating for the NiLeDAM Team",
+    "description": "Th-U-Pb electron microprobe age dating of monazite, as originally described in <doi:10.1016/0009-2541(96)00024-1>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-06-19",
+    "authors": [
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "trl",
+          "cre"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      },
+      {
+        "name": "Aurélie Mercadié",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jean-Marc Montel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Anne-Magali Seydoux-Guillaume",
+        "roles": [
+          "ctb"
+        ]
       }
     ]
   },
@@ -3756,6 +4037,41 @@
           "aut"
         ],
         "directory_id": "shannon-pileggi"
+      }
+    ]
+  },
+  {
+    "name": "phoenics",
+    "title": "Pathways Longitudinal and Differential Analysis in Metabolomics",
+    "description": "Perform a differential analysis at pathway level based on metabolite quantifications and information on pathway metabolite composition. The method, described in Guilmineau et al (2025) <doi:10.1186/s12859-025-06118-z> is based on a Principal Component Analysis step and on a linear mixed model. Automatic query of metabolic pathways is also implemented.",
+    "repo_url": "https://forge.inrae.fr/panoramics/phoenics/-",
+    "pkdown_url": "https://forge.inrae.fr/panoramics/phoenics",
+    "bug_reports_url": "https://forge.inrae.fr/panoramics/phoenics/-/issues",
+    "logo_url": "https://forge.inrae.fr/panoramics/phoenics/logo.png",
+    "last_updated": "2025-08-19",
+    "authors": [
+      {
+        "name": "Camille Guilmineau",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Remi Servien",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1270-1843",
+        "email": "remi.servien@inrae.fr"
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix"
       }
     ]
   },
@@ -4626,6 +4942,33 @@
     ]
   },
   {
+    "name": "RNAseqNet",
+    "title": "Log-Linear Poisson Graphical Model with Hot-Deck Multiple\nImputation",
+    "description": "Infer log-linear Poisson Graphical Model with an auxiliary data set. Hot-deck multiple imputation method is used to improve the reliability of the inference with an auxiliary dataset. Standard log-linear Poisson graphical model can also be used for the inference and the Stability Approach for Regularization Selection (StARS) is implemented to drive the selection of the regularization parameter. The method is fully described in <doi:10.1093/bioinformatics/btx819>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-02-20",
+    "authors": [
+      {
+        "name": "Alyssa Imbert",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      }
+    ]
+  },
+  {
     "name": "roblog",
     "title": "rOpenSci's blog guidance",
     "description": "It provides templates for roweb2 blogging and help for a GitHub forking workflow.",
@@ -5176,6 +5519,40 @@
     ]
   },
   {
+    "name": "SISIR",
+    "title": "Select Intervals Suited for Functional Regression",
+    "description": "Interval fusion and selection procedures for regression with functional inputs. Methods include a semiparametric approach based on Sliced Inverse Regression (SIR), as described in <doi:10.1007/s11222-018-9806-6> (standard ridge and sparse SIR are also included in the package) and a random forest based approach, as described in <doi:10.1002/sam.11705>.",
+    "repo_url": "https://forgemia.inra.fr/sfcb/sisir/-",
+    "pkdown_url": "https://forgemia.inra.fr/sfcb/sisir",
+    "bug_reports_url": "https://forgemia.inra.fr/sfcb/sisir/-/issues",
+    "logo_url": "https://forgemia.inra.fr/sfcb/sisir/logo.png",
+    "last_updated": "2024-08-16",
+    "authors": [
+      {
+        "name": "Victor Picheny",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Remi Servien",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      }
+    ]
+  },
+  {
     "name": "smbdata",
     "title": "Data from \"Statistical Methods in Biology\"",
     "description": "All data in the book \"Statistical Methods in Biology\" by Welham et al. (2015) <doi:10.1201/b17336> with a corresponding documentation and illustrative analysis of the data.",
@@ -5216,6 +5593,64 @@
       },
       {
         "name": "Andrew Mead",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SOMbrero",
+    "title": "SOM Bound to Realize Euclidean and Relational Outputs",
+    "description": "The stochastic (also called on-line) version of the Self-Organising Map (SOM) algorithm is provided. Different versions of the algorithm are implemented, for numeric and relational data and for contingency tables as described, respectively, in Kohonen (2001) <isbn:3-540-67921-9>, Olteanu & Villa-Vialaneix (2005) <doi:10.1016/j.neucom.2013.11.047> and Cottrell et al (2004) <doi:10.1016/j.neunet.2004.07.010>. The package also contains many plotting features (to help the user interpret the results), can handle (and impute) missing values and is delivered with a graphical user interface based on 'shiny'.",
+    "repo_url": "https://github.com/tuxette/SOMbrero",
+    "pkdown_url": "https://forge.inrae.fr/nathalie.villa-vialaneix/sombrero",
+    "bug_reports_url": "https://github.com/tuxette/SOMbrero/issues",
+    "logo_url": "https://forge.inrae.fr/nathalie.villa-vialaneix/sombrero/logo.png",
+    "last_updated": "2025-10-06",
+    "authors": [
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      },
+      {
+        "name": "Elise Maigne",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jerome Mariette",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Madalina Olteanu",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Fabrice Rossi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Laura Bendhaiba",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Julien Boelaert",
         "roles": [
           "ctb"
         ]
@@ -5627,6 +6062,61 @@
           "aut"
         ],
         "orcid": "0000-0002-1416-3412"
+      }
+    ]
+  },
+  {
+    "name": "treediff",
+    "title": "Testing Differences Between Families of Trees",
+    "description": "Perform test to detect differences in structure between families of trees. The method is based on cophenetic distances and aggregated Student's tests.",
+    "repo_url": "https://forge.inrae.fr/scales/treediff/-",
+    "pkdown_url": "https://scales.pages-forge.inrae.fr/treediff",
+    "bug_reports_url": "https://forge.inrae.fr/scales/treediff/-/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-30",
+    "authors": [
+      {
+        "name": "Nathalie Vialaneix",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1156-0639",
+        "directory_id": "nathalie-vialaneix",
+        "email": "nathalie.vialaneix@inrae.fr"
+      },
+      {
+        "name": "Gwendaelle Cardenas",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Marie Chavent",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6774-597X"
+      },
+      {
+        "name": "Sylvain Foissac",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2631-5356"
+      },
+      {
+        "name": "Pierre Neuvial",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3584-9998"
+      },
+      {
+        "name": "Nathanael Randriamihamison",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
