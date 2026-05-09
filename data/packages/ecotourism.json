@@ -3,7 +3,7 @@
   "title": "Collection of Data on Wildlife Sightings, Tourism Counts, and\nWeather from Australia",
   "description": "This is a collection of data files for exploring sightings of wild things, relative to weather and tourism patterns in Australia.",
   "repo_url": "https://github.com/vahdatjavad/ecotourism",
-  "pkdown_url": {},
+  "pkdown_url": null,
   "bug_reports_url": "https://github.com/vahdatjavad/ecotourism/issues",
   "logo_url": "https://raw.githubusercontent.com/vahdatjavad/ecotourism/HEAD/man/figures/logo.png",
   "last_updated": "2025-09-16",

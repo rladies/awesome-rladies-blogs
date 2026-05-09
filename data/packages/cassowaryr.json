@@ -3,7 +3,7 @@
   "title": "Compute Scagnostics on Pairs of Numeric Variables in a Data Set",
   "description": "Computes a range of scatterplot diagnostics (scagnostics) on pairs of numerical variables in a data set. A range of scagnostics, including graph and association-based scagnostics described by Leland Wilkinson and Graham Wills (2008) <doi:10.1198/106186008X320465> and association-based scagnostics described by Katrin Grimm (2016,ISBN:978-3-8439-3092-5) can be computed. Summary and plotting functions are provided.",
   "repo_url": "https://github.com/numbats/cassowaryr",
-  "pkdown_url": {},
+  "pkdown_url": null,
   "bug_reports_url": "https://github.com/numbats/cassowaryr/issues",
   "logo_url": "https://raw.githubusercontent.com/numbats/cassowaryr/HEAD/man/figures/logo.png",
   "last_updated": "2024-09-13",
