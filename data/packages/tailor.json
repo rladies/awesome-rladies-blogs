@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/tidymodels/tailor",
   "pkdown_url": "https://tailor.tidymodels.org",
   "bug_reports_url": "https://github.com/tidymodels/tailor/issues",
-  "logo_url": {},
+  "logo_url": null,
   "last_updated": "2025-08-25",
   "authors": [
     {

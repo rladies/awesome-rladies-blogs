@@ -2,10 +2,10 @@
   "name": "psychomix",
   "title": "Psychometric Mixture Models",
   "description": "Psychometric mixture models based on 'flexmix' infrastructure. At the moment Rasch mixture models with different parameterizations of the score distribution (saturated vs. mean/variance specification), Bradley-Terry mixture models, and MPT mixture models are implemented. These mixture models can be estimated with or without concomitant variables. See Frick et al. (2012) <doi:10.18637/jss.v048.i07> and Frick et al. (2015) <doi:10.1177/0013164414536183> for details on the Rasch mixture models.",
-  "repo_url": {},
-  "pkdown_url": {},
-  "bug_reports_url": {},
-  "logo_url": {},
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
   "last_updated": "2024-09-10",
   "authors": [
     {
