@@ -264,6 +264,13 @@ fetch_universe_package <- function(owner, pkg) {
   )
 }
 
+# Bioconductor packages are mirrored at bioc.r-universe.dev with the same
+# fields as any other r-universe sub-universe, so we reuse the universe shape.
+# Returns a list of package metadata entries, one per Bioconductor package.
+fetch_bioc_db <- function() {
+  fetch_universe("bioc")
+}
+
 head_ok <- function(url) {
   h <- curl::new_handle()
   curl::handle_setopt(
@@ -571,17 +578,28 @@ to_package_shape <- function(cand, dir_lookup) {
 
   parsed <- cand$authors
   # Some old DESCRIPTION fields are role-less; if we know who the maintainer is
-  # from the Maintainer field but they're missing from Author, inject them.
+  # from the Maintainer field but they're missing from Author, attach "cre" to
+  # the matching entry. If the maintainer isn't in Author at all, append them.
   has_cre <- any(vapply(
     parsed,
     function(a) "cre" %in% unlist(a$roles),
     logical(1)
   ))
   if (!has_cre && !is.na(m$name)) {
-    parsed <- c(
+    match_idx <- which(vapply(
       parsed,
-      list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
-    )
+      function(a) names_match(a$name, m$name),
+      logical(1)
+    ))
+    if (length(match_idx) > 0) {
+      idx <- match_idx[1]
+      parsed[[idx]]$roles <- as.list(unique(c(unlist(parsed[[idx]]$roles), "cre")))
+    } else {
+      parsed <- c(
+        parsed,
+        list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
+      )
+    }
   }
 
   authors <- lapply(parsed, function(a) {
