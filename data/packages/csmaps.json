@@ -5,7 +5,7 @@
   "repo_url": "https://github.com/csids/csmaps",
   "pkdown_url": "https://www.csids.no/csmaps/",
   "bug_reports_url": "https://github.com/csids/csmaps/issues",
-  "logo_url": {},
+  "logo_url": null,
   "last_updated": "2025-08-21",
   "authors": [
     {
