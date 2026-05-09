@@ -3,7 +3,7 @@
   "title": "Tools for Graphical Inference",
   "description": "Tools for visual inference. Generate null data sets and null plots using permutation and simulation. Calculate distance metrics for a lineup, and examine the distributions of metrics.",
   "repo_url": "https://github.com/dicook/nullabor",
-  "pkdown_url": {},
+  "pkdown_url": null,
   "bug_reports_url": "https://github.com/dicook/nullabor/issues",
   "logo_url": "https://raw.githubusercontent.com/dicook/nullabor/HEAD/man/figures/nullabor_hex.png",
   "last_updated": "2025-02-10",
