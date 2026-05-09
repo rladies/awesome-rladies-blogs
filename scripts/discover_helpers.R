@@ -654,6 +654,19 @@ write_pkg <- function(entry, dir) {
   path <- file.path(dir, paste0(entry$name, ".json"))
   existing <- if (file.exists(path)) jsonlite::read_json(path) else list()
   merged <- merge_pkg(existing, entry)
+  # Normalise scalar fields to NA_character_ when missing/NULL so write_json
+  # serialises them as `null` (per `na = "null"` below) rather than `{}`,
+  # which would otherwise happen on a read+rewrite cycle and fail schema
+  # validation (string|null fields can't be empty objects).
+  scalar_fields <- c(
+    "name", "title", "description", "repo_url",
+    "pkdown_url", "bug_reports_url", "logo_url", "last_updated"
+  )
+  for (f in scalar_fields) {
+    if (is.null(merged[[f]]) || length(merged[[f]]) == 0) {
+      merged[[f]] <- NA_character_
+    }
+  }
   if (!dir.exists(dir)) {
     dir.create(dir, recursive = TRUE)
   }
