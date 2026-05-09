@@ -1,0 +1,41 @@
+{
+  "name": "biovizBase",
+  "title": "Basic graphic utilities for visualization of genomic data.",
+  "description": "The biovizBase package is designed to provide a set of utilities, color schemes and conventions for genomic data. It serves as the base for various high-level packages for biological data visualization. This saves development effort and encourages consistency.",
+  "repo_url": null,
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-04-28",
+  "authors": [
+    {
+      "name": "Tengfei Yin",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Michael Lawrence",
+      "roles": [
+        "aut",
+        "ths",
+        "cre"
+      ],
+      "email": "lawremi@gmail.com"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut",
+        "ths"
+      ],
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Johannes Rainer",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}

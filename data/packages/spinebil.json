@@ -1,0 +1,36 @@
+{
+  "name": "spinebil",
+  "title": "Investigating New Projection Pursuit Index Functions",
+  "description": "Projection pursuit is used to find interesting low-dimensional projections of high-dimensional data by optimizing an index over all possible projections. The 'spinebil' package contains methods to evaluate the performance of projection pursuit index functions using tour methods. A paper describing the methods can be found at <doi:10.1007/s00180-020-00954-8>.",
+  "repo_url": "https://github.com/uschiLaa/spinebil",
+  "pkdown_url": "https://uschilaa.github.io/spinebil/index.html",
+  "bug_reports_url": "https://github.com/uschiLaa/spinebil/issues",
+  "logo_url": "https://raw.githubusercontent.com/uschiLaa/spinebil/HEAD/man/figures/spinebil.png",
+  "last_updated": "2025-10-17",
+  "authors": [
+    {
+      "name": "Ursula Laa",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-0249-6439"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Tina Rashid Jafari",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0009-0008-3605-5341",
+      "email": "tina.rashidjafari@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "learningtower",
+  "title": "OECD PISA Datasets from 2000-2022 in an Easy-to-Use Format",
+  "description": "The Programme for International Student Assessment (PISA) is a global study conducted by the Organization for Economic Cooperation and Development (OECD) in member and non-member countries to assess educational systems by assessing 15-year-old school students academic performance in mathematics, science, and reading. This datasets contains information on their scores and other socioeconomic characteristics, information about their school and its infrastructure, as well as the countries that are taking part in the program.",
+  "repo_url": "https://github.com/kevinwang09/learningtower",
+  "pkdown_url": "https://kevinwang09.github.io/learningtower/",
+  "bug_reports_url": "https://github.com/kevinwang09/learningtower/issues",
+  "logo_url": "https://kevinwang09.github.io/learningtower/logo.png",
+  "last_updated": "2024-12-21",
+  "authors": [
+    {
+      "name": "Kevin Wang",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "kevinwangstats@gmail.com"
+    },
+    {
+      "name": "Paul Yacobellis",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Erika Siregar",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "erika-siregar"
+    },
+    {
+      "name": "Sarah Romanes",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Kim Fitter",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Giulio Valentino Dalla Riva",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Nick Tierney",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Priya Dingorkar",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Shabarish Sai Subramanian",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Guan Ru Chen",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

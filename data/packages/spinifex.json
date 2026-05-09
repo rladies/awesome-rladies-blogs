@@ -1,0 +1,30 @@
+{
+  "name": "spinifex",
+  "title": "Manual Tours, Manual Control of Dynamic Projections of Numeric\nMultivariate Data",
+  "description": "Data visualization tours animates linear projection of multivariate data as its basis (ie. orientation) changes. The 'spinifex' packages generates paths for manual tours by manipulating the contribution of a single variable at a time Cook & Buja (1997) <doi:10.1080/10618600.1997.10474754>. Other types of tours, such as grand (random walk) and guided (optimizing some objective function) are available in the 'tourr' package Wickham et al. <doi:10.18637/jss.v040.i02>. 'spinifex' builds on 'tourr' and can render tours with 'gganimate' and 'plotly' graphics, and allows for exporting as an .html widget and as an .gif, respectively. This work is fully discussed in Spyrison & Cook (2020) <doi:10.32614/RJ-2020-027>.",
+  "repo_url": "https://github.com/nspyrison/spinifex/",
+  "pkdown_url": {},
+  "bug_reports_url": "https://github.com/nspyrison/spinifex/issues",
+  "logo_url": "https://raw.githubusercontent.com/nspyrison/spinifex/HEAD/man/figures/spinifex_hex.png",
+  "last_updated": "2025-09-18",
+  "authors": [
+    {
+      "name": "Nicholas Spyrison",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-8417-0212",
+      "email": "spyrison@gmail.com"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut",
+        "ths"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    }
+  ]
+}

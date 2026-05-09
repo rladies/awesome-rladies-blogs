@@ -1,0 +1,36 @@
+{
+  "name": "ecotourism",
+  "title": "Collection of Data on Wildlife Sightings, Tourism Counts, and\nWeather from Australia",
+  "description": "This is a collection of data files for exploring sightings of wild things, relative to weather and tourism patterns in Australia.",
+  "repo_url": "https://github.com/vahdatjavad/ecotourism",
+  "pkdown_url": {},
+  "bug_reports_url": "https://github.com/vahdatjavad/ecotourism/issues",
+  "logo_url": "https://raw.githubusercontent.com/vahdatjavad/ecotourism/HEAD/man/figures/logo.png",
+  "last_updated": "2025-09-16",
+  "authors": [
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Lyn Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3172-4920"
+    },
+    {
+      "name": "Javad Vahdat Atashgah",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0009-0004-5845-2584",
+      "email": "vahdatjavad@gmail.com"
+    }
+  ]
+}
