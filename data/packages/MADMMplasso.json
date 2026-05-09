@@ -1,0 +1,40 @@
+{
+  "name": "MADMMplasso",
+  "title": "Multi Variate Multi Response ADMM with Interaction Effects",
+  "description": "This system allows one to model a multi-variate, multi-response problem with interaction effects. It combines the usual squared error loss for the multi-response problem with some penalty terms to encourage responses that correlate to form groups and also allow for modeling main and interaction effects that exit within the covariates. The optimization method employed is the Alternating Direction Method of Multipliers (ADMM). The implementation is based on the methodology presented on Quachie Asenso, T., & Zucknick, M. (2023) <doi:10.48550/arXiv.2303.11155>.",
+  "repo_url": {},
+  "pkdown_url": {},
+  "bug_reports_url": {},
+  "logo_url": {},
+  "last_updated": "2025-10-27",
+  "authors": [
+    {
+      "name": "Theophilus Quachie Asenso",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Manuela Zucknick",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Waldir Leoncio",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6719-6162",
+      "email": "w.l.netto@medisin.uio.no"
+    },
+    {
+      "name": "Chi Zhang",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "andrea-chi"
+    }
+  ]
+}

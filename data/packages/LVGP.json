@@ -1,0 +1,33 @@
+{
+  "name": "LVGP",
+  "title": "Latent Variable Gaussian Process Modeling with Qualitative and\nQuantitative Input Variables",
+  "description": "Fit response surfaces for datasets with latent-variable Gaussian process modeling, predict responses for new inputs, and plot latent variables locations in the latent space (only 1D or 2D). The input variables of the datasets can be quantitative, qualitative/categorical or mixed. The output variable of the datasets is a scalar (quantitative). The optimization of the likelihood function is done using a successive approximation/relaxation algorithm similar to another GP modeling package \"GPM\". The modeling method is published in \"A Latent Variable Approach to Gaussian Process Modeling with Qualitative and Quantitative Factors\" by Yichi Zhang, Siyu Tao, Wei Chen, and Daniel W. Apley (2018) <arXiv:1806.07504>. The package is developed in IDEAL of Northwestern University.",
+  "repo_url": {},
+  "pkdown_url": {},
+  "bug_reports_url": {},
+  "logo_url": {},
+  "last_updated": "2019-01-11",
+  "authors": [
+    {
+      "name": "Siyu Tao",
+      "email": "siyutao2020@u.northwestern.edu"
+    },
+    {
+      "name": "Yichi Zhang",
+      "directory_id": "andrea-chi"
+    },
+    {
+      "name": "Daniel W. Apley"
+    },
+    {
+      "name": "Wei Chen"
+    },
+    {
+      "name": "Siyu Tao",
+      "roles": [
+        "cre"
+      ],
+      "email": "siyutao2020@u.northwestern.edu"
+    }
+  ]
+}
