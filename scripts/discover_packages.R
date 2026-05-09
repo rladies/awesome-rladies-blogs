@@ -90,6 +90,35 @@ if (!is.null(cran)) {
   }
 }
 
+cat("Fetching Bioconductor package db (bioc.r-universe.dev)...\n")
+bioc <- tryCatch(fetch_bioc_db(), error = function(e) NULL)
+if (!is.null(bioc) && length(bioc) > 0) {
+  cat("  ", length(bioc), "Bioconductor packages\n")
+  for (a in authors) {
+    for (p in bioc) {
+      name_hit <- name_in(a$name, p$Maintainer) || name_in(a$name, p$Author)
+      if (!name_hit) {
+        next
+      }
+      if (!is_authorship(a$name, p$Author, p$Maintainer)) {
+        next
+      }
+      roles <- roles_for(a$name, p$Author)
+      if (length(roles) == 0) {
+        roles <- "unknown"
+      }
+      candidates[[length(candidates) + 1]] <-
+        normalise_pkg(
+          p,
+          "bioconductor",
+          a$name,
+          a$github,
+          paste(roles, collapse = ",")
+        )
+    }
+  }
+}
+
 cat("Total raw candidate rows:", length(candidates), "\n")
 dedup_key <- vapply(
   candidates,
