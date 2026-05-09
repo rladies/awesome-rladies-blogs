@@ -69,6 +69,7 @@ aggregated file is written to `data/website/awesome_content.json`.
   R-Ladies Gabarone
 - [R-Ladies Melbourne Blog](https://r-ladiesmelbourne.github.io/) by
   R-Ladies Melbourde
+- [Riinu’s scripting diary](https://www.riinu.me/) by Riinu Pius
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
 - [Data Science
@@ -91,6 +92,8 @@ aggregated file is written to `data/website/awesome_content.json`.
   van Son
 - [Exploration Corner](https://thetidytrekker.com/blog.html) by Meghan
   Harris
+- [Willing Consulting](https://www.willingconsulting.com/) by Carol
+  Willing
 - [Yanina Bellini Saibene](https://yabellini.netlify.app/blog/) by
   Yanina Bellini Saibene
 - [Melissa Van Bussel (ggnot2)’s YouTube channel about
