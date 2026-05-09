@@ -1,0 +1,26 @@
+{
+  "name": "classifly",
+  "title": "Explore Classification Models in High Dimensions",
+  "description": "Given $p$-dimensional training data containing $d$ groups (the design space), a classification algorithm (classifier) predicts which group new data belongs to. Generally the input to these algorithms is high dimensional, and the boundaries between groups will be high dimensional and perhaps non-linear. This package implements methods for understanding the division of space between the groups.",
+  "repo_url": null,
+  "pkdown_url": "http://had.co.nz/classifly",
+  "bug_reports_url": null,
+  "logo_url": null,
+  "last_updated": "2026-03-15",
+  "authors": [
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "cre"
+      ],
+      "directory_id": "dianne-cook",
+      "email": "visnut@gmail.com"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "prefviz",
+  "title": "Visualizes Preferential Data in One and More Contests",
+  "description": "A visualization toolkit for preferential data, such as ranked-choice election results, tournament outcomes, and survey responses. The package provides methods to visualise the preference distribution of one contest with bar charts and pairwise comparisons of two contestants, as well as methods to visualise multiple contests through 2D and high-dimensional simplex plots both statically and interactively. HD simplex displays are implemented via projection methods using the 'tourr' and 'detourr' packages, enabling dynamic exploration of high-dimensional preference structure. For more details on HD simplex projection, see Wickham et al. (2011) <doi:10.21105/joss.03419>.",
+  "repo_url": "https://github.com/numbats/prefviz",
+  "pkdown_url": "https://numbats.github.io/prefviz/",
+  "bug_reports_url": "https://github.com/numbats/prefviz/issues",
+  "logo_url": null,
+  "last_updated": "2026-05-01",
+  "authors": [
+    {
+      "name": "Linh Ngo",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "linhngo66.work@gmail.com"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Damjan Vukcevic",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-7780-9586"
+    }
+  ]
+}

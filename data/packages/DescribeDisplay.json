@@ -1,0 +1,39 @@
+{
+  "name": "DescribeDisplay",
+  "title": "An Interface to the 'DescribeDisplay' 'GGobi' Plugin",
+  "description": "Produce publication quality graphics from output of 'GGobi' describe display plugin.",
+  "repo_url": "https://github.com/ggobi/DescribeDisplay",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/ggobi/DescribeDisplay/issues",
+  "logo_url": null,
+  "last_updated": "2023-08-25",
+  "authors": [
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "directory_id": "dianne-cook",
+      "email": "dicook@monash.edu"
+    },
+    {
+      "name": "Hadley Wickham",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Andreas Buja",
+      "roles": [
+        "aut"
+      ]
+    },
+    {
+      "name": "Barret Schloerke",
+      "roles": [
+        "aut"
+      ]
+    }
+  ]
+}

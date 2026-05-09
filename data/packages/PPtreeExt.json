@@ -1,0 +1,35 @@
+{
+  "name": "PPtreeExt",
+  "title": "Projection Pursuit Classification Tree Extensions",
+  "description": "Implements extensions to the projection pursuit tree algorithm for supervised classification, see Lee, Y. (2013), <doi:10.1214/13-EJS810> and Lee, E-K. (2018) <doi:10.18637/jss.v083.i08>. The algorithm is changed in two ways: improving prediction boundaries by modifying the choice of split points-through class subsetting; and increasing flexibility by allowing multiple splits per group.",
+  "repo_url": "https://github.com/natydasilva/PPtreeExt",
+  "pkdown_url": null,
+  "bug_reports_url": null,
+  "logo_url": "https://raw.githubusercontent.com/natydasilva/PPtreeExt/HEAD/man/figures/logo.png",
+  "last_updated": "2026-02-06",
+  "authors": [
+    {
+      "name": "Natalia da Silva",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6031-7451",
+      "email": "natalia.dasilva@fcea.edu.uy"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Eun-Kyung Lee",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "eunkyung-lee"
+    }
+  ]
+}

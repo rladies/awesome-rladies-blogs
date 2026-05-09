@@ -1,0 +1,36 @@
+{
+  "name": "mapycusmaximus",
+  "title": "Focus-Glue-Context Fisheye Transformations for Spatial\nVisualization",
+  "description": "Focus-glue-context (FGC) fisheye transformations to two-dimensional coordinates and spatial vector geometries. Implements a smooth radial distortion that enlarges a focal region, transitions through a glue ring, and preserves outside context. Methods build on generalized fisheye views and focus+context mapping. For more details see Furnas (1986) <doi:10.1145/22339.22342>, Furnas (2006) <doi:10.1145/1124772.1124921> and Yamamoto et al. (2009) <doi:10.1145/1653771.1653788>.",
+  "repo_url": "https://github.com/Alex-Nguyen-VN/mapycusmaximus",
+  "pkdown_url": "https://alex-nguyen-vn.github.io/mapycusmaximus/",
+  "bug_reports_url": "https://github.com/Alex-Nguyen-VN/mapycusmaximus/issues",
+  "logo_url": "https://alex-nguyen-vn.github.io/mapycusmaximus/logo.png",
+  "last_updated": "2026-02-06",
+  "authors": [
+    {
+      "name": "Alex Nguyen",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "email": "thanhcuong10091992@gmail.com"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Michael Lydeamore",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0001-6515-827X"
+    }
+  ]
+}

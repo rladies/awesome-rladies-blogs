@@ -1,0 +1,35 @@
+{
+  "name": "PPforest",
+  "title": "Projection Pursuit Classification Forest",
+  "description": "Implements projection pursuit forest algorithm for supervised classification.",
+  "repo_url": "https://github.com/natydasilva/PPforest",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/natydasilva/PPforest/issues",
+  "logo_url": "https://raw.githubusercontent.com/natydasilva/PPforest/HEAD/man/figures/PPforest.png",
+  "last_updated": "2025-07-23",
+  "authors": [
+    {
+      "name": "Natalia da Silva",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-6031-7451",
+      "email": "natalia.dasilva@fcea.edu.uy"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "dianne-cook"
+    },
+    {
+      "name": "Eun-Kyung Lee",
+      "roles": [
+        "aut"
+      ],
+      "directory_id": "eunkyung-lee"
+    }
+  ]
+}

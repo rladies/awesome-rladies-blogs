@@ -1,0 +1,30 @@
+{
+  "name": "animbook",
+  "title": "Visualizing Changes in Performance Measures and Demographic\nAffiliations using Animation",
+  "description": "Create an interactive visualization to be used for communication purposes. Providing the function for preparing, plotting, and animating the data. Krisanat Anukarnsakulchularp (2023) <https://github.com/KrisanatA/animbook-journal>.",
+  "repo_url": "https://github.com/KrisanatA/animbook",
+  "pkdown_url": null,
+  "bug_reports_url": "https://github.com/KrisanatA/animbook/issues",
+  "logo_url": "https://raw.githubusercontent.com/KrisanatA/animbook/HEAD/man/figures/logo.png",
+  "last_updated": "2025-09-02",
+  "authors": [
+    {
+      "name": "Krisanat Anukarnsakulchularp",
+      "roles": [
+        "aut",
+        "cre",
+        "cph"
+      ],
+      "orcid": "0009-0008-5638-7124",
+      "email": "krisanat.anu@gmail.com"
+    },
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook"
+    }
+  ]
+}

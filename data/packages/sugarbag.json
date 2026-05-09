@@ -1,0 +1,36 @@
+{
+  "name": "sugarbag",
+  "title": "Create Tessellated Hexagon Maps",
+  "description": "Create a hexagon tile map display from spatial polygons. Each polygon is represented by a hexagon tile, placed as close to it's original centroid as possible, with a focus on maintaining spatial relationship to a focal point. Developed to aid visualisation and analysis of spatial distributions across Australia, which can be challenging due to the concentration of the population on the coast and wide open interior.",
+  "repo_url": "https://github.com/srkobakian/sugarbag",
+  "pkdown_url": "https://srkobakian.github.io/sugarbag/",
+  "bug_reports_url": null,
+  "logo_url": "https://srkobakian.github.io/sugarbag/logo.png",
+  "last_updated": "2026-01-22",
+  "authors": [
+    {
+      "name": "Dianne Cook",
+      "roles": [
+        "aut",
+        "cre",
+        "ths"
+      ],
+      "orcid": "0000-0002-3813-7155",
+      "directory_id": "dianne-cook",
+      "email": "dicook@monash.edu"
+    },
+    {
+      "name": "Stephanie Kobakian",
+      "roles": [
+        "aut"
+      ],
+      "orcid": "0000-0002-4616-0048"
+    },
+    {
+      "name": "Matt Cowgill",
+      "roles": [
+        "ctb"
+      ]
+    }
+  ]
+}
