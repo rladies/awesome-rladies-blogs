@@ -1,0 +1,20 @@
+{
+  "title": "The Aguillon Lab",
+  "type": "blog",
+  "url": "https://stepfanieaguillon.com/",
+  "rss_feed": "https://stepfanieaguillon.com/feed/",
+  "photo_url": "https://stepfanieaguillon.com/wp-content/uploads/2023/09/aguillon-lab-logo-white-1066984189-e1695154304166.png",
+  "description": "This is just a short excerpt for the about page.",
+  "language": "en",
+  "authors": [
+    {
+      "name": "Stepfanie Aguillon",
+      "social_media": [
+        {
+          "twitter": "s_m_aguillon",
+          "website": "http://www.stepfanieaguillon.com/"
+        }
+      ]
+    }
+  ]
+}
