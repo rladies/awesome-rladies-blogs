@@ -636,6 +636,33 @@
     ]
   },
   {
+    "name": "cellranger",
+    "title": "Translate Spreadsheet Cell Ranges to Rows and Columns",
+    "description": "Helper functions to work with spreadsheets and the \"A1:D10\" style of cell range specification.",
+    "repo_url": "https://github.com/rsheets/cellranger",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rsheets/cellranger/issues",
+    "logo_url": "http://i.imgur.com/RJJy15I.jpg",
+    "last_updated": "2016-07-27",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "jenny-bryan",
+        "email": "jenny@stat.ubc.ca"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "cereal",
     "title": "Serialize 'vctrs' Objects to 'JSON'",
     "description": "The 'vctrs' package provides a concept of vector prototype that can be especially useful when deploying models and code. Serialize these object prototypes to 'JSON' so they can be used to check and coerce data in production systems, and deserialize 'JSON' back to the correct object prototypes.",
@@ -1002,6 +1029,91 @@
     ]
   },
   {
+    "name": "cvAUC",
+    "title": "Cross-Validated Area Under the ROC Curve Confidence Intervals",
+    "description": "Tools for working with and evaluating cross-validated area under the ROC curve (AUC) estimators. The primary functions of the package are ci.cvAUC and ci.pooled.cvAUC, which report cross-validated AUC and compute confidence intervals for cross-validated AUC estimates based on influence curves for i.i.d. and pooled repeated measures data, respectively. One benefit to using influence curve based confidence intervals is that they require much less computation time than bootstrapping methods. The utility functions, AUC and cvAUC, are simple wrappers for functions from the ROCR package.",
+    "repo_url": "https://github.com/ledell/cvAUC",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ledell/cvAUC/issues",
+    "logo_url": {},
+    "last_updated": "2022-01-17",
+    "authors": [
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "erin-ledell",
+        "email": "oss@ledell.org"
+      },
+      {
+        "name": "Maya Petersen"
+      },
+      {
+        "name": "Mark van der Laan"
+      }
+    ]
+  },
+  {
+    "name": "CyTOFpower",
+    "title": "Power analysis for CyTOF experiments",
+    "description": "This package is a tool to predict the power of CyTOF experiments in the context of differential state analyses. The package provides a shiny app with two options to predict the power of an experiment: i. generation of in-sicilico CyTOF data, using users input ii. browsing in a grid of parameters for which the power was already precomputed.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Anne-Maud Ferreira",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-4749-746X",
+        "email": "anne-maud.ferreira@epfedu.fr"
+      },
+      {
+        "name": "Catherine Blish",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Susan Holmes",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "susan-holmes"
+      }
+    ]
+  },
+  {
+    "name": "dada2",
+    "title": "Accurate, high-resolution sample inference from amplicon\nsequencing data",
+    "description": "The dada2 package infers exact amplicon sequence variants (ASVs) from high-throughput amplicon sequencing data, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files, and outputs the sequence variants and their sample-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier, and species-level assignment to 16S rRNA gene fragments by exact matching.",
+    "repo_url": "https://github.com/benjjneb/dada2",
+    "pkdown_url": "http://benjjneb.github.io/dada2/",
+    "bug_reports_url": "https://github.com/benjjneb/dada2/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Benjamin Callahan <benjamin.j.callahan@gmail.com>",
+        "roles": [
+          "cre"
+        ]
+      },
+      {
+        "name": "Paul McMurdie"
+      },
+      {
+        "name": "Susan Holmes",
+        "directory_id": "susan-holmes"
+      }
+    ]
+  },
+  {
     "name": "dados",
     "title": "Translate Datasets to Portuguese",
     "description": "Este pacote traduz os seguintes conjuntos de dados: 'airlines', 'airports', 'ames_raw', 'AwardsManagers', 'babynames', 'Batting', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'penguins', 'People, 'Pitching', 'pixarfilms','planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Portuguese translated version of the datasets listed above.",
@@ -1168,6 +1280,199 @@
     ]
   },
   {
+    "name": "devtools",
+    "title": "Tools to Make Developing R Packages Easier",
+    "description": "Collection of package development tools.",
+    "repo_url": "https://github.com/r-lib/devtools",
+    "pkdown_url": "https://devtools.r-lib.org/",
+    "bug_reports_url": "https://github.com/r-lib/devtools/issues",
+    "logo_url": "https://devtools.r-lib.org/logo.png",
+    "last_updated": "2026-04-30",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Winston Chang",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "distory",
+    "title": "Distance Between Phylogenetic Histories",
+    "description": "Geodesic distance between phylogenetic trees and associated functions. The theoretical background of 'distory' is published in Billera et al. (2001) \"Geometry of the space of phylogenetic trees.\" <doi:10.1006/aama.2001.0759>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-10-07",
+    "authors": [
+      {
+        "name": "John Chakerian",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Susan Holmes",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "susan-holmes"
+      },
+      {
+        "name": "Emmanuel Paradis",
+        "roles": [
+          "cre"
+        ],
+        "email": "Emmanuel.Paradis@ird.fr"
+      }
+    ]
+  },
+  {
+    "name": "edibble",
+    "title": "Encapsulating Elements of Experimental Design",
+    "description": "A system to facilitate designing comparative (and non-comparative) experiments using the grammar of experimental designs <https://emitanaka.org/edibble-book/>. An experimental design is treated as an intermediate, mutable object that is built progressively by fundamental experimental components like units, treatments, and their relation. The system aids in experimental planning, management and workflow.",
+    "repo_url": "https://github.com/emitanaka/edibble",
+    "pkdown_url": "https://edibble.emitanaka.org/",
+    "bug_reports_url": "https://github.com/emitanaka/edibble/issues",
+    "logo_url": "https://edibble.emitanaka.org/logo.png",
+    "last_updated": "2025-03-30",
+    "authors": [
+      {
+        "name": "Emi Tanaka",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-1455-259X",
+        "directory_id": "emi-tanaka",
+        "email": "dr.emi.tanaka@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "emmeans",
+    "title": "Estimated Marginal Means, aka Least-Squares Means",
+    "description": "Obtain estimated marginal means (EMMs) for many linear, generalized linear, and mixed models. Compute contrasts or linear functions of EMMs, trends, and comparisons of slopes. Plots and other displays. Least-squares means are discussed, and the term \"estimated marginal means\" is suggested, in Searle, Speed, and Milliken (1980) Population marginal means in the linear model: An alternative to least squares means, The American Statistician 34(4), 216-221 <doi:10.1080/00031305.1980.10483031>.",
+    "repo_url": "https://github.com/rvlenth/emmeans/",
+    "pkdown_url": "https://rvlenth.github.io/emmeans/",
+    "bug_reports_url": "https://github.com/rvlenth/emmeans/issues",
+    "logo_url": "https://rvlenth.github.io/emmeans/logo.png",
+    "last_updated": "2026-04-09",
+    "authors": [
+      {
+        "name": "Russell V. Lenth",
+        "roles": [
+          "aut",
+          "cph"
+        ]
+      },
+      {
+        "name": "Julia Piaskowski",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "julia-piaskowski",
+        "email": "julia.piask@gmail.com"
+      },
+      {
+        "name": "Balazs Banfai",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Ben Bolker",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Paul Buerkner",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Iago Giné-Vázquez",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Maxime Hervé",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Maarten Jung",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jonathon Love",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Fernando Miguez",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Hannes Riebl",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Henrik Singmann",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "emodnet.wfs",
     "title": "Access 'EMODnet' Web Feature Service Data",
     "description": "Access and interrogate 'EMODnet' (European Marine Observation and Data Network) Web Feature Service data <https://emodnet.ec.europa.eu/en/emodnet-web-service-documentation#data-download-services>. This includes listing existing data sources, and getting data from each of them.",
@@ -1286,6 +1591,27 @@
     ]
   },
   {
+    "name": "EZtune",
+    "title": "Tunes AdaBoost, Elastic Net, Support Vector Machines, and\nGradient Boosting Machines",
+    "description": "Contains two functions that are intended to make tuning supervised learning methods easy. The eztune function uses a genetic algorithm or Hooke-Jeeves optimizer to find the best set of tuning parameters. The user can choose the optimizer, the learning method, and if optimization will be based on accuracy obtained through validation error, cross validation, or resubstitution. The function eztune_cv will compute a cross validated error rate. The purpose of eztune_cv is to provide a cross validated accuracy or MSE when resubstitution or validation data are used for optimization because error measures from both approaches can be misleading.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-12-10",
+    "authors": [
+      {
+        "name": "Jill Lundell",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "jill-lundell",
+        "email": "jflundell@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "flametree",
     "title": "Generate Random Tree-Like Images",
     "description": "A generative art system for producing tree-like images using an L-system to create the structures. The package includes tools for generating the data structures and visualise them in a variety of styles.",
@@ -1304,6 +1630,79 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "gapminder",
+    "title": "Data from Gapminder",
+    "description": "An excerpt of the data available at Gapminder.org. For each of 142 countries, the package provides values for life expectancy, GDP per capita, and population, every five years, from 1952 to 2007.",
+    "repo_url": "https://github.com/jennybc/gapminder",
+    "pkdown_url": "https://www.gapminder.org/data/",
+    "bug_reports_url": "https://github.com/jennybc/gapminder/issues",
+    "logo_url": {},
+    "last_updated": "2025-06-12",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      }
+    ]
+  },
+  {
+    "name": "gargle",
+    "title": "Utilities for Working with Google APIs",
+    "description": "Provides utilities for working with Google APIs <https://developers.google.com/apis-explorer>. This includes functions and classes for handling common credential types and for preparing, executing, and processing HTTP requests.",
+    "repo_url": "https://github.com/r-lib/gargle",
+    "pkdown_url": "https://gargle.r-lib.org",
+    "bug_reports_url": "https://github.com/r-lib/gargle/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-29",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Craig Citro",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Google Inc",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },
@@ -1741,6 +2140,153 @@
     ]
   },
   {
+    "name": "glue",
+    "title": "Interpreted String Literals",
+    "description": "An implementation of interpreted string literals, inspired by Python's Literal String Interpolation <https://www.python.org/dev/peps/pep-0498/> and Docstrings <https://www.python.org/dev/peps/pep-0257/> and Julia's Triple-Quoted String Literals <https://docs.julialang.org/en/v1.3/manual/strings/#Triple-Quoted-String-Literals-1>.",
+    "repo_url": "https://github.com/tidyverse/glue",
+    "pkdown_url": "https://glue.tidyverse.org/",
+    "bug_reports_url": "https://github.com/tidyverse/glue/issues",
+    "logo_url": "https://glue.tidyverse.org/logo.png",
+    "last_updated": "2026-04-17",
+    "authors": [
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2739-7082"
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "gmailr",
+    "title": "Access the 'Gmail' 'RESTful' API",
+    "description": "An interface to the 'Gmail' 'RESTful' API. Allows access to your 'Gmail' messages, threads, drafts and labels.",
+    "repo_url": "https://github.com/r-lib/gmailr",
+    "pkdown_url": "https://gmailr.r-lib.org",
+    "bug_reports_url": "https://github.com/r-lib/gmailr/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-30",
+    "authors": [
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "googledrive",
+    "title": "An Interface to Google Drive",
+    "description": "Manage Google Drive files from R.",
+    "repo_url": "https://github.com/tidyverse/googledrive",
+    "pkdown_url": "https://googledrive.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/googledrive/issues",
+    "logo_url": "https://googledrive.tidyverse.org/logo.png",
+    "last_updated": "2025-09-10",
+    "authors": [
+      {
+        "name": "Lucy D'Agostino McGowan",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "lucy-dagostino-mcgowan"
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "googlesheets4",
+    "title": "Access Google Sheets using the Sheets API V4",
+    "description": "Interact with Google Sheets through the Sheets API v4 <https://developers.google.com/sheets/api>. \"API\" is an acronym for \"application programming interface\"; the Sheets API allows users to interact with Google Sheets programmatically, instead of via a web browser. The \"v4\" refers to the fact that the Sheets API is currently at version 4. This package can read and write both the metadata and the cell data in a Sheet.",
+    "repo_url": "https://github.com/tidyverse/googlesheets4",
+    "pkdown_url": "https://googlesheets4.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/googlesheets4/issues",
+    "logo_url": "https://googlesheets4.tidyverse.org/logo.png",
+    "last_updated": "2025-09-03",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "gtreg",
     "title": "Regulatory Tables for Clinical Research",
     "description": "Creates tables suitable for regulatory agency submission by leveraging the 'gtsummary' package as the back end. Tables can be exported to HTML, Word, PDF and more. Highly customized outputs are available by utilizing existing styling functions from 'gtsummary' as well as custom options designed for regulatory tables.",
@@ -1767,6 +2313,249 @@
           "aut"
         ],
         "orcid": "0000-0003-0862-2018"
+      }
+    ]
+  },
+  {
+    "name": "h2o",
+    "title": "R Interface for the 'H2O' Scalable Machine Learning Platform",
+    "description": "R interface for 'H2O', the scalable open source machine learning platform that offers parallelized implementations of many supervised and unsupervised machine learning algorithms such as Generalized Linear Models (GLM), Gradient Boosting Machines (including XGBoost), Random Forests, Deep Neural Networks (Deep Learning), Stacked Ensembles, Naive Bayes, Generalized Additive Models (GAM), ANOVA GLM, Cox Proportional Hazards, K-Means, PCA, ModelSelection, Word2Vec, as well as a fully automatic machine learning algorithm (H2O AutoML).",
+    "repo_url": "https://github.com/h2oai/h2o-3",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/h2oai/h2o-3/issues",
+    "logo_url": {},
+    "last_updated": "2024-01-11",
+    "authors": [
+      {
+        "name": "Tomas Fryda",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "tomas.fryda@h2o.ai"
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "erin-ledell"
+      },
+      {
+        "name": "Navdeep Gill",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Spencer Aiello",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Anqi Fu",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Arno Candel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Cliff Click",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Tom Kraljevic",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Tomas Nykodym",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Patrick Aboyoun",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Michal Kurka",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Michal Malohlava",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sebastien Poirier",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Wendy Wong",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ludi Rehak",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Eric Eckstrand",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Brandon Hill",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Sebastian Vidrio",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Surekha Jadhawani",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Amy Wang",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Raymond Peck",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jan Gorecki",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Matt Dowle",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Yuan Tang",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lauren DiPerna",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Veronika Maurerova",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Yuliia Syzon",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Adam Valenta",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Marek Novotny",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "H2O.ai",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "h2o4gpu",
+    "title": "Interface to 'H2O4GPU'",
+    "description": "Interface to 'H2O4GPU' <https://github.com/h2oai/h2o4gpu>, a collection of 'GPU' solvers for machine learning algorithms.",
+    "repo_url": "https://github.com/h2oai/h2o4gpu",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/h2oai/h2o4gpu/issues",
+    "logo_url": {},
+    "last_updated": "2021-05-17",
+    "authors": [
+      {
+        "name": "Yuan Tang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5243-233X"
+      },
+      {
+        "name": "Navdeep Gill",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "navdeep@h2o.ai"
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "erin-ledell"
+      },
+      {
+        "name": "Vladimir Ovsyannikov",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "H2O.ai",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },
@@ -2327,6 +3116,29 @@
     ]
   },
   {
+    "name": "mitey",
+    "title": "Serial Interval and Case Reproduction Number Estimation",
+    "description": "Provides methods to estimate serial intervals and time-varying case reproduction numbers from infectious disease outbreak data. Serial intervals measure the time between symptom onset in linked transmission pairs, while case reproduction numbers quantify how many secondary cases each infected individual generates over time. These parameters are essential for understanding transmission dynamics, evaluating control measures, and informing public health responses. The package implements the maximum likelihood framework from Vink et al. (2014) <doi:10.1093/aje/kwu209> for serial interval estimation and the retrospective method from Wallinga & Lipsitch (2007) <doi:10.1098/rspb.2006.3754> for reproduction number estimation. Originally developed for scabies transmission analysis but applicable to other infectious diseases including influenza, COVID-19, and emerging pathogens. Designed for epidemiologists, public health researchers, and infectious disease modelers working with outbreak surveillance data.",
+    "repo_url": "https://github.com/kylieainslie/mitey",
+    "pkdown_url": "https://kylieainslie.github.io/mitey/",
+    "bug_reports_url": "https://github.com/kylieainslie/mitey/issues",
+    "logo_url": "https://kylieainslie.github.io/mitey/logo.png",
+    "last_updated": "2026-02-27",
+    "authors": [
+      {
+        "name": "Kylie Ainslie",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0001-5419-7206",
+        "directory_id": "kylie-ainslie",
+        "email": "ainslie.kylie@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "MLDataR",
     "title": "Collection of Machine Learning Datasets for Supervised Machine\nLearning",
     "description": "Contains a collection of datasets for working with machine learning tasks. It will contain datasets for supervised machine learning Jiang (2020)<doi:10.1016/j.beth.2020.05.002> and will include datasets for classification and regression. The aim of this package is to use data generated around health and other domains.",
@@ -2357,6 +3169,48 @@
           "aut"
         ],
         "directory_id": "isabella-velasquez"
+      }
+    ]
+  },
+  {
+    "name": "mmaqshiny",
+    "title": "Explore Air Quality Mobile-Monitoring Data",
+    "description": "Mobile-monitoring or sensors on a mobile platform, is an increasingly popular approach to measure high-resolution pollution data at the street level. Coupled with location data, spatial visualization of air-quality parameters helps detect localized areas of high air pollution, also called hotspots. In this approach, portable sensors are mounted on a vehicle and driven on predetermined routes to collect high frequency data (1 Hz). 'mmaqshiny' is for analysing, visualizing and spatial mapping of high-resolution air-quality data collected by specific devices installed on a moving platform. 1 Hz data of PM2.5 (mass concentrations of particulate matter with size less than 2.5 microns), Black carbon mass concentrations (BC), ultra-fine particle number concentrations, carbon dioxide along with GPS coordinates and relative humidity (RH) data collected by popular portable instruments (TSI DustTrak-8530, Aethlabs microAeth-AE51, TSI CPC3007, LICOR Li-830, Garmin GPSMAP 64s, Omega USB RH probe respectively). It incorporates device specific cleaning and correction algorithms. RH correction is applied to DustTrak PM2.5 following the Chakrabarti et al., (2004) <doi:10.1016/j.atmosenv.2004.03.007>. Provision is given to add linear regression coefficients for correcting the PM2.5 data (if required). BC data will be cleaned for the vibration generated noise, by adopting the statistical procedure as explained in Apte et al., (2011) <doi:10.1016/j.atmosenv.2011.05.028>, followed by a loading correction as suggested by Ban-Weiss et al., (2009) <doi:10.1021/es8021039>. For the number concentration data, provision is given for dilution correction factor (if a diluter is used with CPC3007; default value is 1). The package joins the raw, cleaned and corrected data from the above said instruments and outputs as a downloadable csv file.",
+    "repo_url": "https://github.com/meenakshi-kushwaha/mmaqshiny",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/meenakshi-kushwaha/mmaqshiny/issues",
+    "logo_url": {},
+    "last_updated": "2022-05-10",
+    "authors": [
+      {
+        "name": "Adithi R. Upadhya",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "email": "adithi@ilklabs.com"
+      },
+      {
+        "name": "Pratyush Agrawal",
+        "roles": [
+          "dtc"
+        ]
+      },
+      {
+        "name": "Sreekanth Vakacherla",
+        "roles": [
+          "aui",
+          "ctb"
+        ]
+      },
+      {
+        "name": "Meenakshi Kushwaha",
+        "roles": [
+          "aut",
+          "cph"
+        ],
+        "directory_id": "meenakshi-kushwaha"
       }
     ]
   },
@@ -2474,6 +3328,29 @@
           "cre"
         ],
         "email": "dlepage@birdscanada.org"
+      }
+    ]
+  },
+  {
+    "name": "nestr",
+    "title": "Build Nesting or Hierarchical Structures",
+    "description": "Facilitates building a nesting or hierarchical structure as a list or data frame by using a human friendly syntax.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2022-02-02",
+    "authors": [
+      {
+        "name": "Emi Tanaka",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-1455-259X",
+        "directory_id": "emi-tanaka",
+        "email": "dr.emi.tanaka@gmail.com"
       }
     ]
   },
@@ -2879,6 +3756,45 @@
           "aut"
         ],
         "directory_id": "shannon-pileggi"
+      }
+    ]
+  },
+  {
+    "name": "phyloseq",
+    "title": "Handling and analysis of high-throughput microbiome census data",
+    "description": "phyloseq provides a set of classes and tools to facilitate the import, storage, analysis, and graphical display of microbiome census data.",
+    "repo_url": "https://github.com/joey711/phyloseq",
+    "pkdown_url": "http://dx.plos.org/10.1371/journal.pone.0061217",
+    "bug_reports_url": "https://github.com/joey711/phyloseq/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Paul J. McMurdie",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "joey711@gmail.com"
+      },
+      {
+        "name": "Susan Holmes",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "susan-holmes"
+      },
+      {
+        "name": "Gregory Jordan",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "ctb"
+        ]
       }
     ]
   },
@@ -3347,6 +4263,281 @@
     ]
   },
   {
+    "name": "readr",
+    "title": "Read Rectangular Text Data",
+    "description": "The goal of 'readr' is to provide a fast and friendly way to read rectangular data (like 'csv', 'tsv', and 'fwf'). It is designed to flexibly parse many types of data found in the wild, while still cleanly failing when data unexpectedly changes.",
+    "repo_url": "https://github.com/tidyverse/readr",
+    "pkdown_url": "https://readr.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/readr/issues",
+    "logo_url": "https://readr.tidyverse.org/logo.png",
+    "last_updated": "2026-02-19",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Romain Francois",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Shelby Bearrows",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      },
+      {
+        "name": "https://github.com/mandreyel/",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Jukka Jylänki",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Mikkel Jørgensen",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "readxl",
+    "title": "Read Excel Files",
+    "description": "Import excel files into R. Supports '.xls' via the embedded 'libxls' C library <https://github.com/libxls/libxls> and '.xlsx' via the embedded 'RapidXML' C++ library <https://rapidxml.sourceforge.net/>. Works on Windows, Mac and Linux without external dependencies.",
+    "repo_url": "https://github.com/tidyverse/readxl",
+    "pkdown_url": "https://readxl.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/readxl/issues",
+    "logo_url": "https://readxl.tidyverse.org/logo.png",
+    "last_updated": "2025-03-07",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Posit"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      },
+      {
+        "name": "Marcin Kalicinski",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Komarov Valery",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Christophe Leitienne",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Bob Colbert",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "David Hoerl",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Evan Miller",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "reprex",
+    "title": "Prepare Reproducible Example Code via the Clipboard",
+    "description": "Convenience wrapper that uses the 'rmarkdown' package to render small snippets of code to target formats that include both code and output. The goal is to encourage the sharing of small, reproducible, and runnable examples on code-oriented websites, such as <https://stackoverflow.com> and <https://github.com>, or in email. The user's clipboard is the default source of input code and the default target for rendered output. 'reprex' also extracts clean, runnable R code from various common formats, such as copy/paste from an R session.",
+    "repo_url": "https://github.com/tidyverse/reprex",
+    "pkdown_url": "https://reprex.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/reprex/issues",
+    "logo_url": "https://reprex.tidyverse.org/logo.png",
+    "last_updated": "2024-07-06",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2739-7082"
+      },
+      {
+        "name": "David Robinson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Christophe Dervieux",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4474-2498"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "repurrrsive",
+    "title": "Examples of Recursive Lists and Nested or Split Data Frames",
+    "description": "Recursive lists in the form of R objects, 'JSON', and 'XML', for use in teaching and examples. Examples include color palettes, Game of Thrones characters, 'GitHub' users and repositories, music collections, and entities from the Star Wars universe. Data from the 'gapminder' package is also included, as a simple data frame and in nested and split forms.",
+    "repo_url": "https://github.com/jennybc/repurrrsive",
+    "pkdown_url": "https://jennybc.github.io/repurrrsive/",
+    "bug_reports_url": "https://github.com/jennybc/repurrrsive/issues",
+    "logo_url": {},
+    "last_updated": "2023-03-09",
+    "authors": [
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Charlotte Wickham",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "charlotte-wickham"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rHealthDataGov",
+    "title": "Retrieve data sets from the HealthData.gov data API",
+    "description": "An R interface for the HealthData.gov data API. For each data resource, you can filter results (server-side) to select subsets of data.",
+    "repo_url": "https://github.com/rOpenHealth/rHealthDataGov",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rOpenHealth/rHealthDataGov/issues",
+    "logo_url": {},
+    "last_updated": "2014-12-29",
+    "authors": [
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "erin-ledell",
+        "email": "ledell@berkeley.edu"
+      }
+    ]
+  },
+  {
     "name": "rhub",
     "title": "Tools for R Package Developers",
     "description": "R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.",
@@ -3549,6 +4740,63 @@
         "roles": [
           "cph",
           "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rsparkling",
+    "title": "R Interface for H2O Sparkling Water",
+    "description": "An extension package for 'sparklyr' that provides an R interface to H2O Sparkling Water machine learning library (see <https://github.com/h2oai/sparkling-water> for more information).",
+    "repo_url": "https://github.com/h2oai/sparkling-water/tree/master/r",
+    "pkdown_url": {},
+    "bug_reports_url": "http://jira.h2o.ai",
+    "logo_url": {},
+    "last_updated": "2020-01-28",
+    "authors": [
+      {
+        "name": "Jakub Hava",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "jakub@h2o.ai"
+      },
+      {
+        "name": "Navdeep Gill",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "erin-ledell"
+      },
+      {
+        "name": "Michal Malohlava",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "JJ Allaire",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "H2O.ai",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "RStudio",
+        "roles": [
+          "cph"
         ]
       }
     ]
@@ -3928,6 +5176,53 @@
     ]
   },
   {
+    "name": "smbdata",
+    "title": "Data from \"Statistical Methods in Biology\"",
+    "description": "All data in the book \"Statistical Methods in Biology\" by Welham et al. (2015) <doi:10.1201/b17336> with a corresponding documentation and illustrative analysis of the data.",
+    "repo_url": "https://github.com/emitanaka/smbdata",
+    "pkdown_url": "http://emitanaka.org/smbdata/",
+    "bug_reports_url": "https://github.com/emitanaka/smbdata/issues",
+    "logo_url": {},
+    "last_updated": "2026-01-21",
+    "authors": [
+      {
+        "name": "Emi Tanaka",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1455-259X",
+        "directory_id": "emi-tanaka",
+        "email": "dr.emi.tanaka@gmail.com"
+      },
+      {
+        "name": "Sue Welham",
+        "roles": [
+          "ctb",
+          "cph"
+        ]
+      },
+      {
+        "name": "Salvador Gezan",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Suzanne Clark",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andrew Mead",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "spatialsample",
     "title": "Spatial Resampling Infrastructure",
     "description": "Functions and classes for spatial resampling to use with the 'rsample' package, such as spatial cross-validation (Brenning, 2012) <doi:10.1109/IGARSS.2012.6352393>. The scope of 'rsample' and 'spatialsample' is to provide the basic building blocks for creating and analyzing resamples of a spatial data set, but neither package includes functions for modeling or computing statistics. The resampled spatial data sets created by 'spatialsample' do not contain much overhead in memory.",
@@ -4000,6 +5295,84 @@
         "name": "David Banks",
         "roles": [
           "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "subsemble",
+    "title": "An Ensemble Method for Combining Subset-Specific Algorithm Fits",
+    "description": "The Subsemble algorithm is a general subset ensemble prediction method, which can be used for small, moderate, or large datasets. Subsemble partitions the full dataset into subsets of observations, fits a specified underlying algorithm on each subset, and uses a unique form of k-fold cross-validation to output a prediction function that combines the subset-specific fits. An oracle result provides a theoretical performance guarantee for Subsemble. The paper, \"Subsemble: An ensemble method for combining subset-specific algorithm fits\" is authored by Stephanie Sapp, Mark J. van der Laan & John Canny (2014) <doi:10.1080/02664763.2013.864263>.",
+    "repo_url": "https://github.com/ledell/subsemble",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ledell/subsemble/issues",
+    "logo_url": {},
+    "last_updated": "2022-01-21",
+    "authors": [
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "erin-ledell",
+        "email": "oss@ledell.org"
+      },
+      {
+        "name": "Stephanie Sapp",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mark van der Laan",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SuperLearner",
+    "title": "Super Learner Prediction",
+    "description": "Implements the super learner prediction method and contains a library of prediction algorithms to be used in the super learner.",
+    "repo_url": "https://github.com/ecpolley/SuperLearner",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-12-15",
+    "authors": [
+      {
+        "name": "Eric Polley",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "epolley@uchicago.edu"
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "erin-ledell"
+      },
+      {
+        "name": "Chris Kennedy",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sam Lendle",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Mark van der Laan",
+        "roles": [
+          "aut",
+          "ths"
         ]
       }
     ]
@@ -4407,6 +5780,46 @@
     ]
   },
   {
+    "name": "USAboundaries",
+    "title": "Historical and Contemporary Boundaries of the United States of\nAmerica",
+    "description": "The boundaries for geographical units in the United States of America contained in this package include state, county, congressional district, and zip code tabulation area. Contemporary boundaries are provided by the U.S. Census Bureau (public domain). Historical boundaries for the years from 1629 to 2000 are provided form the Newberry Library's Atlas of Historical County Boundaries (licensed CC BY-NC-SA). Additional data is provided in the USAboundariesData package; this package provides an interface to access that data.",
+    "repo_url": "https://github.com/ropensci/USAboundaries",
+    "pkdown_url": "https://docs.ropensci.org/USAboundaries/",
+    "bug_reports_url": "https://github.com/ropensci/USAboundaries/issues",
+    "logo_url": "https://docs.ropensci.org/USAboundaries/logo.png",
+    "last_updated": "2026-01-29",
+    "authors": [
+      {
+        "name": "Lincoln Mullen",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-5103-6917"
+      },
+      {
+        "name": "Jordan Bratt",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-9051-7203"
+      },
+      {
+        "name": "United States Census Bureau",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Jacci Ziebert",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "jacci-ziebert",
+        "email": "jacciziebert@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "usdata",
     "title": "Data on the States and Counties of the United States",
     "description": "Demographic data on the United States at the county and state levels spanning multiple years.",
@@ -4435,6 +5848,59 @@
         "name": "Leah Dorazio",
         "roles": [
           "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "usethis",
+    "title": "Automate Package and Project Setup",
+    "description": "Automate package and project setup tasks that are otherwise performed manually. This includes setting up unit testing, test coverage, continuous integration, Git, 'GitHub', licenses, 'Rcpp', 'RStudio' projects, and more.",
+    "repo_url": "https://github.com/r-lib/usethis",
+    "pkdown_url": "https://usethis.r-lib.org",
+    "bug_reports_url": "https://github.com/r-lib/usethis/issues",
+    "logo_url": "https://usethis.r-lib.org/logo.png",
+    "last_updated": "2025-09-06",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Malcolm Barrett",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0299-5825"
+      },
+      {
+        "name": "Andy Teucher",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7840-692X"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
         ]
       }
     ]
@@ -4534,6 +6000,76 @@
         "orcid": "0000-0002-3671-836X",
         "directory_id": "julia-silge",
         "email": "julia.silge@posit.co"
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vroom",
+    "title": "Read and Write Rectangular Text Data Quickly",
+    "description": "The goal of 'vroom' is to read and write data (like 'csv', 'tsv' and 'fwf') quickly. When reading it uses a quick initial indexing step, then reads the values lazily , so only the data you actually use needs to be read. The writer formats the data in parallel and writes to disk asynchronously from formatting.",
+    "repo_url": "https://github.com/tidyverse/vroom",
+    "pkdown_url": "https://vroom.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/vroom/issues",
+    "logo_url": "https://vroom.tidyverse.org/logo.png",
+    "last_updated": "2026-03-31",
+    "authors": [
+      {
+        "name": "Jim Hester",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2739-7082"
+      },
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Jennifer Bryan",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6983-2759",
+        "directory_id": "jenny-bryan",
+        "email": "jenny@posit.co"
+      },
+      {
+        "name": "Shelby Bearrows",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "https://github.com/mandreyel/",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Jukka Jylänki",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Mikkel Jørgensen",
+        "roles": [
+          "cph"
+        ]
       },
       {
         "name": "Posit Software"
@@ -4842,6 +6378,58 @@
         ],
         "orcid": "0000-0002-7732-4164",
         "directory_id": "shannon-pileggi"
+      }
+    ]
+  },
+  {
+    "name": "XICOR",
+    "title": "Association Measurement Through Cross Rank Increments",
+    "description": "Computes robust association measures that do not presuppose linearity. The xi correlation (xicor) is based on cross correlation between ranked increments. The reference for the methods implemented here is Chatterjee, Sourav (2020) <arXiv:1909.10140> This package includes the Galton peas example.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-12-02",
+    "authors": [
+      {
+        "name": "Susan Holmes",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "susan-holmes",
+        "email": "sp.holmes@gmail.com"
+      },
+      {
+        "name": "Sourav Chatterjee",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "zalpha",
+    "title": "Run a Suite of Selection Statistics",
+    "description": "A suite of statistics for identifying areas of the genome under selective pressure. See Jacobs, Sluckin and Kivisild (2016) <doi:10.1534/genetics.115.185900>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-12-02",
+    "authors": [
+      {
+        "name": "Clare Horscroft",
+        "directory_id": "clare-horscroft",
+        "email": "chorscroft@aol.co.uk"
+      },
+      {
+        "name": "Clare Horscroft",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "clare-horscroft",
+        "email": "chorscroft@aol.co.uk"
       }
     ]
   }
