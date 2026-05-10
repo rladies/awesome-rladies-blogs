@@ -53,6 +53,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [data whiskeRs](https://jadeyryan.com/blog) by Jadey Ryan
 - [Data in life](https://jhylin.github.io/Data_in_life_blog/) by
   Jennifer HY Lin
+- [JRaviLab](https://jravilab.github.io/) by Janani Ravi
 - [Julia Silge](https://juliasilge.com/) by Julia Silge
 - [Karina Bartolome](https://karbartolome-blog.netlify.app) by Karina
   Bartolome
