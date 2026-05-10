@@ -121,6 +121,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Bioconductor Package Maintainer, Martin Morgan, Marc Carlson, Dan
   Tenenbaum, Sonali Arora, Valerie Oberchain, Kayla Morrell, Lori
   Shepherd
+- [aochelpers](https://github.com/EllaKaye/aochelpers) by Ella Kaye
 - [aperol](https://github.com/EllaKaye/aperol) by Ella Kaye, Kelly
   Bodwin, Collin Schwantes
 - [artpack](https://github.com/Meghansaha/artpack) by Meghan Harris
