@@ -6,8 +6,7 @@ on:
     branches:
       - main
     paths:
-      - 'data/content/**'
-      - 'data/packages/**'
+      - 'data/website/**'
 
 jobs:
   trigger:
