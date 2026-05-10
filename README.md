@@ -74,6 +74,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Riinu’s scripting diary](https://www.riinu.me/) by Riinu Pius
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
+- [R-Ladies Global Blog](https://rladies.org/blog/) by R-Ladies Global
 - [Data Science
   Blog](https://sabrinaschalz.wordpress.com/data-science-blog/) by
   Sabrina Schalz

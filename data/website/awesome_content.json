@@ -850,6 +850,26 @@
     ]
   },
   {
+    "title": "R-Ladies Global Blog",
+    "type": "blog",
+    "url": "https://rladies.org/blog/",
+    "rss_feed": "https://rladies.org/blog/index.xml",
+    "photo_url": "https://rladies.org/images/og-default.png",
+    "description": "News, tutorials, and stories from the R-Ladies+ community — written by chapter organisers, members, and contributors around the world.",
+    "language": "en",
+    "authors": [
+      {
+        "name": "R-Ladies Global",
+        "social_media": [
+          {
+            "github": "rladies",
+            "website": "https://rladies.org/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Data Science Blog",
     "type": "blog",
     "url": "https://sabrinaschalz.wordpress.com/data-science-blog/",
