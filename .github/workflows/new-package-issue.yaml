@@ -214,6 +214,10 @@ jobs:
             bodyParts.push(
               `@${author} please review the file(s) and request edits in this PR if anything is wrong (e.g. additional authors who need \`directory_id\`, missing logo, wrong description).`,
               ``,
+              `### :white_check_mark: When you're happy with the data`,
+              ``,
+              `This PR is **opened as a draft** so you have a chance to look over the auto-generated metadata first. Once it looks correct, click the **Ready for review** button at the bottom of the conversation — that's the signal to maintainers that it can be merged.`,
+              ``,
               `Closes #${issueNumber}.`
             );
             const body = bodyParts.join('\n');
@@ -273,7 +277,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Hi @${author}, I drafted ${summary}${failNote} on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — fields like additional authors' \`directory_id\` may need a manual touch-up. I'm closing this issue; let's continue on the PR.`
+              body: `Hi @${author}, I drafted ${summary}${failNote} on branch \`${branch}\` and opened ${pr.html_url} as a draft. Take a look — fields like additional authors' \`directory_id\` may need a manual touch-up. **When the data looks good, click _Ready for review_ at the bottom of the PR** so maintainers know it can be merged. I'm closing this issue; let's continue on the PR.`
             });
 
             if (prCreated) {
