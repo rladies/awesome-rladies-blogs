@@ -34,6 +34,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Citizen Statistician](citizen-statistician.org) by Mine
   Çetinkaya-Rundel, Rob Gould, Andrew Zieffler
 - [Cosima Meyer](https://cosimameyer.com/) by Cosima Meyer
+- [Cynthia D’Angelo](https://cynthiadangelo.com/) by Cynthia D’Angelo
 - [Darya Vanichkina’s blog](https://www.daryavanichkina.com/posts.html)
   by Darya Vanichkina
 - [Data Pedagogy](https://www.datapedagogy.com/) by Mine Dogucu
