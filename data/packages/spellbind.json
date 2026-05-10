@@ -1,0 +1,27 @@
+{
+  "name": "spellbind",
+  "title": "RLadies+ Brand Toolkit for R",
+  "description": "Colour palettes, ggplot2 themes, and colour scales for the RLadies+ visual identity. Provides a consistent branded look for data visualisations, reports, and presentations created by R-Ladies chapters worldwide.",
+  "repo_url": "https://github.com/rladies/spellbind",
+  "pkdown_url": "https://rladies.org/spellbind/",
+  "bug_reports_url": "https://github.com/rladies/spellbind/issues",
+  "logo_url": "https://rladies.org/spellbind/logo.svg",
+  "last_updated": "2026-03-16",
+  "authors": [
+    {
+      "name": "Athanasia Mo Mowinckel",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "orcid": "0000-0002-5756-0223",
+      "email": "a.m.mowinckel@psykologi.uio.no"
+    },
+    {
+      "name": "R-Ladies Global",
+      "roles": [
+        "cph"
+      ]
+    }
+  ]
+}
