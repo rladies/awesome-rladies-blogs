@@ -59,6 +59,103 @@
     ]
   },
   {
+    "name": "ADTSA",
+    "title": "Time Series Analysis",
+    "description": "Analyzes autocorrelation and partial autocorrelation using surrogate methods and bootstrapping, and computes the acceleration constants for the vectorized moving block bootstrap provided by this package. It generates percentile, bias-corrected, and accelerated intervals and estimates partial autocorrelations using Durbin-Levinson. This package calculates the autocorrelation power spectrum, computes cross-correlations between two time series, computes bandwidth for any time series, and performs autocorrelation frequency analysis. It also calculates the periodicity of a time series.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-01-08",
+    "authors": [
+      {
+        "name": "Hossein Hassani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Masoud Yarmohammadi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mohammad Reza Yeganegi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leila Marvian Mashhad",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "Leila.marveian@gmail.com",
+        "directory_id": "leila-marvian"
+      }
+    ]
+  },
+  {
+    "name": "agroclimatico",
+    "title": "Índices y Estadísticos Climáticos e Hidrológicos",
+    "description": "Conjunto de funciones para calcular índices y estadísticos climáticos hidrológicos a partir de datos tidy. Incluye una función para graficar resultados georeferenciados y e información cartográfica.",
+    "repo_url": "https://github.com/ropensci/agroclimatico",
+    "pkdown_url": "https://docs.ropensci.org/agroclimatico/",
+    "bug_reports_url": "https://github.com/ropensci/agroclimatico/issues",
+    "logo_url": "https://docs.ropensci.org/agroclimatico/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Yanina Bellini Saibene",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "yanina-bellini-saibene"
+      },
+      {
+        "name": "Elio Campitelli",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7742-9230"
+      },
+      {
+        "name": "Paola Corrales",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "paola.corrales@cima.fcen.uba.ar"
+      },
+      {
+        "name": "Natalia Gattinoni",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ruida Zhong",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Verónica Cruz-Alonso",
+        "roles": [
+          "rev"
+        ]
+      },
+      {
+        "name": "Priscilla Minotti",
+        "roles": [
+          "rev"
+        ]
+      }
+    ]
+  },
+  {
     "name": "airports",
     "title": "Data on Airports",
     "description": "Geographic, use, and property related data on airports.",
@@ -76,6 +173,89 @@
         ],
         "orcid": "0000-0001-6452-2420",
         "email": "cetinkaya.mine@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "anicon",
+    "title": "Animated icons for R Markdown and Shiny",
+    "description": "This package allows easy insertion of animated icons into R Markdown html outputs.",
+    "repo_url": "https://github.com/emitanaka/anicon",
+    "pkdown_url": "https://emitanaka.github.io/anicon/",
+    "bug_reports_url": "https://github.com/emitanaka/anicon/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Emi Tanaka",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "emi-tanaka",
+        "email": "dr.emi.tanaka@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "AnnotationHub",
+    "title": "Client to access AnnotationHub resources",
+    "description": "This package provides a client for the Bioconductor AnnotationHub web resource. The AnnotationHub web resource provides a central location where genomic files (e.g., VCF, bed, wig) and other resources from standard locations (e.g., UCSC, Ensembl) can be discovered. The resource includes metadata about each resource, e.g., a textual description, tags, and date of modification. The client creates and manages a local cache of files retrieved by the user, helping with quick and reproducible access.",
+    "repo_url": "https://github.com/Bioconductor/AnnotationHub",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Bioconductor/AnnotationHub/issues",
+    "logo_url": {},
+    "last_updated": "2025-10-29",
+    "authors": [
+      {
+        "name": "Bioconductor Package Maintainer",
+        "roles": [
+          "cre"
+        ],
+        "email": "maintainer@bioconductor.org"
+      },
+      {
+        "name": "Martin Morgan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Marc Carlson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Dan Tenenbaum",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Sonali Arora",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Valerie Oberchain",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Kayla Morrell",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lori Shepherd",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "lori-shepherd"
       }
     ]
   },
@@ -255,6 +435,61 @@
     ]
   },
   {
+    "name": "auditor",
+    "title": "Model Audit - Verification, Validation, and Error Analysis",
+    "description": "Provides an easy to use unified interface for creating validation plots for any model. The 'auditor' helps to avoid repetitive work consisting of writing code needed to create residual plots. This visualizations allow to asses and compare the goodness of fit, performance, and similarity of models.",
+    "repo_url": "https://github.com/ModelOriented/auditor",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ModelOriented/auditor/issues",
+    "logo_url": "https://raw.githubusercontent.com/ModelOriented/auditor/HEAD/man/figures/logo.png",
+    "last_updated": "2023-10-30",
+    "authors": [
+      {
+        "name": "Alicja Gosiewska",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6563-5742",
+        "directory_id": "alicja-gosiewska",
+        "email": "alicjagosiewska@gmail.com"
+      },
+      {
+        "name": "Przemyslaw Biecek",
+        "roles": [
+          "aut",
+          "ths"
+        ],
+        "orcid": "0000-0001-8423-1823"
+      },
+      {
+        "name": "Hubert Baniecki",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6661-5364"
+      },
+      {
+        "name": "Tomasz Mikołajczyk",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Michal Burdukiewicz",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Szymon Maksymiuk",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "avilistr",
     "title": "Access and Work with the 'AviList' Global Avian Checklist",
     "description": "Provides easy access to the 'AviList' Global Avian Checklist, the first unified global bird taxonomy that harmonizes previous differences between International Ornithological Committee ('IOC'), 'Clements', and 'BirdLife' checklists. This package contains the complete 'AviList' dataset as R data objects ready for ornithological research and analysis. For more details see 'AviList' Core Team (2025) <doi:10.2173/avilist.v2025>.",
@@ -279,6 +514,94 @@
         "roles": [
           "dtc"
         ]
+      }
+    ]
+  },
+  {
+    "name": "aws.s3",
+    "title": "'AWS S3' Client Package",
+    "description": "A simple client package for the Amazon Web Services ('AWS') Simple Storage Service ('S3') 'REST' 'API' <https://aws.amazon.com/s3/>.",
+    "repo_url": "https://github.com/cloudyr/aws.s3",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cloudyr/aws.s3/issues",
+    "logo_url": {},
+    "last_updated": "2025-08-19",
+    "authors": [
+      {
+        "name": "Thomas J. Leeper",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4097-6326"
+      },
+      {
+        "name": "Boettiger Carl",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andrew Martin",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Mark Thompson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Tyler Hunt",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Steven Akins",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Bao Nguyen",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Thierry Onkelinx",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andrii Degtiarov",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Dhruv Aggarwal",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Alyssa Columbus",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "alyssa-columbus"
+      },
+      {
+        "name": "Simon Urbanek",
+        "roles": [
+          "cre",
+          "ctb"
+        ],
+        "email": "simon.urbanek@R-project.org"
       }
     ]
   },
@@ -354,6 +677,35 @@
           "ctb"
         ],
         "orcid": "0000-0003-0918-3766"
+      }
+    ]
+  },
+  {
+    "name": "BayesCVI",
+    "title": "Bayesian Cluster Validity Index",
+    "description": "Algorithms for computing and generating plots with and without error bars for Bayesian cluster validity index (BCVI) (O. Preedasawakul, and N. Wiroonsri, A Bayesian Cluster Validity Index, Computational Statistics & Data Analysis, 202, 108053, 2025. <doi:10.1016/j.csda.2024.108053>) based on several underlying cluster validity indexes (CVIs) including Calinski-Harabasz, Chou-Su-Lai, Davies-Bouldin, Dunn, Pakhira-Bandyopadhyay-Maulik, Point biserial correlation, the score function, Starczewski, and Wiroonsri indices for hard clustering, and Correlation Cluster Validity, the generalized C, HF, KWON, KWON2, Modified Pakhira-Bandyopadhyay-Maulik, Pakhira-Bandyopadhyay-Maulik, Tang, Wiroonsri-Preedasawakul, Wu-Li, and Xie-Beni indices for soft clustering. The package is compatible with K-means, fuzzy C means, EM clustering, and hierarchical clustering (single, average, and complete linkage). Though BCVI is compatible with any underlying existing CVIs, we recommend users to use either WI or WP as the underlying CVI.",
+    "repo_url": "https://github.com/o-preedasawakul/BayesCVI",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-09-05",
+    "authors": [
+      {
+        "name": "Nathakhun Wiroonsri",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2167-9641"
+      },
+      {
+        "name": "Onthada Preedasawakul",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-4186-3158",
+        "email": "o.preedasawakul@gmail.com",
+        "directory_id": "onthada-preedasawakul"
       }
     ]
   },
@@ -535,6 +887,33 @@
     ]
   },
   {
+    "name": "BiocFileCache",
+    "title": "Manage Files Across Sessions",
+    "description": "This package creates a persistent on-disk cache of files that the user can add, update, and retrieve. It is useful for managing resources (such as custom Txdb objects) that are costly or difficult to create, web resources, and data files used across sessions.",
+    "repo_url": "https://github.com/Bioconductor/BiocFileCache",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Bioconductor/BiocFileCache/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Lori Shepherd",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "lori-shepherd",
+        "email": "lori.shepherd@roswellpark.org"
+      },
+      {
+        "name": "Martin Morgan",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "biwt",
     "title": "Compute the Biweight Mean Vector and Covariance & Correlation\nMatrice",
     "description": "Compute multivariate location, scale, and correlation estimates based on Tukey's biweight M-estimator.",
@@ -554,6 +933,294 @@
         ],
         "directory_id": "jo-hardin",
         "email": "jo.hardin@pomona.edu"
+      }
+    ]
+  },
+  {
+    "name": "BLModel",
+    "title": "Black-Litterman Posterior Distribution",
+    "description": "Posterior distribution in the Black-Litterman model is computed from a prior distribution given in the form of a time series of asset returns and a continuous distribution of views provided by the user as an external function.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2017-03-29",
+    "authors": [
+      {
+        "name": "Andrzej Palczewski",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "A.Palczewski@mimuw.edu.pl"
+      },
+      {
+        "name": "Jan Palczewski",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Alicja Gosiewska",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "alicja-gosiewska"
+      }
+    ]
+  },
+  {
+    "name": "blogdown",
+    "title": "Create Blogs and Websites with R Markdown",
+    "description": "Write blog posts and web pages in R Markdown. This package supports the static site generator 'Hugo' (<https://gohugo.io>) best, and it also supports 'Jekyll' (<https://jekyllrb.com>) and 'Hexo' (<https://hexo.io>).",
+    "repo_url": "https://github.com/rstudio/blogdown",
+    "pkdown_url": "https://pkgs.rstudio.com/blogdown/",
+    "bug_reports_url": "https://github.com/rstudio/blogdown/issues",
+    "logo_url": "https://pkgs.rstudio.com/blogdown/logo.svg",
+    "last_updated": "2026-01-18",
+    "authors": [
+      {
+        "name": "Yihui Xie",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-0645-5666",
+        "email": "xie@yihui.name"
+      },
+      {
+        "name": "Christophe Dervieux",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4474-2498"
+      },
+      {
+        "name": "Alison Presmanes Hill",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-8082-1890",
+        "directory_id": "alison-presmanes-hill"
+      },
+      {
+        "name": "Amber Thomas",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "amber-thomas"
+      },
+      {
+        "name": "Beilei Bian",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Brandon Greenwell",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Brian Barkley",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Deependra Dhakal",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Eric Nantz",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Forest Fang",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Garrick Aden-Buie",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Hiroaki Yutani",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Ian Lyttle",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jake Barlow",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "James Balamuta",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "JJ Allaire",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jon Calder",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jozef Hajnala",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Juan Manuel Vazquez",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Kevin Ushey",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Leonardo Collado-Torres",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Maëlle Salmon",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "maelle-salmon"
+      },
+      {
+        "name": "Maria Paula Caldas",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "maria-paula-caldas"
+      },
+      {
+        "name": "Nicolas Roelandt",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Oliver Madsen",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Raniere Silva",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "TC Zhang",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Xianying Tan",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Posit Software"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "bootLong",
+    "title": "The Block Bootstrap Method for Longitudinal Count Data",
+    "description": "This implements the block bootstrap method, subsampling method for choosing optimal block length, and exploratory tools such as correlogram, lag-plot, variogram for longitudinal count data.",
+    "repo_url": "https://github.com/PratheepaJ/bootLong",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/PratheepaJ/bootLong/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Jeganathan Pratheepa",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "pratheepa-jeganathan"
+      },
+      {
+        "name": "Holmes"
+      },
+      {
+        "name": "Susan",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BradleyTerry2",
+    "title": "Bradley-Terry Models",
+    "description": "Specify and fit the Bradley-Terry model, including structured versions in which the parameters are related to explanatory variables through a linear predictor and versions with contest-specific effects, such as a home advantage.",
+    "repo_url": "https://github.com/hturner/BradleyTerry2",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/hturner/BradleyTerry2/issues",
+    "logo_url": {},
+    "last_updated": "2025-04-10",
+    "authors": [
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "heather-turner",
+        "email": "ht@heatherturner.net"
+      },
+      {
+        "name": "David Firth",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
@@ -715,6 +1382,33 @@
     ]
   },
   {
+    "name": "canvasXpress",
+    "title": "Visualization Package for CanvasXpress in R",
+    "description": "Enables creation of visualizations using the CanvasXpress framework in R. CanvasXpress is a standalone JavaScript library for reproducible research with complete tracking of data and end-user modifications stored in a single PNG image that can be played back. See <https://www.canvasxpress.org> for more information.",
+    "repo_url": "https://github.com/neuhausi/canvasXpress",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/neuhausi/canvasXpress/issues",
+    "logo_url": "https://raw.githubusercontent.com/neuhausi/canvasXpress/HEAD/vignettes/images/hexagon.jpg",
+    "last_updated": "2026-01-14",
+    "authors": [
+      {
+        "name": "Isaac Neuhaus",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Connie Brett",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "connie-brett",
+        "email": "connie@aggregate-genius.com"
+      }
+    ]
+  },
+  {
     "name": "capesData",
     "title": "Data on Scholarships in CAPES International Mobility Programs",
     "description": "Information on activities to promote scholarships in Brazil and abroad for international mobility programs, recorded in Capes' computerized payment systems. The CAPES database refers to international mobility programs for the period from 2010 to 2019 <https://dadosabertos.capes.gov.br/dataset/>.",
@@ -753,6 +1447,44 @@
           "aut"
         ],
         "orcid": "0000-0003-3254-2827"
+      }
+    ]
+  },
+  {
+    "name": "casteval",
+    "title": "Modular tools for scoring and comparing infectious disease forecasts",
+    "description": "A generalized, modular set of tools to facilitate the scoring and comparing of time series forecasts.",
+    "repo_url": "https://github.com/phac-nml-phrsd/casteval",
+    "pkdown_url": "https://phac-nml-phrsd.github.io/casteval",
+    "bug_reports_url": "https://github.com/phac-nml-phrsd/casteval/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Daniel Yu",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Irena Papst",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "irena-papst"
+      },
+      {
+        "name": "David Champredon",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Government of Canada",
+        "roles": [
+          "cph"
+        ]
       }
     ]
   },
@@ -818,6 +1550,85 @@
           "cph",
           "fnd"
         ]
+      }
+    ]
+  },
+  {
+    "name": "changepoint",
+    "title": "Methods for Changepoint Detection",
+    "description": "Implements various mainstream and specialised changepoint methods for finding single and multiple changepoints within data. Many popular non-parametric and frequentist methods are included. The cpt.mean(), cpt.var(), cpt.meanvar() functions should be your first point of call.",
+    "repo_url": "https://github.com/rkillick/changepoint/",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rkillick/changepoint/issues",
+    "logo_url": {},
+    "last_updated": "2024-11-04",
+    "authors": [
+      {
+        "name": "Rebecca Killick",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "r.killick@lancs.ac.uk"
+      },
+      {
+        "name": "Kaylea Haynes",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "kaylea-haynes"
+      },
+      {
+        "name": "Harjit Hullait",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Idris Eckley",
+        "roles": [
+          "ths"
+        ]
+      },
+      {
+        "name": "Paul Fearnhead",
+        "roles": [
+          "ctb",
+          "ths"
+        ]
+      },
+      {
+        "name": "Robin Long",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jamie Lee",
+        "roles": [
+          "ctr"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "chartkickR",
+    "title": "What the Package Does (One Line, Title Case)",
+    "description": "This is an implementation of the Chartkick.js library in R using the htmlwidgets framework.",
+    "repo_url": "https://github.com/BWOlatunji/chartkickR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/BWOlatunji/chartkickR/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Bilikisu Olatunji",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0009-0005-9144-6423",
+        "directory_id": "bilikisu-wunmi-aderinto"
       }
     ]
   },
@@ -1079,6 +1890,61 @@
     ]
   },
   {
+    "name": "coseq",
+    "title": "Co-Expression Analysis of Sequencing Data",
+    "description": "Co-expression analysis for expression profiles arising from high-throughput sequencing data. Feature (e.g., gene) profiles are clustered using adapted transformations and mixture models or a K-means algorithm, and model selection criteria (to choose an appropriate number of clusters) are provided.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Andrea Rau",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0001-6469-488X",
+        "directory_id": "andrea-rau",
+        "email": "andrea.rau@inrae.fr"
+      },
+      {
+        "name": "Cathy Maugis-Rabusseau",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Antoine Godichon-Baggioni",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "covid19tunisia",
+    "title": "Cases of COVID-19 in Tunisia",
+    "description": "Data personnally collected about the spread of COVID-19 (SARS-COV-2) in Tunisia.",
+    "repo_url": "https://github.com/MounaBelaid/covid19tunisia",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2020-11-30",
+    "authors": [
+      {
+        "name": "Mouna Belaid",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "mouna-belaid",
+        "email": "belaid.mounaa@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "cransays",
     "title": "Creates an Overview of CRAN Incoming Submissions",
     "description": "It scrapes the CRAN incoming FTP folder to find where each submission is.",
@@ -1146,6 +2012,93 @@
           "ctb"
         ],
         "orcid": "0000-0003-4757-117X"
+      }
+    ]
+  },
+  {
+    "name": "cstime",
+    "title": "Date and Time Functions for Public Health Purposes",
+    "description": "Provides easy and consistent time conversion for public health purposes. The time conversion functions provided here are between date, ISO week, ISO yearweek, ISO year, calendar month/year, season, season week.",
+    "repo_url": "https://github.com/csids/cstime",
+    "pkdown_url": "https://www.csids.no/cstime/",
+    "bug_reports_url": "https://github.com/csids/cstime/issues",
+    "logo_url": {},
+    "last_updated": "2025-10-14",
+    "authors": [
+      {
+        "name": "Chi Zhang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0501-5909",
+        "directory_id": "andrea-chi"
+      },
+      {
+        "name": "Richard Aubrey White",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6747-1726",
+        "email": "hello@rwhite.no"
+      },
+      {
+        "name": "CSIDS",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "cubble",
+    "title": "A Vector Spatio-Temporal Data Structure for Data Analysis",
+    "description": "A spatiotemperal data object in a relational data structure to separate the recording of time variant/ invariant variables. See the Journal of Statistical Software reference: <doi:10.18637/jss.v110.i07>.",
+    "repo_url": "https://github.com/huizezhang-sherry/cubble",
+    "pkdown_url": "https://huizezhang-sherry.github.io/cubble/",
+    "bug_reports_url": "https://github.com/huizezhang-sherry/cubble/issues",
+    "logo_url": "https://huizezhang-sherry.github.io/cubble/logo.svg",
+    "last_updated": "2024-10-05",
+    "authors": [
+      {
+        "name": "H. Sherry Zhang",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7122-1463",
+        "directory_id": "h-sherry-zhang",
+        "email": "huizezhangsh@gmail.com"
+      },
+      {
+        "name": "Dianne Cook",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3813-7155",
+        "directory_id": "dianne-cook"
+      },
+      {
+        "name": "Ursula Laa",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0249-6439"
+      },
+      {
+        "name": "Nicolas Langrené",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7601-4618"
+      },
+      {
+        "name": "Patricia Menéndez",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0701-6315",
+        "directory_id": "patricia-menendez"
       }
     ]
   },
@@ -1324,6 +2277,95 @@
     ]
   },
   {
+    "name": "DALEXtra",
+    "title": "Extension for 'DALEX' Package",
+    "description": "Provides wrapper of various machine learning models. In applied machine learning, there is a strong belief that we need to strike a balance between interpretability and accuracy. However, in field of the interpretable machine learning, there are more and more new ideas for explaining black-box models, that are implemented in 'R'. 'DALEXtra' creates 'DALEX' Biecek (2018) <doi:10.48550/arXiv.1806.08915> explainer for many type of models including those created using 'python' 'scikit-learn' and 'keras' libraries, and 'java' 'h2o' library. Important part of the package is Champion-Challenger analysis and innovative approach to model performance across subsets of test data presented in Funnel Plot.",
+    "repo_url": "https://github.com/ModelOriented/DALEXtra",
+    "pkdown_url": "https://ModelOriented.github.io/DALEXtra/",
+    "bug_reports_url": "https://github.com/ModelOriented/DALEXtra/issues",
+    "logo_url": "https://ModelOriented.github.io/DALEXtra/logo.png",
+    "last_updated": "2026-01-14",
+    "authors": [
+      {
+        "name": "Szymon Maksymiuk",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3120-1601",
+        "email": "sz.maksymiuk@gmail.com"
+      },
+      {
+        "name": "Przemyslaw Biecek",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-8423-1823"
+      },
+      {
+        "name": "Hubert Baniecki",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Anna Kozak",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "anna-kozak"
+      }
+    ]
+  },
+  {
+    "name": "datalegreyar",
+    "title": "A tool to easily insert datalegreya for html output.",
+    "description": "Datalegreya is a typeface which can interweave data curves with text. This package allows easy insertion of datalegreya font for html output such as Rmarkdown, xaringan, ioslides and shiny app.",
+    "repo_url": "https://github.com/emitanaka/datalegreyar",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/emitanaka/datalegreyar/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Emi Tanaka",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "emi-tanaka",
+        "email": "dr.emi.tanaka@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "dataMaid",
+    "title": "A Suite of Checks for Identification of Potential Errors in a\nData Frame as Part of the Data Screening Process",
+    "description": "Data screening is an important first step of any statistical analysis. dataMaid auto generates a customizable data report with a thorough summary of the checks and the results that a human can use to identify possible errors. It provides an extendable suite of test for common potential errors in a dataset.",
+    "repo_url": "https://github.com/ekstroem/dataMaid",
+    "pkdown_url": "https://doi.org/10.18637/jss.v090.i06",
+    "bug_reports_url": "https://github.com/ekstroem/dataMaid/issues",
+    "logo_url": "https://raw.githubusercontent.com/ekstroem/dataMaid/HEAD/man/figures/logo.png",
+    "last_updated": "2025-04-13",
+    "authors": [
+      {
+        "name": "Anne Helby Petersen",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "anne-helby-petersen"
+      },
+      {
+        "name": "Claus Thorn Ekstrøm",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "ekstrom@sund.ku.dk"
+      }
+    ]
+  },
+  {
     "name": "dataspice",
     "title": "Create Lightweight Schema.org Descriptions of Data",
     "description": "The goal of 'dataspice' is to make it easier for researchers to create basic, lightweight, and concise metadata files for their datasets. These basic files can then be used to make useful information available during analysis, create a helpful dataset \"README\" webpage, and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on the 'Schema.org' and 'Ecological Metadata Language' standards.",
@@ -1394,6 +2436,159 @@
       },
       {
         "name": "Irene Steves",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "datelife",
+    "title": "Scientific Data on Time of Lineage Divergence for Your Taxa",
+    "description": "Methods and workflows to get chronograms (i.e., phylogenetic trees with branch lengths proportional to time), using open, peer-reviewed, state-of-the-art scientific data on time of lineage divergence. This package constitutes the main underlying code of the DateLife web service at <https://www.datelife.org>. To obtain a single summary chronogram from a group of relevant chronograms, we implement the Super Distance Matrix (SDM) method described in Criscuolo et al. (2006) <doi:10.1080/10635150600969872>. To find the grove of chronograms with a sufficiently overlapping set of taxa for summarizing, we implement theorem 1.1. from Ané et al. (2009) <doi:10.1007/s00026-009-0017-x>. A given phylogenetic tree can be dated using time of lineage divergence data as secondary calibrations (with caution, see Schenk (2016) <doi:10.1371/journal.pone.0148228>). To obtain and apply secondary calibrations, the package implements the congruification method described in Eastman et al. (2013) <doi:10.1111/2041-210X.12051>. Tree dating can be performed with different methods including BLADJ (Webb et al. (2008) <doi:10.1093/bioinformatics/btn358>), PATHd8 (Britton et al. (2007) <doi:10.1080/10635150701613783>), mrBayes (Huelsenbeck and Ronquist (2001) <doi:10.1093/bioinformatics/17.8.754>), and treePL (Smith and O'Meara (2012) <doi:10.1093/bioinformatics/bts492>).",
+    "repo_url": "https://github.com/phylotastic/datelife",
+    "pkdown_url": "http://phylotastic.org/datelife/",
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/phylotastic/datelife/HEAD/man/figures/datelife-hexsticker-ai.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Brian O'Meara",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jonathan Eastman",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Tracy Heath",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "April Wright",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Klaus Schliep",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Peter Midford",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Luke Harmon",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Joseph Brown",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Matt Pennell",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mike Alfaro",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Luna L. Sanchez Reyes",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "sanchez.reyes.luna@gmail.com",
+        "directory_id": "luna-luisa-sanchez-reyes"
+      },
+      {
+        "name": "Emily Jane McTavish",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "datos",
+    "title": "Traduce al Español Varios Conjuntos de Datos de Práctica",
+    "description": "Provee una versión traducida de los siguientes conjuntos de datos: 'airlines', 'airports', 'AwardsManagers', 'babynames', 'Batting', 'credit_data', 'diamonds', 'faithful', 'fueleconomy', 'Fielding', 'flights', 'gapminder', 'gss_cat', 'iris', 'Managers', 'mpg', 'mtcars', 'atmos', 'palmerpenguins', 'People, 'Pitching', 'planes', 'presidential', 'table1', 'table2', 'table3', 'table4a', 'table4b', 'table5', 'vehicles', 'weather', 'who'. English: It provides a Spanish translated version of the datasets listed above.",
+    "repo_url": "https://github.com/cienciadedatos/datos",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/cienciadedatos/datos/issues",
+    "logo_url": "https://raw.githubusercontent.com/cienciadedatos/datos/HEAD/man/figures/logo.png",
+    "last_updated": "2023-07-17",
+    "authors": [
+      {
+        "name": "Riva Quiroga",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1147-4135",
+        "directory_id": "riva-quiroga",
+        "email": "riva.quiroga@uc.cl"
+      },
+      {
+        "name": "Edgar Ruiz",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mauricio Vargas",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mauro Lepore",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1986-7988"
+      },
+      {
+        "name": "Rayna Harris",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "rayna-harris"
+      },
+      {
+        "name": "Daniela Vasquez",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Joshua Kunst",
         "roles": [
           "ctb"
         ]
@@ -1479,6 +2674,179 @@
           "cre"
         ],
         "email": "Emmanuel.Paradis@ird.fr"
+      }
+    ]
+  },
+  {
+    "name": "dmrseq",
+    "title": "Detection and inference of differentially methylated regions\nfrom Whole Genome Bisulfite Sequencing",
+    "description": "This package implements an approach for scanning the genome to detect and perform accurate inference on differentially methylated regions from Whole Genome Bisulfite Sequencing data. The method is based on comparing detected regions to a pooled null distribution, that can be implemented even when as few as two samples per population are available. Region-level statistics are obtained by fitting a generalized least squares (GLS) regression model with a nested autoregressive correlated error structure for the effect of interest on transformed methylation proportions.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Keegan Korthauer",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-4565-1654",
+        "directory_id": "keegan-korthauer",
+        "email": "keegan@stat.ubc.ca"
+      },
+      {
+        "name": "Rafael Irizarry",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3944-4309"
+      },
+      {
+        "name": "Yuval Benjamini",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sutirtha Chakraborty",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "dobtools",
+    "title": "dobtools",
+    "description": "A smattering of analysis helpers to improve reproducibility.",
+    "repo_url": "https://github.com/aedobbyn/dobtools",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "amanda-dobbyn",
+        "email": "amanda.e.dobbyn@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "dySEM",
+    "title": "Dyadic Structural Equation Modeling",
+    "description": "Scripting of structural equation models via 'lavaan' for Dyadic Data Analysis, and helper functions for supplemental calculations, tabling, and model visualization.",
+    "repo_url": "https://github.com/jsakaluk/dySEM",
+    "pkdown_url": "https://jsakaluk.github.io/dySEM/",
+    "bug_reports_url": "https://github.com/jsakaluk/dySEM/issues",
+    "logo_url": "https://jsakaluk.github.io/dySEM/logo.png",
+    "last_updated": "2025-12-22",
+    "authors": [
+      {
+        "name": "John Sakaluk",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0002-2515-9822",
+        "email": "jksakaluk@gmail.com"
+      },
+      {
+        "name": "Omar Camanto",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0009-0009-4012-9777"
+      },
+      {
+        "name": "Christopher Quinn-Nilas",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-8056-2008"
+      },
+      {
+        "name": "Merissa Prine",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Robyn Kilshaw",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Alexandra Fisher",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "alexandra-fisher"
+      }
+    ]
+  },
+  {
+    "name": "ebdbNet",
+    "title": "Empirical Bayes Estimation of Dynamic Bayesian Networks",
+    "description": "Infer the adjacency matrix of a network from time course data using an empirical Bayes estimation procedure based on Dynamic Bayesian Networks.",
+    "repo_url": "https://github.com/andreamrau/ebdbNet",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-09-04",
+    "authors": [
+      {
+        "name": "Andrea Rau",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "andrea-rau",
+        "email": "andrea.rau@inra.fr"
+      }
+    ]
+  },
+  {
+    "name": "ech",
+    "title": "Downloading and Processing Microdata from ECH-INE (Uruguay)",
+    "description": "A consistent tool for downloading ECH data, processing them and generating new indicators: poverty, education, employment, etc. All data are downloaded from the official site of the National Institute of Statistics at <https://www.gub.uy/instituto-nacional-estadistica/datos-y-estadisticas/encuestas/encuesta-continua-hogares>.",
+    "repo_url": "https://github.com/calcita/ech",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/calcita/ech/HEAD/man/figures/ech_logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Gabriela Mathieu",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0003-3965-9024",
+        "directory_id": "gabriela-mathieu",
+        "email": "calcita@gmx.li"
+      },
+      {
+        "name": "Richard Detomasi",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6725-0261"
+      },
+      {
+        "name": "Tati Micheletti",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-4838-8342"
       }
     ]
   },
@@ -1676,6 +3044,52 @@
     ]
   },
   {
+    "name": "EPACmodel",
+    "title": "Use the Early Pandemic Age-structured Compartmental (EPAC) model",
+    "description": "Simulate versions of the EPAC model.",
+    "repo_url": "https://github.com/phac-modelling-hub/EPACmodel",
+    "pkdown_url": "https://phac-modelling-hub.github.io/EPACmodel",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Irena Papst",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "irena-papst"
+      },
+      {
+        "name": "Michael WZ Li",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EpiGenR",
+    "title": "Combined analysis of epidemiologic and genetic data to infer infectious disease dynamics",
+    "description": "This package contains functions to simulate epidemic data, parse existing data, generate input files for the EpiGenMCMC (github.com/lucymli/EpiGenMCMC) C++ program, and visualise output from EpiGenMCMC.",
+    "repo_url": "https://github.com/lucymli/EpiGenR",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Lucy M Li",
+        "roles": [
+          "cre"
+        ],
+        "email": "info@lucymli.com",
+        "directory_id": "lucy-li"
+      }
+    ]
+  },
+  {
     "name": "ern",
     "title": "Effective Reproduction Number Estimation",
     "description": "Estimate the effective reproduction number from wastewater and clinical data sources.",
@@ -1712,6 +3126,130 @@
     ]
   },
   {
+    "name": "escrocR",
+    "title": "EscrocR: a R package implementing the model ESCROC",
+    "description": "Escroc is a model that aims at estimating contaminant biomagnification, isotopic enrichments and diet in trophic networks.",
+    "repo_url": "https://github.com/Irstea/escroc",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Irstea/escroc/issues",
+    "logo_url": "https://raw.githubusercontent.com/Irstea/escroc/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Hilaire Drouineau",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "hilaire.drouineau@irstea.fr"
+      },
+      {
+        "name": "Marine Ballutaud",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "marine-ballutaud"
+      },
+      {
+        "name": "Jeremy Lobry",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ESPA",
+    "title": "An Empirical Saddlepoint Approximation Based Method for Smoothing Survival Functions Under Right Censoring.",
+    "description": "This implements the empirical saddlepoint approximation based method for producing a smooth survival function, density function for right-censored data.",
+    "repo_url": "https://github.com/PratheepaJ/ESPA",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/PratheepaJ/ESPA/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Jeganathan Pratheepa",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "directory_id": "pratheepa-jeganathan"
+      },
+      {
+        "name": "Trindade"
+      },
+      {
+        "name": "Alex",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ExperimentHub",
+    "title": "Client to access ExperimentHub resources",
+    "description": "This package provides a client for the Bioconductor ExperimentHub web resource. ExperimentHub provides a central location where curated data from experiments, publications or training courses can be accessed. Each resource has associated metadata, tags and date of modification. The client creates and manages a local cache of files retrieved enabling quick and reproducible access.",
+    "repo_url": "https://github.com/Bioconductor/ExperimentHub",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Bioconductor/ExperimentHub/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Bioconductor Package Maintainer",
+        "roles": [
+          "cre"
+        ],
+        "email": "maintainer@bioconductor.org"
+      },
+      {
+        "name": "Martin Morgan",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Marc Carlson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Dan Tenenbaum",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Sonali Arora",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Valerie Oberchain",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Kayla Morrell",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lori Shepherd",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "lori-shepherd"
+      }
+    ]
+  },
+  {
     "name": "EZtune",
     "title": "Tunes AdaBoost, Elastic Net, Support Vector Machines, and\nGradient Boosting Machines",
     "description": "Contains two functions that are intended to make tuning supervised learning methods easy. The eztune function uses a genetic algorithm or Hooke-Jeeves optimizer to find the best set of tuning parameters. The user can choose the optimizer, the learning method, and if optimization will be based on accuracy obtained through validation error, cross validation, or resubstitution. The function eztune_cv will compute a cross validated error rate. The purpose of eztune_cv is to provide a cross validated accuracy or MSE when resubstitution or validation data are used for optimization because error measures from both approaches can be misleading.",
@@ -1729,6 +3267,98 @@
         ],
         "directory_id": "jill-lundell",
         "email": "jflundell@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "FactoMineR",
+    "title": "Multivariate Exploratory Data Analysis and Data Mining",
+    "description": "Exploratory data analysis methods to summarize, visualize and describe datasets. The main principal component methods are available, those with the largest potential in terms of applications: principal component analysis (PCA) when variables are quantitative, correspondence analysis (CA) and multiple correspondence analysis (MCA) when variables are categorical, Multiple Factor Analysis when variables are structured in groups, etc. and hierarchical cluster analysis. F. Husson, S. Le and J. Pages (2017).",
+    "repo_url": "https://github.com/husson/FactoMineR",
+    "pkdown_url": "http://factominer.free.fr",
+    "bug_reports_url": "https://github.com/husson/FactoMineR/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-08",
+    "authors": [
+      {
+        "name": "Francois Husson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7271-8877",
+        "email": "francois.husson@institut-agro.fr"
+      },
+      {
+        "name": "Julie Josse",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "julie-josse"
+      },
+      {
+        "name": "Sebastien Le",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jeremy Mazet",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ferrn",
+    "title": "Facilitate Exploration of touRR optimisatioN",
+    "description": "Diagnostic plots for optimisation, with a focus on projection pursuit. These show paths the optimiser takes in the high-dimensional space in multiple ways: by reducing the dimension using principal component analysis, and also using the tour to show the path on the high-dimensional space. Several botanical colour palettes are included, reflecting the name of the package. A paper describing the methodology can be found at <https://journal.r-project.org/articles/RJ-2021-105/index.html>.",
+    "repo_url": "https://github.com/huizezhang-sherry/ferrn/",
+    "pkdown_url": "https://huizezhang-sherry.github.io/ferrn/",
+    "bug_reports_url": "https://github.com/huizezhang-sherry/ferrn/issues",
+    "logo_url": "https://huizezhang-sherry.github.io/ferrn/logo.png",
+    "last_updated": "2025-11-20",
+    "authors": [
+      {
+        "name": "H. Sherry Zhang",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7122-1463",
+        "directory_id": "h-sherry-zhang",
+        "email": "huizezhangsh@gmail.com"
+      },
+      {
+        "name": "Dianne Cook",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3813-7155",
+        "directory_id": "dianne-cook"
+      },
+      {
+        "name": "Ursula Laa",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0249-6439"
+      },
+      {
+        "name": "Nicolas Langrené",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7601-4618"
+      },
+      {
+        "name": "Patricia Menéndez",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0701-6315",
+        "directory_id": "patricia-menendez"
       }
     ]
   },
@@ -1751,6 +3381,33 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "forwards",
+    "title": "Data from Surveys Conducted by Forwards",
+    "description": "Anonymized data from surveys conducted by Forwards <https://forwards.github.io/>, the R Foundation task force on women and other under-represented groups. Currently, a single data set of responses to a survey of attendees at useR! 2016 <https://www.r-project.org/useR-2016/>, the R user conference held at Stanford University, Stanford, California, USA, June 27 - June 30 2016.",
+    "repo_url": "https://github.com/forwards/forwards",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/forwards/forwards/issues",
+    "logo_url": {},
+    "last_updated": "2019-07-30",
+    "authors": [
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "heather-turner",
+        "email": "ht@heatherturner.net"
+      },
+      {
+        "name": "Oliver Keyes",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
@@ -1823,6 +3480,63 @@
         "roles": [
           "cph",
           "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "GenBank",
+    "title": "Sequence retrieval from GenBank",
+    "description": "Interfaces with e-utilities on the NCBI website to download sequence data from the Nucleotide database on GenBank.",
+    "repo_url": "https://github.com/lucymli/GenBank",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Lucy M Li",
+        "directory_id": "lucy-li"
+      },
+      {
+        "name": "Who to complain to",
+        "roles": [
+          "cre"
+        ],
+        "email": "ml3109@ic.ac.uk"
+      }
+    ]
+  },
+  {
+    "name": "geomnet",
+    "title": "Network Visualization in the 'ggplot2' Framework",
+    "description": "Network visualization in the 'ggplot2' framework. Network functionality is provided in a single 'ggplot2' layer by calling the geom 'net'. Layouts are calculated using the 'sna' package, example networks are included.",
+    "repo_url": "https://github.com/sctyner/geomnet",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/sctyner/geomnet/issues",
+    "logo_url": "https://raw.githubusercontent.com/sctyner/geomnet/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Sam Tyner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "sctyner90@gmail.com"
+      },
+      {
+        "name": "Heike Hofmann",
+        "roles": [
+          "aut",
+          "ctb"
+        ],
+        "directory_id": "heike-hofmann"
+      },
+      {
+        "name": "Nicholas Tierney",
+        "roles": [
+          "ctb"
         ]
       }
     ]
@@ -2231,6 +3945,45 @@
     ]
   },
   {
+    "name": "GISINTEGRATION",
+    "title": "GIS Integration",
+    "description": "Designed to facilitate the preprocessing and linking of GIS (Geographic Information System) databases <https://www.sciencedirect.com/topics/computer-science/gis-database>, the R package 'GISINTEGRATION' offers a robust solution for efficiently preparing GIS data for advanced spatial analyses. This package excels in simplifying intrica procedures like data cleaning, normalization, and format conversion, ensuring that the data are optimally primed for precise and thorough analysis.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-01-10",
+    "authors": [
+      {
+        "name": "Hossein Hassani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leila Marvian Mashhad",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "Leila.marveian@gmail.com",
+        "directory_id": "leila-marvian"
+      },
+      {
+        "name": "Sara Stewart",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Steve Macfeelys",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "glitter",
     "title": "glitter makes SPARQL",
     "description": "This package aims at writing and sending SPARQL queries. It makes the exploration and use of Linked Open Data (Wikidata in particular) easier for those who do not know SPARQL.",
@@ -2337,6 +4090,162 @@
     ]
   },
   {
+    "name": "gnm",
+    "title": "Generalized Nonlinear Models",
+    "description": "Functions to specify and fit generalized nonlinear models, including models with multiplicative interaction terms such as the UNIDIFF model from sociology and the AMMI model from crop science, and many others. Over-parameterized representations of models are used throughout; functions are provided for inference on estimable parameter combinations, as well as standard methods for diagnostics etc.",
+    "repo_url": "https://github.com/hturner/gnm",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/hturner/gnm/issues",
+    "logo_url": {},
+    "last_updated": "2023-09-16",
+    "authors": [
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1256-3375",
+        "directory_id": "heather-turner",
+        "email": "ht@heatherturner.net"
+      },
+      {
+        "name": "David Firth",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0302-2312"
+      },
+      {
+        "name": "Brian Ripley",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Bill Venables",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Douglas M. Bates",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Martin Maechler",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-8685-9910"
+      }
+    ]
+  },
+  {
+    "name": "gnomesims",
+    "title": "Power Calculations for Genotyped Family Data",
+    "description": "The package simulates genotyped family data of parents and offspring pairs. Simulated data may include gene-environment covariance. The package also calculates the power of finding cultural transmission and sibling interaction in the data using different models.",
+    "repo_url": "https://github.com/josefinabernardo/gnomesims",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/josefinabernardo/gnomesims/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Josefina Bernardo",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0009-0007-1894-9790",
+        "directory_id": "josefina-bernardo"
+      }
+    ]
+  },
+  {
+    "name": "googleAnalyticsR",
+    "title": "Google Analytics API into R",
+    "description": "Interact with the Google Analytics APIs <https://developers.google.com/analytics/>, including the Core Reporting API (v3 and v4), Management API, User Activity API GA4's Data API and Admin API and Multi-Channel Funnel API.",
+    "repo_url": "https://github.com/8-bit-sheep/googleAnalyticsR/",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/8-bit-sheep/googleAnalyticsR/issues",
+    "logo_url": "https://raw.githubusercontent.com/8-bit-sheep/googleAnalyticsR/HEAD/man/figures/logo.png",
+    "last_updated": "2024-08-16",
+    "authors": [
+      {
+        "name": "Mark Edmondson",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-8434-3881"
+      },
+      {
+        "name": "Erik Grönroos",
+        "roles": [
+          "cre"
+        ],
+        "email": "erik.gronroos@8-bit-sheep.com"
+      },
+      {
+        "name": "Artem Klevtsov",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Johann deBoer",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "David Watkins",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Olivia Brode-Roger",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "olivia-broderoger"
+      },
+      {
+        "name": "Jas Sohi",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Zoran Selinger",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Octavian Corlade",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Maegan Whytock",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Masaki Terashi",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "googledrive",
     "title": "An Interface to Google Drive",
     "description": "Manage Google Drive files from R.",
@@ -2434,6 +4343,243 @@
           "aut"
         ],
         "orcid": "0000-0003-0862-2018"
+      }
+    ]
+  },
+  {
+    "name": "gtsummary",
+    "title": "Presentation-Ready Data Summary and Analytic Result Tables",
+    "description": "Creates presentation-ready tables summarizing data sets, regression models, and more. The code to create the tables is concise and highly customizable. Data frames can be summarized with any function, e.g. mean(), median(), even user-written functions. Regression models are summarized and include the reference rows for categorical variables. Common regression models, such as logistic regression and Cox proportional hazards regression, are automatically identified and the tables are pre-filled with appropriate column headers.",
+    "repo_url": "https://github.com/ddsjoberg/gtsummary",
+    "pkdown_url": "https://www.danieldsjoberg.com/gtsummary/",
+    "bug_reports_url": "https://github.com/ddsjoberg/gtsummary/issues",
+    "logo_url": "https://www.danieldsjoberg.com/gtsummary/logo.png",
+    "last_updated": "2025-12-05",
+    "authors": [
+      {
+        "name": "Daniel D. Sjoberg",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-0862-2018",
+        "email": "danield.sjoberg@gmail.com"
+      },
+      {
+        "name": "Joseph Larmarange",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7097-700X"
+      },
+      {
+        "name": "Michael Curry",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0261-4044"
+      },
+      {
+        "name": "Emily de la Rua",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0009-0000-8738-5561"
+      },
+      {
+        "name": "Jessica Lavery",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-2746-5647"
+      },
+      {
+        "name": "Karissa Whiting",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-4683-1868"
+      },
+      {
+        "name": "Emily C. Zabor",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1402-4498"
+      },
+      {
+        "name": "Xing Bai",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Malcolm Barrett",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0299-5825"
+      },
+      {
+        "name": "Esther Drill",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-3315-4538"
+      },
+      {
+        "name": "Jessica Flynn",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-8310-6684"
+      },
+      {
+        "name": "Margie Hannum",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2953-0449",
+        "directory_id": "margie-hannum"
+      },
+      {
+        "name": "Stephanie Lobaugh",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Shannon Pileggi",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-7732-4164",
+        "directory_id": "shannon-pileggi"
+      },
+      {
+        "name": "Amy Tin",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-8005-0694"
+      },
+      {
+        "name": "Gustavo Zapata Wainberg",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-2524-3637"
+      }
+    ]
+  },
+  {
+    "name": "GWASTools",
+    "title": "Tools for Genome Wide Association Studies",
+    "description": "Classes for storing very large GWAS data sets and annotation, and functions for GWAS data cleaning and analysis.",
+    "repo_url": "https://github.com/smgogarten/GWASTools",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Stephanie M. Gogarten",
+        "roles": [
+          "aut"
+        ],
+        "email": "sdmorris@uw.edu"
+      },
+      {
+        "name": "Cathy Laurie",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Tushar Bhangale",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Matthew P. Conomos",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Cecelia Laurie",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Michael Lawrence",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Caitlin McHugh",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ian Painter",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Xiuwen Zheng",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jess Shen",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Rohit Swarnkar",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Adrienne Stilp",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sarah Nelson",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "sarah-nelson"
+      },
+      {
+        "name": "David Levine",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sonali Kumari",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Stephanie M. Gogarten",
+        "roles": [
+          "cre"
+        ],
+        "email": "sdmorris@uw.edu"
       }
     ]
   },
@@ -2681,6 +4827,147 @@
     ]
   },
   {
+    "name": "Haplin",
+    "title": "Analyzing Case-Parent Triad and/or Case-Control Data with SNP\nHaplotypes",
+    "description": "Performs genetic association analyses of case-parent triad (trio) data with multiple markers. It can also incorporate complete or incomplete control triads, for instance independent control children. Estimation is based on haplotypes, for instance SNP haplotypes, even though phase is not known from the genetic data. 'Haplin' estimates relative risk (RR + conf.int.) and p-value associated with each haplotype. It uses maximum likelihood estimation to make optimal use of data from triads with missing genotypic data, for instance if some SNPs has not been typed for some individuals. 'Haplin' also allows estimation of effects of maternal haplotypes and parent-of-origin effects, particularly appropriate in perinatal epidemiology. 'Haplin' allows special models, like X-inactivation, to be fitted on the X-chromosome. A GxE analysis allows testing interactions between environment and all estimated genetic effects. The models were originally described in \"Gjessing HK and Lie RT. Case-parent triads: Estimating single- and double-dose effects of fetal and maternal disease gene haplotypes. Annals of Human Genetics (2006) 70, pp. 382-396\".",
+    "repo_url": {},
+    "pkdown_url": "https://haplin.bitbucket.io",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-08-20",
+    "authors": [
+      {
+        "name": "Hakon K. Gjessing",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "hakon.gjessing@uib.no"
+      },
+      {
+        "name": "Miriam Gjerdevik",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Julia Romanowska",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-6733-1953",
+        "directory_id": "julia-romanowska"
+      },
+      {
+        "name": "Oivind Skare",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HaplinMethyl",
+    "title": "Additional functions for Haplin, for using matrices of environmental data\n(e.g., DNA methylation data)",
+    "description": "Reading in and handling of large environmental data matrices that are used in Haplin analyses, e.g., gene-environment interactions.",
+    "repo_url": "https://github.com/jromanowska/HaplinMethyl/",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/jromanowska/HaplinMethyl/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Julia Romanowska",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-6733-1953",
+        "directory_id": "julia-romanowska",
+        "email": "Julia.Romanowska@uib.no"
+      },
+      {
+        "name": "Haakon K. Gjessing",
+        "roles": [
+          "aut",
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hassani.SACF",
+    "title": "Computing Lower Bound of Ljung-Box Test",
+    "description": "The Ljung-Box test is one of the most important tests for time series diagnostics and model selection. The Hassani SACF (Sum of the Sample Autocorrelation Function) Theorem , however, indicates that the sum of sample autocorrelation function is always fix for any stationary time series with arbitrary length. This package confirms for sensitivity of the Ljung-Box test to the number of lags involved in the test and therefore it should be used with extra caution. The Hassani SACF Theorem has been described in : Hassani, Yeganegi and M. R. (2019) <doi:10.1016/j.physa.2018.12.028>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-06-12",
+    "authors": [
+      {
+        "name": "Hossein Hassani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Masoud Yarmohammdi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mohammad Reza Yeganegi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leila Marvian Mashhad",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "Leila.marveian@gmail.com",
+        "directory_id": "leila-marvian"
+      }
+    ]
+  },
+  {
+    "name": "Hassani.Silva",
+    "title": "A Test for Comparing the Predictive Accuracy of Two Sets of\nForecasts",
+    "description": "A non-parametric test founded upon the principles of the Kolmogorov-Smirnov (KS) test, referred to as the KS Predictive Accuracy (KSPA) test. The KSPA test is able to serve two distinct purposes. Initially, the test seeks to determine whether there exists a statistically significant difference between the distribution of forecast errors, and secondly it exploits the principles of stochastic dominance to determine whether the forecasts with the lower error also reports a stochastically smaller error than forecasts from a competing model, and thereby enables distinguishing between the predictive accuracy of forecasts. KSPA test has been described in : Hassani and Silva (2015) <doi:10.3390/econometrics3030590>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-01-13",
+    "authors": [
+      {
+        "name": "Hossein Hassani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Emmanuel Sirimal Silva",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leila Marvian Mashhad",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "Leila.marveian@gmail.com",
+        "directory_id": "leila-marvian"
+      }
+    ]
+  },
+  {
     "name": "hellodatascience",
     "title": "Datasets from the Hello Data Science Book",
     "description": "Provides datasets used for analysis and visualizations in the open-access Hello Data Science book.",
@@ -2812,6 +5099,38 @@
     ]
   },
   {
+    "name": "highriskzone",
+    "title": "Determining and Evaluating High-Risk Zones",
+    "description": "Functions for determining and evaluating high-risk zones and simulating and thinning point process data, as described in 'Determining high risk zones using point process methodology - Realization by building an R package' Seibold (2012) <http://highriskzone.r-forge.r-project.org/Bachelorarbeit.pdf> and 'Determining high-risk zones for unexploded World War II bombs by using point process methodology', Mahling et al. (2013) <doi:10.1111/j.1467-9876.2012.01055.x>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-08-29",
+    "authors": [
+      {
+        "name": "Heidi Seibold",
+        "directory_id": "heidi-seibold"
+      },
+      {
+        "name": "Monia Mahling"
+      },
+      {
+        "name": "Sebastian Linne"
+      },
+      {
+        "name": "Felix Guenther"
+      },
+      {
+        "name": "Rickmer Schulte",
+        "roles": [
+          "cre"
+        ],
+        "email": "R.Schulte@campus.lmu.de"
+      }
+    ]
+  },
+  {
     "name": "hmsidwR",
     "title": "Health Metrics and the Spread of Infectious Diseases",
     "description": "A collection of datasets and supporting functions accompanying Health Metrics and the Spread of Infectious Diseases by Federica Gazzelloni (2024). This package provides data for health metrics calculations, including Disability-Adjusted Life Years (DALYs), Years of Life Lost (YLLs), and Years Lived with Disability (YLDs), as well as additional tools for analyzing and visualizing health data. Federica Gazzelloni (2024) <doi:10.5281/zenodo.10818338>.",
@@ -2830,6 +5149,114 @@
         "orcid": "0000-0002-4285-611X",
         "directory_id": "federica-gazzelloni",
         "email": "fede.gazzelloni@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "HTSCluster",
+    "title": "Clustering High-Throughput Transcriptome Sequencing (HTS) Data",
+    "description": "A Poisson mixture model is implemented to cluster genes from high- throughput transcriptome sequencing (RNA-seq) data. Parameter estimation is performed using either the EM or CEM algorithm, and the slope heuristics are used for model selection (i.e., to choose the number of clusters).",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-09-05",
+    "authors": [
+      {
+        "name": "Andrea Rau",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "andrea-rau",
+        "email": "andrea.rau@jouy.inra.fr"
+      },
+      {
+        "name": "Gilles Celeux"
+      },
+      {
+        "name": "Marie-Laure Martin-Magniette"
+      },
+      {
+        "name": "Cathy Maugis- Rabusseau"
+      }
+    ]
+  },
+  {
+    "name": "HTSFilter",
+    "title": "Filter replicated high-throughput transcriptome sequencing data",
+    "description": "This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low, constant levels of expression across one or more experimental conditions.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Andrea Rau",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0001-6469-488X",
+        "directory_id": "andrea-rau",
+        "email": "andrea.rau@inrae.fr"
+      },
+      {
+        "name": "Melina Gallopin",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Gilles Celeux",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Florence Jaffrézic",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "iAdapt",
+    "title": "Two-Stage Adaptive Dose-Finding Clinical Trial Design",
+    "description": "Simulate and implement early phase two-stage adaptive dose-finding design for binary and quasi-continuous toxicity endpoints. See Chiuzan et al. (2018) for further reading <DOI:10.1080/19466315.2018.1462727>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2021-08-06",
+    "authors": [
+      {
+        "name": "Alyssa Vanderbeek",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "vanderbeekam@gmail.com"
+      },
+      {
+        "name": "Laura Cosgrove",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Elizabeth Garrett-Mayer",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Cody Chiuzan",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "cody-chiuzan"
       }
     ]
   },
@@ -2924,6 +5351,39 @@
         "name": "R Consortium",
         "roles": [
           "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "implicitMeasures",
+    "title": "Compute Scores for Different Implicit Measures",
+    "description": "A tool for computing the scores for the Implicit Association Test (IAT; Greenwald, McGhee & Schwartz (1998) <doi:10.1037/0022-3514.74.6.1464>) and the Single Category-IAT (SC-IAT: Karpinski & Steinman (2006) <doi:10.1037/0022-3514.91.1.16>). Functions for preparing the data (both for the IAT and the SC-IAT), plotting the results, and obtaining a table with the scores of implicit measures descriptive statistics are provided.",
+    "repo_url": "https://github.com/OttaviaE/implicitMeasures",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Ottavia M. Epifania",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "otta.epifania@gmail.com",
+        "directory_id": "ottavia-epifania"
+      },
+      {
+        "name": "Pasquale Anselmi",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Egidio Robusto",
+        "roles": [
+          "ctb"
         ]
       }
     ]
@@ -3035,6 +5495,42 @@
     ]
   },
   {
+    "name": "infiltrodiscR",
+    "title": "Minidisc Infiltrometer Data Management",
+    "description": "A set of functions for the modeling of data derived from the Minidisc Infiltrometer device. It calculates cumulative infiltration and square root of time. Also, it calculates the A parameter based on soil physical properties.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-07-21",
+    "authors": [
+      {
+        "name": "Carolina V. Giraldo",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0627-8762"
+      },
+      {
+        "name": "Sara E. Acevedo",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-3203-2106",
+        "email": "seaceved@uc.cl",
+        "directory_id": "sara-acevedo"
+      },
+      {
+        "name": "Carlos A. Bonilla",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-3107-999X"
+      }
+    ]
+  },
+  {
     "name": "janeaustenr",
     "title": "Jane Austen's Complete Novels",
     "description": "Full texts for Jane Austen's 6 completed novels, ready for text analysis. These novels are \"Sense and Sensibility\", \"Pride and Prejudice\", \"Mansfield Park\", \"Emma\", \"Northanger Abbey\", and \"Persuasion\".",
@@ -3104,6 +5600,60 @@
     ]
   },
   {
+    "name": "JTHelpers",
+    "title": "Personal Helper Functions, Some Related to rms Package",
+    "description": "A package of helper functions I and others wrote for my own frequent use. Several are related to Frank Harrell’s rms package.",
+    "repo_url": "https://github.com/jenniferthompson/JTHelpers",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Jennifer Thompson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "jennifer-thompson",
+        "email": "thompson.jennifer@gmail.com"
+      },
+      {
+        "name": "Cole Beck",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Zhiguo Zhao",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Kmisc",
+    "title": "Kim Miscellaneous",
+    "description": "Assortment of functions that aid R programming.",
+    "repo_url": "https://github.com/sysilviakim/Kmisc",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Seo-young Silvia Kim",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "seoyoung-silvia-kim",
+        "email": "sskim.research@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "learnres",
     "title": "Templates for different learnr tutorials in Spanish",
     "description": "Contains templates and themeing files.",
@@ -3159,6 +5709,78 @@
     ]
   },
   {
+    "name": "lmmpar",
+    "title": "Parallel Linear Mixed Model",
+    "description": "Embarrassingly Parallel Linear Mixed Model calculations spread across local cores which repeat until convergence.",
+    "repo_url": "https://github.com/fulyagokalp/lmmpar",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/fulyagokalp/lmmpar/issues",
+    "logo_url": {},
+    "last_updated": "2017-08-03",
+    "authors": [
+      {
+        "name": "Fulya Gokalp Yavuz",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "fulyagokalp@gmail.com",
+        "directory_id": "fulya-gokalp-yavuz"
+      },
+      {
+        "name": "Barret Schloerke",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "logmult",
+    "title": "Log-Multiplicative Models, Including Association Models",
+    "description": "Functions to fit log-multiplicative models using 'gnm', with support for convenient printing, plots, and jackknife/bootstrap standard errors. For complex survey data, models can be fitted from design objects from the 'survey' package. Currently supported models include UNIDIFF (Erikson & Goldthorpe, 1992), a.k.a. log-multiplicative layer effect model (Xie, 1992) <doi:10.2307/2096242>, and several association models: Goodman (1979) <doi:10.2307/2286971> row-column association models of the RC(M) and RC(M)-L families with one or several dimensions; two skew-symmetric association models proposed by Yamaguchi (1990) <doi:10.2307/271086> and by van der Heijden & Mooijaart (1995) <doi:10.1177/0049124195024001002> Functions allow computing the intrinsic association coefficient (see Bouchet-Valat (2022) <doi:10.1177/0049124119852389>) and the Altham (1970) index <doi:10.1111/j.2517-6161.1970.tb00816.x>, including via the Bayes shrinkage estimator proposed by Zhou (2015) <doi:10.1177/0081175015570097>; and the RAS/IPF/Deming-Stephan algorithm.",
+    "repo_url": "https://github.com/nalimilan/logmult",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/nalimilan/logmult/issues",
+    "logo_url": {},
+    "last_updated": "2025-08-25",
+    "authors": [
+      {
+        "name": "Milan Bouchet-Valat",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "nalimilan@club.fr"
+      },
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "heather-turner"
+      },
+      {
+        "name": "Michael Friendly",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jim Lemon",
+        "roles": [
+          "cph"
+        ]
+      },
+      {
+        "name": "Gabor Csardi",
+        "roles": [
+          "cph"
+        ]
+      }
+    ]
+  },
+  {
     "name": "lsr",
     "title": "Companion to \"Learning Statistics with R\"",
     "description": "A collection of tools intended to make introductory statistics easier to teach, including wrappers for common hypothesis tests and basic data manipulation. It accompanies Navarro, D. J. (2015). Learning Statistics with R: A Tutorial for Psychology Students and Other Beginners, Version 0.6.",
@@ -3177,6 +5799,28 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "lvm4net",
+    "title": "Latent Variable Models for Networks",
+    "description": "Latent variable models for network data using fast inferential procedures. For more information please visit: <http://igollini.github.io/lvm4net/>.",
+    "repo_url": "http://github.com/igollini/lvm4net",
+    "pkdown_url": {},
+    "bug_reports_url": "http://github.com/igollini/lvm4net/issues",
+    "logo_url": "https://raw.githubusercontent.com/igollini/lvm4net/HEAD/man/figures/hex_lvm4net.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Isabella Gollini",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7738-5688",
+        "directory_id": "isabella-gollini",
+        "email": "igollini.stats@gmail.com"
       }
     ]
   },
@@ -3288,6 +5932,33 @@
     ]
   },
   {
+    "name": "memer",
+    "title": "A tidyverse compatible package for creating memes in R using magick",
+    "description": "A tidyverse-friendly package for generating memes in R. The functions are primarily wrappers around functions in the magick package.",
+    "repo_url": "https://github.com/sctyner/memer",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/sctyner/memer/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Sam Tyner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "sctyner90@gmail.com",
+        "directory_id": "samantha-tyner"
+      },
+      {
+        "name": "Haley Jeppson",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "messy",
     "title": "Create Messy Data from Clean Data Frames",
     "description": "For the purposes of teaching, it is often desirable to show examples of working with messy data and how to clean it. This R package creates messy data from clean, tidy data frames so that students have a clean example to work towards.",
@@ -3307,6 +5978,283 @@
         "orcid": "0000-0003-4797-557X",
         "directory_id": "nicola-rennie",
         "email": "nrennie35@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "metaRNASeq",
+    "title": "Meta-Analysis of RNA-Seq Data",
+    "description": "Implementation of two p-value combination techniques (inverse normal and Fisher methods). A vignette is provided to explain how to perform a meta-analysis from two independent RNA-seq experiments.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-03-26",
+    "authors": [
+      {
+        "name": "Guillemette Marot",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Andrea Rau",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "andrea-rau"
+      },
+      {
+        "name": "Florence Jaffrezic",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Samuel Blanck",
+        "roles": [
+          "ctb",
+          "cre"
+        ],
+        "email": "samuel.blanck@univ-lille.fr"
+      }
+    ]
+  },
+  {
+    "name": "methylCC",
+    "title": "Estimate the cell composition of whole blood in DNA methylation\nsamples",
+    "description": "A tool to estimate the cell composition of DNA methylation whole blood sample measured on any platform technology (microarray and sequencing).",
+    "repo_url": "https://github.com/stephaniehicks/methylCC/",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/stephaniehicks/methylCC/",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Stephanie C. Hicks",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7858-0231",
+        "email": "shicks19@jhu.edu",
+        "directory_id": "stephanie-hicks"
+      },
+      {
+        "name": "Rafael Irizarry",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3944-4309"
+      }
+    ]
+  },
+  {
+    "name": "Metrics",
+    "title": "Evaluation Metrics for Machine Learning",
+    "description": "An implementation of evaluation metrics in R that are commonly used in supervised machine learning. It implements metrics for regression, time series, binary classification, classification, and information retrieval problems. It has zero dependencies and a consistent, simple interface for all functions.",
+    "repo_url": "https://github.com/mfrasco/Metrics",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/mfrasco/Metrics/issues",
+    "logo_url": {},
+    "last_updated": "2018-07-09",
+    "authors": [
+      {
+        "name": "Ben Hamner",
+        "roles": [
+          "aut",
+          "cph"
+        ]
+      },
+      {
+        "name": "Michael Frasco",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "mfrasco6@gmail.com"
+      },
+      {
+        "name": "Erin LeDell",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "erin-ledell"
+      }
+    ]
+  },
+  {
+    "name": "mice",
+    "title": "Multivariate Imputation by Chained Equations",
+    "description": "Multiple imputation using Fully Conditional Specification (FCS) implemented by the MICE algorithm as described in Van Buuren and Groothuis-Oudshoorn (2011) <doi:10.18637/jss.v045.i03>. Each variable has its own imputation model. Built-in imputation models are provided for continuous data (predictive mean matching, normal), binary data (logistic regression), unordered categorical data (polytomous logistic regression) and ordered categorical data (proportional odds). MICE can also impute continuous two-level data (normal model, pan, second-level variables). Passive imputation can be used to maintain consistency between variables. Various diagnostic plots are available to inspect the quality of the imputations.",
+    "repo_url": "https://github.com/amices/mice",
+    "pkdown_url": "https://amices.org/mice/",
+    "bug_reports_url": "https://github.com/amices/mice/issues",
+    "logo_url": "https://amices.org/mice/logo.png",
+    "last_updated": "2025-12-10",
+    "authors": [
+      {
+        "name": "Stef van Buuren",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "stef.vanbuuren@tno.nl"
+      },
+      {
+        "name": "Karin Groothuis-Oudshoorn",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "karin-groothuisoudshoorn"
+      },
+      {
+        "name": "Gerko Vink",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Rianne Schouten",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Alexander Robitzsch",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Patrick Rockenschaub",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lisa Doove",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Shahab Jolani",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Margarita Moreno-Betancur",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Ian White",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Philipp Gaffert",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Florian Meinfelder",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Bernie Gray",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Vincent Arel-Bundock",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Mingyang Cai",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Thom Volker",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Edoardo Costantini",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Caspar van Lissa",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Hanne Oberman",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Stephen Wade",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Florian van Leeuwen",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Frederik Fabricius-Bjerre",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "missMDA",
+    "title": "Handling Missing Values with Multivariate Data Analysis",
+    "description": "Imputation of incomplete continuous or categorical datasets; Missing values are imputed with a principal component analysis (PCA), a multiple correspondence analysis (MCA) model or a multiple factor analysis (MFA) model; Perform multiple imputation with and in PCA or MCA.",
+    "repo_url": "https://github.com/husson/missMDA",
+    "pkdown_url": "http://factominer.free.fr/missMDA/index.html",
+    "bug_reports_url": "https://github.com/husson/missMDA/issues",
+    "logo_url": {},
+    "last_updated": "2026-02-12",
+    "authors": [
+      {
+        "name": "Francois Husson",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7271-8877",
+        "email": "francois.husson@institut-agro.fr"
+      },
+      {
+        "name": "Julie Josse",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "julie-josse"
       }
     ]
   },
@@ -3455,6 +6403,93 @@
     ]
   },
   {
+    "name": "model4you",
+    "title": "Stratified and Personalised Models Based on Model-Based Trees\nand Forests",
+    "description": "Model-based trees for subgroup analyses in clinical trials and model-based forests for the estimation and prediction of personalised treatment effects (personalised models). Currently partitioning of linear models, lm(), generalised linear models, glm(), and Weibull models, survreg(), is supported. Advanced plotting functionality is supported for the trees and a test for parameter heterogeneity is provided for the personalised models. For details on model-based trees for subgroup analyses see Seibold, Zeileis and Hothorn (2016) <doi:10.1515/ijb-2015-0032>; for details on model-based forests for estimation of individual treatment effects see Seibold, Zeileis and Hothorn (2017) <doi:10.1177/0962280217693034>.",
+    "repo_url": "https://github.com/cran/model4you",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-02-12",
+    "authors": [
+      {
+        "name": "Heidi Seibold",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "heidi-seibold",
+        "email": "heidi@seibold.co"
+      },
+      {
+        "name": "Achim Zeileis",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Torsten Hothorn",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "modleR",
+    "title": "A Workflow for Ecological Niche Models",
+    "description": "This package implements a workflow to perform ecological niche modeling (ENM), including some procedures of data preparation and cleaning, the setup of several experimental designs (crossvalidation, repeated crossvalidation and bootstrap), the application of inclusion and exclusion buffers to background selection, fitting algorithms that are already implemented in dismo, randomForest, e1071, kernlab packages, namely: Bioclim, Domain, GLM, Mahalanobis Distance, Maxent, Random Forest, and two versions of Support Vector Machines (here svmk and svme). It uses the structure provided by package dismo for model evaluation and projects the models into other sets of environmental variables. A function to join individual partitions in several ways is provided in final_model(). Finally, ensemble_model() assembles models from distinct algorithms and provides summary rasters.",
+    "repo_url": "https://github.com/Model-R/modleR",
+    "pkdown_url": "https://model-r.github.io/modleR/index.html",
+    "bug_reports_url": "https://github.com/Model-R/modleR/issues",
+    "logo_url": "https://raw.githubusercontent.com/Model-R/modleR/HEAD/vignettes/modleR.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Andrea Sánchez-Tapia",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3521-4338",
+        "directory_id": "andrea-sancheztapia",
+        "email": "andreasancheztapia@gmail.com"
+      },
+      {
+        "name": "Sara Mortara",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6221-7537"
+      },
+      {
+        "name": "Diogo Rocha",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2913-4072"
+      },
+      {
+        "name": "Felipe Barros",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Guilherme Gall",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Tiago Castro Silva",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "monochromeR",
     "title": "Easily Create, View and Use Monochrome Colour Palettes",
     "description": "Generate a monochrome palette from a starting colour for a specified number of colours. The package can also be used to display colour palettes in the plot window, with or without hex codes and colour labels.",
@@ -3472,6 +6507,83 @@
         ],
         "orcid": "0000-0002-6472-5073",
         "email": "packages@cararthompson.com"
+      }
+    ]
+  },
+  {
+    "name": "mortAAR",
+    "title": "Analysis of Archaeological Mortality Data",
+    "description": "A collection of functions for the analysis of archaeological mortality data (on the topic see e.g. Chamberlain 2006 <https://books.google.de/books?id=nG5FoO_becAC&lpg=PA27&ots=LG0b_xrx6O&dq=life%20table%20archaeology&pg=PA27#v=onepage&q&f=false>). It takes demographic data in different formats and displays the result in a standard life table as well as plots the relevant indices (percentage of deaths, survivorship, probability of death, life expectancy, percentage of population). It also checks for possible biases in the age structure and applies corrections to life tables.",
+    "repo_url": "https://github.com/ISAAKiel/mortAAR",
+    "pkdown_url": "https://isaakiel.github.io/mortAAR/",
+    "bug_reports_url": "https://github.com/ISAAKiel/mortAAR/issues",
+    "logo_url": {},
+    "last_updated": "2025-04-09",
+    "authors": [
+      {
+        "name": "Nils Mueller-Scheessel",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "orcid": "0000-0001-7992-8722",
+        "email": "nils.mueller-scheessel@ufg.uni-kiel.de"
+      },
+      {
+        "name": "Martin Hinz",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Clemens Schmid",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Christoph Rinne",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Daniel Knitter",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Wolfgang Hamer",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dirk Seidensticker",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Franziska Faupel",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Carolin Tietze",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "carolin-tietze"
+      },
+      {
+        "name": "Nicole Grunert",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
@@ -3688,6 +6800,159 @@
     ]
   },
   {
+    "name": "nimble",
+    "title": "MCMC, Particle Filtering, and Programmable Hierarchical Modeling",
+    "description": "A system for writing hierarchical statistical models largely compatible with 'BUGS' and 'JAGS', writing nimbleFunctions to operate models and do basic R-style math, and compiling both models and nimbleFunctions via custom-generated C++. 'NIMBLE' includes default methods for MCMC, Laplace Approximation, deterministic nested approximations, Monte Carlo Expectation Maximization, and some other tools. The nimbleFunction system makes it easy to do things like implement new MCMC samplers from R, customize the assignment of samplers to different parts of a model from R, and compile the new samplers automatically via C++ alongside the samplers 'NIMBLE' provides. 'NIMBLE' extends the 'BUGS'/'JAGS' language by making it extensible: New distributions and functions can be added, including as calls to external compiled code. Although most people think of MCMC as the main goal of the 'BUGS'/'JAGS' language for writing models, one can use 'NIMBLE' for writing arbitrary other kinds of model-generic algorithms as well. A full User Manual is available at <https://r-nimble.org>.",
+    "repo_url": "https://github.com/nimble-dev/nimble",
+    "pkdown_url": "https://r-nimble.org",
+    "bug_reports_url": "https://github.com/nimble-dev/nimble/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-01",
+    "authors": [
+      {
+        "name": "Perry de Valpine",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Christopher Paciorek",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "paciorek@stat.berkeley.edu"
+      },
+      {
+        "name": "Daniel Turek",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Nick Michaud",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Cliff Anderson-Bergman",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Fritz Obermeyer",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Claudia Wehrhahn Cortes",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Abel Rodríguez",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Duncan Temple Lang",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Wei Zhang",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sally Paganin",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "sally-paganin"
+      },
+      {
+        "name": "Joshua Hug",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Paul van Dam-Bates",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jagadish Babu",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lauren Ponisio",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Peter Sujan",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "NMAoutlier",
+    "title": "Detecting Outliers in Network Meta-Analysis",
+    "description": "A set of functions providing several outlier (i.e., studies with extreme findings) and influential detection measures and methodologies in network meta-analysis : - simple outlier and influential detection measures - outlier and influential detection measures by considering study deletion (shift the mean) - plots for outlier and influential detection measures - Q-Q plot for network meta-analysis - Forward Search algorithm in network meta-analysis. - forward plots to monitor statistics in each step of the forward search algorithm - forward plots for summary estimates and their confidence intervals in each step of forward search algorithm.",
+    "repo_url": "https://github.com/petropouloumaria/NMAoutlier",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/petropouloumaria/NMAoutlier/HEAD/man/figures/NMAoutlier_logo.png",
+    "last_updated": "2025-09-12",
+    "authors": [
+      {
+        "name": "Maria Petropoulou",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7147-3644",
+        "directory_id": "maria-petropoulou",
+        "email": "maria.petropoulou@uniklinik-freiburg.de"
+      },
+      {
+        "name": "Guido Schwarzer",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6214-9087"
+      },
+      {
+        "name": "Agapios Panos",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dimitris Mavridis",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-1041-4592"
+      }
+    ]
+  },
+  {
     "name": "odbr",
     "title": "Download Data from Brazil's Origin Destination Surveys",
     "description": "Download data from Brazil's Origin Destination Surveys. The package covers both data from household travel surveys, dictionaries of variables, and the spatial geometries of surveys conducted in different years and across various urban areas in Brazil. For some cities, the package will include enhanced versions of the data sets with variables \"harmonized\" across different years.",
@@ -3726,6 +6991,39 @@
           "aut"
         ],
         "orcid": "0000-0003-2125-7465"
+      }
+    ]
+  },
+  {
+    "name": "oddstream",
+    "title": "Outlier Detection in Data Streams",
+    "description": "We proposes a framework that provides real time support for early detection of anomalous series within a large collection of streaming time series data. By definition, anomalies are rare in comparison to a system's typical behaviour. We define an anomaly as an observation that is very unlikely given the forecast distribution. The algorithm first forecasts a boundary for the system's typical behaviour using a representative sample of the typical behaviour of the system. An approach based on extreme value theory is used for this boundary prediction process. Then a sliding window is used to test for anomalous series within the newly arrived collection of series. Feature based representation of time series is used as the input to the model. To cope with concept drift, the forecast boundary for the system's typical behaviour is updated periodically. More details regarding the algorithm can be found in Talagala, P. D., Hyndman, R. J., Smith-Miles, K., et al. (2019) <doi:10.1080/10618600.2019.1617160>.",
+    "repo_url": "https://github.com/pridiltal/oddstream",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/pridiltal/oddstream/issues",
+    "logo_url": "https://raw.githubusercontent.com/pridiltal/oddstream/HEAD/man/figures/logo.png",
+    "last_updated": "2019-12-16",
+    "authors": [
+      {
+        "name": "Priyanga Dilini Talagala",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "priyanga-dilini-talagala",
+        "email": "pritalagala@gmail.com"
+      },
+      {
+        "name": "Rob J. Hyndman",
+        "roles": [
+          "ths"
+        ]
+      },
+      {
+        "name": "Kate Smith-Miles",
+        "roles": [
+          "ths"
+        ]
       }
     ]
   },
@@ -3845,6 +7143,60 @@
         "roles": [
           "aut"
         ]
+      }
+    ]
+  },
+  {
+    "name": "ordinalClust",
+    "title": "Ordinal Data Clustering, Co-Clustering and Classification",
+    "description": "Ordinal data classification, clustering and co-clustering using model-based approach with the BOS (Binary Ordinal Search) distribution for ordinal data (Christophe Biernacki and Julien Jacques (2016) <doi:10.1007/s11222-015-9585-2>).",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-21",
+    "authors": [
+      {
+        "name": "Margot Selosse",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "margot-selosse"
+      },
+      {
+        "name": "Julien Jacques",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "julien.jacques@univ-lyon2.fr"
+      },
+      {
+        "name": "Christophe Biernacki",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "oregonfrogs",
+    "title": "Oregon Spotted A Frog (Rana Pretiosa)",
+    "description": "Oregon Frogs Rana Pretiosa dataset contains information about radio telemetry frequency used to study the frogs' habitat. The survey run from late September to November 2018. There are 311 observations and 16 variables.",
+    "repo_url": "https://github.com/fgazzelloni/oregonfrogs",
+    "pkdown_url": "https://fgazzelloni.github.io/oregonfrogs/",
+    "bug_reports_url": "https://github.com/fgazzelloni/oregonfrogs/issues",
+    "logo_url": "https://fgazzelloni.github.io/oregonfrogs/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Federica Gazzelloni",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-4285-611X",
+        "directory_id": "federica-gazzelloni"
       }
     ]
   },
@@ -3972,6 +7324,45 @@
     ]
   },
   {
+    "name": "oxcAAR",
+    "title": "Interface to 'OxCal' Radiocarbon Calibration",
+    "description": "A set of tools that enables using 'OxCal' from within R. 'OxCal' (<https://c14.arch.ox.ac.uk/oxcal.html>) is a standard archaeological tool intended to provide 14C calibration and analysis of archaeological and environmental chronological information. 'OxcAAR' allows simple calibration with 'Oxcal' and plotting of the results as well as the execution of sophisticated ('OxCal') code and the import of the results of bulk analysis and complex Bayesian sequential calibration.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2025-12-12",
+    "authors": [
+      {
+        "name": "Hinz Martin",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "martin.hinz@ufg.uni-kiel.de"
+      },
+      {
+        "name": "Clemens Schmid",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Daniel Knitter",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Carolin Tietze",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "carolin-tietze"
+      }
+    ]
+  },
+  {
     "name": "palmerpenguins",
     "title": "Palmer Archipelago (Antarctica) Penguin Data",
     "description": "Size measurements, clutch observations, and blood isotope ratios for adult foraging Adélie, Chinstrap, and Gentoo penguins observed on islands in the Palmer Archipelago near Palmer Station, Antarctica. Data were collected and made available by Dr. Kristen Gorman and the Palmer Station Long Term Ecological Research (LTER) Program.",
@@ -4037,6 +7428,69 @@
           "aut"
         ],
         "directory_id": "shannon-pileggi"
+      }
+    ]
+  },
+  {
+    "name": "partykit",
+    "title": "A Toolkit for Recursive Partytioning",
+    "description": "A toolkit with infrastructure for representing, summarizing, and visualizing tree-structured regression and classification models. This unified infrastructure can be used for reading/coercing tree models from different sources ('rpart', 'RWeka', 'PMML') yielding objects that share functionality for print()/plot()/predict() methods. Furthermore, new and improved reimplementations of conditional inference trees (ctree()) and model-based recursive partitioning (mob()) from the 'party' package are provided based on the new infrastructure. A description of this package was published by Hothorn and Zeileis (2015) <https://jmlr.org/papers/v16/hothorn15a.html>.",
+    "repo_url": {},
+    "pkdown_url": "http://partykit.r-forge.r-project.org/partykit/",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-03-13",
+    "authors": [
+      {
+        "name": "Torsten Hothorn",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-8301-0471",
+        "email": "Torsten.Hothorn@R-project.org"
+      },
+      {
+        "name": "Heidi Seibold",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-8960-9642",
+        "directory_id": "heidi-seibold"
+      },
+      {
+        "name": "Achim Zeileis",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0918-3766"
+      }
+    ]
+  },
+  {
+    "name": "PCADSC",
+    "title": "Tools for Principal Component Analysis-Based Data Structure\nComparisons",
+    "description": "A suite of non-parametric, visual tools for assessing differences in data structures for two datasets that contain different observations of the same variables. These tools are all based on Principal Component Analysis (PCA) and thus effectively address differences in the structures of the covariance matrices of the two datasets. The PCADSC tools consist of easy-to-use, intuitive plots that each focus on different aspects of the PCA decompositions. The cumulative eigenvalue (CE) plot describes differences in the variance components (eigenvalues) of the deconstructed covariance matrices. The angle plot presents the information loss when moving from the PCA decomposition of one dataset to the PCA decomposition of the other. The chroma plot describes the loading patterns of the two datasets, thereby presenting the relative weighting and importance of the variables from the original dataset.",
+    "repo_url": "https://github.com/annennenne/PCADSC",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/annennenne/PCADSC/issues",
+    "logo_url": {},
+    "last_updated": "2025-05-21",
+    "authors": [
+      {
+        "name": "Anne Helby Petersen",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "anne-helby-petersen",
+        "email": "ahpe@sund.ku.dk"
+      },
+      {
+        "name": "Bo Markussen",
+        "roles": [
+          "aut"
+        ]
       }
     ]
   },
@@ -4253,6 +7707,84 @@
     ]
   },
   {
+    "name": "PlackettLuce",
+    "title": "Plackett-Luce Models for Rankings",
+    "description": "Functions to prepare rankings data and fit the Plackett-Luce model jointly attributed to Plackett (1975) <doi:10.2307/2346567> and Luce (1959, ISBN:0486441369). The standard Plackett-Luce model is generalized to accommodate ties of any order in the ranking. Partial rankings, in which only a subset of items are ranked in each ranking, are also accommodated in the implementation. Disconnected/weakly connected networks implied by the rankings may be handled by adding pseudo-rankings with a hypothetical item. Optionally, a multivariate normal prior may be set on the log-worth parameters and ranker reliabilities may be incorporated as proposed by Raman and Joachims (2014) <doi:10.1145/2623330.2623654>. Maximum a posteriori estimation is used when priors are set. Methods are provided to estimate standard errors or quasi-standard errors for inference as well as to fit Plackett-Luce trees. See the package website or vignette for further details.",
+    "repo_url": "https://github.com/hturner/PlackettLuce",
+    "pkdown_url": "https://hturner.github.io/PlackettLuce/",
+    "bug_reports_url": "https://github.com/hturner/PlackettLuce/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-25",
+    "authors": [
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1256-3375",
+        "directory_id": "heather-turner",
+        "email": "ht@heatherturner.net"
+      },
+      {
+        "name": "Ioannis Kosmidis",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-1556-0302"
+      },
+      {
+        "name": "David Firth",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-0302-2312"
+      },
+      {
+        "name": "Jacob van Etten",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0001-7554-2558"
+      }
+    ]
+  },
+  {
+    "name": "PPforest",
+    "title": "Projection Pursuit Classification Forest",
+    "description": "Implements projection pursuit forest algorithm for supervised classification.",
+    "repo_url": "https://github.com/natydasilva/PPforest",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/natydasilva/PPforest/issues",
+    "logo_url": "https://raw.githubusercontent.com/natydasilva/PPforest/HEAD/man/figures/PPforest.png",
+    "last_updated": "2025-09-04",
+    "authors": [
+      {
+        "name": "Natalia da Silva",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-6031-7451",
+        "email": "natalia.dasilva@fcea.edu.uy"
+      },
+      {
+        "name": "Dianne Cook",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "dianne-cook"
+      },
+      {
+        "name": "Eun-Kyung Lee",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "eunkyung-lee"
+      }
+    ]
+  },
+  {
     "name": "pregnancy",
     "title": "Calculate and Track Dates and Medications During Pregnancy",
     "description": "Provides functionality for calculating pregnancy-related dates and tracking medications during pregnancy and fertility treatment. Calculates due dates from various starting points including last menstrual period and IVF (In Vitro Fertilisation) transfer dates, determines pregnancy progress on any given date, and identifies when specific pregnancy weeks are reached. Includes medication tracking capabilities for individuals undergoing fertility treatment or during pregnancy, allowing users to monitor remaining doses and quantities needed over specified time periods. Designed for those tracking their own pregnancies or supporting partners through the process, making use of options to personalise output messages. For details on due date calculations, see <https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2017/05/methods-for-estimating-the-due-date>.",
@@ -4272,6 +7804,72 @@
         "orcid": "0000-0002-7300-3718",
         "directory_id": "ella-kaye",
         "email": "ella.kaye@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "prepdat",
+    "title": "Preparing Experimental Data for Statistical Analysis",
+    "description": "Prepares data for statistical analysis (e.g., analysis of variance ;ANOVA) by enabling the user to easily and quickly merge (using the file_merge() function) raw data files into one merged table and then aggregate the merged table (using the prep() function) into a finalized table while keeping track and summarizing every step of the preparation. The finalized table contains several possibilities for dependent measures of the dependent variable. Most suitable when measuring variables in an interval or ratio scale (e.g., reaction-times) and/or discrete values such as accuracy. Main functions included are file_merge() and prep(). The file_merge() function vertically merges individual data files (in a long format) in which each line is a single observation to one single dataset. The prep() function aggregates the single dataset according to any combination of grouping variables (i.e., between-subjects and within-subjects independent variables, respectively), and returns a data frame with a number of dependent measures for further analysis for each cell according to the combination of provided grouping variables. Dependent measures for each cell include among others means before and after rejecting all values according to a flexible standard deviation criteria, number of rejected values according to the flexible standard deviation criteria, proportions of rejected values according to the flexible standard deviation criteria, number of values before rejection, means after rejecting values according to procedures described in Van Selst & Jolicoeur (1994; suitable when measuring reaction-times), standard deviations, medians, means according to any percentile (e.g., 0.05, 0.25, 0.75, 0.95) and harmonic means. The data frame prep() returns can also be exported as a txt file to be used for statistical analysis in other statistical programs.",
+    "repo_url": "http://github.com/ayalaallon/prepdat",
+    "pkdown_url": {},
+    "bug_reports_url": "http://github.com/ayalaallon/prepdat/issues",
+    "logo_url": {},
+    "last_updated": "2019-03-01",
+    "authors": [
+      {
+        "name": "Ayala S. Allon",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "ayalaallon@gmail.com",
+        "directory_id": "ayala-allon"
+      },
+      {
+        "name": "Roy Luria",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "James Grange",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Nachshon Meiran",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PreProcessRecordLinkage",
+    "title": "Preprocessing Record Linkage",
+    "description": "In this record linkage package, data preprocessing has been meticulously executed to cover a wide range of datasets, ensuring that variable names are standardized using synonyms. This approach facilitates seamless data integration and analysis across various datasets. While users have the flexibility to modify variable names, the system intelligently ensures that changes are only permitted when they do not compromise data consistency or essential variable essence.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-09-13",
+    "authors": [
+      {
+        "name": "Hossein Hassani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Leila Marvian Mashhad",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "Leila.marveian@gmail.com",
+        "directory_id": "leila-marvian"
       }
     ]
   },
@@ -4314,6 +7912,125 @@
         ],
         "directory_id": "emily-riederer",
         "email": "emilyriederer@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ProliferativeIndex",
+    "title": "Calculates and Analyzes the Proliferative Index",
+    "description": "Provides functions for calculating and analyzing the proliferative index (PI) from an RNA-seq dataset. As described in Ramaker & Lasseigne, et al. bioRxiv, 2016 <doi:10.1101/063057>.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2018-08-14",
+    "authors": [
+      {
+        "name": "Brittany Lasseigne",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "brittany-lasseigne",
+        "email": "brittany.lasseigne@gmail.com"
+      },
+      {
+        "name": "Ryne Ramaker",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "psidread",
+    "title": "Streamline Building Panel Data from Panel Study of Income\nDynamics ('PSID') Raw Files",
+    "description": "Streamline the management, creation, and formatting of panel data from the Panel Study of Income Dynamics ('PSID') <https://psidonline.isr.umich.edu> using this user-friendly tool. Simply define variable names and input code book details directly from the 'PSID' official website, and this toolbox will efficiently facilitate the data preparation process, transforming raw 'PSID' files into a well-organized format ready for further analysis.",
+    "repo_url": "https://github.com/Qcrates/psidread",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Qcrates/psidread/issues",
+    "logo_url": {},
+    "last_updated": "2025-10-29",
+    "authors": [
+      {
+        "name": "Shuyi Qiu",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0009-0000-9730-5262",
+        "directory_id": "shuyi-qiu",
+        "email": "shuyi.qiu@duke.edu"
+      }
+    ]
+  },
+  {
+    "name": "qsmooth",
+    "title": "Smooth quantile normalization",
+    "description": "Smooth quantile normalization is a generalization of quantile normalization, which is average of the two types of assumptions about the data generation process: quantile normalization and quantile normalization between groups.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Stephanie C. Hicks",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7858-0231",
+        "email": "shicks19@jhu.edu",
+        "directory_id": "stephanie-hicks"
+      },
+      {
+        "name": "Kwame Okrah",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Koen Van den Berge",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Hector Corrada Bravo",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1255-4444"
+      },
+      {
+        "name": "Rafael Irizarry",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3944-4309"
+      }
+    ]
+  },
+  {
+    "name": "qtwAcademic",
+    "title": "'Quarto' Website Templates for Academics",
+    "description": "Provides three 'Quarto' website templates as an R project, which are commonly used by academics. Templates for personal websites and course/workshop websites are included, as well as a template with minimal content for customization.",
+    "repo_url": "https://github.com/andreaczhang/qtwAcademic",
+    "pkdown_url": "https://andreaczhang.github.io/qtwAcademic/",
+    "bug_reports_url": "https://github.com/andreaczhang/qtwAcademic/issues",
+    "logo_url": "https://raw.githubusercontent.com/andreaczhang/qtwAcademic/HEAD/man/figures/logo_qtwAcademic.png",
+    "last_updated": "2022-12-22",
+    "authors": [
+      {
+        "name": "Chi Zhang",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-0501-5909",
+        "directory_id": "andrea-chi",
+        "email": "andreachizhang@yahoo.com"
       }
     ]
   },
@@ -4462,6 +8179,35 @@
     ]
   },
   {
+    "name": "quantro",
+    "title": "A test for when to use quantile normalization",
+    "description": "A data-driven test for the assumptions of quantile normalization using raw data such as objects that inherit eSets (e.g. ExpressionSet, MethylSet). Group level information about each sample (such as Tumor / Normal status) must also be provided because the test assesses if there are global differences in the distributions between the user-defined groups.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Stephanie Hicks",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-7858-0231",
+        "directory_id": "stephanie-hicks",
+        "email": "shicks19@jhu.edu"
+      },
+      {
+        "name": "Rafael Irizarry",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3944-4309"
+      }
+    ]
+  },
+  {
     "name": "quartose",
     "title": "Dynamically Generate Quarto Syntax",
     "description": "Provides helper functions to work programmatically within a quarto document. It allows the user to create section headers, tabsets, divs, and spans, and formats these objects into quarto syntax when printed into a document.",
@@ -4480,6 +8226,26 @@
         ],
         "directory_id": "danielle-navarro",
         "email": "djnavarro@protonmail.com"
+      }
+    ]
+  },
+  {
+    "name": "QueryWikidataR",
+    "title": "Use the Query Wikidata service in R",
+    "description": "QueryWikidataR allows to query for Wikidata items with geocoordinates in three different ways, to get the list of related Wikipedia articles with languages and to get the properties (P31) and the classes (P279) they belong to. The package also allows to query for an item from a known property and a value of this property that you can decide to set. The functionalities of the package will be enhanced.",
+    "repo_url": "https://github.com/serenasignorelli/QueryWikidataR",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Serena Signorelli",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "serena-signorelli",
+        "email": "serena.signorelli@unibg.it"
       }
     ]
   },
@@ -4524,6 +8290,33 @@
         "orcid": "0000-0001-7648-6578",
         "directory_id": "danielle-navarro",
         "email": "d.navarro@unsw.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "RCMIP5",
+    "title": "Tools for Manipulating and Summarizing CMIP5 Data",
+    "description": "Working with CMIP5 data can be tricky, forcing scientists to write custom scripts and programs. The `RCMIP5` package aims to ease this process, providing a standard, robust, and high-performance set of scripts to (i) explore what data have been downloaded, (ii) identify missing data, (iii) average (or apply other mathematical operations) across experimental ensembles, (iv) produce both temporal and spatial statistical summaries, and (v) produce easy-to-work-with graphical and data summaries.",
+    "repo_url": "https://github.com/ktoddbrown/RCMIP5",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Ben Bond-Lamberty",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kathe Todd-Brown",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "kathe-toddbrown",
+        "email": "ktoddbrown@gmail.com"
       }
     ]
   },
@@ -4736,6 +8529,176 @@
     ]
   },
   {
+    "name": "redcapAPI",
+    "title": "Interface to 'REDCap'",
+    "description": "Access data stored in 'REDCap' databases using the Application Programming Interface (API). 'REDCap' (Research Electronic Data CAPture; <https://projectredcap.org>, Harris, et al. (2009) <doi:10.1016/j.jbi.2008.08.010>, Harris, et al. (2019) <doi:10.1016/j.jbi.2019.103208>) is a web application for building and managing online surveys and databases developed at Vanderbilt University. The API allows users to access data and project meta data (such as the data dictionary) from the web programmatically. The 'redcapAPI' package facilitates the process of accessing data with options to prepare an analysis-ready data set consistent with the definitions in a database's data dictionary.",
+    "repo_url": "https://github.com/vubiostat/redcapAPI",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/vubiostat/redcapAPI/issues",
+    "logo_url": {},
+    "last_updated": "2026-03-23",
+    "authors": [
+      {
+        "name": "Benjamin Nutter",
+        "roles": [
+          "ctb",
+          "aut"
+        ]
+      },
+      {
+        "name": "Shawn Garbett",
+        "roles": [
+          "cre",
+          "ctb"
+        ],
+        "orcid": "0000-0003-4079-5621",
+        "email": "shawn.garbett@vumc.org"
+      },
+      {
+        "name": "Savannah Obregon",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "savannah-obregon"
+      },
+      {
+        "name": "Thomas Obadia",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Marcus Lehr",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Brian High",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Stephen Lane",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Will Beasley",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Will Gray",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Nick Kennedy",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Tan Hsi-Nien",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jeffrey Horner",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Jeremy Stephens",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Cole Beck",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Bradley Johnson",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Philip Chase",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Paddy Tobias",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Michael Chirico",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "William Sharp",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Alexander Strübing",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "regscoreR",
+    "title": "Regression Scores",
+    "description": "An R package to compute scores for different regression models.",
+    "repo_url": "https://github.com/UBC-MDS/regscoreR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/UBC-MDS/regscoreR/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Simran Sethi",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "simran-sethi",
+        "email": "simrannsethi@gmail.com"
+      },
+      {
+        "name": "Ha Dinh",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Ruoqi Xu",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "reprex",
     "title": "Prepare Reproducible Example Code via the Clipboard",
     "description": "Convenience wrapper that uses the 'rmarkdown' package to render small snippets of code to target formats that include both code and output. The goal is to encourage the sharing of small, reproducible, and runnable examples on code-oriented websites, such as <https://stackoverflow.com> and <https://github.com>, or in email. The user's clipboard is the default source of input code and the default target for rendered output. 'reprex' also extracts clean, runnable R code from various common formats, such as copy/paste from an R session.",
@@ -4938,6 +8901,89 @@
           "aut"
         ],
         "orcid": "0009-0004-0787-3426"
+      }
+    ]
+  },
+  {
+    "name": "riverbed",
+    "title": "Surfaces and volumes based on profiles.",
+    "description": "This package is intended to facilitate the calculation of surfaces and volumes described with profiles (such as river long profiles or river transects).",
+    "repo_url": "https://github.com/lvaudor/riverbed",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Lise Vaudor",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "lise-vaudor",
+        "email": "lise.vaudor@ens-lyon.fr"
+      }
+    ]
+  },
+  {
+    "name": "rjtools",
+    "title": "Preparing, Checking, and Submitting Articles to the 'R Journal'",
+    "description": "Create an 'R Journal' 'Rmarkdown' template article, that will generate html and pdf versions of your paper. Check that the paper folder has all the required components needed for submission. Examples of 'R Journal' publications can be found at <https://journal.r-project.org>.",
+    "repo_url": "https://github.com/rjournal/rjtools",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rjournal/rjtools/issues",
+    "logo_url": {},
+    "last_updated": "2026-02-02",
+    "authors": [
+      {
+        "name": "Mitchell O'Hara-Wild",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6729-7695"
+      },
+      {
+        "name": "Stephanie Kobakian",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "H. Sherry Zhang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7122-1463",
+        "directory_id": "h-sherry-zhang"
+      },
+      {
+        "name": "Di Cook",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3813-7155"
+      },
+      {
+        "name": "Simon Urbanek",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-2297-1732"
+      },
+      {
+        "name": "Christophe Dervieux",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4474-2498"
+      },
+      {
+        "name": "R Journal Technical Editor",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "r-journal-technical@r-project.org"
       }
     ]
   },
@@ -5208,6 +9254,199 @@
     ]
   },
   {
+    "name": "RUVcorr",
+    "title": "Removal of unwanted variation for gene-gene correlations and\nrelated analysis",
+    "description": "RUVcorr allows to apply global removal of unwanted variation (ridged version of RUV) to real and simulated gene expression data.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Saskia Freytag",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "saskia-freytag",
+        "email": "saskia.freytag@perkins.uwa.edu.au"
+      }
+    ]
+  },
+  {
+    "name": "saguaRo",
+    "title": "Arizona desert colors in R",
+    "description": "Combining Arizona's desert beauty and the exciting world of data visualization. This package highlights the beautiful images taken in the Sonoran desert as captured by Tucson residents and friends of the Arizona-Sonora Desert Museum.",
+    "repo_url": "https://github.com/sborrego/saguaRo",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/sborrego/saguaRo/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Stacey Borrego",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "stacey-borrego",
+        "email": "staceyborrego@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "scDD",
+    "title": "Mixture modeling of single-cell RNA-seq data to identify genes\nwith differential distributions",
+    "description": "This package implements a method to analyze single-cell RNA- seq Data utilizing flexible Dirichlet Process mixture models. Genes with differential distributions of expression are classified into several interesting patterns of differences between two conditions. The package also includes functions for simulating data with these patterns from negative binomial distributions.",
+    "repo_url": "https://github.com/kdkorthauer/scDD",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/kdkorthauer/scDD/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Keegan Korthauer",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-4565-1654",
+        "directory_id": "keegan-korthauer",
+        "email": "keegan@stat.ubc.ca"
+      }
+    ]
+  },
+  {
+    "name": "scShapes",
+    "title": "A Statistical Framework for Modeling and Identifying\nDifferential Distributions in Single-cell RNA-sequencing Data",
+    "description": "We present a novel statistical framework for identifying differential distributions in single-cell RNA-sequencing (scRNA-seq) data between treatment conditions by modeling gene expression read counts using generalized linear models (GLMs). We model each gene independently under each treatment condition using error distributions Poisson (P), Negative Binomial (NB), Zero-inflated Poisson (ZIP) and Zero-inflated Negative Binomial (ZINB) with log link function and model based normalization for differences in sequencing depth. Since all four distributions considered in our framework belong to the same family of distributions, we first perform a Kolmogorov-Smirnov (KS) test to select genes belonging to the family of ZINB distributions. Genes passing the KS test will be then modeled using GLMs. Model selection is done by calculating the Bayesian Information Criterion (BIC) and likelihood ratio test (LRT) statistic.",
+    "repo_url": "https://github.com/Malindrie/scShapes",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Malindrie/scShapes/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Malindrie Dharmaratne",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-1694-6496",
+        "directory_id": "malindrie-dharmaratne",
+        "email": "malindrie@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "seer",
+    "title": "Feature-Based Forecast Model Selection",
+    "description": "A novel meta-learning framework for forecast model selection using time series features. Many applications require a large number of time series to be forecast. Providing better forecasts for these time series is important in decision and policy making. We propose a classification framework which selects forecast models based on features calculated from the time series. We call this framework FFORMS (Feature-based FORecast Model Selection). FFORMS builds a mapping that relates the features of time series to the best forecast model using a random forest. 'seer' package is the implementation of the FFORMS algorithm. For more details see our paper at <https://www.monash.edu/business/econometrics-and-business-statistics/research/publications/ebs/wp06-2018.pdf>.",
+    "repo_url": "https://github.com/thiyangt/seer",
+    "pkdown_url": "https://thiyangt.github.io/seer/",
+    "bug_reports_url": "https://github.com/thiyangt/seer/issues",
+    "logo_url": "https://raw.githubusercontent.com/thiyangt/seer/HEAD/logo/seer.png",
+    "last_updated": "2022-10-01",
+    "authors": [
+      {
+        "name": "Thiyanga Talagala",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-0656-9789",
+        "directory_id": "thiyanga-talagala",
+        "email": "tstalagala@gmail.com"
+      },
+      {
+        "name": "Rob J Hyndman",
+        "roles": [
+          "ths",
+          "aut"
+        ],
+        "orcid": "0000-0002-2140-5352"
+      },
+      {
+        "name": "George Athanasopoulos",
+        "roles": [
+          "ths",
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "sendplot",
+    "title": "Tool for sending interactive plots with tool-tip content.",
+    "description": "A tool for visualizing data",
+    "repo_url": "https://github.com/lshep/sendplot",
+    "pkdown_url": "http://sphhp.buffalo.edu/biostat/research/software/sendplot/index.php",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Daniel P Gaile"
+      },
+      {
+        "name": "Lori A. Shepherd",
+        "roles": [
+          "cre"
+        ],
+        "email": "las65@buffalo.edu",
+        "directory_id": "lori-shepherd"
+      },
+      {
+        "name": "Lara Sucheston"
+      },
+      {
+        "name": "Andrew Bruno"
+      },
+      {
+        "name": "Kenneth F. Manly"
+      }
+    ]
+  },
+  {
+    "name": "sensiPhy",
+    "title": "Sensitivity Analysis for Comparative Methods",
+    "description": "An implementation of sensitivity analysis for phylogenetic comparative methods. The package is an umbrella of statistical and graphical methods that estimate and report different types of uncertainty in PCM: (i) Species Sampling uncertainty (sample size; influential species and clades). (ii) Phylogenetic uncertainty (different topologies and/or branch lengths). (iii) Data uncertainty (intraspecific variation and measurement error).",
+    "repo_url": "https://github.com/paternogbc/sensiPhy",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/paternogbc/sensiPhy/issues",
+    "logo_url": "http://i.imgur.com/BmDLe0Cm.jpg",
+    "last_updated": "2020-04-02",
+    "authors": [
+      {
+        "name": "Gustavo Paterno",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "paternogbc@gmail.com"
+      },
+      {
+        "name": "Gijsbert Werner",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Caterina Penone",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "caterina-penone"
+      },
+      {
+        "name": "Pablo Martinez",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "sessioncheck",
     "title": "Checks Session Status",
     "description": "Provides tools to check variables contained in the user environment, and inspect the currently loaded package namespaces. The intended use is to allow user scripts to throw errors or warnings if unwanted variables exist or if unwanted packages are loaded.",
@@ -5273,6 +9512,59 @@
     ]
   },
   {
+    "name": "ShapeRotator",
+    "title": "An R Tool for Standardised Rigid Rotations of Articulated Three-Dimensional Structures",
+    "description": "Here we describe a simple geometric rigid rotation approach that removes the effect of random translation and rotation, enabling the morphological analysis of 3D articulated structures. Our method is based on Cartesian coordinates in 3D space so it can be applied to any morphometric problem that also uses 3D coordinates.",
+    "repo_url": "https://github.com/marta-vidalgarcia/ShapeRotator",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/marta-vidalgarcia/ShapeRotator/issues",
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Marta Vidal-Garcia",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0001-7617-7329",
+        "directory_id": "marta-vidalgarcia",
+        "email": "marta.vidalga@gmail.com"
+      },
+      {
+        "name": "Lashi Bandara",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "J. Scott Keogh",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shinycustomloader",
+    "title": "Custom Loader for Shiny Outputs",
+    "description": "A custom css/html or gif/image file for the loading screen in R 'shiny'. It also can use the marquee to have custom text loading screen.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2018-03-27",
+    "authors": [
+      {
+        "name": "Emi Tanaka and Niichan",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "emi-tanaka"
+      }
+    ]
+  },
+  {
     "name": "shinyfa",
     "title": "Analyze the File Contents of 'shiny' Directories",
     "description": "Provides tools for analyzing and understanding the file contents of large 'shiny' application directories. The package extracts key information about render functions, reactive functions, and their inputs from app files, organizing them into structured data frames for easy reference. This streamlines the onboarding process for new contributors and helps identify areas for optimization in complex 'shiny' codebases with multiple files and sourcing chains.",
@@ -5312,6 +9604,27 @@
         ],
         "directory_id": "jasmine-dumas",
         "email": "jasmine.dumas@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "shinymatic",
+    "title": "Generate Shiny Dashboard Inputs Based on Dataframe",
+    "description": "Extension of shiny. Allows the automatic generation of inputs based on a dataframe.",
+    "repo_url": "https://github.com/karbartolome/shinymatic",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/karbartolome/shinymatic/issues",
+    "logo_url": "https://raw.githubusercontent.com/karbartolome/shinymatic/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Karina Bartolome",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "karina-bartolome",
+        "email": "karpackages@gmail.com"
       }
     ]
   },
@@ -5485,6 +9798,51 @@
     ]
   },
   {
+    "name": "simex",
+    "title": "SIMEX- And MCSIMEX-Algorithm for Measurement Error Models",
+    "description": "Implementation of the SIMEX-Algorithm by Cook & Stefanski (1994) <doi:10.1080/01621459.1994.10476871> and MCSIMEX by Küchenhoff, Mwalili & Lesaffre (2006) <doi:10.1111/j.1541-0420.2005.00396.x>.",
+    "repo_url": "https://github.com/wolfganglederer/simex",
+    "pkdown_url": "http://wolfganglederer.github.io/simex/",
+    "bug_reports_url": "https://github.com/wolfganglederer/simex/issues",
+    "logo_url": {},
+    "last_updated": "2019-07-31",
+    "authors": [
+      {
+        "name": "Wolfgang Lederer",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "Wolfgang.Lederer@gmail.com"
+      },
+      {
+        "name": "Heidi Seibold",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "heidi-seibold"
+      },
+      {
+        "name": "Helmut Küchenhoff",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Chris Lawrence",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Rasmus Froberg Brøndum",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "SISINTAR",
     "title": "Lee y Manipula Datos de Suelo de SISINTA",
     "description": "Permite descargar y manipular datos de perfiles de suelo disponibles en la plataforma SISINTA.",
@@ -5549,6 +9907,92 @@
         "orcid": "0000-0003-1156-0639",
         "directory_id": "nathalie-vialaneix",
         "email": "nathalie.vialaneix@inrae.fr"
+      }
+    ]
+  },
+  {
+    "name": "sknifedatar",
+    "title": "Swiss Knife of Data",
+    "description": "Extension of the 'modeltime' ecosystem. In addition. Allows fitting of multiple models over multiple time series. It also provides a bridge for using the 'workflowsets' package with 'modeltime'. It includes some functionalities for spatial data and visualization.",
+    "repo_url": "https://github.com/rafzamb/sknifedatar",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/rafzamb/sknifedatar/issues",
+    "logo_url": "https://raw.githubusercontent.com/rafzamb/sknifedatar/HEAD/man/figures/logo.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Rafael Zambrano",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "rafazambragit@gmail.com"
+      },
+      {
+        "name": "Karina Bartolome",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "karina-bartolome"
+      },
+      {
+        "name": "Rodrigo Serrano",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "slingshot",
+    "title": "Tools for ordering single-cell sequencing",
+    "description": "Provides functions for inferring continuous, branching lineage structures in low-dimensional data. Slingshot was designed to model developmental trajectories in single-cell RNA sequencing data and serve as a component in an analysis pipeline after dimensionality reduction and clustering. It is flexible enough to handle arbitrarily many branching events and allows for the incorporation of prior knowledge through supervised graph construction.",
+    "repo_url": "https://github.com/kstreet13/slingshot",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/kstreet13/slingshot/issues",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Kelly Street",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "email": "street.kelly@gmail.com"
+      },
+      {
+        "name": "Davide Risso",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Diya Das",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "diya-das"
+      },
+      {
+        "name": "Sandrine Dudoit",
+        "roles": [
+          "ths"
+        ]
+      },
+      {
+        "name": "Koen Van den Berge",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Robrecht Cannoodt",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-3641-729X"
       }
     ]
   },
@@ -5658,6 +10102,59 @@
     ]
   },
   {
+    "name": "SparseSignatures",
+    "title": "SparseSignatures",
+    "description": "Point mutations occurring in a genome can be divided into 96 categories based on the base being mutated, the base it is mutated into and its two flanking bases. Therefore, for any patient, it is possible to represent all the point mutations occurring in that patient's tumor as a vector of length 96, where each element represents the count of mutations for a given category in the patient. A mutational signature represents the pattern of mutations produced by a mutagen or mutagenic process inside the cell. Each signature can also be represented by a vector of length 96, where each element represents the probability that this particular mutagenic process generates a mutation of the 96 above mentioned categories. In this R package, we provide a set of functions to extract and visualize the mutational signatures that best explain the mutation counts of a large number of patients.",
+    "repo_url": "https://github.com/danro9685/SparseSignatures",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/danro9685/SparseSignatures",
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Daniele Ramazzotti",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-6087-2666"
+      },
+      {
+        "name": "Avantika Lal",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "avantika-lal"
+      },
+      {
+        "name": "Keli Liu",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Luca De Sano",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0002-9618-3774",
+        "email": "luca.desano@gmail.com"
+      },
+      {
+        "name": "Robert Tibshirani",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Arend Sidow",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "spatialsample",
     "title": "Spatial Resampling Infrastructure",
     "description": "Functions and classes for spatial resampling to use with the 'rsample' package, such as spatial cross-validation (Brenning, 2012) <doi:10.1109/IGARSS.2012.6352393>. The scope of 'rsample' and 'spatialsample' is to provide the basic building blocks for creating and analyzing resamples of a spatial data set, but neither package includes functions for modeling or computing statistics. The resampled spatial data sets created by 'spatialsample' do not contain much overhead in memory.",
@@ -5693,6 +10190,26 @@
           "cph",
           "fnd"
         ]
+      }
+    ]
+  },
+  {
+    "name": "SPBB",
+    "title": "Saddlepoint-Based Bootstrap (SPBB) Method",
+    "description": "Construct a confidence interval for a parameter using the saddlepoint approximation",
+    "repo_url": "https://github.com/PratheepaJ/SPBBspatial",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Pratheepa Jeganathan",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "pratheepa-jeganathan",
+        "email": "jpratheepa31@gmail.com"
       }
     ]
   },
@@ -5735,6 +10252,41 @@
     ]
   },
   {
+    "name": "stray",
+    "title": "Anomaly Detection in High Dimensional and Temporal Data",
+    "description": "This is a modification of 'HDoutliers' package. The 'HDoutliers' algorithm is a powerful unsupervised algorithm for detecting anomalies in high-dimensional data, with a strong theoretical foundation. However, it suffers from some limitations that significantly hinder its performance level, under certain circumstances. This package implements the algorithm proposed in Talagala, Hyndman and Smith-Miles (2019) <arXiv:1908.04000> for detecting anomalies in high-dimensional data that addresses these limitations of 'HDoutliers' algorithm. We define an anomaly as an observation that deviates markedly from the majority with a large distance gap. An approach based on extreme value theory is used for the anomalous threshold calculation.",
+    "repo_url": "https://github.com/pridiltal/stray",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/pridiltal/stray/issues",
+    "logo_url": "https://raw.githubusercontent.com/pridiltal/stray/HEAD/man/figures/logo.png",
+    "last_updated": "2020-06-29",
+    "authors": [
+      {
+        "name": "Priyanga Dilini Talagala",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2870-7449",
+        "directory_id": "priyanga-dilini-talagala",
+        "email": "pritalagala@gmail.com"
+      },
+      {
+        "name": "Rob J Hyndman",
+        "roles": [
+          "ths"
+        ],
+        "orcid": "0000-0002-2140-5352"
+      },
+      {
+        "name": "Kate Smith-Miles",
+        "roles": [
+          "ths"
+        ]
+      }
+    ]
+  },
+  {
     "name": "subsemble",
     "title": "An Ensemble Method for Combining Subset-Specific Algorithm Fits",
     "description": "The Subsemble algorithm is a general subset ensemble prediction method, which can be used for small, moderate, or large datasets. Subsemble partitions the full dataset into subsets of observations, fits a specified underlying algorithm on each subset, and uses a unique form of k-fold cross-validation to output a prediction function that combines the subset-specific fits. An oracle result provides a theoretical performance guarantee for Subsemble. The paper, \"Subsemble: An ensemble method for combining subset-specific algorithm fits\" is authored by Stephanie Sapp, Mark J. van der Laan & John Canny (2014) <doi:10.1080/02664763.2013.864263>.",
@@ -5760,6 +10312,33 @@
       },
       {
         "name": "Mark van der Laan",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "superheat",
+    "title": "A Graphical Tool for Exploring Complex Datasets Using Heatmaps",
+    "description": "A system for generating extendable and customizable heatmaps for exploring complex datasets, including big data and data with multiple data types.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2017-02-04",
+    "authors": [
+      {
+        "name": "Rebecca Barter",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "rebecca-barter",
+        "email": "rebeccabarter@berkeley.edu"
+      },
+      {
+        "name": "Bin Yu",
         "roles": [
           "aut"
         ]
@@ -5809,6 +10388,130 @@
           "aut",
           "ths"
         ]
+      }
+    ]
+  },
+  {
+    "name": "tailloss",
+    "title": "Estimate the Probability in the Upper Tail of the Aggregate Loss\nDistribution",
+    "description": "Set of tools to estimate the probability in the upper tail of the aggregate loss distribution using different methods: Panjer recursion, Monte Carlo simulations, Markov bound, Cantelli bound, Moment bound, and Chernoff bound.",
+    "repo_url": "http://github.com/igollini/tailloss",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2015-07-08",
+    "authors": [
+      {
+        "name": "Isabella Gollini",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "isabella-gollini",
+        "email": "igollini.stats@gmail.com"
+      },
+      {
+        "name": "Jonathan Rougier",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tanggle",
+    "title": "Visualization of Phylogenetic Networks",
+    "description": "Offers functions for plotting split (or implicit) networks (unrooted, undirected) and explicit networks (rooted, directed) with reticulations extending. 'ggtree' and using functions from 'ape' and 'phangorn'. It extends the 'ggtree' package [@Yu2017] to allow the visualization of phylogenetic networks using the 'ggplot2' syntax. It offers an alternative to the plot functions already available in 'ape' Paradis and Schliep (2019) <doi:10.1093/bioinformatics/bty633> and 'phangorn' Schliep (2011) <doi:10.1093/bioinformatics/btq706>.",
+    "repo_url": "https://github.com/KlausVigo/tanggle",
+    "pkdown_url": "https://klausvigo.github.io/tanggle/",
+    "bug_reports_url": "https://github.com/KlausVigo/tanggle/issues",
+    "logo_url": "https://klausvigo.github.io/tanggle/logo.png",
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "Klaus Schliep",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-2941-0161",
+        "email": "klaus.schliep@gmail.com"
+      },
+      {
+        "name": "Marta Vidal-Garcia",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "marta-vidalgarcia"
+      },
+      {
+        "name": "Claudia Solis-Lemus",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-9789-8915"
+      },
+      {
+        "name": "Leann Biancani",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Eren Ada",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "L. Francisco Henao Diaz",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Guangchuang Yu",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Joshua Justison",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "TEQC",
+    "title": "Quality control for target capture experiments",
+    "description": "Target capture experiments combine hybridization-based (in solution or on microarrays) capture and enrichment of genomic regions of interest (e.g. the exome) with high throughput sequencing of the captured DNA fragments. This package provides functionalities for assessing and visualizing the quality of the target enrichment process, like specificity and sensitivity of the capture, per-target read coverage and so on.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-28",
+    "authors": [
+      {
+        "name": "M. Hummel"
+      },
+      {
+        "name": "S. Bonnin"
+      },
+      {
+        "name": "E. Lowy"
+      },
+      {
+        "name": "G. Roma"
+      },
+      {
+        "name": "Sarah Bonnin",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "sarah-bonnin",
+        "email": "Sarah.Bonnin@crg.eu"
       }
     ]
   },
@@ -5965,6 +10668,41 @@
     ]
   },
   {
+    "name": "TidyTuesdayAltText",
+    "title": "Alternative text for media attached to TidyTuesday tweets",
+    "description": "Alternative (alt) text for media attached to tweets participating in the TidyTuesday data visualization learning community.",
+    "repo_url": "https://github.com/spcanelon/TidyTuesdayAltText",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/spcanelon/TidyTuesdayAltText/HEAD/man/figures/ttat_hex.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Silvia Canelón",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1709-1394",
+        "directory_id": "silvia-canelon",
+        "email": "sp.canelon@gmail.com"
+      },
+      {
+        "name": "Thomas Mock",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Elizabeth Hare",
+        "roles": [
+          "anl",
+          "csl"
+        ]
+      }
+    ]
+  },
+  {
     "name": "tinkr",
     "title": "Cast '(R)Markdown' Files to 'XML' and Back Again",
     "description": "Parsing '(R)Markdown' files with numerous regular expressions can be fraught with peril, but it does not have to be this way. Converting '(R)Markdown' files to 'XML' using the 'commonmark' package allows in-memory editing via of 'markdown' elements via 'XPath' through the extensible 'R6' class called 'yarn'. These modified 'XML' representations can be written to '(R)Markdown' documents via an 'xslt' stylesheet which implements an extended version of 'GitHub'-flavoured 'markdown' so that you can tinker to your hearts content.",
@@ -6014,6 +10752,65 @@
         "roles": [
           "ctb"
         ]
+      }
+    ]
+  },
+  {
+    "name": "tourr",
+    "title": "Tour Methods for Multivariate Data Visualisation",
+    "description": "Implements geodesic interpolation and basis generation functions that allow you to create new tour methods from R.",
+    "repo_url": "https://github.com/ggobi/tourr",
+    "pkdown_url": "https://ggobi.github.io/tourr/",
+    "bug_reports_url": "https://github.com/ggobi/tourr/issues",
+    "logo_url": "https://ggobi.github.io/tourr/logo.png",
+    "last_updated": "2025-07-13",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut",
+          "ctb"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Dianne Cook",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3813-7155",
+        "directory_id": "dianne-cook",
+        "email": "dicook@monash.edu"
+      },
+      {
+        "name": "Nick Spyrison",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-8417-0212"
+      },
+      {
+        "name": "Ursula Laa",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-0249-6439"
+      },
+      {
+        "name": "H. Sherry Zhang",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-7122-1463",
+        "directory_id": "h-sherry-zhang"
+      },
+      {
+        "name": "Stuart Lee",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-1179-8436"
       }
     ]
   },
@@ -6116,6 +10913,104 @@
         "name": "Nathanael Randriamihamison",
         "roles": [
           "aut"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tsfeatures",
+    "title": "Time Series Feature Extraction",
+    "description": "Methods for extracting various features from time series data. The features provided are those from Hyndman, Wang and Laptev (2013) <doi:10.1109/ICDMW.2015.104>, Kang, Hyndman and Smith-Miles (2017) <doi:10.1016/j.ijforecast.2016.09.004> and from Fulcher, Little and Jones (2013) <doi:10.1098/rsif.2013.0048>. Features include spectral entropy, autocorrelations, measures of the strength of seasonality and trend, and so on. Users can also define their own feature functions.",
+    "repo_url": "https://github.com/robjhyndman/tsfeatures",
+    "pkdown_url": "https://pkg.robjhyndman.com/tsfeatures/",
+    "bug_reports_url": "https://github.com/robjhyndman/tsfeatures/issues",
+    "logo_url": "https://raw.githubusercontent.com/robjhyndman/tsfeatures/HEAD/man/figures/tsfeatures-hex.png",
+    "last_updated": "2023-08-28",
+    "authors": [
+      {
+        "name": "Rob Hyndman",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-2140-5352",
+        "email": "Rob.Hyndman@monash.edu"
+      },
+      {
+        "name": "Yanfei Kang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-8769-6650"
+      },
+      {
+        "name": "Pablo Montero-Manso",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Mitchell O'Hara-Wild",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6729-7695"
+      },
+      {
+        "name": "Thiyanga Talagala",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-0656-9789",
+        "directory_id": "thiyanga-talagala"
+      },
+      {
+        "name": "Earo Wang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-6448-5260"
+      },
+      {
+        "name": "Yangzhuoran Yang",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Souhaib Ben Taieb",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Cao Hanqing",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "D K Lake",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Nikolay Laptev",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "J R Moorman",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Bohan Zhang",
+        "roles": [
+          "ctb"
         ]
       }
     ]
@@ -6270,6 +11165,35 @@
     ]
   },
   {
+    "name": "UniversalCVI",
+    "title": "Hard and Soft Cluster Validity Indices",
+    "description": "Algorithms for checking the accuracy of a clustering result with known classes, computing cluster validity indices, and generating plots for comparing them. The package is compatible with K-means, fuzzy C means, EM clustering, and hierarchical clustering (single, average, and complete linkage). The details of the indices in this package can be found in: J. C. Bezdek, M. Moshtaghi, T. Runkler, C. Leckie (2016) <doi:10.1109/TFUZZ.2016.2540063>, T. Calinski, J. Harabasz (1974) <doi:10.1080/03610927408827101>, C. H. Chou, M. C. Su, E. Lai (2004) <doi:10.1007/s10044-004-0218-1>, D. L. Davies, D. W. Bouldin (1979) <doi:10.1109/TPAMI.1979.4766909>, J. C. Dunn (1973) <doi:10.1080/01969727308546046>, F. Haouas, Z. Ben Dhiaf, A. Hammouda, B. Solaiman (2017) <doi:10.1109/FUZZ-IEEE.2017.8015651>, M. Kim, R. S. Ramakrishna (2005) <doi:10.1016/j.patrec.2005.04.007>, S. H. Kwon (1998) <doi:10.1049/EL:19981523>, S. H. Kwon, J. Kim, S. H. Son (2021) <doi:10.1049/ell2.12249>, G. W. Miligan (1980) <doi:10.1007/BF02293907>, M. K. Pakhira, S. Bandyopadhyay, U. Maulik (2004) <doi:10.1016/j.patcog.2003.06.005>, M. Popescu, J. C. Bezdek, T. C. Havens, J. M. Keller (2013) <doi:10.1109/TSMCB.2012.2205679>, S. Saitta, B. Raphael, I. Smith (2007) <doi:10.1007/978-3-540-73499-4_14>, A. Starczewski (2017) <doi:10.1007/s10044-015-0525-8>, Y. Tang, F. Sun, Z. Sun (2005) <doi:10.1109/ACC.2005.1470111>, N. Wiroonsri (2024) <doi:10.1016/j.patcog.2023.109910>, N. Wiroonsri, O. Preedasawakul (2023) <doi:10.48550/arXiv.2308.14785>, C. H. Wu, C. S. Ouyang, L. W. Chen, L. W. Lu (2015) <doi:10.1109/TFUZZ.2014.2322495>, X. Xie, G. Beni (1991) <doi:10.1109/34.85677> and P.J. Rousseeuw (1987) and L. Kaufman and P.J. Rousseeuw(2009) <doi:10.1016/0377-0427(87)90125-7> and <doi:10.1002/9780470316801> C. Alok. (2010).",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2026-04-27",
+    "authors": [
+      {
+        "name": "Nathakhun Wiroonsri",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "orcid": "0000-0003-2167-9641",
+        "email": "nathakhun.wir@kmutt.ac.th"
+      },
+      {
+        "name": "Onthada Preedasawakul",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-4186-3158",
+        "directory_id": "onthada-preedasawakul"
+      }
+    ]
+  },
+  {
     "name": "USAboundaries",
     "title": "Historical and Contemporary Boundaries of the United States of\nAmerica",
     "description": "The boundaries for geographical units in the United States of America contained in this package include state, county, congressional district, and zip code tabulation area. Contemporary boundaries are provided by the U.S. Census Bureau (public domain). Historical boundaries for the years from 1629 to 2000 are provided form the Newberry Library's Atlas of Historical County Boundaries (licensed CC BY-NC-SA). Additional data is provided in the USAboundariesData package; this package provides an interface to access that data.",
@@ -6306,6 +11230,26 @@
         ],
         "directory_id": "jacci-ziebert",
         "email": "jacciziebert@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "USCensus2020",
+    "title": "Provides access to the 2020 census data in R",
+    "description": "This packages provides the access to the 2020 redistricting data and the helper functions which are used to better access and format the data",
+    "repo_url": "https://github.com/shreshtha48/USCensus2020",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "shreshtha modi",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "shreshtha-modi",
+        "email": "modishreshtha48@gmail.com"
       }
     ]
   },
@@ -6396,6 +11340,104 @@
     ]
   },
   {
+    "name": "vagalumeR",
+    "title": "Access to the 'Vagalume' API",
+    "description": "Provides access to the 'Vagalume' API <https://api.vagalume.com.br>. The data extracted is basically lyrics of songs and information about artists/bands.",
+    "repo_url": "https://github.com/r-music/vagalumeR",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/r-music/vagalumeR/issues",
+    "logo_url": "https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif",
+    "last_updated": "2019-02-03",
+    "authors": [
+      {
+        "name": "Bruna Wundervald",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "bruna-wundervald",
+        "email": "brunadaviesw@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "vcdExtra",
+    "title": "'vcd' Extensions and Additions",
+    "description": "Provides additional data sets, methods and documentation to complement the 'vcd' package for Visualizing Categorical Data and the 'gnm' package for Generalized Nonlinear Models. In particular, 'vcdExtra' extends mosaic, assoc and sieve plots from 'vcd' to handle 'glm()' and 'gnm()' models and adds a 3D version in 'mosaic3d'. Additionally, methods are provided for comparing and visualizing lists of 'glm' and 'loglm' objects. This package is now a support package for the book, \"Discrete Data Analysis with R\" by Michael Friendly and David Meyer.",
+    "repo_url": "https://github.com/friendly/vcdExtra",
+    "pkdown_url": "https://friendly.github.io/vcdExtra/",
+    "bug_reports_url": "https://github.com/friendly/vcdExtra/issues",
+    "logo_url": "https://friendly.github.io/vcdExtra/logo.png",
+    "last_updated": "2026-03-18",
+    "authors": [
+      {
+        "name": "Michael Friendly",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-3237-0941",
+        "email": "friendly@yorku.ca"
+      },
+      {
+        "name": "David Meyer",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Achim Zeileis",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0003-0918-3766"
+      },
+      {
+        "name": "Duncan Murdoch",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Heather Turner",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-1256-3375",
+        "directory_id": "heather-turner"
+      },
+      {
+        "name": "David Firth",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Daniel Sabanes Bove",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Matt Kumar",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Shuguang Sun",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Gavin Klorfine",
+        "roles": [
+          "ctb"
+        ]
+      }
+    ]
+  },
+  {
     "name": "vcr",
     "title": "Record 'HTTP' Calls to Disk",
     "description": "Record test suite 'HTTP' requests and replays them during future runs. A port of the Ruby gem of the same name (<https://github.com/vcr/vcr/>). Works by recording real 'HTTP' requests/responses on disk in 'cassettes', and then replaying matching responses on subsequent requests.",
@@ -6472,6 +11514,34 @@
     ]
   },
   {
+    "name": "verdadecu",
+    "title": "Data from the Ecuador Truth Commission",
+    "description": "Provides access to data collected by the Ecuadorian Truth Commission. Allows users to extract and analyze systematized information for human rights research in Ecuador. The package contains datasets documenting human rights violations from 1984-2008, including victim information, violation types, perpetrators, and geographic distribution.",
+    "repo_url": "https://github.com/Demografiando/verdadecu",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/Demografiando/verdadecu/issues",
+    "logo_url": {},
+    "last_updated": "2025-09-18",
+    "authors": [
+      {
+        "name": "Adriana Robles",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-7202-6523",
+        "directory_id": "adriana-robles"
+      },
+      {
+        "name": "Javier Borja",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "javier@demografiando.pro"
+      }
+    ]
+  },
+  {
     "name": "vetiver",
     "title": "Version, Share, Deploy, and Monitor Models",
     "description": "The goal of 'vetiver' is to provide fluent tooling to version, share, deploy, and monitor a trained model. Functions handle both recording and checking the model's input data prototype, and predicting from a remote API endpoint. The 'vetiver' package is extensible, with generics that can support many kinds of models.",
@@ -6499,6 +11569,76 @@
         "roles": [
           "cph",
           "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vivo",
+    "title": "Variable Importance via Oscillations",
+    "description": "Provides an easy to calculate local variable importance measure based on Ceteris Paribus profile and global variable importance measure based on Partial Dependence Profiles.",
+    "repo_url": "https://github.com/ModelOriented/vivo",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/ModelOriented/vivo/issues",
+    "logo_url": "https://raw.githubusercontent.com/ModelOriented/vivo/HEAD/man/figures/logo.png",
+    "last_updated": "2020-09-07",
+    "authors": [
+      {
+        "name": "Anna Kozak",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "anna-kozak",
+        "email": "anna1993kozak@gmail.com"
+      },
+      {
+        "name": "Przemyslaw Biecek",
+        "roles": [
+          "aut",
+          "ths"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Vizumap",
+    "title": "Visualizing uncertainty in spatial data",
+    "description": "Vizumap provides four uncertainty visualization approaches for spatial data. These approaches include the bivariate choropleth map, map pixelation, glyph rotation, and the exceedance probability map. In Vizumap, there are three different types of functions - formatting, building, and viewing functions - that make it easy to create these uncertainty maps for a range of applied spatial problems.",
+    "repo_url": "https://github.com/lydialucchesi/Vizumap",
+    "pkdown_url": "https://lydialucchesi.github.io/Vizumap/",
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/lydialucchesi/Vizumap/HEAD/man/figures/header.png",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Lydia Lucchesi",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1901-4301",
+        "email": "Lydia.Lucchesi@anu.edu.au"
+      },
+      {
+        "name": "Petra Kuhnert",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0001-9070-0091",
+        "directory_id": "petra-kuhnert"
+      },
+      {
+        "name": "Christopher Wikle",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-0655-2696"
+      },
+      {
+        "name": "Benedict",
+        "roles": [
+          "ctb"
         ]
       }
     ]
@@ -6570,6 +11710,26 @@
           "cph",
           "fnd"
         ]
+      }
+    ]
+  },
+  {
+    "name": "vultureUtils",
+    "title": "A Package for Network Analysis of TAU/UCLA Griffon Vulture Data",
+    "description": "This package is designed to work with the TAU/UCLA joint NSF/BSF-supported dataset of GPS-tracked griffon vultures (_Gyps fulvus_). It automates data cleaning and the creation of social networks.",
+    "repo_url": "https://github.com/kaijagahm/vultureUtils",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": "https://docs.google.com/drawings/d/e/2PACX-1vR5G-CkBKaXHMP6ca0KCQcBu0rRDqc5coOn4f6PIuv-Ji-LLGx0GYDh1104hfEqghkBAlqoMVH3ICpQ/pub?w=2311&amp;h=1433",
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Kaija Gahm",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "kaija-gahm",
+        "email": "kgahm@ucla.edu"
       }
     ]
   },
@@ -6839,6 +11999,26 @@
           "aut"
         ],
         "orcid": "0000-0003-2554-9414"
+      }
+    ]
+  },
+  {
+    "name": "woody",
+    "title": "Use wood occurrence data and discharge data for wood flux prediction",
+    "description": "The woody package prepares wood occurrence data and related discharge data in order to carry out a random forest regression that predicts wood flux according to discharge history descriptors.",
+    "repo_url": "https://github.com/lvaudor/woody",
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": {},
+    "authors": [
+      {
+        "name": "Lise Vaudor",
+        "roles": [
+          "cre"
+        ],
+        "directory_id": "lise-vaudor",
+        "email": "lise.vaudor@ens-lyon.fr"
       }
     ]
   },
