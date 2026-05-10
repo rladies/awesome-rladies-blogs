@@ -160,7 +160,7 @@ jobs:
           git commit -m "$msg"
           git push --force-with-lease origin "$BRANCH"
 
-      - name: Open or update draft PR
+      - name: Open or update PR
         if: steps.stage.outputs.changed == 'true'
         uses: actions/github-script@v7
         env:
@@ -244,8 +244,7 @@ jobs:
                 title,
                 head: branch,
                 base: context.payload.repository.default_branch,
-                body,
-                draft: true
+                body
               });
               pr = created.data;
               prCreated = true;
@@ -273,7 +272,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `Hi @${author}, I drafted ${summary}${failNote} on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — fields like additional authors' \`directory_id\` may need a manual touch-up. I'm closing this issue; let's continue on the PR.`
+              body: `Hi @${author}, I added ${summary}${failNote} on branch \`${branch}\` and opened ${pr.html_url} for review. Take a look and request adjustments on the PR — fields like additional authors' \`directory_id\` may need a manual touch-up. I'm closing this issue; let's continue on the PR.`
             });
 
             if (prCreated) {

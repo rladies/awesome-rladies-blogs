@@ -11,7 +11,7 @@ body:
 
         Once you open this issue, a bot will look each package up on r-universe
         and CRAN, generate a JSON file under `data/packages/`, push them to a
-        new branch, and open a single draft pull request linked to this issue.
+        new branch, and open a single pull request linked to this issue.
         You'll be tagged on the PR so you can review the files (e.g. adding
         `directory_id` for additional authors) before they're merged.
   - type: textarea
