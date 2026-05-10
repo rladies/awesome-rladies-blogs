@@ -508,6 +508,7 @@ parse_authors <- function(text) {
     orcid <- if (length(orcid_m) > 0) orcid_m else NA_character_
     boundary <- regexpr("[\\[\\(]", p, perl = TRUE)
     name <- if (boundary > 0) trimws(substr(p, 1, boundary - 1)) else trimws(p)
+    name <- trimws(sub("\\s*<[^>]*>\\s*$", "", name))
     list(name = name, roles = as.list(roles), orcid = orcid)
   })
 }
