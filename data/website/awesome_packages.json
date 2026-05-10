@@ -10392,6 +10392,40 @@
     ]
   },
   {
+    "name": "tableHTML",
+    "title": "A Tool to Create HTML Tables",
+    "description": "A tool to create and style HTML tables with CSS. These can be exported and used in any application that accepts HTML (e.g. 'shiny', 'rmarkdown', 'PowerPoint'). It also provides functions to create CSS files (which also work with shiny).",
+    "repo_url": "https://github.com/LyzandeR/tableHTML",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/LyzandeR/tableHTML/issues",
+    "logo_url": "https://github.com/LyzandeR/tableHTML/blob/master/readme_files/tableHTML_logo.png",
+    "last_updated": "2025-12-01",
+    "authors": [
+      {
+        "name": "Theo Boutaris",
+        "roles": [
+          "aut",
+          "cre",
+          "cph"
+        ],
+        "email": "teoboot2007@hotmail.com"
+      },
+      {
+        "name": "Clemens Zauchner",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dana Jomar",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "dana-jomar"
+      }
+    ]
+  },
+  {
     "name": "tailloss",
     "title": "Estimate the Probability in the Upper Tail of the Aggregate Loss\nDistribution",
     "description": "Set of tools to estimate the probability in the upper tail of the aggregate loss distribution using different methods: Panjer recursion, Monte Carlo simulations, Markov bound, Cantelli bound, Moment bound, and Chernoff bound.",

@@ -653,6 +653,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [superheat]() by Rebecca Barter, Bin Yu
 - [SuperLearner](https://github.com/ecpolley/SuperLearner) by Eric
   Polley, Erin LeDell, Chris Kennedy, Sam Lendle, Mark van der Laan
+- [tableHTML](https://github.com/LyzandeR/tableHTML) by Theo Boutaris,
+  Clemens Zauchner, Dana Jomar
 - [tailloss](http://github.com/igollini/tailloss) by Isabella Gollini,
   Jonathan Rougier
 - [tanggle](https://github.com/KlausVigo/tanggle) by Klaus Schliep,
