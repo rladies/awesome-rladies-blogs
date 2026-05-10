@@ -34,7 +34,7 @@ jobs:
           script: |
             const body = process.env.ISSUE_BODY || '';
             const fields = {};
-            const re = /^###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |\n*$)/gm;
+            const re = /(?:^|\n)###\s+(.+?)\s*\n+([\s\S]*?)(?=\n### |$)/g;
             for (const m of body.matchAll(re)) {
               const key = m[1].trim().toLowerCase();
               let value = (m[2] || '').trim();
