@@ -49,6 +49,8 @@ aggregated file is written to `data/website/awesome_content.json`.
   Silva
 - [Federica Gazzelloni](https://fgazzelloni.quarto.pub) by Federica
   Gazzelloni
+- [Site \| FLORENCIA GRATTAROLA](https://flograttarola.com/) by
+  Florencia Grattarola
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
   D’Andrea
 - [Hypebright](https://hypebright.nl/index.php/en/home-en/blog/) by
