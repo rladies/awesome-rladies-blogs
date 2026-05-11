@@ -2389,6 +2389,83 @@
     ]
   },
   {
+    "name": "datasauRus",
+    "title": "Datasets from the Datasaurus Dozen",
+    "description": "The Datasaurus Dozen is a set of datasets with the same summary statistics. They retain the same summary statistics despite having radically different distributions. The datasets represent a larger and quirkier object lesson that is typically taught via Anscombe's Quartet (available in the 'datasets' package). Anscombe's Quartet contains four very different distributions with the same summary statistics and as such highlights the value of visualisation in understanding data, over and above summary statistics. As well as being an engaging variant on the Quartet, the data is generated in a novel way. The simulated annealing process used to derive datasets from the original Datasaurus is detailed in \"Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics through Simulated Annealing\" <doi:10.1145/3025453.3025912>.",
+    "repo_url": "https://github.com/jumpingrivers/datasauRus",
+    "pkdown_url": "https://jumpingrivers.github.io/datasauRus/",
+    "bug_reports_url": "https://github.com/jumpingrivers/datasauRus/issues",
+    "logo_url": "https://jumpingrivers.github.io/datasauRus/logo.png",
+    "last_updated": "2025-01-23",
+    "authors": [
+      {
+        "name": "Colin Gillespie",
+        "roles": [
+          "cre",
+          "aut"
+        ],
+        "email": "colin@jumpingrivers.com"
+      },
+      {
+        "name": "Steph Locke",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "steph-locke"
+      },
+      {
+        "name": "Alberto Cairo",
+        "roles": [
+          "dtc"
+        ]
+      },
+      {
+        "name": "Rhian Davies",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "rhian-davies"
+      },
+      {
+        "name": "Justin Matejka",
+        "roles": [
+          "dtc"
+        ]
+      },
+      {
+        "name": "George Fitzmaurice",
+        "roles": [
+          "dtc"
+        ]
+      },
+      {
+        "name": "Lucy D'Agostino McGowan",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "lucy-dagostino-mcgowan"
+      },
+      {
+        "name": "Richard Cotton",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Tim Book",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Jumping Rivers",
+        "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "dataspice",
     "title": "Create Lightweight Schema.org Descriptions of Data",
     "description": "The goal of 'dataspice' is to make it easier for researchers to create basic, lightweight, and concise metadata files for their datasets. These basic files can then be used to make useful information available during analysis, create a helpful dataset \"README\" webpage, and produce more complex metadata formats to aid dataset discovery. Metadata fields are based on the 'Schema.org' and 'Ecological Metadata Language' standards.",
@@ -5695,6 +5772,27 @@
         "orcid": "0000-0000-0000-0000",
         "directory_id": "yanina-bellini-saibene",
         "email": "yabellini@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "levelup",
+    "title": "Create and report on CPD activities",
+    "description": "Tools for creating, analysing and reporting on CPD activities.",
+    "repo_url": "https://github.com/trianglegirl/levelup",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/trianglegirl/levelup/issues",
+    "logo_url": {},
+    "last_updated": "2024-08-20",
+    "authors": [
+      {
+        "name": "Rhian Davies",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "rhian-davies",
+        "email": "statsrhian@gmail.com"
       }
     ]
   },

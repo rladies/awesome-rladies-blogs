@@ -28,6 +28,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Beatriz Milz’s blog](https://beatrizmilz.com/) by Beatriz Milz
 - [Notes from a data witch](https://blog.djnavarro.net/) by Danielle
   Navarro
+- [Emma R](https://buzzrbeeline.blog/) by Emma Rand
 - [Building Stories with Data](https://cararthompson.com/blog) by Cara
   Thompson
 - [Crystal Lewis](https://www.cghlewis.com) by Crystal Lewis
@@ -43,6 +44,9 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Elena Dudukina’s blog](https://elenadudukina.com) by Elena Dudukina
 - [Ella Kaye](https://ellakaye.co.uk) by Ella Kaye
 - [Emily Riederer](https://emilyriederer.com) by Emily Riederer
+- [Estatística \| Fernanda Kelly Romeiro
+  Silva](https://www.fernandakellyrs.com/) by Fernanda Kelly Romeiro
+  Silva
 - [Federica Gazzelloni](https://fgazzelloni.quarto.pub) by Federica
   Gazzelloni
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
@@ -234,6 +238,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Tanaka
 - [dataMaid](https://github.com/ekstroem/dataMaid) by Anne Helby
   Petersen, Claus Thorn Ekstrøm
+- [datasauRus](https://github.com/jumpingrivers/datasauRus) by Colin
+  Gillespie, Steph Locke, Alberto Cairo, Rhian Davies, Justin Matejka,
+  George Fitzmaurice, Lucy D’Agostino McGowan, Richard Cotton, Tim Book,
+  Jumping Rivers
 - [dataspice](https://github.com/ropensci/dataspice) by Carl Boettiger,
   Scott Chamberlain, Auriel Fournier, Kelly Hondula, Anna Krystalli,
   Bryce Mecum, Maëlle Salmon, Kate Webbink, Kara Woo, Irene Steves
@@ -405,6 +413,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
 - [Kmisc](https://github.com/sysilviakim/Kmisc) by Seo-young Silvia Kim
 - [learnres](https://github.com/yabellini/learnres) by Yanina Bellini
   Saibene
+- [levelup](https://github.com/trianglegirl/levelup) by Rhian Davies
 - [LITAP](https://github.com/FRDC-SHL/LITAP) by Steffi LaZerte, Sheng
   Li, Agriculture and Agri-Food Canada
 - [lmmpar](https://github.com/fulyagokalp/lmmpar) by Fulya Gokalp Yavuz,

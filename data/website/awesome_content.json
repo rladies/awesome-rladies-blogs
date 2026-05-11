@@ -114,6 +114,28 @@
     ]
   },
   {
+    "title": "Emma R",
+    "type": "blog",
+    "url": "https://buzzrbeeline.blog/",
+    "rss_feed": "https://buzzrbeeline.blog/feed/",
+    "photo_url": "https://buzzrbeeline.blog/wp-content/uploads/2018/08/cropped-logo2.png?w=142",
+    "description": "Gathering little bits of R without over-thinking",
+    "language": "en",
+    "authors": [
+      {
+        "name": "Emma Rand",
+        "social_media": [
+          {
+            "twitter": "er13_r",
+            "bluesky": "3mmarand.bsky.social",
+            "github": "3mmaRand",
+            "website": "https://buzzrbeeline.blog/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "title": "Building Stories with Data",
     "subtitle": "Pars pas les mains vides",
     "type": "blog",
@@ -381,6 +403,26 @@
             "linkedin": "linkedin.com/in/emilyriederer",
             "facebook": "emilyriederer",
             "orcid": "0000-0002-1788-7934"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Estatística | Fernanda Kelly Romeiro Silva",
+    "type": "blog",
+    "url": "https://www.fernandakellyrs.com/",
+    "rss_feed": "https://www.fernandakellyrs.com/blog-feed.xml",
+    "photo_url": "https://static.parastorage.com/client/pfavico.ico",
+    "description": "Quem é Fernanda Kelly? Uma mulher preta com formação em estatística e entusiasta do universo de Machine e Deep Learning.",
+    "language": "pt",
+    "authors": [
+      {
+        "name": "Fernanda Kelly Romeiro Silva",
+        "social_media": [
+          {
+            "linkedin": "fernandakellyrs",
+            "website": "https://www.fernandakellyrs.com/"
           }
         ]
       }
