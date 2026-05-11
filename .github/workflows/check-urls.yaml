@@ -18,6 +18,14 @@ jobs:
   sweep:
     runs-on: ubuntu-latest
     steps:
+      - name: Generate app token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.JINX_APP_ID }}
+          private-key: ${{ secrets.JINX_PRIVATE_KEY }}
+          owner: rladies
+
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
@@ -47,6 +55,7 @@ jobs:
           ISSUE_TITLE: "Broken URLs sweep"
           DOWN_STREAK_THRESHOLD: "2"
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const fs = require('fs');
             const reportPath = process.env.REPORT_PATH;
@@ -178,6 +187,7 @@ jobs:
         env:
           REPORT_PATH: url-check-report.tsv
         with:
+          github-token: ${{ steps.app-token.outputs.token }}
           script: |
             const fs = require('fs');
             const path = require('path');
@@ -216,15 +226,15 @@ jobs:
       - name: Open or update og:image fix PR
         if: steps.fixes.outputs.changed == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
           BRANCH: auto/og-image-fixes
           COUNT: ${{ steps.fixes.outputs.count }}
           SUMMARY: ${{ steps.fixes.outputs.summary }}
           ISSUE_NUMBER: ${{ steps.issue.outputs.issue_number }}
         run: |
           set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Jinx[bot]"
+          git config user.email "jinx@rladies.org"
           git checkout -B "$BRANCH"
           git add data/
           git commit -m "Replace ${COUNT} broken image URL(s) with og:image suggestions"
