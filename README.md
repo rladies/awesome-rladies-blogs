@@ -71,6 +71,7 @@ aggregated file is written to `data/website/awesome_content.json`.
   R-Ladies Gabarone
 - [R-Ladies Melbourne Blog](https://r-ladiesmelbourne.github.io/) by
   R-Ladies Melbourde
+- [Rizqy Amelia Zein](https://rameliaz.github.io/) by Rizqy Amelia Zein
 - [Riinu’s scripting diary](https://www.riinu.me/) by Riinu Pius
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
