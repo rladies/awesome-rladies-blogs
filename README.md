@@ -72,6 +72,7 @@ aggregated file is written to `data/website/awesome_content.json`.
   Quiroga
 - [Maëlle’s R blog](https://masalmon.eu/) by Maëlle Salmon
 - [Nicola Rennie](https://nrennie.rbind.io) by Nicola Rennie
+- [Pao Corrales](https://paocorrales.github.io/) by Pao Corrales
 - [Piping Hot Data](https://www.pipinghotdata.com) by Shannon Pileggi
 - [R-Ladies Gaborone](https://r-ladiesgaborone2021.quarto.pub) by
   R-Ladies Gabarone
