@@ -84,7 +84,7 @@ aggregated file is written to `data/website/awesome_content.json`.
 - [Riinu’s scripting diary](https://www.riinu.me/) by Riinu Pius
 - [R-Ladies São Paulo Blog](https://rladies-sp.org/) by R-Ladies São
   Paulo
-- [R-Ladies Global Blog](https://rladies.org/blog/) by R-Ladies Global
+- [RLadies+ Global Blog](https://rladies.org/blog/) by RLadies+
 - [Data Science
   Blog](https://sabrinaschalz.wordpress.com/data-science-blog/) by
   Sabrina Schalz
@@ -447,7 +447,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Mowinckel, Erin LeDell, Olga Mierzwa-Sulima, Lucy D’Agostino McGowan,
   Claudia Vitolo, Gabriela De Queiroz, Michael Beigelmacher, Augustina
   Ragwitz, Greg Sutcliffe, Rick Pack, Ben Ubah, Maëlle Salmon, Barret
-  Schloerke, R-Ladies Global
+  Schloerke, RLadies+
 - [memer](https://github.com/sctyner/memer) by Sam Tyner, Haley Jeppson
 - [messy](https://github.com/nrennie/messy) by Nicola Rennie
 - [metaRNASeq]() by Guillemette Marot, Andrea Rau, Florence Jaffrezic,

@@ -6399,7 +6399,7 @@
         "orcid": "0000-0001-9986-114X"
       },
       {
-        "name": "R-Ladies Global",
+        "name": "RLadies+",
         "roles": [
           "cph"
         ]
@@ -9532,9 +9532,11 @@
       {
         "name": "Di Cook",
         "roles": [
-          "aut"
+          "aut",
+          "cre"
         ],
-        "orcid": "0000-0002-3813-7155"
+        "orcid": "0000-0002-3813-7155",
+        "email": "dicook@monash.edu"
       },
       {
         "name": "Simon Urbanek",
