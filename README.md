@@ -207,6 +207,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Olatunji
 - [cherryblossom](https://github.com/OpenIntroStat/cherryblossom) by
   Mine Çetinkaya-Rundel
+- [clinPK](https://github.com/InsightRX/clinPK) by Ron Keizer, Jasmine
+  Hughes, Dominic Tong, Kara Woo, InsightRX
 - [codemeta](https://github.com/cboettig/codemeta) by Carl Boettiger,
   Maëlle Salmon, Katrin Leinweber, Noam Ross, Arfon Smith, Jeroen Ooms,
   Sebastian Meyer, Michael Rustler, Hauke Sonnenberg, Sebastian
@@ -217,6 +219,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Hauke Sonnenberg, Sebastian Kreutzer, Thierry Onkelinx
 - [colorhex](https://github.com/drmowinckels/colorhex) by Athanasia Mo
   Mowinckel, Julia Romanowska
+- [connectapi](https://github.com/posit-dev/connectapi) by Kara Woo,
+  Toph Allen, Neal Richardson, Sean Lopp, Cole Arendt, Posit, PBC
 - [coseq]() by Andrea Rau, Cathy Maugis-Rabusseau, Antoine
   Godichon-Baggioni
 - [covid19france]() by Amanda Dobbyn
@@ -315,6 +319,10 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Hofmann, Nicholas Tierney
 - [ggauto](https://github.com/nrennie/ggauto) by Nicola Rennie
 - [ggflowchart](https://github.com/nrennie/ggflowchart) by Nicola Rennie
+- [ggplot2](https://github.com/tidyverse/ggplot2) by Hadley Wickham,
+  Winston Chang, Lionel Henry, Thomas Lin Pedersen, Kohske Takahashi,
+  Claus Wilke, Kara Woo, Hiroaki Yutani, Dewey Dunnington, Teun van den
+  Brand, Posit, PBC
 - [ggPMX](https://github.com/ggPMXdevelopment/ggPMX) by Amine Gassem,
   Bruno Bieth, Irina Baltcheva, Thomas Dumortier, Christian Bartels,
   Souvik Bhattacharya, Inga Ludwig, Ines Paule, Didier Renard, Matthew
@@ -520,6 +528,9 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Tietze
 - [palmerpenguins](https://github.com/allisonhorst/palmerpenguins) by
   Allison Horst, Alison Hill, Kristen Gorman
+- [pangaear](https://github.com/ropensci/pangaear%20(devel)) by Scott
+  Chamberlain, Kara Woo, Andrew MacDonald, Naupaka Zimmerman, Gavin
+  Simpson
 - [parmsurvfit](https://github.com/apjacobson/parmsurvfit) by Ashley
   Jacobson, Victor Wilson, Shannon Pileggi
 - [partykit](http://partykit.r-forge.r-project.org/partykit/) by Torsten
@@ -537,6 +548,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Software, PBC
 - [pkgsearch](https://github.com/r-hub/pkgsearch) by Gábor Csárdi,
   Maëlle Salmon, R Consortium
+- [PKPDsim](https://github.com/InsightRX/PKPDsim) by Ron Keizer, Jasmine
+  Hughes, Dominic Tong, Kara Woo, Jordan Brooks, InsightRX
 - [PlackettLuce](https://github.com/hturner/PlackettLuce) by Heather
   Turner, Ioannis Kosmidis, David Firth, Jacob van Etten
 - [PPforest](https://github.com/natydasilva/PPforest) by Natalia da

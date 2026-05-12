@@ -1677,6 +1677,52 @@
     ]
   },
   {
+    "name": "clinPK",
+    "title": "Clinical Pharmacokinetics Toolkit",
+    "description": "Provides equations commonly used in clinical pharmacokinetics and clinical pharmacology, such as equations for dose individualization, compartmental pharmacokinetics, drug exposure, anthropomorphic calculations, clinical chemistry, and conversion of common clinical parameters. Where possible and relevant, it provides multiple published and peer-reviewed equations within the respective R function.",
+    "repo_url": "https://github.com/InsightRX/clinPK",
+    "pkdown_url": "https://insightrx.github.io/clinPK/",
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2024-02-23",
+    "authors": [
+      {
+        "name": "Ron Keizer",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "ron@insight-rx.com"
+      },
+      {
+        "name": "Jasmine Hughes",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dominic Tong",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "kara-woo"
+      },
+      {
+        "name": "InsightRX",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
     "name": "codemeta",
     "title": "A Smaller 'codemetar' Package",
     "description": "The 'Codemeta' Project defines a 'JSON-LD' format for describing software metadata, as detailed at <https://codemeta.github.io>. This package provides core utilities to generate this metadata with a minimum of dependencies.",
@@ -1909,6 +1955,61 @@
         ],
         "orcid": "0000-0001-6733-1953",
         "directory_id": "julia-romanowska"
+      }
+    ]
+  },
+  {
+    "name": "connectapi",
+    "title": "Utilities for Interacting with the 'Posit Connect' Server API",
+    "description": "Provides a helpful 'R6' class and methods for interacting with the 'Posit Connect' Server API along with some meaningful utility functions for regular tasks. API documentation varies by 'Posit Connect' installation and version, but the latest documentation is also hosted publicly at <https://docs.posit.co/connect/api/>.",
+    "repo_url": "https://github.com/posit-dev/connectapi",
+    "pkdown_url": "https://posit-dev.github.io/connectapi/",
+    "bug_reports_url": "https://github.com/posit-dev/connectapi/issues",
+    "logo_url": "https://posit-dev.github.io/connectapi/logo.svg",
+    "last_updated": "2026-04-29",
+    "authors": [
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "kara-woo",
+        "email": "kara.woo@posit.co"
+      },
+      {
+        "name": "Toph Allen",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Neal Richardson",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Sean Lopp",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Cole Arendt",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Posit"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },
@@ -3842,6 +3943,99 @@
         ],
         "directory_id": "nicola-rennie",
         "email": "nrennie35@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "ggplot2",
+    "title": "Create Elegant Data Visualisations Using the Grammar of Graphics",
+    "description": "A system for 'declaratively' creating graphics, based on \"The Grammar of Graphics\". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
+    "pkdown_url": "https://ggplot2.tidyverse.org",
+    "bug_reports_url": "https://github.com/tidyverse/ggplot2/issues",
+    "logo_url": "https://ggplot2.tidyverse.org/logo.png",
+    "last_updated": "2026-04-22",
+    "authors": [
+      {
+        "name": "Hadley Wickham",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0003-4757-117X"
+      },
+      {
+        "name": "Winston Chang",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-1576-2126"
+      },
+      {
+        "name": "Lionel Henry",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Thomas Lin Pedersen",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-5147-4711",
+        "email": "thomas.pedersen@posit.co"
+      },
+      {
+        "name": "Kohske Takahashi",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Claus Wilke",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-7470-9261"
+      },
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-5125-4188",
+        "directory_id": "kara-woo"
+      },
+      {
+        "name": "Hiroaki Yutani",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-3385-7233"
+      },
+      {
+        "name": "Dewey Dunnington",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-9415-4582"
+      },
+      {
+        "name": "Teun van den Brand",
+        "roles": [
+          "aut"
+        ],
+        "orcid": "0000-0002-9335-7468"
+      },
+      {
+        "name": "Posit"
+      },
+      {
+        "name": "PBC",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
       }
     ]
   },
@@ -7680,6 +7874,52 @@
     ]
   },
   {
+    "name": "pangaear",
+    "title": "Client for the 'Pangaea' Database",
+    "description": "Tools to interact with the 'Pangaea' Database (<https://www.pangaea.de>), including functions for searching for data, fetching 'datasets' by 'dataset' 'ID', and working with the 'Pangaea' 'OAI-PMH' service.",
+    "repo_url": "https://github.com/ropensci/pangaear (devel)",
+    "pkdown_url": "https://docs.ropensci.org/pangaear/ (documentation)",
+    "bug_reports_url": "https://github.com/ropensci/pangaear/issues",
+    "logo_url": {},
+    "last_updated": "2021-05-14",
+    "authors": [
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0003-1444-9135",
+        "email": "myrmecocystus@gmail.com"
+      },
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "kara-woo"
+      },
+      {
+        "name": "Andrew MacDonald",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Naupaka Zimmerman",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Gavin Simpson",
+        "roles": [
+          "aut"
+        ]
+      }
+    ]
+  },
+  {
     "name": "parmsurvfit",
     "title": "Parametric Models for Survival Data",
     "description": "Executes simple parametric models for right-censored survival data. Functionality emulates capabilities in 'Minitab', including fitting right-censored data, assessing fit, plotting survival functions, and summary statistics and probabilities.",
@@ -7982,6 +8222,58 @@
       {
         "name": "R Consortium",
         "roles": [
+          "fnd"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PKPDsim",
+    "title": "Tools for Performing Pharmacokinetic-Pharmacodynamic Simulations",
+    "description": "Simulate dose regimens for pharmacokinetic-pharmacodynamic (PK-PD) models described by differential equation (DE) systems. Simulation using ADVAN-style analytical equations is also supported (Abuhelwa et al. (2015) <doi:10.1016/j.vascn.2015.03.004>).",
+    "repo_url": "https://github.com/InsightRX/PKPDsim",
+    "pkdown_url": "https://insightrx.github.io/PKPDsim/",
+    "bug_reports_url": {},
+    "logo_url": "https://raw.githubusercontent.com/InsightRX/PKPDsim/HEAD/man/figures/hexsticker.png",
+    "last_updated": "2025-04-17",
+    "authors": [
+      {
+        "name": "Ron Keizer",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "ron@insight-rx.com"
+      },
+      {
+        "name": "Jasmine Hughes",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Dominic Tong",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Kara Woo",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "kara-woo"
+      },
+      {
+        "name": "Jordan Brooks",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "InsightRX",
+        "roles": [
+          "cph",
           "fnd"
         ]
       }
