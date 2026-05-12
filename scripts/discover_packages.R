@@ -10,7 +10,7 @@ cat("Loading author list from", content_dir, "\n")
 authors <- read_authors(content_dir)
 cat("  found", length(authors), "author entries\n")
 
-cat("Building R-Ladies directory lookup from", directory_dir, "\n")
+cat("Building RLadies+ directory lookup from", directory_dir, "\n")
 dir_lookup <- build_directory_lookup(directory_dir)
 cat(
   "  ",
@@ -148,7 +148,7 @@ if (!is.null(mp) && !is.null(mp$Package)) {
   cand_mp <- normalise_pkg(
     mp,
     "r-universe",
-    "R-Ladies Global",
+    "RLadies+",
     "rladies",
     "cph"
   )
