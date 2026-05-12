@@ -6,13 +6,14 @@
   "pkdown_url": null,
   "bug_reports_url": "https://github.com/rjournal/rjtools/issues",
   "logo_url": null,
-  "last_updated": "2025-09-23",
+  "last_updated": "2026-02-02",
   "authors": [
     {
       "name": "Mitchell O'Hara-Wild",
       "roles": [
         "aut"
-      ]
+      ],
+      "orcid": "0000-0001-6729-7695"
     },
     {
       "name": "Stephanie Kobakian",
@@ -25,6 +26,7 @@
       "roles": [
         "aut"
       ],
+      "orcid": "0000-0002-7122-1463",
       "directory_id": "h-sherry-zhang"
     },
     {
@@ -40,7 +42,8 @@
       "name": "Simon Urbanek",
       "roles": [
         "aut"
-      ]
+      ],
+      "orcid": "0000-0003-2297-1732"
     },
     {
       "name": "Christophe Dervieux",
@@ -48,6 +51,14 @@
         "aut"
       ],
       "orcid": "0000-0003-4474-2498"
+    },
+    {
+      "name": "R Journal Technical Editor",
+      "roles": [
+        "aut",
+        "cre"
+      ],
+      "email": "r-journal-technical@r-project.org"
     }
   ]
 }

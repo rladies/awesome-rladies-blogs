@@ -264,6 +264,13 @@ fetch_universe_package <- function(owner, pkg) {
   )
 }
 
+# Bioconductor packages are mirrored at bioc.r-universe.dev with the same
+# fields as any other r-universe sub-universe, so we reuse the universe shape.
+# Returns a list of package metadata entries, one per Bioconductor package.
+fetch_bioc_db <- function() {
+  fetch_universe("bioc")
+}
+
 head_ok <- function(url) {
   h <- curl::new_handle()
   curl::handle_setopt(
@@ -501,6 +508,7 @@ parse_authors <- function(text) {
     orcid <- if (length(orcid_m) > 0) orcid_m else NA_character_
     boundary <- regexpr("[\\[\\(]", p, perl = TRUE)
     name <- if (boundary > 0) trimws(substr(p, 1, boundary - 1)) else trimws(p)
+    name <- trimws(sub("\\s*<[^>]*>\\s*$", "", name))
     list(name = name, roles = as.list(roles), orcid = orcid)
   })
 }
@@ -571,17 +579,28 @@ to_package_shape <- function(cand, dir_lookup) {
 
   parsed <- cand$authors
   # Some old DESCRIPTION fields are role-less; if we know who the maintainer is
-  # from the Maintainer field but they're missing from Author, inject them.
+  # from the Maintainer field but they're missing from Author, attach "cre" to
+  # the matching entry. If the maintainer isn't in Author at all, append them.
   has_cre <- any(vapply(
     parsed,
     function(a) "cre" %in% unlist(a$roles),
     logical(1)
   ))
   if (!has_cre && !is.na(m$name)) {
-    parsed <- c(
+    match_idx <- which(vapply(
       parsed,
-      list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
-    )
+      function(a) names_match(a$name, m$name),
+      logical(1)
+    ))
+    if (length(match_idx) > 0) {
+      idx <- match_idx[1]
+      parsed[[idx]]$roles <- as.list(unique(c(unlist(parsed[[idx]]$roles), "cre")))
+    } else {
+      parsed <- c(
+        parsed,
+        list(list(name = m$name, roles = list("cre"), orcid = NA_character_))
+      )
+    }
   }
 
   authors <- lapply(parsed, function(a) {
@@ -636,6 +655,19 @@ write_pkg <- function(entry, dir) {
   path <- file.path(dir, paste0(entry$name, ".json"))
   existing <- if (file.exists(path)) jsonlite::read_json(path) else list()
   merged <- merge_pkg(existing, entry)
+  # Normalise scalar fields to NA_character_ when missing/NULL so write_json
+  # serialises them as `null` (per `na = "null"` below) rather than `{}`,
+  # which would otherwise happen on a read+rewrite cycle and fail schema
+  # validation (string|null fields can't be empty objects).
+  scalar_fields <- c(
+    "name", "title", "description", "repo_url",
+    "pkdown_url", "bug_reports_url", "logo_url", "last_updated"
+  )
+  for (f in scalar_fields) {
+    if (is.null(merged[[f]]) || length(merged[[f]]) == 0) {
+      merged[[f]] <- NA_character_
+    }
+  }
   if (!dir.exists(dir)) {
     dir.create(dir, recursive = TRUE)
   }
