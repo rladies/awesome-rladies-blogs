@@ -53,6 +53,8 @@ aggregated file is written to `data/website/awesome_content.json`.
   Florencia Grattarola
 - [Florencia D’Andrea](https://florenciadandrea.com) by Florencia
   D’Andrea
+- [helena \* jambor](https://helenajambor.wordpress.com/) by Helena
+  Jambor
 - [Hypebright](https://hypebright.nl/index.php/en/home-en/blog/) by
   Veerle van Leemput
 - [Isabel Zimmerman](https://isabelizimm.github.io/) by Isabel Zimmerman
@@ -217,8 +219,15 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Mowinckel, Julia Romanowska
 - [coseq]() by Andrea Rau, Cathy Maugis-Rabusseau, Antoine
   Godichon-Baggioni
+- [covid19france]() by Amanda Dobbyn
 - [covid19tunisia](https://github.com/MounaBelaid/covid19tunisia) by
   Mouna Belaid
+- [covid19us]() by Amanda Dobbyn
+- [cowsay](https://github.com/sckott/cowsay) by Scott Chamberlain,
+  Amanda Dobbyn, Tyler Rinker, Thomas Leeper, Noam Ross, Rich FitzJohn,
+  Carson Sievert, Kiyoko Gotanda, Andy Teucher, Karl Broman,
+  Franz-Sebastian Krah, Lucy D’Agostino McGowan, Guangchuang Yu, Philipp
+  Boersch-Supan, Andreas Brandmaier, Marion Louveaux, David Schoch
 - [cransays](https://github.com/r-hub/cransays) by Hugo Gruson, Maëlle
   Salmon, Locke Data, Stephanie Locke, Mitchell O’Hara-Wild, Lluís
   Revilla Sancho, Jim Hester, Hadley Wickham
@@ -736,6 +745,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Przemyslaw Biecek
 - [Vizumap](https://github.com/lydialucchesi/Vizumap) by Lydia Lucchesi,
   Petra Kuhnert, Christopher Wikle, Benedict
+- [votesmart](https://github.com/decktools/votesmart/) by Deck
+  Technologies, Amanda Dobbyn, Max Wood, Alyssa Frazee
 - [vroom](https://github.com/tidyverse/vroom) by Jim Hester, Hadley
   Wickham, Jennifer Bryan, Shelby Bearrows,
   <https://github.com/mandreyel/>, Jukka Jylänki, Mikkel Jørgensen,

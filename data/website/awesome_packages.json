@@ -1947,6 +1947,27 @@
     ]
   },
   {
+    "name": "covid19france",
+    "title": "Cases of COVID-19 in France",
+    "description": "Imports and cleans 'opencovid19-fr' <https://github.com/opencovid19-fr/data> data on COVID-19 in France.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2020-04-14",
+    "authors": [
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "amanda-dobbyn",
+        "email": "amanda.e.dobbyn@gmail.com"
+      }
+    ]
+  },
+  {
     "name": "covid19tunisia",
     "title": "Cases of COVID-19 in Tunisia",
     "description": "Data personnally collected about the spread of COVID-19 (SARS-COV-2) in Tunisia.",
@@ -1964,6 +1985,145 @@
         ],
         "directory_id": "mouna-belaid",
         "email": "belaid.mounaa@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "covid19us",
+    "title": "Cases of COVID-19 in the United States",
+    "description": "A wrapper around the 'COVID Tracking Project API' <https://covidtracking.com/api/> providing data on cases of COVID-19 in the US.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2022-08-05",
+    "authors": [
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "amanda-dobbyn",
+        "email": "amanda.e.dobbyn@gmail.com"
+      }
+    ]
+  },
+  {
+    "name": "cowsay",
+    "title": "Messages, Warnings, Strings with Ascii Animals",
+    "description": "Allows printing of character strings as messages/warnings/etc. with ASCII animals, including cats, cows, frogs, chickens, ghosts, and more.",
+    "repo_url": "https://github.com/sckott/cowsay",
+    "pkdown_url": "https://sckott.github.io/cowsay/",
+    "bug_reports_url": "https://github.com/sckott/cowsay/issues",
+    "logo_url": {},
+    "last_updated": "2025-10-29",
+    "authors": [
+      {
+        "name": "Scott Chamberlain",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "email": "myrmecocystus@gmail.com"
+      },
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "aut"
+        ],
+        "directory_id": "amanda-dobbyn"
+      },
+      {
+        "name": "Tyler Rinker",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Thomas Leeper",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Noam Ross",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Rich FitzJohn",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Carson Sievert",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Kiyoko Gotanda",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andy Teucher",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Karl Broman",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Franz-Sebastian Krah",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Lucy D'Agostino McGowan",
+        "roles": [
+          "ctb"
+        ],
+        "directory_id": "lucy-dagostino-mcgowan"
+      },
+      {
+        "name": "Guangchuang Yu",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Philipp Boersch-Supan",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Andreas Brandmaier",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "Marion Louveaux",
+        "roles": [
+          "ctb"
+        ]
+      },
+      {
+        "name": "David Schoch",
+        "roles": [
+          "ctb"
+        ]
       }
     ]
   },
@@ -11794,6 +11954,46 @@
         "name": "Benedict",
         "roles": [
           "ctb"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "votesmart",
+    "title": "Wrapper for the Project 'VoteSmart' API",
+    "description": "An R interface to the Project 'VoteSmart'<https://justfacts.votesmart.org/> API.",
+    "repo_url": "https://github.com/decktools/votesmart/",
+    "pkdown_url": {},
+    "bug_reports_url": "https://github.com/decktools/votesmart/issues/",
+    "logo_url": "https://raw.githubusercontent.com/decktools/votesmart/HEAD/man/img/deck_logo.png",
+    "last_updated": "2023-05-01",
+    "authors": [
+      {
+        "name": "Deck Technologies",
+        "roles": [
+          "cph",
+          "fnd"
+        ]
+      },
+      {
+        "name": "Amanda Dobbyn",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "amanda-dobbyn",
+        "email": "amanda@deck.tools"
+      },
+      {
+        "name": "Max Wood",
+        "roles": [
+          "aut"
+        ]
+      },
+      {
+        "name": "Alyssa Frazee",
+        "roles": [
+          "aut"
         ]
       }
     ]
