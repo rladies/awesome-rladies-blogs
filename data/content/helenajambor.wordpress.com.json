@@ -11,7 +11,9 @@
       "name": "Helena Jambor",
       "social_media": [
         {
-          "twitter": "helenajambor",
+          "mastodon": "@helenajambor@mastodon.social",
+          "linkedin": "helenaklarajambor",
+          "github": "helenajambor"
           "bluesky": "helenajambor.bsky.social",
           "website": "https://helenajamborwrites.netlify.app"
         }
