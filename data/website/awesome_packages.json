@@ -1192,6 +1192,35 @@
     ]
   },
   {
+    "name": "BlueCarbon",
+    "title": "Collection of Functions for Blue Carbon Scientists",
+    "description": "The BlueCarbon package is a collection of functions with the main focus to help \"blue carbon\" scientists.",
+    "repo_url": {},
+    "pkdown_url": {},
+    "bug_reports_url": {},
+    "logo_url": {},
+    "last_updated": "2023-05-03",
+    "authors": [
+      {
+        "name": "Valentina Costa",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "orcid": "0000-0002-1513-0284",
+        "directory_id": "valentina-costa",
+        "email": "vale.costa@gmail.com"
+      },
+      {
+        "name": "Márcio Martins",
+        "roles": [
+          "ctb"
+        ],
+        "orcid": "0000-0002-6969-2215"
+      }
+    ]
+  },
+  {
     "name": "bootLong",
     "title": "The Block Bootstrap Method for Longitudinal Count Data",
     "description": "This implements the block bootstrap method, subsampling method for choosing optimal block length, and exploratory tools such as correlogram, lag-plot, variogram for longitudinal count data.",

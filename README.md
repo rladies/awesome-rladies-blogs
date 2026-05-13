@@ -179,6 +179,7 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Vazquez, Kevin Ushey, Leonardo Collado-Torres, Maëlle Salmon, Maria
   Paula Caldas, Nicolas Roelandt, Oliver Madsen, Raniere Silva, TC
   Zhang, Xianying Tan, Posit Software, PBC
+- [BlueCarbon]() by Valentina Costa, Márcio Martins
 - [bootLong](https://github.com/PratheepaJ/bootLong) by Jeganathan
   Pratheepa, Holmes, Susan
 - [BradleyTerry2](https://github.com/hturner/BradleyTerry2) by Heather
