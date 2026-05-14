@@ -6,6 +6,10 @@ on:
   issues:
     types: [opened]
 
+permissions:
+  contents: read
+  packages: read
+
 jobs:
   welcome:
     if: github.event.action == 'opened'
