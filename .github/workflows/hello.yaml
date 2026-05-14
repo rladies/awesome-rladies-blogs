@@ -1,7 +1,7 @@
 name: Hello on PR or Issue
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, closed]
   issues:
     types: [opened]
@@ -19,7 +19,7 @@ jobs:
       JINX_PRIVATE_KEY: ${{ secrets.JINX_PRIVATE_KEY }}
 
   thank:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged == true
+    if: github.event_name == 'pull_request_target' && github.event.action == 'closed' && github.event.pull_request.merged == true
     uses: rladies/jinx/.github/workflows/reusable-thank-contributor.yml@main
     secrets:
       JINX_APP_ID: ${{ secrets.JINX_APP_ID }}
