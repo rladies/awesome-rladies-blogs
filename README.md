@@ -640,6 +640,8 @@ The aggregated file is written to `data/website/awesome_packages.json`.
   Lori A. Shepherd, Lara Sucheston, Andrew Bruno, Kenneth F. Manly
 - [sensiPhy](https://github.com/paternogbc/sensiPhy) by Gustavo Paterno,
   Gijsbert Werner, Caterina Penone, Pablo Martinez
+- [SeroTrackR](https://github.com/dionnecargy/SeroTrackR) by Dionne
+  Argyropoulos
 - [sessioncheck](https://github.com/djnavarro/sessioncheck) by Danielle
   Navarro
 - [sfnetworks](https://github.com/luukvdmeer/sfnetworks) by Lucas van

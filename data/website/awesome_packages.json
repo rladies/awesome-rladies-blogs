@@ -10051,6 +10051,27 @@
     ]
   },
   {
+    "name": "SeroTrackR",
+    "title": "Serology-Based Data Analysis and Visualization",
+    "description": "Data wrangling and cleaning, quality control checks and implementation of machine learning classification algorithm.",
+    "repo_url": "https://github.com/dionnecargy/SeroTrackR",
+    "pkdown_url": "https://dionnecargy.github.io/SeroTrackR/",
+    "bug_reports_url": "https://github.com/dionnecargy/SeroTrackR/issues",
+    "logo_url": "https://dionnecargy.github.io/SeroTrackR/logo.png",
+    "last_updated": "2026-04-16",
+    "authors": [
+      {
+        "name": "Dionne Argyropoulos",
+        "roles": [
+          "aut",
+          "cre"
+        ],
+        "directory_id": "dionne-argyropoulos",
+        "email": "argyropoulos.d@wehi.edu.au"
+      }
+    ]
+  },
+  {
     "name": "sessioncheck",
     "title": "Checks Session Status",
     "description": "Provides tools to check variables contained in the user environment, and inspect the currently loaded package namespaces. The intended use is to allow user scripts to throw errors or warnings if unwanted variables exist or if unwanted packages are loaded.",
